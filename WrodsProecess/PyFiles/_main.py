@@ -1,19 +1,32 @@
 import pandas as pd
+from WordListProcesser import Processer
 # import crawler
 
 txtAddress = "../Assets/Words.txt"
 csvAddress_r = "../Assets/WordList.csv"
 csvAddress_w = "../Assets/WordList_w.csv"
-CEFR_csv_address_ = "../Assets/CEFRWordList_w.cs"
+CEFR_csv_address_ = "./Assets/CEFRWordList_r.csv"
 
 my_data_form = {
     "Root": "string",
     "Word": "string"
 }
 
+word_list_path = [
+    "./WordList/A1.txt",
+    "./WordList/A2.txt",
+    "./WordList/B1.txt",
+    "./WordList/B2.txt",
+    "./WordList/C1.txt",
+    "./WordList/C2.txt"
+    ]
+
+
+
 word_form_CEFR = {
     "Root": "string",
-    "word": "string",
+    "Serial" : "string",
+    "Word": "string",
     "Guideword" : "string",
     "Level": "string",
     "Part of Speech": "string",
@@ -21,9 +34,12 @@ word_form_CEFR = {
 }
 
 def main():
-    data = readCSV(csvAddress_r)
+    processer = Processer()
     
-    print(data)
+    for path in word_list_path:
+        word_list, phrace_list = processer.openTXT(path)
+    
+        processer.writeCSV(CEFR_csv_address_, word_list)
     
     
 def openTXT(address):
