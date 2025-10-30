@@ -1,0 +1,265 @@
+disabled
+B1
+adjective
+body and health
+
+disadvantage
+MAKING DIFFICULT
+B1
+noun
+
+disagree
+B1
+verb
+communication
+
+disappear
+NOT SEE
+B1
+verb
+
+disappear
+NOT FIND
+B1
+verb
+
+dislike
+B1
+verb
+people: personality
+
+likes and dislikes
+B1
+phrase
+people: personality
+
+disability
+B2
+noun
+body and health
+
+disagreement
+B2
+noun
+communication
+
+disappear
+STOP EXISTING
+B2
+verb
+
+disappearance
+B2
+noun
+
+disapprove
+B2
+verb
+people: personality
+
+discourage
+MAKE LESS CONFIDENT
+B2
+verb
+communication
+
+discourage sb from doing sth 
+B2
+phrase
+communication
+
+dishonest
+B2
+adjective
+people: personality
+
+dishonesty
+B2
+noun
+people: personality
+
+dislike
+NOT LIKING
+B2
+noun
+people: personality
+
+disorganized
+OF SOMETHING
+B2
+adjective
+
+disorganized
+OF SOMEONE
+B2
+adjective
+people: personality
+
+dissatisfaction
+B2
+noun
+people: personality
+
+dissatisfied
+B2
+adjective
+people: personality
+
+disadvantaged
+C1
+adjective
+
+disapproval
+C1
+noun
+people: personality
+
+discomfort
+SITUATION
+C1
+noun
+
+discontent
+C1
+noun
+
+discriminate
+TREAT UNFAIRLY
+C1
+verb
+
+discrimination
+C1
+noun
+
+disgusted
+C1
+adjective
+
+dishonestly
+C1
+adverb
+people: personality
+
+dismiss
+NOT CONSIDER
+C1
+verb
+
+dismiss
+MAKE LEAVE
+C1
+verb
+
+dismissal
+IDEA
+C1
+noun
+
+dismissal
+JOB
+C1
+noun
+work
+
+disorder
+ILLNESS
+C1
+noun
+body and health
+
+disorder
+BAD BEHAVIOUR
+C1
+noun
+
+displace
+C1
+verb
+
+displacement
+C1
+noun
+
+disrespect
+C1
+noun
+people: personality
+
+disruption
+C1
+noun
+
+distort
+C1
+verb
+
+distraction
+NO ATTENTION
+C1
+noun
+
+distraction
+FUN
+C1
+noun
+
+at a disadvantage
+C2
+phrase
+
+discomfort
+PAIN
+C2
+noun
+body and health, people: personality
+
+discomfort
+MENTAL FEELING
+C2
+noun
+
+discourage
+PREVENT
+C2
+verb
+
+discriminate
+NOTICE
+C2
+verb
+
+disgust
+C2
+noun
+people: personality
+
+disillusioned
+C2
+adjective
+
+disloyal
+C2
+adjective
+
+disorder
+NOT ORGANIZED
+C2
+noun
+
+disposable
+C2
+adjective
+
+disqualify
+C2
+verb
+
+disrespectful
+C2
+adjective
+people: personality
+
+disruptive
+C2
+adjective

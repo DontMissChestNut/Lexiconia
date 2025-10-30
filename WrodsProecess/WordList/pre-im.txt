@@ -1,0 +1,90 @@
+impossible
+CANNOT HAPPEN
+B1
+adjective
+
+immoral
+B2
+adjective
+
+impatient
+EASILY ANNOYED
+B2
+adjective
+people: personality
+
+impatient
+WANTING SOMETHING TO HAPPEN
+B2
+adjective
+people: personality
+
+impatiently
+B2
+adverb
+people: personality
+
+impolite
+B2
+adjective
+people: personality
+
+import
+B2
+verb
+shopping, work
+
+imperfect
+C1
+adjective
+
+impersonal
+C1
+adjective
+people: personality
+
+import
+PRODUCT
+C1
+noun
+shopping
+
+immature
+C2
+adjective
+people: personality
+
+immortal
+LIFE
+C2
+adjective
+
+immortal
+MEMORY
+C2
+adjective
+
+impatience
+C2
+noun
+people: personality
+
+implicit
+C2
+adjective
+communication
+
+import
+ACTIVITY
+C2
+noun
+work
+
+impossibility
+C2
+noun
+
+impossible
+DIFFICULT
+C2
+adjective

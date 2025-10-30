@@ -1,19 +1,27 @@
 import pandas as pd
+# import crawler
 
 txtAddress = "../Assets/Words.txt"
 csvAddress_r = "../Assets/WordList.csv"
 csvAddress_w = "../Assets/WordList_w.csv"
+CEFR_csv_address_ = "../Assets/CEFRWordList_w.cs"
 
-dataForm = {
+my_data_form = {
     "Root": "string",
     "Word": "string"
 }
 
+word_form_CEFR = {
+    "Root": "string",
+    "word": "string",
+    "Guideword" : "string",
+    "Level": "string",
+    "Part of Speech": "string",
+    "Topic": "string"
+}
+
 def main():
     data = readCSV(csvAddress_r)
-    
-
-        
     
     print(data)
     
@@ -31,7 +39,7 @@ def openTXT(address):
             if i:
                 l.append(i)
             
-        dataForm["Word"] = list(tuple(l))
+        my_data_form["Word"] = list(tuple(l))
         
     return
     
@@ -45,10 +53,12 @@ def readCSV(address):
     
     words = []
     for i in range(len(df)):
-        word = {
-            "Root": df["Root"][i],
-            "Word": df["Word"][i]
-        }
+        # word = {
+        #     "Root": df["Root"][i],
+        #     "Word": df["Word"][i]
+        # }
+        
+        word = df["Word"][i]
         words.append(word)
         
     return words

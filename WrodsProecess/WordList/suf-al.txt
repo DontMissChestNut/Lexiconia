@@ -1,0 +1,1114 @@
+classical music
+A2
+phrase
+arts and media
+
+digital
+SYSTEM
+A2
+adjective
+technology
+
+international
+A2
+adjective
+
+musical
+A2
+adjective
+arts and media
+
+national
+A2
+adjective
+politics
+
+normal
+A2
+adjective
+
+as usual
+A2
+phrase
+
+annual
+B1
+adjective
+
+arrival
+B1
+noun
+people: actions, travel
+
+central
+NEAR CENTRE
+B1
+adjective
+
+criminal
+B1
+noun
+crime
+
+cultural
+WAY OF LIFE
+B1
+adjective
+
+cultural
+ARTS
+B1
+adjective
+arts and media
+
+digital
+DISPLAY
+B1
+adjective
+technology
+
+electrical
+USING ELECTRICITY
+B1
+adjective
+technology
+
+environmental
+B1
+adjective
+natural world
+
+essential
+NECESSARY
+B1
+adjective
+
+financial
+B1
+adjective
+money
+
+historical
+B1
+adjective
+
+natural
+NOT ARTIFICIAL
+B1
+adjective
+
+original
+FIRST MADE
+B1
+adjective
+
+original
+INTERESTING
+B1
+adjective
+
+personal
+RELATING TO A PERSON
+B1
+adjective
+
+personal
+FOR ONE PERSON
+B1
+adjective
+
+personal
+PRIVATE
+B1
+adjective
+
+political
+B1
+adjective
+politics
+
+principal
+B1
+adjective
+
+professional
+EARNING MONEY
+B1
+adjective
+money, work
+
+professional
+SKILL
+B1
+adjective
+people: personality
+
+social
+GOING OUT
+B1
+adjective
+
+traditional
+B1
+adjective
+
+typical
+B1
+adjective
+
+usual
+NORMAL
+B1
+adjective
+
+accidental
+B2
+adjective
+
+additional
+B2
+adjective
+describing things
+
+alphabetical
+B2
+adjective
+communication
+
+approval
+GOOD OPINION
+B2
+noun
+communication, people: personality
+
+approval
+PERMISSION
+B2
+noun
+communication
+
+artificial
+NOT NATURAL
+B2
+adjective
+describing things
+
+beneficial
+B2
+adjective
+describing things
+
+chemical
+B2
+noun
+natural world
+
+chemical
+B2
+adjective
+natural world
+
+coastal
+B2
+adjective
+natural world
+
+commercial
+BUYING AND SELLING
+B2
+adjective
+shopping, work
+
+commercial
+B2
+noun
+arts and media
+
+controversial
+B2
+adjective
+
+conventional
+TRADITIONAL
+B2
+adjective
+
+criminal
+CRIME
+B2
+adjective
+crime
+
+critical
+NOT PLEASED
+B2
+adjective
+communication
+
+critical
+SERIOUS
+B2
+adjective
+
+critical
+IMPORTANT
+B2
+adjective
+
+crucial
+B2
+adjective
+
+dental
+B2
+adjective
+body and health
+
+disposal
+REMOVAL
+B2
+noun
+people: actions
+
+at sb's disposal
+B2
+phrase
+
+ecological
+B2
+adjective
+natural world
+
+economical
+B2
+adjective
+money
+
+educational
+B2
+adjective
+education
+
+emotional
+EMOTIONS
+B2
+adjective
+people: personality
+
+emotional
+STRONG FEELINGS
+B2
+adjective
+people: personality
+
+exceptional
+GOOD
+B2
+adjective
+describing things
+
+external
+OUTSIDE
+B2
+adjective
+
+external
+ FROM A DIFFERENT PLACE
+B2
+adjective
+
+fatal
+CAUSING DEATH
+B2
+adjective
+body and health
+
+fatal
+SERIOUS
+B2
+adjective
+
+functional
+B2
+adjective
+
+global
+B2
+adjective
+natural world
+
+gradual
+B2
+adjective
+
+identical
+B2
+adjective
+
+illegal
+B2
+adjective
+crime
+
+immoral
+B2
+adjective
+
+industrial
+B2
+adjective
+work
+
+informal
+B2
+adjective
+
+intellectual
+THOUGHT
+B2
+adjective
+people: personality
+
+internal
+B2
+adjective
+
+logical
+B2
+adjective
+
+magical
+WONDERFUL
+B2
+adjective
+
+magical
+MAGIC
+B2
+adjective
+
+mathematical
+B2
+adjective
+
+medical
+B2
+adjective
+body and health
+
+mental
+B2
+adjective
+people: personality
+
+musical
+B2
+noun
+arts and media
+
+natural
+EXPECTED
+B2
+adjective
+
+official
+APPROVED
+B2
+adjective
+politics
+
+optional
+B2
+adjective
+
+oral
+B2
+adjective
+communication
+
+orchestral
+B2
+adjective
+arts and media
+
+original
+PAINTING, ETC.
+B2
+adjective
+arts and media
+
+original
+B2
+noun
+
+partial
+B2
+adjective
+
+physical
+BODY
+B2
+adjective
+body and health
+
+potential
+B2
+adjective
+
+potential
+B2
+noun
+people: personality
+
+practical
+REAL
+B2
+adjective
+
+presidential
+B2
+adjective
+politics
+
+principal
+B2
+noun
+education, work
+
+professional
+JOB
+B2
+adjective
+work
+
+professional
+PAID
+B2
+noun
+shopping, work
+
+psychological
+B2
+adjective
+body and health
+
+racial
+B2
+adjective
+people: appearance
+
+regional
+B2
+adjective
+natural world
+
+residential
+WHERE PEOPLE LIVE
+B2
+adjective
+buildings
+
+seasonal
+B2
+adjective
+
+sexual
+SEX
+B2
+adjective
+
+social
+SOCIETY
+B2
+adjective
+
+spiritual
+B2
+adjective
+people: personality
+
+substantial
+B2
+adjective
+describing things
+
+supernatural
+B2
+adjective
+
+the supernatural
+B2
+phrase
+
+survival
+B2
+noun
+
+technical
+SCIENCE/INDUSTRY
+B2
+adjective
+technology
+
+technical
+PRACTICAL SKILL
+B2
+adjective
+people: personality
+
+technological
+B2
+adjective
+technology
+
+trivial
+B2
+adjective
+describing things
+
+tropical
+B2
+adjective
+natural world
+
+universal
+B2
+adjective
+
+virtual
+USING COMPUTER
+B2
+adjective
+technology
+
+visual
+B2
+adjective
+
+analytical
+C1
+adjective
+
+arrival
+NEW PERSON/THING
+C1
+noun
+
+bilingual
+C1
+adjective
+
+brutal
+C1
+adjective
+
+central
+CITY
+C1
+adjective
+
+central
+ORGANIZATION
+C1
+adjective
+
+clinical
+MEDICAL
+C1
+adjective
+body and health
+
+confidential
+C1
+adjective
+
+conventional wisdom
+C1
+phrase
+
+disapproval
+C1
+noun
+people: personality
+
+dismissal
+IDEA
+C1
+noun
+
+dismissal
+JOB
+C1
+noun
+work
+
+electrical
+SUPPLY
+C1
+adjective
+
+horizontal
+C1
+adjective
+
+hysterical
+C1
+adjective
+people: personality
+
+impersonal
+C1
+adjective
+people: personality
+
+influential
+C1
+adjective
+
+liberal
+SOCIETY
+C1
+adjective
+people: personality
+
+liberal
+POLITICS
+C1
+adjective
+politics
+
+minimal
+C1
+adjective
+describing things
+
+municipal
+C1
+adjective
+
+musical
+ABILITY
+C1
+adjective
+arts and media, people: personality
+
+natural
+FROM BIRTH
+C1
+adjective
+people: personality
+
+return to normal
+C1
+phrase
+
+nutritional
+C1
+adjective
+body and health, food and drink
+
+occasional
+C1
+adjective
+
+personal hygiene
+C1
+phrase
+
+postal
+C1
+adjective
+
+practical
+POSSIBLE
+C1
+adjective
+
+practical
+SUITABLE
+C1
+adjective
+
+professional
+TRAINED
+C1
+noun
+work
+
+radical
+CHANGE
+C1
+adjective
+
+rational
+C1
+adjective
+people: personality
+
+refusal
+C1
+noun
+communication
+
+renewal
+AGREEMENT
+C1
+noun
+
+sensational
+SHOCKING
+C1
+adjective
+
+sexual
+MALE OR FEMALE
+C1
+adjective
+people: appearance
+
+statistical
+C1
+adjective
+
+unconventional
+C1
+adjective
+people: personality
+
+unprofessional
+C1
+adjective
+people: personality, work
+
+vertical
+C1
+adjective
+
+virtual
+ALMOST
+C1
+adjective
+
+arrival
+BECOME AVAILABLE
+C2
+noun
+
+artificial
+NOT SINCERE
+C2
+adjective
+people: personality
+
+central
+IMPORTANT
+C2
+adjective
+
+classical
+TRADITIONAL
+C2
+adjective
+
+clinical
+NO EMOTION
+C2
+adjective
+people: personality
+
+commercial
+FOR PROFIT
+C2
+adjective
+
+constitutional
+C2
+adjective
+politics
+
+continental
+C2
+adjective
+
+critical
+OPINIONS
+C2
+adjective
+arts and media
+
+cynical
+C2
+adjective
+people: personality
+
+disloyal
+C2
+adjective
+
+empirical
+C2
+adjective
+
+essential
+BASIC
+C2
+adjective
+
+ethical
+RIGHT/WRONG
+C2
+adjective
+
+ethical
+GOOD
+C2
+adjective
+
+exceptional
+UNUSUAL
+C2
+adjective
+
+experimental
+C2
+adjective
+
+facial
+C2
+adjective
+body and health
+
+fictional
+C2
+adjective
+
+fundamental
+C2
+adjective
+
+grammatical
+C2
+adjective
+communication
+
+hierarchical
+C2
+adjective
+describing things
+
+hypocritical
+C2
+adjective
+people: personality
+
+intellectual
+INTERESTED IN IDEAS
+C2
+adjective
+people: personality
+
+intellectual
+C2
+noun
+people: personality
+
+irrational
+C2
+adjective
+people: personality
+
+literal
+C2
+adjective
+
+naval
+C2
+adjective
+
+official
+NOT TRUE
+C2
+adjective
+
+official
+KNOWN
+C2
+adjective
+
+official
+JOB/DUTIES
+C2
+adjective
+
+official
+C2
+noun
+work
+
+paradoxical
+C2
+adjective
+
+phenomenal
+C2
+adjective
+
+philosophical
+PHILOSOPHY
+C2
+adjective
+
+philosophical
+CALM
+C2
+adjective
+people: personality
+
+physical
+THINGS
+C2
+adjective
+
+practical
+GOOD AT PLANNING
+C2
+adjective
+people: personality
+
+provincial
+C2
+adjective
+
+radical
+BELIEFS
+C2
+adjective
+politics
+
+radical
+C2
+noun
+politics
+
+recreational
+C2
+adjective
+shopping
+
+renewal
+REPAIR/IMPROVE
+C2
+noun
+
+residential
+COURSE/JOB
+C2
+adjective
+education
+
+reversal
+C2
+noun
+
+revival
+C2
+noun
+
+sceptical
+C2
+adjective
+people: personality
+
+sensational
+EXCITING
+C2
+adjective
+describing things
+
+sentimental
+VALUE
+C2
+adjective
+
+sentimental
+FEELING
+C2
+adjective
+people: personality
+
+stereotypical
+C2
+adjective
+people: personality
+
+structural
+C2
+adjective
+
+superficial
+NOT SERIOUS
+C2
+adjective
+people: personality
+
+superficial
+NOT COMPLETE
+C2
+adjective
+
+territorial
+C2
+adjective
+
+theoretical
+NOT PROVED
+C2
+adjective
+
+theoretical
+IDEAS
+C2
+adjective
+
+torrential
+C2
+adjective
+natural world
+
+tribal
+C2
+adjective
+
+unconditional
+C2
+adjective
+
+unethical
+C2
+adjective
+people: personality
+
+verbal
+SPOKEN
+C2
+adjective
+
+verbal
+WORDS
+C2
+adjective
+
+vocational
+C2
+adjective
+
+withdrawal
+MONEY
+C2
+noun
+money
+
+withdrawal
+NOT AVAILABLE
+C2
+noun

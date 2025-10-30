@@ -1,0 +1,4137 @@
+a
+NOT PARTICULAR
+A1
+determiner
+
+a
+ANY/EVERY
+A1
+determiner
+
+a
+ONE
+A1
+determiner
+
+a
+TYPE
+A1
+determiner
+
+about
+SUBJECT
+A1
+preposition
+communication
+
+about
+A1
+adverb
+
+above
+HIGHER POSITION
+A1
+adverb
+describing things
+
+address
+BUILDING DETAILS
+A1
+noun
+buildings
+
+address
+ELECTRONIC
+A1
+noun
+technology
+
+adult
+A1
+noun
+people: appearance
+
+after
+TIME/EVENT
+A1
+preposition
+
+afternoon
+A1
+noun
+
+again
+ONE MORE TIME
+A1
+adverb
+
+age
+HOW OLD
+A1
+noun
+
+all
+EVERY ONE
+A1
+determiner
+communication
+
+all
+WHOLE TIME
+A1
+determiner
+
+all right
+WITHOUT PROBLEMS
+A1
+adjective
+
+all right
+A1
+exclamation
+communication
+
+alright
+A1
+exclamation
+communication
+
+also
+A1
+adverb
+
+always
+EVERY TIME
+A1
+adverb
+
+a.m.
+A1
+adverb
+
+an
+A1
+determiner
+
+and
+ALSO
+A1
+conjunction
+communication
+
+and
+AFTER
+A1
+conjunction
+communication
+
+and
+NUMBERS
+A1
+conjunction
+
+animal
+NOT A HUMAN
+A1
+noun
+animals
+
+answer
+REACTION
+A1
+noun
+communication
+
+answer
+REACT
+A1
+verb
+communication
+
+any
+NOT IMPORTANT WHICH
+A1
+determiner
+describing things
+
+any
+SOME
+A1
+determiner
+describing things
+
+anything
+IN QUESTIONS/NEGATIVES
+A1
+pronoun
+
+anything
+NO MATTER WHICH
+A1
+pronoun
+
+apple
+A1
+noun
+food and drink
+
+April
+A1
+noun
+
+arm
+BODY
+A1
+noun
+body and health
+
+as
+JOB
+A1
+adverb
+work
+
+as well
+A1
+phrase
+communication
+
+ask
+QUESTION
+A1
+verb
+communication
+
+at
+PLACE
+A1
+preposition
+describing things
+
+at
+TIME
+A1
+preposition
+
+at
+DIRECTION
+A1
+preposition
+
+at
+EMAIL ADDRESS
+A1
+preposition
+communication, technology
+
+August
+A1
+noun
+
+baby
+CHILD
+A1
+noun
+people: appearance
+
+back
+RETURNING
+A1
+adverb
+describing things
+
+bad
+UNPLEASANT
+A1
+adjective
+describing things
+
+bag
+A1
+noun
+shopping
+
+ball
+ROUND OBJECT
+A1
+noun
+shopping
+
+banana
+A1
+noun
+food and drink
+
+band
+MUSIC
+A1
+noun
+arts and media
+
+bank
+MONEY
+A1
+noun
+money
+
+bar
+DRINKING PLACE
+A1
+noun
+food and drink
+
+basketball
+A1
+noun
+shopping
+
+bath
+WASH
+A1
+noun
+people: actions
+
+bath
+CONTAINER
+A1
+noun
+buildings
+
+bathroom
+ROOM
+A1
+noun
+buildings
+
+I am Spanish/a teacher, etc.
+A1
+phrase
+
+there is/there are/there was, etc.
+A1
+phrase
+describing things
+
+be
+POSITION
+A1
+verb
+describing things
+
+beach
+A1
+noun
+natural world
+
+beard
+A1
+noun
+people: appearance
+
+beautiful
+ATTRACTIVE
+A1
+adjective
+people: appearance
+
+beautiful
+PLEASANT
+A1
+adjective
+describing things
+
+because
+A1
+conjunction
+communication
+
+bed
+FOR SLEEP
+A1
+noun
+buildings
+
+bedroom
+A1
+noun
+buildings
+
+beer
+A1
+noun
+food and drink
+
+before
+EARLIER
+A1
+preposition
+
+begin
+START TO HAPPEN
+A1
+verb
+
+behind
+BACK
+A1
+preposition
+describing things
+
+below
+POSITION
+A1
+adverb
+describing things
+
+best
+BETTER THAN ALL
+A1
+adjective
+describing things
+
+best
+MOST
+A1
+adverb
+
+better
+HIGHER STANDARD
+A1
+adjective
+describing things
+
+better
+HEALTHY
+A1
+adjective
+body and health
+
+between
+SPACE
+A1
+preposition
+describing things
+
+between
+TIME
+A1
+preposition
+
+between
+INVOLVE
+A1
+preposition
+shopping
+
+big
+SIZE
+A1
+adjective
+describing things
+
+bird
+A1
+noun
+animals
+
+birthday
+A1
+noun
+relationships
+
+biscuit
+A1
+noun
+food and drink
+
+black
+COLOUR
+A1
+adjective
+describing things
+
+blue
+COLOUR
+A1
+adjective
+describing things
+
+board
+CLASSROOM
+A1
+noun
+education, buildings
+
+boat
+FOR TRAVEL ON WATER
+A1
+noun
+travel
+
+body
+PERSON
+A1
+noun
+body and health
+
+book
+FOR READING
+A1
+noun
+arts and media
+
+bored
+A1
+adjective
+people: personality
+
+boring
+A1
+adjective
+people: personality
+
+both
+A1
+determiner
+
+bottom
+LOWEST PART
+A1
+noun
+describing things
+
+box
+CONTAINER
+A1
+noun
+shopping
+
+boy
+A1
+noun
+people: appearance
+
+bread
+A1
+noun
+food and drink
+
+breakfast
+A1
+noun
+food and drink
+
+brother
+A1
+noun
+relationships
+
+brown
+A1
+adjective
+describing things
+
+bus
+A1
+noun
+travel
+
+business
+SELLING
+A1
+noun
+shopping
+
+but
+DIFFERENT STATEMENT
+A1
+conjunction
+communication
+
+butter
+A1
+noun
+food and drink
+
+buy
+A1
+verb
+money, shopping
+
+bye
+A1
+exclamation
+communication
+
+café
+A1
+noun
+food and drink
+
+cake
+FOOD
+A1
+noun
+food and drink
+
+be called sth
+A1
+phrase
+
+camera
+A1
+noun
+arts and media
+
+can
+ABILITY
+A1
+modal verb
+people: actions
+
+can
+REQUEST
+A1
+modal verb
+communication
+
+can
+POSSIBILITY
+A1
+modal verb
+
+can
+OFFER
+A1
+modal verb
+communication
+
+cannot
+A1
+modal verb
+
+car
+A1
+noun
+travel
+
+carry
+HOLD
+A1
+verb
+people: actions
+
+cat
+A1
+noun
+animals
+
+catch
+TAKE HOLD
+A1
+verb
+people: actions
+
+catch
+TRAVEL
+A1
+verb
+travel
+
+CD
+A1
+noun
+technology
+
+CD player
+A1
+noun
+technology
+
+chair
+A1
+noun
+buildings
+
+change
+START SOMETHING NEW
+A1
+verb
+people: actions
+
+cheap
+COSTING LITTLE
+A1
+adjective
+money, shopping
+
+cheese
+A1
+noun
+food and drink
+
+child
+A1
+noun
+people: appearance, relationships
+
+chip
+FRIED FOOD
+A1
+noun
+food and drink
+
+chocolate
+FOOD
+A1
+noun
+food and drink
+
+choose
+A1
+verb
+people: actions
+
+cinema
+BUILDING
+A1
+noun
+arts and media, buildings
+
+city
+A1
+noun
+
+class
+LESSON
+A1
+noun
+education
+
+class
+TEACHING GROUP
+A1
+noun
+education
+
+classroom
+A1
+noun
+education, buildings
+
+clean
+NOT DIRTY
+A1
+adjective
+describing things
+
+clean
+A1
+verb
+people: actions
+
+clever
+ABLE TO LEARN
+A1
+adjective
+people: personality
+
+clock
+TIME
+A1
+noun
+
+close
+DOOR/WINDOW
+A1
+verb
+people: actions
+
+close
+NEAR
+A1
+adjective
+describing things
+
+closed
+NOT OPEN
+A1
+adjective
+
+closed
+BUSINESS/SHOP
+A1
+adjective
+shopping
+
+clothes
+A1
+noun
+clothes
+
+coat
+A1
+noun
+clothes
+
+coffee
+A1
+noun
+food and drink
+
+cold
+TEMPERATURE
+A1
+adjective
+describing things, natural world
+
+colour
+RED/BLUE, ETC.
+A1
+noun
+describing things
+
+colour
+A1
+verb
+people: actions
+
+come
+MOVE TO SPEAKER
+A1
+verb
+people: actions
+
+come
+GO WITH SOMEONE
+A1
+verb
+people: actions
+
+come
+ARRIVE
+A1
+verb
+people: actions, travel
+
+come from swh/sth 
+A1
+phrasal verb
+
+computer
+A1
+noun
+technology
+
+conversation
+A1
+noun
+communication
+
+cook
+A1
+verb
+food and drink, people: actions
+
+country
+POLITICAL UNIT
+A1
+noun
+natural world, politics
+
+of course
+A1
+phrase
+communication
+
+course
+CLASSES
+A1
+noun
+education
+
+cow
+A1
+noun
+animals
+
+credit card
+A1
+noun
+money, shopping
+
+cross
+MARK
+A1
+noun
+communication
+
+cup
+DRINKING CONTAINER
+A1
+noun
+food and drink
+
+dad
+A1
+noun
+relationships
+
+dance
+MOVING
+A1
+noun
+arts and media, people: actions
+
+dance
+A1
+verb
+arts and media, people: actions
+
+dancing
+A1
+noun
+arts and media, people: actions
+
+dark
+NOT PALE
+A1
+adjective
+describing things
+
+date
+PARTICULAR DAY
+A1
+noun
+
+daughter
+A1
+noun
+relationships
+
+day
+24 HOURS
+A1
+noun
+
+dear
+IN LETTERS
+A1
+adjective
+communication
+
+December
+A1
+noun
+
+desk
+A1
+noun
+buildings
+
+dictionary
+A1
+noun
+education
+
+die
+STOP LIVING
+A1
+verb
+
+different
+NOT SAME
+A1
+adjective
+describing things
+
+difficult
+NOT EASY
+A1
+adjective
+
+dinner
+A1
+noun
+food and drink
+
+dining room
+A1
+noun
+buildings
+
+do
+QUESTIONS/NEGATIVES
+A1
+auxiliary verb
+
+do
+ACTION
+A1
+verb
+people: actions
+
+do the cleaning/cooking, etc.
+A1
+phrase
+people: actions
+
+do
+STUDY
+A1
+verb
+education
+
+what does sb do?
+A1
+phrase
+work
+
+doctor
+A1
+noun
+body and health, work
+
+dog
+A1
+noun
+animals
+
+doll
+A1
+noun
+shopping
+
+dollar
+A1
+noun
+money
+
+door
+A1
+noun
+buildings
+
+down
+SURFACE
+A1
+adverb
+describing things
+
+draw
+PICTURE
+A1
+verb
+arts and media, people: actions
+
+dress
+A1
+noun
+clothes
+
+drink
+LIQUID
+A1
+noun
+food and drink
+
+drink
+LIQUID
+A1
+verb
+food and drink, people: actions
+
+drive
+USE VEHICLE
+A1
+verb
+people: actions, travel
+
+driver
+A1
+noun
+travel, work
+
+DVD
+A1
+noun
+technology
+
+each
+A1
+pronoun
+
+each
+A1
+determiner
+
+ear
+ON HEAD
+A1
+noun
+body and health
+
+early
+BEGINNING
+A1
+adverb
+
+easy
+A1
+adjective
+
+eat
+SWALLOW FOOD
+A1
+verb
+food and drink, people: actions
+
+eat
+HAVE MEAL
+A1
+verb
+food and drink, people: actions
+
+egg
+FOOD
+A1
+noun
+food and drink
+
+eight
+A1
+number
+
+eighteen
+A1
+number
+
+eleven
+A1
+number
+
+email
+SYSTEM
+A1
+noun
+communication, technology
+
+email
+MESSAGE
+A1
+noun
+communication, technology
+
+end
+FINAL PART
+A1
+noun
+
+enjoy
+PLEASURE
+A1
+verb
+people: personality
+
+evening
+A1
+noun
+
+every
+EACH
+A1
+determiner
+describing things
+
+every
+HOW OFTEN
+A1
+determiner
+
+example
+TYPICAL CASE
+A1
+noun
+
+for example
+A1
+phrase
+communication
+
+excited
+A1
+adjective
+people: personality
+
+exciting
+A1
+adjective
+people: personality
+
+Excuse me
+ATTRACTING ATTENTION
+A1
+phrase
+communication
+
+expensive
+A1
+adjective
+money, shopping
+
+eye
+BODY PART
+A1
+noun
+body and health
+
+face
+HEAD
+A1
+noun
+body and health
+
+factory
+A1
+noun
+buildings, work
+
+family
+RELATED PEOPLE
+A1
+noun
+relationships
+
+famous
+A1
+adjective
+people: personality
+
+farm
+A1
+noun
+buildings
+
+fast
+A1
+adjective
+
+fat
+A1
+adjective
+people: appearance
+
+father
+A1
+noun
+relationships
+
+favourite
+A1
+adjective
+people: personality
+
+February
+A1
+noun
+
+feel
+EXPERIENCE
+A1
+verb
+body and health, people: personality
+
+fifteen
+A1
+number
+
+film
+MOVING PICTURES
+A1
+noun
+arts and media
+
+find
+DISCOVER WHEN SEARCHING
+A1
+verb
+people: actions
+
+fine
+WELL
+A1
+adjective
+body and health
+
+(that's) fine
+A1
+phrase
+communication
+
+finish
+END
+A1
+verb
+
+finish
+COMPLETE
+A1
+verb
+people: actions
+
+first
+BEFORE
+A1
+adjective
+
+first
+BEFORE
+A1
+adverb
+
+fish
+ANIMAL
+A1
+noun
+animals
+
+fish
+FOOD
+A1
+noun
+food and drink
+
+five
+A1
+number
+
+flat
+A1
+noun
+buildings
+
+floor
+SURFACE
+A1
+noun
+buildings
+
+flower
+A1
+noun
+natural world
+
+fly
+TRAVEL
+A1
+verb
+travel
+
+food
+A1
+noun
+food and drink
+
+foot
+BODY PART
+A1
+noun
+body and health
+
+football
+GAME
+A1
+noun
+shopping
+
+football
+BALL
+A1
+noun
+shopping
+
+for
+GIVEN/USED
+A1
+preposition
+
+for example
+A1
+phrase
+communication
+
+for
+TIME/DISTANCE
+A1
+preposition
+
+Don't forget...
+A1
+phrase
+communication
+
+four
+A1
+number
+
+fourteen
+A1
+number
+
+Friday
+A1
+noun
+
+friend
+PERSON YOU LIKE
+A1
+noun
+relationships
+
+from
+ORIGIN
+A1
+preposition
+describing things
+
+from
+STARTING PLACE
+A1
+preposition
+describing things
+
+from
+TIME
+A1
+preposition
+
+from
+DISTANCE
+A1
+preposition
+
+fruit
+FOOD
+A1
+noun
+food and drink
+
+fun
+PLEASURE
+A1
+noun
+people: personality
+
+funny
+MAKING YOU LAUGH
+A1
+adjective
+people: personality
+
+game
+ACTIVITY/SPORT
+A1
+noun
+shopping
+
+garden
+BY HOUSE
+A1
+noun
+buildings
+
+get
+OBTAIN
+A1
+verb
+people: actions, shopping
+
+get
+RECEIVE
+A1
+verb
+
+get here/there/home/to work, etc.
+A1
+phrase
+travel
+
+get a bus/train/taxi, etc.
+A1
+phrase
+travel
+
+get (sb) up
+A1
+phrasal verb
+people: actions
+
+girl
+FEMALE CHILD
+A1
+noun
+people: appearance
+
+give
+PROVIDE
+A1
+verb
+people: actions
+
+glass
+SUBSTANCE
+A1
+noun
+describing things
+
+glass
+CONTAINER
+A1
+noun
+food and drink
+
+glasses
+A1
+noun
+clothes
+
+go
+MOVE/TRAVEL
+A1
+verb
+travel
+
+go
+DO SOMETHING
+A1
+verb
+travel
+
+go shopping
+A1
+phrase
+shopping
+
+go out
+LEAVE
+A1
+phrasal verb
+people: actions
+
+good
+HIGH QUALITY
+A1
+adjective
+describing things
+
+good
+PLEASANT
+A1
+adjective
+describing things
+
+good
+HEALTHY
+A1
+adjective
+body and health
+
+good
+PLEASED
+A1
+adjective
+communication
+
+good
+KIND
+A1
+adjective
+people: personality
+
+good
+SUCCESSFUL
+A1
+adjective
+
+good for you
+A1
+phrase
+body and health
+
+good afternoon
+A1
+exclamation
+communication
+
+goodbye
+A1
+exclamation
+communication
+
+good evening
+A1
+exclamation
+communication
+
+good morning
+A1
+exclamation
+communication
+
+good night
+A1
+exclamation
+communication
+
+grass
+A1
+noun
+natural world
+
+great
+EXCELLENT
+A1
+adjective
+describing things
+
+green
+COLOUR
+A1
+adjective
+describing things
+
+grey
+COLOUR
+A1
+adjective
+describing things
+
+group
+MUSIC
+A1
+noun
+arts and media
+
+group
+SET
+A1
+noun
+
+guitar
+A1
+noun
+arts and media
+
+hair
+ON HEAD
+A1
+noun
+people: appearance
+
+half past one/two/three, etc.
+A1
+phrase
+
+hand
+BODY PART
+A1
+noun
+body and health
+
+happy
+PLEASED
+A1
+adjective
+people: personality
+
+Happy Birthday/New Year, etc.
+A1
+phrase
+communication
+
+hard
+DIFFICULT
+A1
+adjective
+
+hard
+USING EFFORT
+A1
+adverb
+
+hat
+A1
+noun
+clothes
+
+have
+POSSESS
+A1
+verb
+
+have
+BE ILL
+A1
+verb
+body and health
+
+have
+EAT/DRINK
+A1
+verb
+food and drink
+
+he
+A1
+pronoun
+
+head
+BODY
+A1
+noun
+body and health
+
+hear
+RECEIVE SOUND
+A1
+verb
+people: actions
+
+hello
+GREETING
+A1
+exclamation
+communication
+
+hello
+ON PHONE
+A1
+exclamation
+communication
+
+help
+DO PART OF WORK
+A1
+verb
+people: actions
+
+her
+A1
+pronoun
+
+her
+A1
+determiner
+
+here
+THIS PLACE
+A1
+adverb
+
+here
+ON THE PHONE
+A1
+adverb
+communication
+
+hi
+A1
+exclamation
+communication
+
+him
+A1
+pronoun
+
+his
+A1
+determiner
+
+holiday
+NO WORK/SCHOOL
+A1
+noun
+work
+
+holiday
+VISIT
+A1
+noun
+travel
+
+home
+A1
+noun
+buildings
+
+homework
+A1
+noun
+education
+
+horse
+A1
+noun
+animals
+
+hospital
+A1
+noun
+body and health, buildings
+
+hot
+VERY WARM
+A1
+adjective
+describing things, natural world
+
+hotel
+A1
+noun
+buildings, travel
+
+hour
+60 MINUTES
+A1
+noun
+
+house
+A1
+noun
+buildings
+
+How are you?
+A1
+phrase
+communication
+
+how
+QUANTITY
+A1
+adverb
+
+hungry
+A1
+adjective
+food and drink
+
+husband
+A1
+noun
+relationships
+
+I
+A1
+pronoun
+
+ice cream
+A1
+noun
+food and drink
+
+important
+VALUABLE
+A1
+adjective
+describing things
+
+in
+INSIDE
+A1
+preposition
+describing things
+
+in
+DURING
+A1
+preposition
+
+inside
+CONTAINER
+A1
+preposition
+describing things
+
+interesting
+A1
+adjective
+people: personality
+
+the Internet
+A1
+noun
+technology
+
+into
+IN
+A1
+preposition
+describing things
+
+invite
+SOCIAL
+A1
+verb
+communication
+
+it
+THING
+A1
+pronoun
+
+it
+SUBJECT/OBJECT
+A1
+pronoun
+
+its
+A1
+determiner
+
+jacket
+A1
+noun
+clothes
+
+January
+A1
+noun
+
+jeans
+A1
+noun
+clothes
+
+job
+PAID EMPLOYMENT
+A1
+noun
+work
+
+juice
+A1
+noun
+food and drink
+
+July
+A1
+noun
+
+June
+A1
+noun
+
+key
+FOR LOCKS
+A1
+noun
+buildings
+
+kick
+HIT
+A1
+verb
+people: actions
+
+kind
+A1
+noun
+
+kitchen
+A1
+noun
+buildings
+
+knife
+A1
+noun
+food and drink
+
+know
+HAVE INFORMATION
+A1
+verb
+
+know
+ASK FOR INFORMATION
+A1
+verb
+communication
+
+language
+ENGLISH/SPANISH/JAPANESE, ETC.
+A1
+noun
+communication
+
+last week/year/Monday, etc.
+A1
+phrase
+
+last night
+A1
+phrase
+
+late
+AFTER
+A1
+adjective
+
+late
+NEAR THE END
+A1
+adjective
+
+see you later
+A1
+phrase
+communication
+
+learn
+GET KNOWLEDGE
+A1
+verb
+education
+
+leave
+GO AWAY
+A1
+verb
+people: actions, travel
+
+leg
+A1
+noun
+body and health
+
+lesson
+TEACHING PERIOD
+A1
+noun
+education
+
+letter
+MESSAGE
+A1
+noun
+communication
+
+life
+TIME
+A1
+noun
+
+light
+PALE
+A1
+adjective
+describing things
+
+like
+ENJOY
+A1
+verb
+people: personality
+
+would like sth/to do sth
+A1
+phrase
+people: personality
+
+Would you like...?
+A1
+phrase
+communication
+
+listen
+HEAR
+A1
+verb
+people: actions
+
+little
+SMALL
+A1
+adjective
+describing things
+
+little
+YOUNG
+A1
+adjective
+people: appearance
+
+live in/at, etc.
+A1
+phrase
+buildings
+
+living room
+A1
+noun
+buildings
+
+long
+TIME
+A1
+adjective
+
+long
+DISTANCE
+A1
+adjective
+describing things
+
+look
+SEARCH
+A1
+verb
+people: actions
+
+look
+SEE
+A1
+verb
+people: actions
+
+a lot/lots
+A1
+phrase
+describing things
+
+a lot
+A1
+phrase
+describing things
+
+love
+LIKE SOMETHING
+A1
+verb
+people: personality
+
+love
+FRIENDS/FAMILY
+A1
+verb
+people: personality, relationships
+
+love
+ROMANCE/SEX
+A1
+verb
+people: personality, relationships
+
+lunch
+A1
+noun
+food and drink
+
+make
+PRODUCE
+A1
+verb
+people: actions
+
+man
+MALE
+A1
+noun
+people: appearance
+
+how many
+A1
+phrase
+communication
+
+many
+LARGE NUMBER
+A1
+determiner
+describing things
+
+March
+A1
+noun
+
+May
+A1
+noun
+
+me
+A1
+pronoun
+
+meal
+A1
+noun
+food and drink
+
+meat
+A1
+noun
+food and drink
+
+meet
+COME TOGETHER
+A1
+verb
+people: actions
+
+meet
+INTRODUCE
+A1
+verb
+people: actions, relationships
+
+message
+INFORMATION
+A1
+noun
+communication
+
+milk
+A1
+noun
+food and drink
+
+minute
+60 SECONDS
+A1
+noun
+
+Miss
+A1
+noun
+
+mobile
+A1
+noun
+communication, technology
+
+mobile phone
+A1
+noun
+communication, technology
+
+Monday
+A1
+noun
+
+money
+A1
+noun
+money
+
+month
+PART OF YEAR
+A1
+noun
+
+month
+FOUR WEEKS
+A1
+noun
+
+more
+IN ADDITION
+A1
+determiner
+describing things
+
+more
+GREATER AMOUNT
+A1
+determiner
+describing things
+
+more beautiful/difficult/easily, etc.
+A1
+phrase
+
+morning
+PART OF DAY
+A1
+noun
+
+(Good) morning
+A1
+phrase
+communication
+
+in the morning
+A1
+phrase
+
+mother
+A1
+noun
+relationships
+
+mouth
+FACE
+A1
+noun
+body and health
+
+movie
+A1
+noun
+arts and media
+
+Mrs
+A1
+noun
+
+Mr
+A1
+noun
+
+much
+QUESTION
+A1
+determiner
+describing things
+
+very much
+A1
+phrase
+describing things
+
+mum
+A1
+noun
+relationships
+
+museum
+A1
+noun
+buildings
+
+music
+SOUNDS
+A1
+noun
+arts and media
+
+my
+A1
+determiner
+
+name
+CALL
+A1
+noun
+communication
+
+nationality
+A1
+noun
+
+near
+DISTANCE
+A1
+preposition
+describing things
+
+need
+MUST HAVE
+A1
+verb
+
+need to do sth
+A1
+phrase
+
+never
+NOT EVER
+A1
+adverb
+
+new
+RECENTLY CREATED
+A1
+adjective
+describing things
+
+new
+DIFFERENT
+A1
+adjective
+
+new
+NOT KNOWN BEFORE
+A1
+adjective
+
+newspaper
+TO READ
+A1
+noun
+arts and media
+
+next week/year/Monday, etc.
+A1
+phrase
+
+nice
+PLEASANT
+A1
+adjective
+describing things
+
+nice
+KIND
+A1
+adjective
+people: personality
+
+night
+DARK PERIOD
+A1
+noun
+
+night
+EVENING
+A1
+noun
+
+nine
+A1
+number
+
+nineteen
+A1
+number
+
+no
+NEGATIVE ANSWER
+A1
+adverb
+communication
+
+no
+NOT ANY
+A1
+determiner
+describing things
+
+noise
+A1
+noun
+
+nose
+ON FACE
+A1
+noun
+body and health
+
+not
+NEGATIVE WORD/S
+A1
+adverb
+
+not
+AFTER BE/CAN, ETC.
+A1
+adverb
+
+note
+LETTER
+A1
+noun
+communication
+
+November
+A1
+noun
+
+now
+AT PRESENT
+A1
+adverb
+
+number
+SYMBOL
+A1
+noun
+
+number
+TELEPHONE
+A1
+noun
+communication
+
+number
+SHOWING SOMETHING
+A1
+noun
+communication
+
+one/two/three, etc. o'clock
+A1
+phrase
+
+October
+A1
+noun
+
+of
+BELONG
+A1
+preposition
+
+of
+AMOUNT
+A1
+preposition
+describing things
+
+of
+CONTAINING
+A1
+preposition
+describing things
+
+of
+NUMBER
+A1
+preposition
+describing things
+
+of course
+A1
+phrase
+communication
+
+often
+REGULARLY
+A1
+adverb
+
+oh
+EXPRESS EMOTION
+A1
+exclamation
+communication
+
+oh
+NEW IDEA
+A1
+exclamation
+communication
+
+OK
+AGREEING
+A1
+exclamation
+communication
+
+OK
+NOT ILL/UPSET, ETC.
+A1
+adjective
+body and health
+
+old
+EXISTED MANY YEARS
+A1
+adjective
+people: appearance
+
+old
+AGE
+A1
+adjective
+people: appearance
+
+on
+DAY/DATE
+A1
+preposition
+
+on
+SURFACE
+A1
+preposition
+describing things
+
+on
+CONNECTED
+A1
+preposition
+describing things
+
+one
+A1
+number
+
+only
+NOT MORE
+A1
+adverb
+
+only
+A1
+adjective
+
+open
+DOING BUSINESS
+A1
+adjective
+shopping, work
+
+open
+NOT CLOSED
+A1
+verb
+people: actions
+
+or
+POSSIBILITIES
+A1
+conjunction
+communication
+
+orange
+A1
+adjective
+describing things
+
+orange
+FRUIT
+A1
+noun
+food and drink
+
+other
+ADDITIONAL
+A1
+determiner
+describing things
+
+our
+A1
+determiner
+
+outside
+NOT IN BUILDING
+A1
+adverb
+describing things
+
+page
+PAPER
+A1
+noun
+arts and media
+
+paint
+A1
+noun
+
+paint
+MAKE PICTURE
+A1
+verb
+arts and media, people: actions
+
+pair
+TWO PEOPLE
+A1
+noun
+
+paper
+FLAT MATERIAL
+A1
+noun
+describing things
+
+parent
+A1
+noun
+relationships
+
+park
+A1
+noun
+natural world
+
+part
+PIECE
+A1
+noun
+
+party
+EVENT
+A1
+noun
+relationships
+
+past
+TIME
+A1
+preposition
+
+pay
+BUY
+A1
+verb
+money, shopping
+
+pen
+A1
+noun
+communication
+
+pencil
+A1
+noun
+communication
+
+people
+MORE THAN ONE
+A1
+noun
+
+person
+HUMAN
+A1
+noun
+
+pet
+A1
+noun
+animals
+
+phone
+A1
+noun
+communication, technology
+
+phone
+A1
+verb
+communication, technology
+
+photo
+A1
+noun
+arts and media
+
+picnic
+A1
+noun
+food and drink
+
+picture
+DRAWING, ETC.
+A1
+noun
+arts and media
+
+pig
+A1
+noun
+animals
+
+pizza
+A1
+noun
+food and drink
+
+place
+SOMEWHERE
+A1
+noun
+natural world
+
+plane
+A1
+noun
+travel
+
+plant
+A1
+noun
+natural world
+
+plate
+A1
+noun
+food and drink
+
+play
+CHILDREN
+A1
+verb
+people: actions, shopping
+
+play
+SPORT
+A1
+verb
+people: actions, shopping
+
+player
+SPORT/GAME
+A1
+noun
+shopping
+
+please
+POLITE REQUEST
+A1
+exclamation
+communication
+
+Yes, please
+A1
+phrase
+communication
+
+p.m.
+A1
+adverb
+
+poor
+NO MONEY
+A1
+adjective
+money
+
+possible
+CAN HAPPEN
+A1
+adjective
+
+potato
+A1
+noun
+food and drink
+
+practise
+A1
+verb
+people: actions
+
+the present
+A1
+phrase
+
+problem
+DIFFICULT SITUATION
+A1
+noun
+
+put sth down/in/on, etc.
+A1
+phrase
+people: actions
+
+quarter
+TIME
+A1
+noun
+
+question
+ASKING
+A1
+noun
+communication
+
+quick
+FAST
+A1
+adjective
+
+radio
+EQUIPMENT
+A1
+noun
+arts and media
+
+the radio
+A1
+phrase
+arts and media
+
+rain
+A1
+noun
+natural world
+
+it rains/it is raining
+A1
+phrase
+natural world
+
+read
+WORDS
+A1
+verb
+communication
+
+reading
+BOOKS
+A1
+noun
+communication
+
+ready
+PREPARED
+A1
+adjective
+
+really
+VERY GREAT
+A1
+adverb
+communication
+
+red
+COLOUR
+A1
+adjective
+describing things
+
+remember
+IN YOUR MIND
+A1
+verb
+
+restaurant
+A1
+noun
+food and drink, buildings
+
+rice
+A1
+noun
+food and drink
+
+ride
+A1
+verb
+people: actions, travel
+
+right
+CORRECT
+A1
+adjective
+
+river
+A1
+noun
+natural world
+
+road
+TO DRIVE ON
+A1
+noun
+travel
+
+Road
+A1
+phrase
+
+room
+PART OF BUILDING
+A1
+noun
+buildings
+
+run
+MOVE FAST
+A1
+verb
+people: actions
+
+sad
+A1
+adjective
+people: personality
+
+safe
+NOT IN DANGER
+A1
+adjective
+
+salt
+A1
+noun
+food and drink
+
+the same
+A1
+phrase
+describing things
+
+same
+NOT ANOTHER
+A1
+adjective
+
+sandwich
+A1
+noun
+food and drink
+
+Saturday
+A1
+noun
+
+say
+SPEAK
+A1
+verb
+communication
+
+school
+PLACE
+A1
+noun
+education, buildings
+
+sea
+A1
+noun
+natural world
+
+second
+AFTER FIRST
+A1
+number
+
+see
+USE EYES
+A1
+verb
+people: actions
+
+see you later/soon/tomorrow, etc.
+A1
+phrase
+communication
+
+see you
+A1
+phrase
+communication
+
+see
+MEET
+A1
+verb
+communication
+
+send
+POST
+A1
+verb
+communication, people: actions
+
+sentence
+WORD GROUP
+A1
+noun
+communication
+
+September
+A1
+noun
+
+seven
+A1
+number
+
+seventeen
+A1
+number
+
+she
+A1
+pronoun
+
+sheep
+A1
+noun
+animals
+
+shirt
+A1
+noun
+clothes
+
+shoe
+A1
+noun
+clothes
+
+shop
+A1
+noun
+buildings, shopping
+
+shopping
+ACTIVITY
+A1
+noun
+people: actions, shopping
+
+short
+LENGTH/DISTANCE/HEIGHT
+A1
+adjective
+describing things, people: appearance
+
+short
+TIME
+A1
+adjective
+
+show
+MAKE SEEN
+A1
+verb
+people: actions
+
+shower
+WASH
+A1
+noun
+people: actions
+
+shower
+BATHROOM EQUIPMENT
+A1
+noun
+buildings
+
+sing
+A1
+verb
+arts and media, people: actions
+
+sister
+A1
+noun
+relationships
+
+sit
+BODY POSITION
+A1
+verb
+
+six
+A1
+number
+
+sixteen
+A1
+number
+
+skirt
+A1
+noun
+clothes
+
+sleep
+NOT AWAKE
+A1
+verb
+
+slim
+THIN
+A1
+adjective
+people: appearance
+
+slow
+NOT FAST
+A1
+adjective
+
+small
+YOUNG
+A1
+adjective
+people: appearance
+
+small
+LITTLE
+A1
+adjective
+describing things
+
+smoke
+A1
+verb
+people: actions
+
+smoking
+A1
+noun
+people: actions
+
+snow
+A1
+noun
+natural world
+
+some
+UNKNOWN AMOUNT
+A1
+determiner
+describing things
+
+some
+UNKNOWN AMOUNT
+A1
+pronoun
+describing things
+
+some
+NOT ALL
+A1
+pronoun
+describing things
+
+something
+THING
+A1
+pronoun
+describing things
+
+sometimes
+A1
+adverb
+
+son
+A1
+noun
+relationships
+
+see you soon
+A1
+phrase
+communication
+
+sorry
+APOLOGY
+A1
+adjective
+communication
+
+soup
+A1
+noun
+food and drink
+
+speak
+SAY WORDS
+A1
+verb
+communication
+
+speak
+LANGUAGE
+A1
+verb
+communication
+
+sport
+GAME
+A1
+noun
+shopping
+
+sport
+PHYSICAL ACTIVITY
+A1
+noun
+shopping
+
+start
+BEGIN
+A1
+verb
+people: actions
+
+station
+TRAINS
+A1
+noun
+buildings, travel
+
+stay
+NOT LEAVE
+A1
+verb
+
+stop
+FINISH
+A1
+verb
+people: actions
+
+stop
+PLACE
+A1
+noun
+travel
+
+street
+A1
+noun
+travel
+
+Street
+A1
+phrase
+
+student
+A1
+noun
+education
+
+study
+UNIVERSITY/SCHOOL
+A1
+verb
+education, people: actions
+
+subject
+STUDY
+A1
+noun
+education
+
+sugar
+A1
+noun
+food and drink
+
+summer
+A1
+noun
+natural world
+
+sun
+A1
+noun
+natural world
+
+Sunday
+A1
+noun
+
+supermarket
+A1
+noun
+buildings, shopping
+
+sweet
+TASTE
+A1
+adjective
+food and drink
+
+swim
+A1
+verb
+people: actions, shopping
+
+swimming pool
+A1
+noun
+buildings, shopping
+
+table
+FURNITURE
+A1
+noun
+buildings
+
+take
+CARRY
+A1
+verb
+people: actions
+
+take a picture/photo(graph)
+A1
+phrase
+people: actions
+
+take
+GO WITH SOMEONE
+A1
+verb
+people: actions
+
+talk
+SAY
+A1
+verb
+communication
+
+tall
+GREATER HEIGHT
+A1
+adjective
+describing things, people: appearance
+
+taxi
+A1
+noun
+travel
+
+tea
+DRINK
+A1
+noun
+food and drink
+
+teach
+GIVE LESSONS
+A1
+verb
+education, people: actions
+
+teacher
+A1
+noun
+education, work
+
+television
+EQUIPMENT
+A1
+noun
+arts and media, technology
+
+television
+PROGRAMMES
+A1
+noun
+arts and media
+
+tell
+SPEAK
+A1
+verb
+communication
+
+ten
+A1
+number
+
+tennis
+A1
+noun
+shopping
+
+test
+EXAM
+A1
+noun
+education
+
+than
+COMPARING
+A1
+preposition
+
+thanks
+THANK YOU
+A1
+exclamation
+communication
+
+thank you
+GRATEFUL
+A1
+exclamation
+communication
+
+that
+ALREADY MENTIONED
+A1
+determiner
+
+that
+CAN BE SEEN
+A1
+determiner
+
+that
+CAN BE SEEN
+A1
+pronoun
+
+that
+ALREADY MENTIONED
+A1
+pronoun
+
+the
+ONLY ONE
+A1
+determiner
+
+the
+PARTICULAR
+A1
+determiner
+
+the
+PLACE
+A1
+determiner
+
+their
+BELONGING TO GROUP
+A1
+determiner
+
+them
+GROUP
+A1
+pronoun
+
+then
+AT THAT TIME
+A1
+adverb
+
+then
+NEXT
+A1
+adverb
+
+there
+DIRECTION
+A1
+adverb
+
+There is/are/was, etc.
+A1
+phrase
+
+there
+PLACE
+A1
+adverb
+
+these
+A1
+determiner
+
+they
+GROUP
+A1
+pronoun
+
+things
+A1
+phrase
+
+thing
+OBJECT
+A1
+noun
+
+think
+BELIEVE TO BE TRUE
+A1
+verb
+people: personality
+
+think
+OPINION
+A1
+verb
+people: personality
+
+thirteen
+A1
+number
+
+this
+ALREADY MENTIONED
+A1
+determiner
+
+this
+CAN BE SEEN
+A1
+determiner
+
+this
+TIME
+A1
+determiner
+
+those
+A1
+determiner
+
+three
+A1
+number
+
+Thursday
+A1
+noun
+
+ticket
+A1
+noun
+money, travel
+
+time
+PARTICULAR POINT
+A1
+noun
+
+tired
+WANTING REST
+A1
+adjective
+people: personality
+
+to
+INFINITIVE
+A1
+preposition
+
+to
+TELLING THE TIME
+A1
+preposition
+
+to
+PLACE
+A1
+preposition
+describing things
+
+today
+THIS DAY
+A1
+adverb
+
+today
+THIS DAY
+A1
+noun
+
+together
+WITH EACH OTHER
+A1
+adverb
+relationships
+
+toilet
+CONTAINER
+A1
+noun
+buildings
+
+tomato
+A1
+noun
+food and drink
+
+tomorrow
+DAY AFTER TODAY
+A1
+noun
+
+tomorrow
+A1
+adverb
+
+tonight
+A1
+adverb
+
+too
+ALSO
+A1
+adverb
+
+too small/hard/much, etc.
+A1
+phrase
+describing things
+
+tooth
+IN MOUTH
+A1
+noun
+body and health
+
+town
+PLACE PEOPLE LIVE/WORK
+A1
+noun
+natural world
+
+train
+VEHICLE
+A1
+noun
+travel
+
+travel
+MAKE JOURNEY
+A1
+verb
+people: actions, travel
+
+tree
+A1
+noun
+natural world
+
+trousers
+A1
+noun
+clothes
+
+T-shirt
+A1
+noun
+clothes
+
+Tuesday
+A1
+noun
+
+TV
+A1
+noun
+arts and media, technology
+
+twenty
+NUMBER
+A1
+number
+
+twelve
+A1
+number
+
+two
+NUMBER
+A1
+number
+
+under
+LOWER POSITION
+A1
+preposition
+describing things
+
+understand
+KNOW MEANING
+A1
+verb
+
+university
+A1
+noun
+education
+
+until
+TIME
+A1
+preposition
+
+up
+VERTICAL
+A1
+adverb
+
+us
+A1
+pronoun
+
+use
+PURPOSE
+A1
+verb
+people: actions
+
+vegetable
+A1
+noun
+food and drink
+
+very
+EMPHASIS
+A1
+adverb
+communication
+
+not very good/tall/happy, etc.
+A1
+phrase
+
+very much
+A1
+phrase
+describing things
+
+village
+A1
+noun
+natural world
+
+visit
+SEE A PERSON
+A1
+verb
+people: actions
+
+visit
+SEE A PLACE
+A1
+verb
+people: actions, travel
+
+wait
+STAY
+A1
+verb
+people: actions
+
+waiter
+A1
+noun
+food and drink, work
+
+waitress
+A1
+noun
+food and drink, work
+
+walk
+A1
+verb
+people: actions
+
+wake (sb) up or wake up (sb)
+A1
+phrasal verb
+people: actions
+
+wall
+A1
+noun
+buildings
+
+want
+A1
+verb
+people: personality
+
+warm
+TEMPERATURE
+A1
+adjective
+natural world
+
+wash
+CLEAN BODY
+A1
+verb
+people: actions
+
+wash
+CLEAN THING
+A1
+verb
+people: actions
+
+watch
+LOOK AT
+A1
+verb
+people: actions
+
+watch
+A1
+noun
+clothes
+
+water
+LIQUID
+A1
+noun
+natural world
+
+we
+GROUP
+A1
+pronoun
+
+wear
+CLOTHES
+A1
+verb
+clothes
+
+weather
+WIND, RAIN, ETC.
+A1
+noun
+natural world
+
+website
+A1
+noun
+technology
+
+Wednesday
+A1
+noun
+
+week
+MONDAY TO FRIDAY
+A1
+noun
+
+week
+SEVEN DAYS
+A1
+noun
+
+weekend
+A1
+noun
+
+well
+IN A GOOD WAY
+A1
+adverb
+
+Well done!
+A1
+phrase
+communication
+
+as well
+A1
+phrase
+
+well
+HEALTHY
+A1
+adjective
+body and health
+
+well
+EXPRESSING DOUBT
+A1
+exclamation
+communication
+
+what
+QUESTION
+A1
+pronoun
+
+what
+QUESTION
+A1
+determiner
+
+when
+A1
+adverb
+
+where
+A1
+adverb
+
+which
+A1
+determiner
+
+white
+COLOUR
+A1
+adjective
+describing things
+
+who
+NAME
+A1
+pronoun
+
+why
+ASK ABOUT REASON
+A1
+adverb
+
+wife
+A1
+noun
+relationships
+
+will
+ABLE/WILLING
+A1
+modal verb
+
+wind
+A1
+noun
+natural world
+
+window
+GLASS
+A1
+noun
+buildings
+
+wine
+A1
+noun
+food and drink
+
+winter
+A1
+noun
+natural world
+
+with
+TOGETHER
+A1
+preposition
+
+with
+HAVING
+A1
+preposition
+describing things
+
+woman
+A1
+noun
+people: appearance
+
+word
+LANGUAGE UNIT
+A1
+noun
+communication
+
+work
+PLACE
+A1
+noun
+work
+
+work
+JOB
+A1
+noun
+work
+
+work
+DO JOB
+A1
+verb
+people: actions, work
+
+world
+THE EARTH
+A1
+noun
+natural world
+
+Don't worry (about sth)
+A1
+phrase
+communication
+
+would like sth/to do sth
+A1
+phrase
+communication
+
+Would you like ...?
+A1
+phrase
+communication
+
+write
+PRODUCE
+A1
+verb
+communication, people: actions
+
+writing
+SKILL
+A1
+noun
+communication
+
+wrong
+NOT CORRECT
+A1
+adjective
+
+year
+TWELVE MONTHS
+A1
+noun
+
+be ... years old
+A1
+phrase
+people: appearance
+
+yellow
+A1
+adjective
+describing things
+
+yes
+ANSWER
+A1
+adverb
+communication
+
+yes
+AGREE
+A1
+adverb
+communication
+
+yesterday
+A1
+adverb
+
+you
+PERSON/PEOPLE ADDRESSED
+A1
+pronoun
+
+young
+A1
+adjective
+people: appearance
+
+your
+PERSON/PEOPLE ADDRESSED
+A1
+determiner
+
+zoo
+A1
+noun
+animals
