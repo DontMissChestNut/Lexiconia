@@ -33,13 +33,48 @@ word_form_CEFR = {
     "Topic": "string"
 }
 
+word_repository_form = {
+    "Num": "string",
+    "Serial" : "string",
+    "WordB": "string",
+    "WordA": "string",
+}
+
+word_tree_form = {
+    "Num": "string",
+    "Root" : "string",
+    "Curr": "string",
+    "Leaf": "string",
+    "Step": "int",
+}
+
+word_card_form= {
+    "Root": "string",
+    "Serial" : "string",
+    "Level": "string",
+    "Part of Speech": "string",
+    "addition": "string",
+    "ExplainationE": "string",
+    "ExplainationC": "string"
+}
+
 def main():
-    processer = Processer()
+    words = []
+
+    _ = {
+        "Num": "string",
+        "Root" : "string",
+        "Curr": "string",
+        "Leaf": "string",
+        "Step": "int",
+    }
+
+    wordf = pd.DataFrame(columns=['Num', "Serial", "WordB", "WordA"])
+    wordf = pd.concat([wordf, pd.DataFrame(words)], ignore_index=True)
+    wordf.to_csv("./Assets/WordRepository.csv", mode="w", index=False, encoding="utf-8", header=True)
+
     
-    for path in word_list_path:
-        word_list, phrace_list = processer.openTXT(path)
-    
-        processer.writeCSV(CEFR_csv_address_, word_list)
+
     
     
 def openTXT(address):
