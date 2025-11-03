@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>简单背单词</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='word_style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="word-card">
+            <div class="progress">
+                <span id="progress">单词 {{ current }} / {{ total }}</span>
+            </div>
+            
+            <div class="word-section">
+                <h1 id="word">{{ word.word }}</h1>
+                <p class="phonetic" id="phonetic">{{ word.phonetic }}</p>
+            </div>
+            
+            <div class="details-section">
+                <div class="meaning">
+                    <h3>释义</h3>
+                    <p id="meaning">{{ word.meaning }}</p>
+                </div>
+                
+                <div class="example">
+                    <h3>例句</h3>
+                    <p id="example">{{ word.example }}</p>
+                </div>
+            </div>
+            
+            <div class="controls">
+                <button id="nextBtn" class="next-btn">下一个单词</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='word_script.js') }}"></script>
+</body>
+</html>
