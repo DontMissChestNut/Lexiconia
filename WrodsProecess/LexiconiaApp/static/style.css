@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -190,3 +191,197 @@ button {
         width: 100%;
     }
 }
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+}
+
+.word-card {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    padding: 30px;
+    position: relative;
+}
+
+.progress {
+    text-align: right;
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.word-section {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.word {
+    font-size: 3em;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.phonetic-section {
+    color: #7f8c8d;
+    font-size: 1.1em;
+}
+
+.details-section {
+    margin-bottom: 30px;
+}
+
+.detail {
+    background: #f8f9fa;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-left: 4px solid #3498db;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+    .detail:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+.definition-header {
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: #2c3e50;
+    font-size: 1.1em;
+}
+
+.level {
+    color: #e74c3c;
+}
+
+.part-of-speech {
+    color: #3498db;
+}
+
+.addition {
+    color: #27ae60;
+    font-style: italic;
+}
+
+.explain {
+    margin-left: 10px;
+}
+
+.english-explanation {
+    color: #e74c3c;
+    margin-bottom: 8px;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.chinese-explanation {
+    color: #27ae60;
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.illustrative.sentence {
+    margin-top: 12px;
+    padding: 10px;
+    background: white;
+    border-radius: 8px;
+    border-left: 3px solid #f39c12;
+    color: #34495e;
+    font-style: italic;
+}
+
+.controls {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    background: #3498db;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+    button:hover {
+        background: #2980b9;
+        transform: translateY(-2px);
+    }
+
+    button:active {
+        transform: translateY(0);
+    }
+
+.prev-btn {
+    background: #95a5a6;
+}
+
+    .prev-btn:hover {
+        background: #7f8c8d;
+    }
+
+.random-btn {
+    background: #9b59b6;
+}
+
+    .random-btn:hover {
+        background: #8e44ad;
+    }
+
+.loading, .error, .no-definitions {
+    text-align: center;
+    padding: 40px;
+    color: #7f8c8d;
+    font-size: 1.1em;
+}
+
+.error {
+    color: #e74c3c;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .word-card {
+        padding: 20px;
+    }
+
+    .word {
+        font-size: 2.5em;
+    }
+
+    .controls {
+        flex-direction: column;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+>>>>>>> 79b72ed5e116e9bddc44cd9ec2d1bbf92c9cbb11
