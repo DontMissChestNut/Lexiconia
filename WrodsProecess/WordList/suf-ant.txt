@@ -1,0 +1,103 @@
+important
+VALUABLE
+A1
+adjective
+describing things
+
+a sales/shop assistant
+A2
+phrase
+shopping, work
+
+assistant
+LESS IMPORTANT JOB
+B1
+noun
+work
+
+important
+POWERFUL
+B1
+adjective
+
+arrogant
+B2
+adjective
+people: personality
+
+consultant
+B2
+noun
+communication, work
+
+inhabitant
+B2
+noun
+buildings
+
+redundant
+JOB
+B2
+adjective
+work
+
+contestant
+C1
+noun
+arts and media, shopping
+
+dominant
+IMPORTANT
+C1
+adjective
+
+insignificant
+C1
+adjective
+describing things
+
+participant
+C1
+noun
+
+reluctant
+C1
+adjective
+
+tolerant
+C1
+adjective
+
+dominant
+STRONG
+C2
+adjective
+people: personality
+
+intolerant
+C2
+adjective
+people: personality
+
+observant
+C2
+adjective
+people: personality
+
+predominant
+C2
+adjective
+
+redundant
+NOT NEEDED
+C2
+adjective
+
+be reliant on sb/sth
+C2
+phrase
+
+self-reliant
+C2
+adjective
+people: personality

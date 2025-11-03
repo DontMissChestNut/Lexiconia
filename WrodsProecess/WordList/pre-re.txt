@@ -1,0 +1,285 @@
+rebuild
+BUILD AGAIN
+B1
+verb
+buildings, people: actions
+
+recycle
+B1
+verb
+natural world, people: actions
+
+recycled
+B1
+adjective
+natural world
+
+recycling
+B1
+noun
+natural world, people: actions
+
+refund
+B1
+noun
+money, shopping
+
+replace
+GET SOMETHING NEW
+B1
+verb
+people: actions, shopping
+
+replace
+USE INSTEAD
+B1
+verb
+people: actions
+
+review
+B1
+noun
+arts and media, communication
+
+revision
+B1
+noun
+education
+
+rearrange
+B2
+verb
+people: actions
+
+rebuild
+IMPROVE
+B2
+verb
+people: actions
+
+reflect
+SHOW
+B2
+verb
+
+reflect
+IMAGE
+B2
+verb
+
+regain
+B2
+verb
+
+repay
+MONEY
+B2
+verb
+money, people: actions
+
+repay
+KINDNESS
+B2
+verb
+people: actions
+
+replace
+BE USED INSTEAD
+B2
+verb
+
+replacement
+THING OR PERSON
+B2
+noun
+
+review
+GIVE OPINION
+B2
+verb
+arts and media, communication
+
+rewrite
+B2
+verb
+communication
+
+readjust
+SMALL CHANGE
+C1
+verb
+
+reassure
+C1
+verb
+communication
+
+reassuring
+C1
+adjective
+
+recharge
+C1
+verb
+
+reconsider
+C1
+verb
+
+reconstruct
+BUILD AGAIN
+C1
+verb
+people: actions
+
+reconstruction
+BUILD AGAIN
+C1
+noun
+buildings
+
+recreate
+C1
+verb
+
+redevelop
+C1
+verb
+
+redevelopment
+C1
+noun
+
+reflect
+THINK
+C1
+verb
+people: actions
+
+refund
+C1
+verb
+
+reinforce
+OPINION
+C1
+verb
+communication, people: personality
+
+relocate
+C1
+verb
+
+reorganize
+C1
+verb
+
+replacement
+PROCESS
+C1
+noun
+
+reproduce
+COPY
+C1
+verb
+
+reproduce
+REPEAT
+C1
+verb
+
+reproduction
+COPY
+C1
+noun
+
+restart
+C1
+verb
+
+restart
+C1
+verb
+
+rethink
+C1
+verb
+
+review
+CONSIDER
+C1
+verb
+
+readjust
+CHANGE BEHAVIOUR
+C2
+verb
+
+reassurance
+C2
+noun
+communication
+
+recharge your batteries
+IDIOM
+C2
+phrase
+
+reconstruct
+PAST EVENT
+C2
+verb
+
+reconstruction
+PAST EVENT
+C2
+noun
+
+recur
+C2
+verb
+
+redistribute
+C2
+verb
+people: actions
+
+reinforce
+OBJECT
+C2
+verb
+
+replace
+PUT BACK
+C2
+verb
+
+reproduce
+PRODUCE YOUNG
+C2
+verb
+natural world
+
+reproduction
+YOUNG
+C2
+noun
+animals, body and health
+
+restructure
+C2
+verb
+
+retrace your steps
+C2
+phrase
+
+reunion
+C2
+noun
+
+review
+PROCESS
+C2
+noun

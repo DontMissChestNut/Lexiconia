@@ -1,0 +1,11266 @@
+abandon
+STOP DOING
+C1
+verb
+
+abnormal
+C1
+adjective
+describing things
+
+aboard
+C1
+adverb
+travel
+
+abortion
+C1
+noun
+body and health
+
+Absolutely!
+C1
+phrase
+communication
+
+absorb
+REMEMBER
+C1
+verb
+
+abuse
+WRONG ACTION
+C1
+noun
+
+accelerate
+HAPPEN
+C1
+verb
+
+acceptable
+ALLOWED
+C1
+adjective
+
+acceptance
+C1
+noun
+
+accepted
+C1
+adjective
+
+accessory
+C1
+noun
+
+acclaimed
+C1
+adjective
+
+accomplish
+C1
+verb
+
+in accordance with sth
+C1
+phrase
+
+by all accounts
+C1
+phrase
+
+accumulate
+C1
+verb
+
+accusation
+C1
+noun
+
+accustomed to sth/doing sth
+C1
+phrase
+
+acknowledge
+ACCEPT
+C1
+verb
+
+acknowledge
+SAY RECEIVED
+C1
+verb
+
+acquaintance
+C1
+noun
+
+legal action
+C1
+phrase
+
+out of action
+C1
+phrase
+
+course of action
+C1
+phrase
+
+active
+VOLCANO
+C1
+adjective
+natural world
+
+adaptation
+C1
+noun
+
+addictive
+C1
+adjective
+
+address
+DEAL WITH
+C1
+verb
+
+administration
+C1
+noun
+
+administrative
+C1
+adjective
+
+administrator
+C1
+noun
+
+adult
+NOT A CHILD
+C1
+adjective
+
+adviser
+C1
+noun
+work
+
+affluent
+C1
+adjective
+money
+
+affordable
+C1
+adjective
+
+after all
+C1
+phrase
+
+after
+DESPITE
+C1
+preposition
+
+have sth against sb/sth
+C1
+phrase
+
+agency
+ORGANIZATION
+C1
+noun
+
+agenda
+MEETING
+C1
+noun
+
+aggression
+C1
+noun
+
+aggressive
+DETERMINED
+C1
+adjective
+
+long ago
+C1
+phrase
+
+agree
+BE THE SAME
+C1
+verb
+
+ahead of time/schedule
+C1
+phrase
+
+aid
+HELP
+C1
+noun
+
+in aid of sb/sth
+C1
+phrase
+
+with the aid of sth
+C1
+phrase
+
+aid
+EQUIPMENT
+C1
+noun
+
+aid
+C1
+verb
+
+on air
+C1
+phrase
+arts and media
+
+alarm
+C1
+verb
+
+alarming
+C1
+adjective
+
+alert
+C1
+adjective
+people: personality
+
+alert
+C1
+noun
+
+all things considered
+C1
+phrase
+communication
+
+after all
+C1
+phrase
+
+all hours
+C1
+phrase
+
+be all very well
+C1
+phrase
+
+all at once
+C1
+phrase
+
+be all set
+C1
+phrase
+
+allegation
+C1
+noun
+communication
+
+alleged
+C1
+adjective
+
+allocate
+C1
+verb
+
+allow
+TIME/MONEY
+C1
+verb
+
+allow
+MAKE POSSIBLE
+C1
+verb
+
+allowance
+MONEY
+C1
+noun
+money
+
+ally
+PERSON
+C1
+noun
+
+let alone
+C1
+phrase
+
+alongside
+NEXT TO
+C1
+adverb
+describing things
+
+alongside
+WITH
+C1
+adverb
+
+alteration
+C1
+noun
+
+alternate days/weeks/years, etc.
+C1
+phrase
+
+alternate
+C1
+verb
+
+amateur
+C1
+adjective
+
+amateur
+HOBBY
+C1
+noun
+
+amateur
+NO SKILL
+C1
+noun
+
+amid
+WHILE
+C1
+preposition
+
+amendment
+C1
+noun
+
+among
+DIVIDE
+C1
+preposition
+
+ample
+C1
+adjective
+
+analytical
+C1
+adjective
+
+angle
+SPACE
+C1
+noun
+describing things
+
+at an angle
+C1
+phrase
+
+angle
+DIRECTION
+C1
+noun
+
+angle
+WAY OF THINKING
+C1
+noun
+
+annoyance
+C1
+noun
+
+anticipate
+C1
+verb
+
+anti-social
+BEHAVIOUR
+C1
+adjective
+
+anti-social
+PERSON
+C1
+adjective
+people: personality
+
+anyhow
+CHANGING STATEMENT
+C1
+adverb
+communication
+
+anywhere near sth
+C1
+phrase
+
+appalling
+BAD
+C1
+adjective
+describing things
+
+apparent
+SEEMS TRUE
+C1
+adjective
+
+appeal
+REQUEST
+C1
+noun
+communication
+
+appeal
+REQUEST
+C1
+verb
+communication
+
+it would appear (that)
+C1
+phrase
+
+appetite
+FOOD
+C1
+noun
+food and drink
+
+applaud
+CLAP
+C1
+verb
+
+applause
+C1
+noun
+
+appliance
+C1
+noun
+
+apply
+USE
+C1
+verb
+
+appoint
+C1
+verb
+work
+
+archaeologist
+C1
+noun
+work
+
+archaeology
+C1
+noun
+
+arise
+C1
+verb
+
+arrival
+NEW PERSON/THING
+C1
+noun
+
+arts
+C1
+phrase
+education
+
+art
+SKILL
+C1
+noun
+
+as it happens
+C1
+phrase
+
+as many as
+C1
+phrase
+
+as yet
+C1
+phrase
+
+assert
+C1
+verb
+communication
+
+asset
+USEFUL
+C1
+noun
+
+asset
+WORTH MONEY
+C1
+noun
+money
+
+assign
+C1
+verb
+
+assignment
+C1
+noun
+
+associate
+TWO THINGS/PEOPLE
+C1
+verb
+
+in association with
+C1
+phrase
+
+assumption
+C1
+noun
+
+assurance
+PROMISE
+C1
+noun
+communication
+
+assure
+MAKE CERTAIN
+C1
+verb
+
+at an angle
+C1
+phrase
+
+at a glance
+C1
+phrase
+
+at the expense of sth
+C1
+phrase
+
+at face value
+IDIOM
+C1
+phrase
+
+at the very least
+C1
+phrase
+describing things
+
+at hand
+C1
+phrase
+
+at once
+C1
+phrase
+
+all at once
+C1
+phrase
+
+at short notice
+C1
+phrase
+
+at times
+C1
+phrase
+
+at random
+C1
+phrase
+
+attack
+CRITICIZE
+C1
+verb
+communication
+
+attain
+C1
+verb
+
+attendance
+NUMBER
+C1
+noun
+
+attendance
+REGULARLY
+C1
+noun
+
+auction
+C1
+noun
+
+audition
+C1
+noun
+
+authentic
+C1
+adjective
+describing things
+
+authority
+OFFICIAL GROUP
+C1
+noun
+
+authorize
+C1
+verb
+
+be authorized to do sth
+C1
+phrase
+
+avenue
+ROAD
+C1
+noun
+
+average
+NOT EXCELLENT
+C1
+adjective
+describing things
+
+awareness
+C1
+noun
+
+away
+SPORT
+C1
+adverb
+shopping
+
+back road/street
+C1
+phrase
+
+bacteria
+C1
+noun
+body and health, natural world
+
+bad
+PAINFUL
+C1
+adjective
+
+too bad
+C1
+phrase
+communication
+
+strike a balance
+C1
+phrase
+
+be on the ball
+IDIOM
+C1
+phrase
+people: personality
+
+bankrupt
+C1
+adjective
+money
+
+basically
+MOSTLY
+C1
+adverb
+communication
+
+basis
+REASON
+C1
+noun
+
+on the basis of sth
+C1
+phrase
+
+basis
+DEVELOPMENT
+C1
+noun
+
+beak
+C1
+noun
+animals
+
+bear
+NAME
+C1
+verb
+
+bear left/right
+C1
+phrase
+
+beat
+BETTER THAN
+C1
+verb
+
+beat
+FOOD
+C1
+verb
+food and drink
+
+beat about/around the bush
+IDIOM
+C1
+phrase
+
+before you know it
+C1
+phrase
+communication
+
+behind
+CAUSING
+C1
+preposition
+
+behind the times
+C1
+phrase
+
+behind
+SLOWER
+C1
+adverb
+
+the next best thing
+C1
+phrase
+
+(have) the best of both worlds
+C1
+phrase
+
+bet
+C1
+verb
+
+between
+SPACE
+C1
+adverb
+
+between
+TIME
+C1
+adverb
+
+beware
+C1
+verb
+
+beyond
+INVOLVING OTHERS
+C1
+preposition
+
+beyond
+NOT UNDERSTAND
+C1
+preposition
+
+beyond
+PLACE
+C1
+adverb
+describing things
+
+biased
+C1
+adjective
+
+bid
+OFFER
+C1
+noun
+work
+
+big
+SUCCESSFUL
+C1
+adjective
+
+bilingual
+C1
+adjective
+
+birth
+BEGINNING
+C1
+noun
+
+a bit of a change/fool/problem, etc.
+C1
+phrase
+
+bit by bit
+C1
+phrase
+
+be to blame
+C1
+phrase
+
+turn a blind eye (to sth)
+IDIOM
+C1
+phrase
+
+the blind
+C1
+phrase
+
+blindness
+NOT SEEING
+C1
+noun
+body and health
+
+block
+CANNOT SEE
+C1
+verb
+
+new blood
+IDIOM
+C1
+phrase
+
+bloody
+VIOLENT
+C1
+adjective
+
+out of the blue
+IDIOM
+C1
+phrase
+
+board
+ORGANIZATION
+C1
+noun
+work
+
+take sth on board
+IDIOM
+C1
+phrase
+
+borrow
+MONEY
+C1
+verb
+money
+
+(have) the best of both worlds
+C1
+phrase
+
+bounce back
+SUCCESSFUL AGAIN
+C1
+phrasal verb
+
+bound
+DIRECTION
+C1
+adjective
+travel
+
+boundary
+LIMIT
+C1
+noun
+
+boundary
+LINE
+C1
+noun
+
+bracket
+GROUP
+C1
+noun
+
+brain
+INTELLIGENCE
+C1
+noun
+body and health, people: personality
+
+brass
+METAL
+C1
+noun
+
+break even
+C1
+phrase
+money
+
+break
+DAMAGE
+C1
+noun
+
+breakdown
+FAILURE
+C1
+noun
+
+catch your breath; get your breath back
+C1
+phrase
+body and health
+
+bribe
+C1
+noun
+money
+
+bribe
+C1
+verb
+
+look on the bright side
+IDIOM
+C1
+phrase
+
+bring sth to an end
+C1
+phrase
+
+broaden
+C1
+verb
+
+broadly
+C1
+adverb
+
+broken English/Spanish, etc.
+C1
+phrase
+communication
+
+bronze
+PRIZE
+C1
+noun
+
+brush up (on) sth
+C1
+phrasal verb
+
+brush sth away/off, etc.
+C1
+phrase
+people: actions
+
+bubble
+C1
+noun
+
+brutal
+C1
+adjective
+
+bubble (over) with confidence/enthusiasm, etc.
+C1
+phrase
+people: personality
+
+build (sth) up or build up (sth)
+C1
+phrasal verb
+
+the bulk of sth
+C1
+phrase
+
+in bulk
+C1
+phrase
+
+bulky
+C1
+adjective
+describing things
+
+bully
+C1
+verb
+
+bully
+C1
+noun
+people: personality
+
+bump into sb
+C1
+phrasal verb
+
+bump
+BODY
+C1
+noun
+body and health
+
+bump
+SURFACE
+C1
+noun
+
+burden
+C1
+noun
+
+a burning issue/question
+C1
+phrase
+
+burning ambition/desire, etc.
+C1
+phrase
+
+beat about/around the bush
+IDIOM
+C1
+phrase
+
+by all accounts
+C1
+phrase
+
+by law
+C1
+phrase
+
+by and large
+C1
+phrase
+
+by way of sth
+C1
+phrase
+
+cabin
+HOUSE
+C1
+noun
+buildings
+
+call
+ASK TO COME
+C1
+verb
+communication
+
+call an election/meeting, etc.
+C1
+phrase
+
+call on sb to do sth
+C1
+phrasal verb
+
+call off sth or call sth off
+STOP
+C1
+phrasal verb
+
+a call for sth
+C1
+phrase
+communication
+
+call
+VISIT
+C1
+noun
+
+campaign
+ACTIVITIES
+C1
+noun
+
+campaign
+WAR
+C1
+noun
+
+campaign
+C1
+verb
+people: actions
+
+cancellation
+C1
+noun
+
+to cap it all
+C1
+phrase
+
+cap
+LIMIT
+C1
+verb
+
+capability
+C1
+noun
+
+capacity
+JOB
+C1
+noun
+work
+
+capture sb's attention/ imagination/ interest
+C1
+phrase
+
+capture
+C1
+noun
+people: actions
+
+take care of sth/doing sth
+C1
+phrase
+
+I/he, etc. couldn't care less
+C1
+phrase
+communication
+
+carriage
+TRAIN
+C1
+noun
+travel
+
+carry
+DISEASE
+C1
+verb
+body and health
+
+catch on
+BECOME POPULAR
+C1
+phrasal verb
+
+catch up (sb) or catch (sb) up
+BE AS GOOD AS
+C1
+phrasal verb
+
+cater
+C1
+verb
+food and drink, people: actions
+
+cater to sb/sth
+C1
+phrasal verb
+
+cater for sb/sth
+C1
+phrasal verb
+
+cause
+PRINCIPLE
+C1
+noun
+
+caution
+CARE
+C1
+noun
+
+central
+CITY
+C1
+adjective
+
+central
+ORGANIZATION
+C1
+adjective
+
+cereal
+PLANT
+C1
+noun
+food and drink
+
+know/say for certain
+C1
+phrase
+
+certainly not
+C1
+phrase
+communication
+
+changeable
+C1
+adjective
+
+chaotic
+C1
+adjective
+
+character
+INTERESTING PERSON
+C1
+noun
+people: personality
+
+character
+WRITING
+C1
+noun
+communication
+
+charge
+CRIME
+C1
+noun
+communication, crime
+
+chatty
+PERSON
+C1
+adjective
+people: personality
+
+chatty
+WRITING
+C1
+adjective
+communication
+
+cheap
+LOW QUALITY
+C1
+adjective
+money, shopping
+
+check (up) on sth
+C1
+phrasal verb
+
+check sth out or check out sth
+INFORMATION
+C1
+phrasal verb
+
+check sth out or check out sth
+GO TO SEE
+C1
+phrasal verb
+
+chilly
+C1
+adjective
+
+cholesterol
+C1
+noun
+body and health
+
+chore
+C1
+noun
+
+cinema
+ART
+C1
+noun
+arts and media
+
+civil
+C1
+adjective
+
+civilization
+WAY OF LIFE
+C1
+noun
+
+claim
+STATEMENT
+C1
+noun
+communication
+
+clarification
+C1
+noun
+
+clarify
+C1
+verb
+communication
+
+class sb/sth as sth
+C1
+phrase
+
+classify
+C1
+verb
+
+clean (sth/sb) up
+MAKE CLEAN
+C1
+phrasal verb
+people: actions
+
+clean (sth/sb) up
+REMOVE POLLUTION
+C1
+phrasal verb
+people: actions
+
+the cleaner's
+C1
+phrase
+
+clear
+NOT BLOCKED
+C1
+adjective
+
+crystal clear
+C1
+phrase
+
+clear sth away or clear away sth
+C1
+phrasal verb
+people: actions
+
+clinical
+MEDICAL
+C1
+adjective
+body and health
+
+around/round the clock
+IDIOM
+C1
+phrase
+
+close off sth or close sth off
+C1
+phrasal verb
+people: actions
+
+close
+SIMILAR
+C1
+adjective
+
+be/come close to doing sth
+C1
+phrase
+
+be close to sth
+C1
+phrase
+
+closely
+VERY NEAR
+C1
+adverb
+
+closeness
+NEAR
+C1
+noun
+
+closely
+CAREFULLY
+C1
+adverb
+
+closeness
+RELATIONSHIP
+C1
+noun
+
+clutch
+ENGINE
+C1
+noun
+
+coal
+FUEL
+C1
+noun
+
+code
+RULES
+C1
+noun
+
+collaboration
+C1
+noun
+
+collaborate
+C1
+verb
+
+with flying colours
+IDIOM
+C1
+phrase
+
+column
+NUMBERS/WORDS
+C1
+noun
+
+come easily/easy/naturally
+C1
+phrase
+
+come first
+C1
+phrase
+
+come to mind
+C1
+phrase
+
+when it comes to sth/doing sth
+C1
+phrase
+
+how come
+C1
+phrase
+communication
+
+come across
+SEEM
+C1
+phrasal verb
+people: personality
+
+come off
+C1
+phrasal verb
+
+come on
+START
+C1
+phrasal verb
+
+come over
+MOVE TOWARDS
+C1
+phrasal verb
+
+come over sb
+C1
+phrasal verb
+
+come round
+BECOME CONSCIOUS
+C1
+phrasal verb
+body and health
+
+come under sth
+LIST
+C1
+phrasal verb
+
+come under sth
+EXPERIENCE
+C1
+phrasal verb
+
+come up
+OPPORTUNITY
+C1
+phrasal verb
+
+come up
+PROBLEM
+C1
+phrasal verb
+
+come up against sth
+C1
+phrasal verb
+
+come up
+COMPUTER
+C1
+phrasal verb
+technology
+
+comfort
+PLEASANT THING
+C1
+noun
+
+command
+COMPUTER
+C1
+noun
+
+commodity
+C1
+noun
+
+common
+ORDINARY
+C1
+adjective
+
+in common with sb/sth
+C1
+phrase
+
+commonly
+C1
+adverb
+
+commute
+C1
+verb
+travel
+
+be good company
+C1
+phrase
+people: personality
+
+comparable
+C1
+adjective
+describing things
+
+comparatively cheap/easy/little, etc.
+C1
+phrase
+describing things
+
+comparative
+C1
+adjective
+
+compare notes
+C1
+phrase
+communication
+
+compatible
+EQUIPMENT
+C1
+adjective
+technology
+
+compensate
+MONEY
+C1
+verb
+money
+
+feel compelled to do sth
+C1
+phrase
+
+competence
+C1
+noun
+
+competent
+C1
+adjective
+people: personality
+
+compile
+C1
+verb
+
+complaint
+ANNOYING THING
+C1
+noun
+
+completion
+C1
+noun
+
+complex
+BUILDINGS
+C1
+noun
+buildings
+
+complicate
+C1
+verb
+
+complication
+DIFFICULTY
+C1
+noun
+
+compliment
+C1
+verb
+
+comply
+C1
+verb
+
+component
+MACHINE
+C1
+noun
+
+component
+FEATURE
+C1
+noun
+
+comprehensively
+C1
+adverb
+
+comprehensive
+C1
+adjective
+
+comprise
+CONSIST
+C1
+verb
+
+comprise
+FORM
+C1
+verb
+
+(be) concentrated around/in/on, etc.
+C1
+phrase
+
+concern
+WORRY
+C1
+verb
+
+be concerned with sth
+C1
+phrase
+
+conclude
+DECIDE
+C1
+verb
+
+conclude
+END
+C1
+verb
+communication
+
+concrete
+CERTAIN
+C1
+adjective
+
+condition
+AGREEMENT
+C1
+noun
+
+confidential
+C1
+adjective
+
+congestion
+C1
+noun
+travel
+
+conquer
+C1
+verb
+
+conscientious
+C1
+adjective
+people: personality
+
+conscious
+AWAKE
+C1
+adjective
+body and health
+
+consciousness
+AWARE
+C1
+noun
+
+consent
+C1
+noun
+
+as a consequence
+C1
+phrase
+
+of little/no consequence
+C1
+phrase
+
+conservation
+NOT WASTE
+C1
+noun
+
+conservative
+C1
+adjective
+
+consider
+FACTS
+C1
+verb
+
+consider
+MAY BE TRUE
+C1
+verb
+
+all things considered
+C1
+phrase
+communication
+
+considerate
+C1
+adjective
+
+constitute
+C1
+verb
+
+constitution
+LAWS
+C1
+noun
+politics
+
+consult
+GET INFORMATION
+C1
+verb
+
+constructive
+C1
+adjective
+
+consult
+DISCUSS
+C1
+verb
+
+consume
+USE RESOURCE
+C1
+verb
+people: actions
+
+consumption
+C1
+noun
+people: actions
+
+contact
+TOUCH
+C1
+noun
+
+contestant
+C1
+noun
+arts and media, shopping
+
+context
+LANGUAGE
+C1
+noun
+
+continual
+C1
+adjective
+
+continually
+C1
+adverb
+
+contradict
+SAY SOMEONE IS WRONG
+C1
+verb
+
+to the contrary
+C1
+phrase
+
+contrary to sth
+C1
+phrase
+
+contribute
+WRITE
+C1
+verb
+
+control
+CALM
+C1
+noun
+people: personality
+
+controversy
+C1
+noun
+
+convenience
+HELPFUL THING
+C1
+noun
+
+convention
+MEETING
+C1
+noun
+communication, politics
+
+convention
+CUSTOM
+C1
+noun
+
+conventional wisdom
+C1
+phrase
+
+hold a conversation
+C1
+phrase
+
+convey
+C1
+verb
+
+convincing
+C1
+adjective
+
+cool
+CALM
+C1
+adjective
+people: personality
+
+keep your cool
+IDIOM
+C1
+phrase
+
+coolness
+COLD
+C1
+noun
+
+corporate
+C1
+adjective
+
+corrupt
+C1
+adjective
+people: personality
+
+corrupt
+C1
+verb
+people: personality
+
+corruption
+MAKE DISHONEST
+C1
+noun
+
+corruption
+BAD BEHAVIOUR
+C1
+noun
+crime, people: personality
+
+cosmopolitan
+C1
+adjective
+
+I/he, etc. couldn't care less
+C1
+phrase
+communication
+
+counterpart
+C1
+noun
+work
+
+countless
+C1
+adjective
+
+courageous
+C1
+adjective
+people: personality
+
+course of action
+C1
+phrase
+
+during/in/over the course of sth
+C1
+phrase
+
+a matter of course
+C1
+phrase
+
+cover
+REPORT
+C1
+verb
+arts and media, people: actions
+
+cover
+FINANCIAL PROTECTION
+C1
+verb
+money
+
+cover
+MONEY
+C1
+verb
+money
+
+cover sth up or cover up sth
+C1
+phrasal verb
+people: actions
+
+cover
+FINANCIAL
+C1
+noun
+money
+
+coverage
+REPORT
+C1
+noun
+arts and media
+
+cover
+FROM WEATHER/ATTACK
+C1
+noun
+
+crack a joke
+C1
+phrase
+
+crash
+MONEY
+C1
+verb
+money
+
+crash
+BUSINESS
+C1
+noun
+money
+
+crawl
+SPEED
+C1
+noun
+
+crawl
+SWIMMING
+C1
+noun
+
+like crazy
+C1
+phrase
+
+the cream of sth
+C1
+phrase
+
+criterion
+C1
+noun
+
+critic
+NOT APPROVE
+C1
+noun
+
+crossing
+TRIP BY WATER
+C1
+noun
+
+crowd
+C1
+verb
+
+be a far cry from sth
+IDIOM
+C1
+phrase
+
+crystal clear
+C1
+phrase
+
+cultivate
+GROW
+C1
+verb
+
+cultivation
+C1
+noun
+
+cure
+PROBLEM
+C1
+verb
+
+customary
+C1
+adjective
+
+to cut a long story short
+IDIOM
+C1
+phrase
+
+cut across sth
+GROUP
+C1
+phrasal verb
+
+cut out sth or cut sth out
+SHAPE
+C1
+phrasal verb
+people: actions
+
+cut out sth or cut sth out
+STOP EATING
+C1
+phrasal verb
+
+cut
+REDUCTION
+C1
+noun
+
+cutback
+C1
+noun
+
+cutting-edge
+C1
+adjective
+
+dare sb to do sth
+C1
+phrase
+
+How dare she/you, etc.
+C1
+phrase
+communication
+
+dark
+BAD
+C1
+adjective
+
+date
+FRUIT
+C1
+noun
+food and drink
+
+the dawn of sth
+C1
+phrase
+
+the old days
+C1
+phrase
+
+days
+C1
+phrase
+
+daycare
+C1
+noun
+
+daydream
+C1
+verb
+
+day-to-day
+C1
+adjective
+
+be dead (set) against sth/doing sth
+C1
+phrase
+
+dead
+EXTREMELY
+C1
+adverb
+
+deadly dull/serious, etc.
+C1
+phrase
+
+a good deal
+C1
+phrase
+describing things
+
+debut
+C1
+noun
+
+decisive
+AFFECTING
+C1
+adjective
+
+declaration
+C1
+noun
+politics
+
+dedicate your life/yourself to sth
+C1
+phrase
+
+dedicated
+GIVING TIME/ENERGY
+C1
+adjective
+
+dedication
+C1
+noun
+
+deduction
+AMOUNT
+C1
+noun
+
+deepen
+KNOWLEDGE
+C1
+verb
+
+defect
+C1
+noun
+
+defence
+MILITARY
+C1
+noun
+politics
+
+defend
+LAW
+C1
+verb
+crime
+
+deficiency
+FAULT
+C1
+noun
+
+deficit
+C1
+noun
+
+definitely not
+C1
+phrase
+communication
+
+definition
+IMAGE
+C1
+noun
+
+delegate
+C1
+noun
+
+delicate
+NEEDING CARE
+C1
+adjective
+
+deliver
+PROMISE
+C1
+verb
+
+in demand
+C1
+phrase
+
+demonstrate
+SHOW HOW
+C1
+verb
+communication, people: actions
+
+demonstration
+SHOWING
+C1
+noun
+people: actions
+
+demonstration
+PROOF
+C1
+noun
+
+density
+C1
+noun
+
+deodorant
+C1
+noun
+body and health
+
+dependent on/upon sth
+C1
+phrase
+
+deposit
+BANK
+C1
+noun
+
+deposit
+C1
+verb
+
+deposit
+RENT
+C1
+noun
+
+deprived
+C1
+adjective
+
+deputy
+C1
+noun
+politics
+
+derive (sth) from sth
+C1
+phrasal verb
+
+deserted
+C1
+adjective
+
+design
+DRAWING
+C1
+noun
+
+desire
+C1
+verb
+
+destiny
+POWER
+C1
+noun
+
+destiny
+FUTURE
+C1
+noun
+
+detached
+BUILDING
+C1
+adjective
+buildings
+
+detect
+C1
+verb
+
+deteriorate
+C1
+verb
+
+determine
+FIND
+C1
+verb
+
+determine
+DECIDE
+C1
+verb
+
+devastating
+SHOCKING
+C1
+adjective
+
+devastated
+C1
+adjective
+people: personality
+
+developer
+PRODUCTS
+C1
+noun
+technology, work
+
+devote yourself to sth 
+C1
+phrasal verb
+people: actions
+
+dictate
+C1
+verb
+
+diesel
+C1
+noun
+travel
+
+tell the difference
+C1
+phrase
+
+differentiate
+SEE DIFFERENCE
+C1
+verb
+
+put sb in a difficult position
+C1
+phrase
+
+digest
+FOOD
+C1
+verb
+body and health
+
+digest
+INFORMATION
+C1
+verb
+
+digestion
+C1
+noun
+body and health
+
+diminish
+C1
+verb
+
+diplomatic
+GOVERNMENTS
+C1
+adjective
+politics
+
+direct
+CLEAR
+C1
+adjective
+
+direct sth against/at/towards, etc. sb/sth
+C1
+phrase
+
+direct
+ORGANIZE
+C1
+verb
+
+direction
+CONTROL
+C1
+noun
+
+directory
+C1
+noun
+
+disadvantaged
+C1
+adjective
+
+disapproval
+C1
+noun
+people: personality
+
+disastrous
+C1
+adjective
+describing things
+
+discipline
+SELF CONTROL
+C1
+noun
+people: personality
+
+discomfort
+SITUATION
+C1
+noun
+
+discontent
+C1
+noun
+
+discovery
+THING/PERSON
+C1
+noun
+
+discriminate
+TREAT UNFAIRLY
+C1
+verb
+
+discrimination
+C1
+noun
+
+disgusted
+C1
+adjective
+
+dishonestly
+C1
+adverb
+people: personality
+
+dismiss
+NOT CONSIDER
+C1
+verb
+
+dismiss
+MAKE LEAVE
+C1
+verb
+
+dismissal
+IDEA
+C1
+noun
+
+dismissal
+JOB
+C1
+noun
+work
+
+disorder
+ILLNESS
+C1
+noun
+body and health
+
+disorder
+BAD BEHAVIOUR
+C1
+noun
+
+displace
+C1
+verb
+
+displacement
+C1
+noun
+
+dispose of sth
+C1
+phrasal verb
+
+disrespect
+C1
+noun
+people: personality
+
+disruption
+C1
+noun
+
+dissolve
+END
+C1
+verb
+
+dissertation
+C1
+noun
+education
+
+distant
+NOT FRIENDLY
+C1
+adjective
+people: personality
+
+distinct
+CLEAR
+C1
+adjective
+
+distinct
+DIFFERENT
+C1
+adjective
+
+distinctive
+C1
+adjective
+
+distort
+C1
+verb
+
+distraction
+NO ATTENTION
+C1
+noun
+
+distraction
+FUN
+C1
+noun
+
+distress
+UPSET
+C1
+noun
+people: personality
+
+distressed
+C1
+adjective
+
+distribute
+SUPPLY
+C1
+verb
+
+distribution
+SUPPLYING
+C1
+noun
+
+distribution
+SHARING
+C1
+noun
+
+disturbance
+INTERRUPTION
+C1
+noun
+
+diversity
+C1
+noun
+
+divert sb's attention/thoughts, etc.
+C1
+phrase
+
+divide sth (up) among/between sb
+C1
+phrase
+people: actions
+
+divide
+NUMBERS
+C1
+verb
+
+divide
+DISAGREE
+C1
+verb
+
+divide
+C1
+noun
+
+will do
+C1
+phrase
+
+do your utmost
+C1
+phrase
+
+do away with sth
+C1
+phrasal verb
+
+dock
+C1
+noun
+
+domain
+C1
+noun
+
+dominant
+IMPORTANT
+C1
+adjective
+
+domination
+C1
+noun
+
+dominate
+BE IMPORTANT
+C1
+verb
+
+donate
+BLOOD/ORGANS
+C1
+verb
+body and health, people: actions
+
+no doubt
+C1
+phrase
+
+doubt
+NOT BELIEVE
+C1
+verb
+
+down to earth
+IDIOM
+C1
+phrase
+
+down
+NOT WORKING
+C1
+adjective
+technology
+
+downside
+C1
+noun
+
+downward
+C1
+adjective
+
+down-to-earth
+C1
+adjective
+
+downwards
+C1
+adverb
+
+dozens
+C1
+phrase
+
+draft
+C1
+verb
+communication, people: actions
+
+drastic
+C1
+adjective
+
+drastically
+C1
+adverb
+
+draught
+C1
+noun
+
+draw
+SPORT
+C1
+verb
+shopping
+
+draw on sth
+C1
+phrasal verb
+
+draw sth up or draw up sth
+C1
+phrasal verb
+
+drawback
+C1
+noun
+
+drive sb to sth; drive sb to do sth
+C1
+phrase
+
+drive
+ENERGY
+C1
+noun
+people: personality
+
+drop
+TAKE
+C1
+verb
+travel
+
+drop
+DISTANCE
+C1
+noun
+
+dry
+HAIR/SKIN
+C1
+adjective
+body and health
+
+dry
+WINE
+C1
+adjective
+food and drink
+
+dual
+C1
+adjective
+
+be due for sth
+C1
+phrase
+
+dumb
+C1
+adjective
+body and health
+
+dull
+NOT BRIGHT
+C1
+adjective
+describing things
+
+dump
+GET RID OF
+C1
+verb
+
+dump
+WASTE
+C1
+noun
+
+duration
+C1
+noun
+
+dwell on/upon sth
+C1
+phrasal verb
+
+have an ear for sth
+C1
+phrase
+
+down to earth
+IDIOM
+C1
+phrase
+
+how/what/why, etc. on earth?
+C1
+phrase
+communication
+
+easily
+LIKELY
+C1
+adverb
+
+(take) the easy way out
+IDIOM
+C1
+phrase
+
+easier said than done
+IDIOM
+C1
+phrase
+
+ecology
+C1
+noun
+natural world
+
+edible
+C1
+adjective
+
+take effect
+C1
+phrase
+
+have little/no effect
+C1
+phrase
+
+effectiveness
+C1
+noun
+
+the elderly
+C1
+phrase
+
+electrical
+SUPPLY
+C1
+adjective
+
+elegance
+C1
+noun
+people: appearance
+
+eliminate
+GET RID OF
+C1
+verb
+
+eligible
+C1
+adjective
+
+eliminate
+COMPETITION
+C1
+verb
+shopping
+
+elite
+C1
+noun
+
+embrace
+ACCEPT
+C1
+verb
+
+embrace
+INCLUDE
+C1
+verb
+
+emerge
+BECOME KNOWN
+C1
+verb
+
+emission
+C1
+noun
+
+emperor
+C1
+noun
+
+empire
+BUSINESSES
+C1
+noun
+
+empire
+COUNTRIES
+C1
+noun
+
+employ
+USE
+C1
+verb
+
+empty
+NO MEANING
+C1
+adjective
+
+enclose
+BE ALL AROUND
+C1
+verb
+
+make ends meet
+IDIOM
+C1
+phrase
+money
+
+bring sth to an end
+C1
+phrase
+
+endeavour to do sth
+C1
+phrase
+
+enforce
+C1
+verb
+
+engage
+C1
+verb
+
+enhance
+C1
+verb
+
+have had enough
+C1
+phrase
+
+enrich
+C1
+verb
+
+enter
+PERIOD OF TIME
+C1
+verb
+
+enterprise
+BUSINESS
+C1
+noun
+work
+
+enterprise
+QUALITY
+C1
+noun
+people: personality
+
+entitle
+GIVE TITLE
+C1
+verb
+
+environmentalist
+C1
+noun
+
+envisage
+C1
+verb
+
+envision
+C1
+verb
+
+equally
+SAME AMOUNTS
+C1
+adverb
+
+equally
+SAME DEGREE
+C1
+adverb
+
+equation
+C1
+noun
+
+equivalent
+C1
+adjective
+
+equivalent
+C1
+noun
+
+erosion
+PHYSICAL DAMAGE
+C1
+noun
+
+escape
+GETTING OUT
+C1
+noun
+people: actions
+
+establish communication/relations, etc.
+C1
+phrase
+
+establish sb/sth as sth
+C1
+phrase
+
+establishment
+ORGANIZATION
+C1
+noun
+work
+
+establishment
+STARTING
+C1
+noun
+
+ethnic
+C1
+adjective
+
+evaluate
+C1
+verb
+
+evaluation
+C1
+noun
+
+even so
+C1
+phrase
+
+break even
+C1
+phrase
+money
+
+in the event of sth
+C1
+phrase
+
+in any event
+C1
+phrase
+
+better/faster/happier, etc. than ever
+C1
+phrase
+
+every now and then
+C1
+phrase
+
+do everything in your power to do sth
+C1
+phrase
+
+evolve
+C1
+verb
+
+not exactly easy/new/rich, etc.
+C1
+phrase
+
+exaggeration
+C1
+noun
+
+exaggerate
+C1
+verb
+
+exceed
+BE MORE
+C1
+verb
+
+exceed sb's expectations
+C1
+phrase
+
+exceed the speed limit
+C1
+phrase
+
+make an exception
+C1
+phrase
+
+exceptionally
+C1
+adverb
+
+excess
+C1
+noun
+
+excess
+C1
+adjective
+
+excessive
+C1
+adjective
+
+exclude
+KEEP OUT
+C1
+verb
+
+exclude
+NOT INCLUDE
+C1
+verb
+
+exclusive
+NOT SHARED
+C1
+adjective
+
+exclusively
+C1
+adverb
+
+executive
+C1
+adjective
+work
+
+executive
+C1
+noun
+work
+
+exhaust
+GAS
+C1
+noun
+
+exhaust
+C1
+verb
+
+exhaust
+PIPE
+C1
+noun
+
+exhaustive
+C1
+adjective
+
+exhibit
+SHOW OBJECTS
+C1
+verb
+
+exhibit
+C1
+noun
+
+exist
+LIVE
+C1
+verb
+
+existence
+LIFE
+C1
+noun
+
+exceed sb's expectations
+C1
+phrase
+
+at the expense of sth
+C1
+phrase
+
+expenses
+C1
+noun
+money
+
+exploration
+C1
+noun
+
+explosion
+INCREASE
+C1
+noun
+
+exposure
+C1
+noun
+
+exterior
+C1
+noun
+
+extinct
+C1
+adjective
+animals, natural world
+
+extinction
+C1
+noun
+animals, natural world
+
+extra
+ACTOR
+C1
+noun
+arts and media
+
+extrovert
+C1
+noun
+people: personality
+
+keep an eye out for sb/sth
+IDIOM
+C1
+phrase
+
+turn a blind eye (to sth)
+IDIOM
+C1
+phrase
+
+be in the public eye
+IDIOM
+C1
+phrase
+
+fabric
+C1
+noun
+
+fabulous
+C1
+adjective
+describing things
+
+at face value
+IDIOM
+C1
+phrase
+
+face the music
+IDIOM
+C1
+phrase
+
+facilitate
+C1
+verb
+
+the English/law/science, etc. faculty
+C1
+phrase
+education
+
+fair
+AVERAGE
+C1
+adjective
+
+fair
+SHOW OF GOODS/SERVICES
+C1
+noun
+
+fairness
+C1
+noun
+
+fake
+C1
+adjective
+describing things
+
+fall flat
+C1
+phrase
+
+fall
+DEFEAT
+C1
+noun
+
+false
+NOT SINCERE
+C1
+adjective
+people: personality
+
+far from sth
+C1
+phrase
+
+far from it
+C1
+phrase
+
+how far
+C1
+phrase
+
+be a far cry from sth
+IDIOM
+C1
+phrase
+
+fascinate
+C1
+verb
+
+fascination
+C1
+noun
+
+fatty
+C1
+adjective
+food and drink
+
+in sb's favour
+C1
+phrase
+
+feasible
+C1
+adjective
+
+feast
+C1
+noun
+food and drink
+
+feed
+SUPPLY
+C1
+verb
+
+feed
+EAT FOOD
+C1
+verb
+
+feel compelled to do sth
+C1
+phrase
+
+bad/ill feeling
+C1
+phrase
+
+feminine
+C1
+adjective
+
+fibre
+C1
+noun
+food and drink
+
+fiction
+NOT TRUE
+C1
+noun
+
+figure
+AMOUNT
+C1
+noun
+
+figure
+PICTURE
+C1
+noun
+
+fill
+JOB
+C1
+verb
+people: actions, work
+
+filthy
+DIRTY
+C1
+adjective
+describing things
+
+filthy
+OFFENSIVE
+C1
+adjective
+
+finish off (sth) or finish (sth) off
+C1
+phrasal verb
+people: actions
+
+from start to finish
+C1
+phrase
+
+first and foremost
+C1
+phrase
+
+come first
+C1
+phrase
+
+fit
+SAME
+C1
+verb
+
+fit in
+C1
+phrasal verb
+
+fit
+SUITABLE
+C1
+verb
+
+fit in with sth 
+SUCCESSFUL PART
+C1
+phrasal verb
+
+fit
+SUITABLE
+C1
+adjective
+
+fix sth up
+C1
+phrasal verb
+
+flair
+ABILITY
+C1
+noun
+
+fall flat
+C1
+phrase
+
+flaw
+C1
+noun
+
+flee
+C1
+verb
+people: actions
+
+fleet
+SHIPS
+C1
+noun
+
+fleet
+VEHICLES
+C1
+noun
+
+flow
+MOVEMENT
+C1
+noun
+
+with flying colours
+IDIOM
+C1
+phrase
+
+the focus of sth
+C1
+phrase
+
+follow
+BE INTERESTED
+C1
+verb
+
+the foot of sth
+C1
+phrase
+
+set foot in/on sth
+C1
+phrase
+
+footstep
+C1
+noun
+
+for
+RESPONSIBILITY
+C1
+preposition
+
+for
+COMPARE
+C1
+preposition
+
+for good
+C1
+phrase
+
+for long
+C1
+phrase
+
+for life
+C1
+phrase
+
+for the time being
+C1
+phrase
+
+for the most part
+C1
+phrase
+
+for a start
+C1
+phrase
+communication
+
+first and foremost
+C1
+phrase
+
+foresee
+C1
+verb
+
+in the form of sth
+C1
+phrase
+
+formal
+STUDY
+C1
+adjective
+
+formal
+OFFICIAL
+C1
+adjective
+
+formally
+OFFICIALLY
+C1
+adverb
+
+format
+C1
+noun
+
+formally
+POLITELY
+C1
+adverb
+
+formula
+METHOD
+C1
+noun
+
+formula
+RULE
+C1
+noun
+
+forthcoming
+OFFERED
+C1
+adjective
+
+forward
+PROGRESS
+C1
+adverb
+
+foul language
+C1
+phrase
+
+foul
+UNPLEASANT
+C1
+adjective
+
+foundation
+START
+C1
+noun
+
+foundation
+ORGANIZATION
+C1
+noun
+
+free from/of sth
+C1
+phrase
+
+fresh
+NOT TIRED
+C1
+adjective
+
+friction
+C1
+noun
+
+fright
+C1
+noun
+
+from then/that day, etc. on
+C1
+phrase
+
+from start to finish
+C1
+phrase
+
+from scratch
+IDIOM
+C1
+phrase
+
+frustrated
+C1
+adjective
+
+fruitful
+C1
+adjective
+
+frustrating
+C1
+adjective
+people: personality
+
+fulfil a duty/promise/responsibility, etc.
+C1
+phrase
+
+fulfil an ambition/dream/goal, etc.
+C1
+phrase
+
+fulfil criteria/requirements/qualifications, etc.
+C1
+phrase
+
+fulfil a function/need/role, etc.
+C1
+phrase
+
+fumes
+C1
+noun
+
+function
+EVENT
+C1
+noun
+
+fund
+C1
+noun
+money
+
+funds
+C1
+phrase
+money
+
+fund
+C1
+verb
+money
+
+funding
+C1
+noun
+money
+
+furnished
+C1
+adjective
+
+a further 10/100, etc.
+C1
+phrase
+
+fuss
+C1
+noun
+people: personality
+
+gadget
+C1
+noun
+
+gain
+INCREASE
+C1
+noun
+
+gardens
+C1
+phrase
+
+garment
+C1
+noun
+
+gather speed/strength/support, etc.
+C1
+phrase
+
+gather
+THINK
+C1
+verb
+
+gathering
+C1
+noun
+
+gene
+C1
+noun
+body and health
+
+generalization
+C1
+noun
+
+generalize
+C1
+verb
+
+generous
+LARGE
+C1
+adjective
+
+genetic
+C1
+adjective
+body and health
+
+genetically modified
+C1
+adjective
+
+genius
+PERSON
+C1
+noun
+
+gentle
+SLOPE
+C1
+adjective
+
+genuine
+SINCERE
+C1
+adjective
+people: personality
+
+geology
+C1
+noun
+education, natural world
+
+germ
+DISEASE
+C1
+noun
+body and health
+
+gerund
+C1
+noun
+
+gesture
+MOVEMENT
+C1
+noun
+
+gesture
+ACTION
+C1
+noun
+
+get a grip (on yourself)
+IDIOM
+C1
+phrase
+
+get on sb's nerves
+C1
+phrase
+
+get rid of sb
+C1
+phrase
+
+get sth straight
+C1
+phrase
+
+be getting at sth 
+C1
+phrasal verb
+communication
+
+get back to sb
+C1
+phrasal verb
+communication
+
+get into sth 
+BE INTERESTED
+C1
+phrasal verb
+
+get out
+DIFFERENT PLACES
+C1
+phrasal verb
+
+get (sb/sth) out
+C1
+phrasal verb
+people: actions
+
+get (sb) through sth
+C1
+phrasal verb
+
+get through to sb
+C1
+phrasal verb
+
+giant
+IMAGINARY MAN
+C1
+noun
+
+gift
+ABILITY
+C1
+noun
+
+gifted
+C1
+adjective
+people: personality
+
+give sth a miss
+C1
+phrase
+
+give way
+C1
+phrase
+travel
+
+give sb your word
+C1
+phrase
+communication
+
+be glad of sth
+C1
+phrase
+
+glamour
+C1
+noun
+
+at a glance
+C1
+phrase
+
+glimpse
+C1
+noun
+
+globalization
+C1
+noun
+
+glory
+PRAISE
+C1
+noun
+
+glory
+QUALITY
+C1
+noun
+
+go hand in hand
+IDIOM
+C1
+phrase
+
+keep sb going
+C1
+phrase
+
+go from strength to strength
+C1
+phrase
+
+go into sth
+START
+C1
+phrasal verb
+work
+
+go into sth
+BE USED
+C1
+phrasal verb
+
+go off
+EXPLODE
+C1
+phrasal verb
+
+good
+LARGE
+C1
+adjective
+describing things
+
+be good company
+C1
+phrase
+people: personality
+
+a good deal
+C1
+phrase
+describing things
+
+for good
+C1
+phrase
+
+grab the opportunity/chance
+C1
+phrase
+
+grab sb's attention
+C1
+phrase
+
+grace
+MOVEMENT
+C1
+noun
+
+graceful
+MOVEMENT/SHAPE
+C1
+adjective
+describing things
+
+grade
+LEVEL
+C1
+verb
+
+grand
+C1
+adjective
+
+grasp
+UNDERSTAND
+C1
+verb
+
+grasp
+HOLD
+C1
+verb
+people: actions
+
+greed
+C1
+noun
+
+grey
+BORING
+C1
+adjective
+
+grill
+OVER FIRE
+C1
+noun
+
+get a grip (on yourself)
+IDIOM
+C1
+phrase
+
+gripping
+C1
+adjective
+
+gross
+TOTAL
+C1
+adjective
+money
+
+gross
+SERIOUS
+C1
+adjective
+
+gain/lose ground
+IDIOM
+C1
+phrase
+
+on the grounds of/that
+C1
+phrase
+
+group
+C1
+verb
+
+grumpy
+C1
+adjective
+
+guideline
+C1
+noun
+communication
+
+habitat
+C1
+noun
+natural world
+
+go hand in hand
+IDIOM
+C1
+phrase
+
+at hand
+C1
+phrase
+
+be in sb's hands
+C1
+phrase
+
+happen to do sth
+C1
+phrase
+
+as it happens
+C1
+phrase
+
+happily
+LUCKY
+C1
+adverb
+
+harassment
+C1
+noun
+
+hard
+UNPLEASANT
+C1
+adjective
+
+hardship
+C1
+noun
+
+there's no harm in doing sth
+C1
+phrase
+
+harsh
+UNPLEASANT
+C1
+adjective
+
+harsh
+CRUEL
+C1
+adjective
+people: personality
+
+harsh
+TOO STRONG
+C1
+adjective
+describing things
+
+hate
+C1
+noun
+
+hatred
+C1
+noun
+people: personality
+
+have sth against sb/sth
+C1
+phrase
+
+hazard
+C1
+noun
+
+lose your head
+IDIOM
+C1
+phrase
+
+head
+FRONT/TOP
+C1
+verb
+
+heading
+C1
+noun
+
+health care
+C1
+noun
+body and health
+
+in your heart
+C1
+phrase
+
+heavenly
+C1
+adjective
+
+hectic
+C1
+adjective
+
+hence
+C1
+adverb
+
+helpless
+C1
+adjective
+
+heroic
+BRAVE
+C1
+adjective
+people: personality
+
+heroic
+TRYING HARD
+C1
+adjective
+
+have no hesitation in doing sth
+C1
+phrase
+
+high in sth
+C1
+phrase
+food and drink
+
+high
+AMOUNT/LEVEL
+C1
+adverb
+describing things
+
+highly
+VERY
+C1
+adverb
+communication
+
+hilarious
+C1
+adjective
+
+historian
+C1
+noun
+
+historically
+C1
+adverb
+
+a history of sth
+C1
+phrase
+body and health
+
+hit
+REACH
+C1
+verb
+
+hold
+JOB OR QUALIFICATION
+C1
+verb
+education, work
+
+hold an opinion/belief/view
+C1
+phrase
+
+hold a conversation
+C1
+phrase
+
+hold sb's attention/interest
+C1
+phrase
+
+hold sb/sth back
+PREVENT MOVEMENT
+C1
+phrasal verb
+people: actions
+
+hold back sth or hold sth back
+NOT TELL
+C1
+phrasal verb
+
+hold on
+CONFUSED/SURPRISED
+C1
+phrasal verb
+
+on hold
+C1
+phrase
+
+on hold
+C1
+phrase
+communication
+
+holy
+C1
+adjective
+
+the home of sth/sb
+C1
+phrase
+
+home
+CARE
+C1
+noun
+
+make yourself at home
+C1
+phrase
+
+homeless
+C1
+adjective
+
+the homeless
+C1
+phrase
+
+honoured
+C1
+adjective
+
+hop
+MOVE QUICKLY
+C1
+verb
+
+in the hope of/that
+C1
+phrase
+
+broaden/expand/widen your horizons
+C1
+phrase
+
+on the horizon
+C1
+phrase
+
+horizontal
+C1
+adjective
+
+horn
+ANIMAL
+C1
+noun
+animals
+
+hospitable
+C1
+adjective
+
+hospitality
+C1
+noun
+relationships
+
+a host of sth
+C1
+phrase
+
+host
+C1
+verb
+
+hostile
+UNFRIENDLY
+C1
+adjective
+
+hostile
+DIFFICULT
+C1
+adjective
+
+a hot issue/topic
+C1
+phrase
+
+hot
+EXCITING
+C1
+adjective
+
+all hours
+C1
+phrase
+
+hourly
+C1
+adverb
+
+housing
+C1
+noun
+
+how come
+C1
+phrase
+communication
+
+How dare she/you, etc.
+C1
+phrase
+communication
+
+how far
+C1
+phrase
+
+humanity
+ALL PEOPLE
+C1
+noun
+
+humorous
+C1
+adjective
+
+hunger
+WISH
+C1
+noun
+
+hunt
+C1
+noun
+people: actions
+
+hygiene
+C1
+noun
+
+hysterical
+C1
+adjective
+people: personality
+
+iceberg
+ICE
+C1
+noun
+natural world
+
+idea
+AIM
+C1
+noun
+
+idealistic
+C1
+adjective
+people: personality
+
+idol
+PERSON
+C1
+noun
+
+ill
+BAD
+C1
+adjective
+
+illustrate
+DIAGRAM
+C1
+verb
+
+illustrate
+EXPLAIN
+C1
+verb
+communication
+
+illustration
+PICTURE
+C1
+noun
+arts and media
+
+imaginary
+C1
+adjective
+
+imaginative
+THING
+C1
+adjective
+
+imaginative
+PERSON
+C1
+adjective
+people: personality
+
+imitate
+C1
+verb
+people: actions
+
+immediate
+CLOSEST
+C1
+adjective
+
+immense
+C1
+adjective
+describing things
+
+immediately
+NEXT TO
+C1
+adverb
+
+immensely
+C1
+adverb
+
+impact
+C1
+verb
+
+imperfect
+C1
+adjective
+
+impersonal
+C1
+adjective
+people: personality
+
+implication
+EFFECT
+C1
+noun
+
+import
+PRODUCT
+C1
+noun
+shopping
+
+impose
+RULE/TAX, ETC.
+C1
+verb
+people: actions
+
+impose
+BELIEF
+C1
+verb
+people: actions
+
+imprison
+C1
+verb
+
+room for improvement
+C1
+phrase
+
+in turn
+C1
+phrase
+
+in aid of sb/sth
+C1
+phrase
+
+in accordance with sth
+C1
+phrase
+
+in bulk
+C1
+phrase
+
+in association with
+C1
+phrase
+
+in the event of sth
+C1
+phrase
+
+in common with sb/sth
+C1
+phrase
+
+in demand
+C1
+phrase
+
+in any event
+C1
+phrase
+
+in sb's favour
+C1
+phrase
+
+be in the public eye
+IDIOM
+C1
+phrase
+
+in the form of sth
+C1
+phrase
+
+in the hope of/that
+C1
+phrase
+
+in your heart
+C1
+phrase
+
+be in sb's interest(s)
+C1
+phrase
+
+in the light of sth
+C1
+phrase
+
+in moderation
+C1
+phrase
+
+be in two minds
+C1
+phrase
+
+in a nutshell
+IDIOM
+C1
+phrase
+
+be in position
+C1
+phrase
+
+in the region of sth
+C1
+phrase
+
+in respect of sth
+C1
+phrase
+
+in no time
+C1
+phrase
+
+in reverse
+C1
+phrase
+
+in turn
+C1
+phrase
+
+in tune
+C1
+phrase
+
+in no way/not in any way
+C1
+phrase
+
+in vain
+C1
+phrase
+
+in a sense
+C1
+phrase
+communication
+
+in short
+C1
+phrase
+communication
+
+in store
+C1
+phrase
+
+inability
+C1
+noun
+
+inaccuracy
+C1
+noun
+
+inadequate
+NOT GOOD
+C1
+adjective
+describing things
+
+inadequate
+NOT ENOUGH
+C1
+adjective
+describing things
+
+inappropriate
+C1
+adjective
+
+inappropriately
+C1
+adverb
+
+incapable of sth/doing sth
+C1
+phrase
+
+incidentally
+C1
+adverb
+communication
+
+be inclined to think/believe/agree, etc.
+C1
+phrase
+
+inclusion
+C1
+noun
+
+inclusive
+C1
+adjective
+money
+
+inconvenience
+C1
+noun
+
+on the increase
+C1
+phrase
+
+incredibly
+DIFFICULT TO BELIEVE
+C1
+adverb
+
+index
+C1
+noun
+arts and media
+
+indicate
+SHOW
+C1
+verb
+
+indication
+EXIST
+C1
+noun
+
+indirect
+NOT CONNECTED
+C1
+adjective
+
+indirectly
+C1
+adverb
+
+individually
+C1
+adverb
+
+industrialization
+C1
+noun
+
+industrialized
+C1
+adjective
+
+inefficient
+C1
+adjective
+
+inedible
+C1
+adjective
+food and drink
+
+inevitable
+C1
+adjective
+
+inevitably
+C1
+adverb
+
+infect
+COMPUTER
+C1
+verb
+
+infect
+DISEASE
+C1
+verb
+body and health
+
+inferior
+C1
+adjective
+describing things
+
+influential
+C1
+adjective
+
+informally
+C1
+adverb
+
+informative
+C1
+adjective
+
+infrastructure
+C1
+noun
+buildings
+
+initiative
+NEW ACTION
+C1
+noun
+
+initiative
+ABILITY
+C1
+noun
+people: personality
+
+take the initiative
+C1
+phrase
+
+injustice
+C1
+noun
+
+innocence
+NOT GUILTY
+C1
+noun
+crime, people: personality
+
+innovative
+C1
+adjective
+
+innovation
+C1
+noun
+
+insane
+STUPID
+C1
+adjective
+
+insecure
+WORRIED
+C1
+adjective
+people: personality
+
+insensitive
+PEOPLE
+C1
+adjective
+people: personality
+
+insert
+ADD TO WRITING
+C1
+verb
+
+insert
+PUT INTO
+C1
+verb
+
+know sth inside out
+IDIOM
+C1
+phrase
+communication
+
+insight
+C1
+noun
+
+insignificant
+C1
+adjective
+describing things
+
+insist on sth
+C1
+phrasal verb
+
+inspect
+C1
+verb
+people: actions
+
+inspection
+OFFICIAL
+C1
+noun
+
+installation
+EQUIPMENT
+C1
+noun
+
+installation
+SOFTWARE
+C1
+noun
+technology
+
+instance
+EXAMPLE
+C1
+noun
+
+instruct
+ORDER
+C1
+verb
+communication
+
+insufficient
+C1
+adjective
+
+instrument
+TOOL
+C1
+noun
+
+integral
+C1
+adjective
+
+integrate
+C1
+verb
+
+integration
+C1
+noun
+
+be intended for
+C1
+phrase
+
+intense
+EXTREME
+C1
+adjective
+describing things
+
+intensively
+C1
+adverb
+
+interaction
+C1
+noun
+communication
+
+interactive
+COMMUNICATION
+C1
+adjective
+communication
+
+interest
+MONEY CHARGED
+C1
+noun
+money
+
+interest
+MONEY EARNED
+C1
+noun
+money
+
+be in sb's interest(s)
+C1
+phrase
+
+interestingly
+C1
+adverb
+
+interfere
+CAUSE PROBLEMS
+C1
+verb
+
+interference
+SITUATION
+C1
+noun
+
+internally
+C1
+adverb
+
+interpret
+DECIDE MEANING
+C1
+verb
+communication
+
+introduction
+FIRST EXPERIENCE
+C1
+noun
+
+invade
+PLACE
+C1
+verb
+
+invaluable
+C1
+adjective
+
+invite
+ASK OFFICIALLY
+C1
+verb
+communication
+
+irritate
+C1
+verb
+people: personality
+
+isolated
+ALONE
+C1
+adjective
+
+isolated
+FAR AWAY
+C1
+adjective
+
+isolation
+SEPARATE
+C1
+noun
+
+take issue (with sb/sth)
+C1
+phrase
+communication
+
+itinerary
+C1
+noun
+travel
+
+jam
+BLOCK
+C1
+noun
+
+jam
+STUCK
+C1
+verb
+
+jargon
+C1
+noun
+communication
+
+jealousy
+C1
+noun
+people: personality, relationships
+
+joint
+PLACE
+C1
+noun
+buildings
+
+jointly
+C1
+adverb
+
+be a joke
+C1
+phrase
+
+crack a joke
+C1
+phrase
+
+journal
+MAGAZINE
+C1
+noun
+arts and media, education
+
+judge
+COMPETITION
+C1
+verb
+people: actions, shopping
+
+junk
+C1
+noun
+
+junk mail
+C1
+noun
+
+jury
+COMPETITION
+C1
+noun
+
+it's just as well
+C1
+phrase
+communication
+
+I/you/we, etc. will just have to do sth
+C1
+phrase
+
+just
+C1
+adjective
+
+justified
+C1
+adjective
+
+juvenile
+C1
+adjective
+
+keen
+VERY GOOD
+C1
+adjective
+
+keep track
+C1
+phrase
+
+keep your word
+C1
+phrase
+
+keep sb going
+C1
+phrase
+
+keep
+PROVIDE MONEY
+C1
+verb
+
+keep an eye out for sb/sth
+IDIOM
+C1
+phrase
+
+keep your cool
+IDIOM
+C1
+phrase
+
+keep pace with sb/sth
+C1
+phrase
+
+keep sb posted
+IDIOM
+C1
+phrase
+
+keep a low profile
+IDIOM
+C1
+phrase
+
+keep sb/sth from doing sth 
+C1
+phrasal verb
+people: actions
+
+be key to sth
+C1
+phrase
+
+kick in
+C1
+phrasal verb
+
+kick off
+C1
+phrasal verb
+
+kick sb out
+C1
+phrasal verb
+people: actions
+
+kill
+CAUSE PAIN
+C1
+verb
+
+king
+BEST PERSON
+C1
+noun
+
+knob
+C1
+noun
+
+before you know it
+C1
+phrase
+communication
+
+know sth inside out
+IDIOM
+C1
+phrase
+communication
+
+know what you are talking about
+C1
+phrase
+
+knowledgeable
+C1
+adjective
+people: personality
+
+be known to do sth
+C1
+phrase
+
+label
+INFORMATION
+C1
+verb
+
+labour
+WORKERS
+C1
+noun
+work
+
+labour
+WORK
+C1
+noun
+work
+
+the labour market
+C1
+phrase
+
+be lacking in sth
+C1
+phrase
+
+ladder
+STAGES
+C1
+noun
+
+land in/on, etc.
+C1
+phrase
+
+landmark
+BUILDING
+C1
+noun
+buildings
+
+language
+TYPE OF WORDS
+C1
+noun
+communication
+
+language
+COMPUTERS
+C1
+noun
+technology
+
+foul language
+C1
+phrase
+
+strong language
+C1
+phrase
+communication
+
+by and large
+C1
+phrase
+
+last
+BE ENOUGH
+C1
+verb
+
+launch
+SEND
+C1
+verb
+travel
+
+launch
+START OF ACTIVITY
+C1
+noun
+people: actions
+
+launch
+LEAVE LAND
+C1
+noun
+travel
+
+by law
+C1
+phrase
+
+lawn
+C1
+noun
+
+lay sth down/in/on, etc.
+C1
+phrase
+people: actions
+
+lay sb off or lay off sb
+C1
+phrasal verb
+work
+
+lay sth out or lay out sth
+C1
+phrasal verb
+
+layout
+C1
+noun
+
+leader
+WINNER
+C1
+noun
+shopping
+
+the leadership
+C1
+phrase
+
+leadership
+JOB
+C1
+noun
+
+leadership
+QUALITY
+C1
+noun
+people: personality
+
+at the very least
+C1
+phrase
+describing things
+
+to say the least
+C1
+phrase
+communication
+
+leave sb doing sth
+C1
+phrase
+
+left-wing
+C1
+adjective
+politics
+
+legal action
+C1
+phrase
+
+legend
+FAME
+C1
+noun
+people: personality
+
+legendary
+OLD
+C1
+adjective
+
+legendary
+FAMOUS
+C1
+adjective
+
+length
+BOOK, ETC.
+C1
+noun
+describing things
+
+lengthen
+C1
+verb
+
+lengthy
+C1
+adjective
+
+I/he, etc. couldn't care less
+C1
+phrase
+communication
+
+lessen
+C1
+verb
+
+let alone
+C1
+phrase
+
+level
+RANK
+C1
+noun
+
+liability
+RESPONSIBILITY
+C1
+noun
+
+liability
+TROUBLE
+C1
+noun
+
+liable
+RESPONSIBLE
+C1
+adjective
+
+liberal
+SOCIETY
+C1
+adjective
+people: personality
+
+liberal
+POLITICS
+C1
+adjective
+politics
+
+liberation
+C1
+noun
+
+take the liberty of doing sth
+C1
+phrase
+
+lie ahead
+C1
+phrasal verb
+
+for life
+C1
+phrase
+
+in the light of sth
+C1
+phrase
+
+lightly
+NOT MUCH
+C1
+adverb
+
+like crazy
+C1
+phrase
+
+likely
+C1
+adverb
+
+limitation
+RULE
+C1
+noun
+
+limitations
+C1
+phrase
+
+line
+PRODUCT
+C1
+noun
+
+a fine/thin line
+IDIOM
+C1
+phrase
+
+line sb/sth up
+C1
+phrasal verb
+
+linguistic
+C1
+adjective
+
+listener
+C1
+noun
+
+literacy
+C1
+noun
+
+little
+NOT ENOUGH
+C1
+adverb
+describing things
+
+on loan
+C1
+phrase
+
+on location
+C1
+phrase
+
+log
+C1
+noun
+natural world
+
+logic
+C1
+noun
+
+loneliness
+C1
+noun
+
+for long
+C1
+phrase
+
+long ago
+C1
+phrase
+
+long-time
+C1
+adjective
+
+look on the bright side
+IDIOM
+C1
+phrase
+
+look on/upon sb/sth as sth 
+C1
+phrasal verb
+
+look up
+C1
+phrasal verb
+
+look
+FASHION
+C1
+noun
+clothes
+
+lose
+MONEY
+C1
+verb
+money
+
+lose your head
+IDIOM
+C1
+phrase
+
+loss
+MONEY
+C1
+noun
+money
+
+be lost without sb/sth
+C1
+phrase
+
+lost
+NEW SITUATION
+C1
+adjective
+
+lounge
+C1
+noun
+buildings
+
+low
+NOT IMPORTANT
+C1
+adjective
+
+low
+UNHAPPY
+C1
+adjective
+people: personality
+
+keep a low profile
+IDIOM
+C1
+phrase
+
+be in luck
+C1
+phrase
+
+luxurious
+C1
+adjective
+describing things
+
+luxury
+EXPENSIVE THING
+C1
+noun
+
+machinery
+C1
+noun
+technology
+
+magistrate
+C1
+noun
+crime
+
+magnetic
+METAL
+C1
+adjective
+
+magnetic
+PERSONALITY
+C1
+adjective
+people: personality
+
+magnificently
+C1
+adverb
+
+make time
+C1
+phrase
+
+make
+SUITABLE
+C1
+verb
+
+make ends meet
+IDIOM
+C1
+phrase
+money
+
+make it
+C1
+phrase
+
+make an exception
+C1
+phrase
+
+make yourself at home
+C1
+phrase
+
+make a note of sth
+C1
+phrase
+
+make a point of doing sth
+C1
+phrase
+
+make yourself understood
+C1
+phrase
+communication
+
+mammal
+C1
+noun
+animals
+
+manage
+USE TIME/MONEY
+C1
+verb
+
+mansion
+C1
+noun
+buildings
+
+as many as
+C1
+phrase
+
+march
+C1
+noun
+people: actions
+
+march
+SHOW DISAGREEMENT
+C1
+verb
+people: actions
+
+march
+SOLDIERS' WALK
+C1
+verb
+people: actions
+
+mark
+SYMBOL
+C1
+noun
+communication
+
+mark
+DAMAGE/MAKE DIRTY
+C1
+verb
+people: actions
+
+market
+BUYING GROUP
+C1
+noun
+shopping
+
+the labour market
+C1
+phrase
+
+masculine
+C1
+adjective
+
+mass
+C1
+adjective
+
+Master's (degree)
+C1
+phrase
+education
+
+mat
+C1
+noun
+
+match
+BE AS GOOD AS
+C1
+verb
+
+material
+INFORMATION
+C1
+noun
+communication
+
+a matter of course
+C1
+phrase
+
+it's only a matter of time
+C1
+phrase
+
+may as well do sth
+C1
+phrase
+
+take it from me
+C1
+phrase
+communication
+
+be meant for sb/sth
+C1
+phrase
+
+by no means; not by any means
+C1
+phrase
+
+by means of
+C1
+phrase
+
+measure
+BE SIZE
+C1
+verb
+
+mechanism
+PART OF EQUIPMENT
+C1
+noun
+
+mechanism
+SYSTEM
+C1
+noun
+
+meet
+ENOUGH
+C1
+verb
+
+make ends meet
+IDIOM
+C1
+phrase
+money
+
+membership
+PEOPLE
+C1
+noun
+
+memo
+C1
+noun
+communication
+
+mentality
+C1
+noun
+
+merit
+C1
+noun
+
+mess about/around
+PLAY
+C1
+phrasal verb
+people: actions
+
+mess about/around
+WASTE TIME
+C1
+phrasal verb
+people: actions
+
+middle
+NOT HIGH OR LOW
+C1
+adjective
+describing things
+
+the middle class
+C1
+noun
+
+middle-class
+C1
+adjective
+
+you might like/want to...
+C1
+phrase
+people: personality
+
+might as well do sth
+C1
+phrase
+
+migration
+C1
+noun
+
+mild
+SLIGHT
+C1
+adjective
+describing things
+
+miles
+C1
+phrase
+
+the military
+C1
+phrase
+
+put/set sb's mind at ease/at rest
+C1
+phrase
+
+put your mind to sth
+C1
+phrase
+
+be in two minds
+C1
+phrase
+
+come to mind
+C1
+phrase
+
+miner
+C1
+noun
+work
+
+mingle
+TALK
+C1
+verb
+
+minimal
+C1
+adjective
+describing things
+
+minimize
+C1
+verb
+
+mining
+C1
+noun
+
+ministry
+C1
+noun
+
+minority
+RACE
+C1
+noun
+
+misbehave
+C1
+verb
+
+misfortune
+C1
+noun
+
+misinform
+C1
+verb
+
+mislead
+C1
+verb
+communication
+
+give sth a miss
+C1
+phrase
+
+mistaken
+C1
+adjective
+
+misuse
+C1
+verb
+
+misuse
+C1
+noun
+
+mode
+C1
+noun
+
+moderate
+C1
+adjective
+describing things
+
+in moderation
+C1
+phrase
+
+modest
+NOT PROUD
+C1
+adjective
+people: personality
+
+modestly
+BY SMALL AMOUNT
+C1
+adverb
+
+modification
+C1
+noun
+
+modify
+C1
+verb
+
+monitor
+C1
+verb
+people: actions
+
+monotonous
+C1
+adjective
+describing things
+
+moral
+GOOD BEHAVIOUR
+C1
+adjective
+
+for the most part
+C1
+phrase
+
+motivate
+ENTHUSIASTIC
+C1
+verb
+communication
+
+motivate
+CAUSE
+C1
+verb
+
+motivation
+REASON
+C1
+noun
+
+mouth of a river
+C1
+phrase
+
+move on
+NEW PLACE
+C1
+phrasal verb
+people: actions, travel
+
+move on
+NEW SUBJECT
+C1
+phrasal verb
+communication
+
+move on
+NEW ACTIVITY
+C1
+phrasal verb
+
+move
+ACTION
+C1
+noun
+people: actions
+
+move
+CHANGE OF PLACE
+C1
+noun
+buildings, people: actions
+
+movement
+GROUP
+C1
+noun
+
+much
+A LOT OF
+C1
+determiner
+describing things
+
+not much of a sth
+C1
+phrase
+
+multiple
+C1
+adjective
+
+mundane
+C1
+adjective
+describing things
+
+municipal
+C1
+adjective
+
+face the music
+IDIOM
+C1
+phrase
+
+musical
+ABILITY
+C1
+adjective
+arts and media, people: personality
+
+mustard
+C1
+noun
+food and drink
+
+mutual
+OPINION
+C1
+adjective
+
+mutual
+FRIEND/INTEREST
+C1
+adjective
+
+(all) to myself
+C1
+phrase
+
+mysteriously
+C1
+adverb
+
+myth
+FALSE IDEA
+C1
+noun
+
+naive
+C1
+adjective
+people: personality
+
+naked
+NOT HIDDEN
+C1
+adjective
+
+namely
+C1
+adverb
+
+nap
+C1
+noun
+
+narrow
+MAKE SMALLER
+C1
+verb
+
+narrow-minded
+C1
+adjective
+people: personality
+
+natural
+FROM BIRTH
+C1
+adjective
+people: personality
+
+naturally
+LIFE
+C1
+adverb
+body and health
+
+nature
+TYPE
+C1
+noun
+
+nowhere near
+C1
+phrase
+
+anywhere near sth
+C1
+phrase
+
+not nearly (as/so)
+C1
+phrase
+
+neatly
+C1
+adverb
+
+necessity
+NEED
+C1
+noun
+
+necessity
+SOMETHING NEEDED
+C1
+noun
+
+be a pain in the neck
+IDIOM
+C1
+phrase
+
+needless to say
+C1
+phrase
+communication
+
+neglect
+NOT GIVE ATTENTION
+C1
+verb
+
+neglect
+C1
+noun
+
+negotiate
+C1
+verb
+communication, politics
+
+negotiation
+C1
+noun
+communication, politics
+
+nerves
+C1
+phrase
+
+get on sb's nerves
+C1
+phrase
+
+nervousness
+C1
+noun
+people: personality
+
+network
+PEOPLE
+C1
+noun
+
+network
+COMPANY
+C1
+noun
+
+network
+PEOPLE
+C1
+noun
+
+networking
+C1
+noun
+
+neutral
+INDEPENDENT
+C1
+adjective
+
+neutral
+COLOUR
+C1
+adjective
+
+never-ending
+C1
+adjective
+
+new blood
+IDIOM
+C1
+phrase
+
+be bad/good news for sb
+C1
+phrase
+
+newsletter
+C1
+noun
+
+the next best thing
+C1
+phrase
+
+nickname
+C1
+noun
+
+a sleepless night
+C1
+phrase
+
+no doubt
+C1
+phrase
+
+no ... whatsoever
+C1
+phrase
+
+noble
+SOCIAL GROUP
+C1
+adjective
+
+noble
+GOOD
+C1
+adjective
+people: personality
+
+nominate
+C1
+verb
+
+nomination
+C1
+noun
+
+nonetheless
+C1
+adverb
+
+non-existent
+C1
+adjective
+
+the norm
+C1
+phrase
+
+norm
+SOCIETY
+C1
+noun
+
+return to normal
+C1
+phrase
+
+not a/one
+C1
+phrase
+
+certainly/definitely/hopefully not
+C1
+phrase
+communication
+
+notable
+C1
+adjective
+
+notably
+C1
+adverb
+
+make a note of sth
+C1
+phrase
+
+compare notes
+C1
+phrase
+communication
+
+take note (of sth)
+C1
+phrase
+
+note
+FEELING
+C1
+noun
+
+stop at nothing
+C1
+phrase
+
+nothing of the sort/kind
+C1
+phrase
+
+at short notice
+C1
+phrase
+
+noticeable
+C1
+adjective
+describing things
+
+noticeably
+C1
+adverb
+
+notify
+C1
+verb
+communication
+
+notion
+C1
+noun
+
+notwithstanding
+C1
+adverb
+
+notorious
+C1
+adjective
+
+every now and then
+C1
+phrase
+
+nowhere near
+C1
+phrase
+
+number
+GIVE A NUMBER
+C1
+verb
+
+numerous
+C1
+adjective
+describing things
+
+nutrition
+C1
+noun
+body and health, food and drink
+
+nutritional
+C1
+adjective
+body and health, food and drink
+
+nutritious
+C1
+adjective
+body and health, food and drink
+
+in a nutshell
+IDIOM
+C1
+phrase
+
+obese
+C1
+adjective
+body and health, people: appearance
+
+obesity
+C1
+noun
+body and health
+
+the object of sth
+C1
+phrase
+
+objectively
+C1
+adverb
+
+obligatory
+COMPULSORY
+C1
+adjective
+
+oblige
+C1
+verb
+
+observation
+REMARK
+C1
+noun
+
+observe
+NOTICE
+C1
+verb
+people: actions
+
+obsolete
+C1
+adjective
+
+obstacle
+C1
+noun
+
+occasional
+C1
+adjective
+
+occupation
+HOBBY
+C1
+noun
+
+occupy
+CONTROL
+C1
+verb
+people: actions
+
+occurrence
+C1
+noun
+
+odds
+PROBABILITY
+C1
+noun
+
+of
+RELATING TO
+C1
+preposition
+
+off
+DISTANCE/TIME
+C1
+adverb
+
+off the record
+IDIOM
+C1
+phrase
+communication
+
+offer
+AGREE TO PAY
+C1
+verb
+shopping, work
+
+office
+JOB
+C1
+noun
+
+officially
+C1
+adverb
+
+the old days
+C1
+phrase
+
+the same old arguments/face/story, etc.
+C1
+phrase
+
+omit
+C1
+verb
+people: actions
+
+omit to do sth
+C1
+phrase
+
+on the basis of sth
+C1
+phrase
+
+be on a committee/panel, etc.
+C1
+phrase
+work
+
+be on the ball
+IDIOM
+C1
+phrase
+people: personality
+
+on the grounds of/that
+C1
+phrase
+
+on air
+C1
+phrase
+arts and media
+
+on hold
+C1
+phrase
+communication
+
+on hold
+C1
+phrase
+
+on the horizon
+C1
+phrase
+
+on the increase
+C1
+phrase
+
+on loan
+C1
+phrase
+
+on location
+C1
+phrase
+
+on the road
+C1
+phrase
+travel
+
+on track
+IDIOM
+C1
+phrase
+
+on show
+C1
+phrase
+
+on site
+C1
+phrase
+
+at once
+C1
+phrase
+
+all at once
+C1
+phrase
+
+one
+ANY PERSON
+C1
+pronoun
+
+oneself
+C1
+pronoun
+
+open to discussion/suggestions, etc.
+C1
+phrase
+
+opening
+C1
+adjective
+
+openly
+C1
+adverb
+people: personality
+
+open-minded
+C1
+adjective
+people: personality
+
+operation
+PLANNED ACTIVITY
+C1
+noun
+
+operation
+ORGANIZATION
+C1
+noun
+work
+
+operation
+WORK
+C1
+noun
+
+have a high/low opinion of sb/sth
+C1
+phrase
+
+be opposed to sth
+C1
+phrase
+
+the opposite sex
+C1
+phrase
+
+opposition
+DISAGREEMENT
+C1
+noun
+communication, people: personality
+
+the opposition
+C1
+phrase
+politics
+
+opt
+C1
+verb
+people: actions
+
+optimist
+C1
+noun
+people: personality
+
+have no option (but to do sth)
+C1
+phrase
+
+or
+REASON
+C1
+conjunction
+
+or two
+C1
+phrase
+
+organ
+BODY
+C1
+noun
+body and health
+
+organization
+ARRANGEMENT
+C1
+noun
+
+origin
+COUNTRY/RACE, ETC.
+C1
+noun
+
+or other
+C1
+phrase
+
+other than
+C1
+phrase
+
+other than that
+C1
+phrase
+
+otherwise
+DIFFERENTLY
+C1
+adverb
+
+out
+NOT ACCURATE
+C1
+adverb
+
+outcome
+C1
+noun
+
+outgoing
+FRIENDLY
+C1
+adjective
+people: personality
+
+outlook
+FUTURE
+C1
+noun
+
+outnumber
+C1
+verb
+
+out of season
+C1
+phrase
+food and drink
+
+out of tune
+C1
+phrase
+
+out of the blue
+IDIOM
+C1
+phrase
+
+out of action
+C1
+phrase
+
+outrage
+C1
+verb
+
+outside
+DIFFERENT ORGANIZATION
+C1
+adjective
+
+outweigh
+C1
+verb
+
+overcrowded
+C1
+adjective
+
+overdo
+C1
+verb
+
+overdraft
+C1
+noun
+money
+
+overdrawn
+C1
+adjective
+money
+
+overestimate
+C1
+verb
+
+overtake
+BIGGER
+C1
+verb
+
+overview
+KNOWLEDGE
+C1
+noun
+
+overview
+DESCRIPTION
+C1
+noun
+
+overwhelm
+C1
+verb
+
+overworked
+C1
+adjective
+work
+
+overwhelming
+C1
+adjective
+people: personality
+
+ownership
+C1
+noun
+
+ozone
+C1
+noun
+
+keep pace with sb/sth
+C1
+phrase
+
+be a pain in the neck
+IDIOM
+C1
+phrase
+
+palm
+TREE
+C1
+noun
+natural world
+
+panel
+PEOPLE
+C1
+noun
+
+paradise
+C1
+noun
+
+for the most part
+C1
+phrase
+
+partially
+C1
+adverb
+
+participant
+C1
+noun
+
+particular
+NOT EASILY SATISFIED
+C1
+adjective
+people: personality
+
+a passion for sth
+C1
+phrase
+
+pastry
+CAKE
+C1
+noun
+food and drink
+
+pastry
+MIXTURE
+C1
+noun
+food and drink
+
+payable
+TO BE PAID
+C1
+adjective
+money
+
+payable
+FOR PERSON
+C1
+adjective
+money
+
+peasant
+C1
+noun
+
+peer
+C1
+noun
+
+pensioner
+C1
+noun
+
+the people
+C1
+phrase
+
+perceive
+THINK
+C1
+verb
+
+perfection
+C1
+noun
+
+perk
+C1
+noun
+work
+
+permit
+MAKE POSSIBLE
+C1
+verb
+
+permit
+C1
+noun
+
+personal hygiene
+C1
+phrase
+
+take sth personally
+C1
+phrase
+
+personnel
+C1
+noun
+work
+
+perspective
+WAY OF THINKING
+C1
+noun
+
+persuasive
+C1
+adjective
+
+phenomenon
+C1
+noun
+
+philosophy
+WAY OF THINKING
+C1
+noun
+
+put/keep sb in the picture
+IDIOM
+C1
+phrase
+communication
+
+picture
+C1
+verb
+
+place an advertisement/order, etc.
+C1
+phrase
+
+place
+SITUATION
+C1
+verb
+
+planning
+BUILDINGS
+C1
+noun
+
+pleasurable
+C1
+adjective
+describing things
+
+plunge
+BECOME LOWER
+C1
+verb
+
+sb's strong point
+C1
+phrase
+people: personality
+
+make a point of doing sth
+C1
+phrase
+
+pointless
+C1
+adjective
+
+policy
+AGREEMENT
+C1
+noun
+
+politically
+C1
+adverb
+
+pony
+C1
+noun
+animals
+
+the poor
+C1
+phrase
+
+poorly
+C1
+adverb
+
+poorly
+C1
+adjective
+body and health
+
+be populated
+C1
+phrase
+
+portable
+C1
+adjective
+describing things
+
+portion
+PART
+C1
+noun
+
+pose a danger/problem/threat, etc.
+C1
+phrase
+
+pose
+BE STILL
+C1
+verb
+people: actions
+
+be in a position to do sth
+C1
+phrase
+
+put sb in a difficult position
+C1
+phrase
+
+be in position
+C1
+phrase
+
+possess
+C1
+verb
+
+the best/cheapest/worst, etc. possible
+C1
+phrase
+
+keep sb posted
+IDIOM
+C1
+phrase
+
+postal
+C1
+adjective
+
+posture
+C1
+noun
+body and health
+
+power
+POLITICS
+C1
+noun
+politics
+
+do everything in your power to do sth
+C1
+phrase
+
+power
+COUNTRY
+C1
+noun
+
+power
+STRENGTH
+C1
+noun
+
+practical
+POSSIBLE
+C1
+adjective
+
+practical
+SUITABLE
+C1
+adjective
+
+put something into practice
+C1
+phrase
+people: actions
+
+practise
+WORK
+C1
+verb
+work
+
+praise
+C1
+noun
+
+precaution
+C1
+noun
+
+precisely
+AGREEMENT
+C1
+adverb
+communication
+
+predator
+C1
+noun
+animals
+
+pregnancy
+C1
+noun
+body and health
+
+prejudiced
+C1
+adjective
+
+preliminary
+C1
+adjective
+
+premises
+C1
+noun
+buildings
+
+present a danger/difficulty/problem, etc.
+C1
+phrase
+
+presently
+C1
+adverb
+
+preservation
+C1
+noun
+
+good/bad press
+C1
+phrase
+
+prestige
+C1
+noun
+
+pressure
+LIQUID/GAS
+C1
+noun
+
+prestigious
+C1
+adjective
+
+presume
+C1
+verb
+
+price
+RESULT
+C1
+noun
+
+price
+C1
+verb
+money, shopping
+
+priceless
+IMPORTANT
+C1
+adjective
+
+primitive
+NOT DEVELOPED
+C1
+adjective
+
+primitive
+BASIC
+C1
+adjective
+
+principle
+IDEA
+C1
+noun
+
+print
+PICTURE
+C1
+noun
+
+prior
+BEFORE
+C1
+adjective
+
+prior to sth
+C1
+phrase
+
+privatize
+C1
+verb
+
+privilege
+ADVANTAGE
+C1
+noun
+
+privilege
+OPPORTUNITY
+C1
+noun
+
+privileged
+ADVANTAGE
+C1
+adjective
+
+probability
+C1
+noun
+
+problematic
+C1
+adjective
+
+proceed
+CONTINUE
+C1
+verb
+
+produce
+SHOW
+C1
+verb
+
+producer
+GOODS/FOOD
+C1
+noun
+
+productivity
+C1
+noun
+
+professional
+TRAINED
+C1
+noun
+work
+
+keep a low profile
+IDIOM
+C1
+phrase
+
+profile
+PUBLIC IMAGE
+C1
+noun
+
+profitable
+USEFUL
+C1
+adjective
+
+programmer
+C1
+noun
+technology, work
+
+progression
+C1
+noun
+
+progressive
+GRADUAL
+C1
+adjective
+
+projection
+CALCULATION
+C1
+noun
+
+projection
+IMAGE
+C1
+noun
+
+prolonged
+C1
+adjective
+
+prolong
+C1
+verb
+
+prominent
+IMPORTANT
+C1
+adjective
+
+promising
+C1
+adjective
+
+promote
+ENCOURAGE
+C1
+verb
+
+promotion
+ENCOURAGE
+C1
+noun
+
+proportion
+PART OF TOTAL
+C1
+noun
+
+proposition
+C1
+noun
+
+prospective buyers/employers/parents, etc.
+C1
+phrase
+
+prosperity
+C1
+noun
+money
+
+prosperous
+C1
+adjective
+money
+
+prostitute
+C1
+noun
+
+protein
+C1
+noun
+
+protective
+WANTING TO PROTECT
+C1
+adjective
+people: personality
+
+provider
+C1
+noun
+
+provision
+C1
+noun
+
+be in the public eye
+IDIOM
+C1
+phrase
+
+publicly
+C1
+adverb
+
+pulse
+C1
+noun
+body and health
+
+purely
+C1
+adverb
+
+purity
+C1
+noun
+
+pursue
+C1
+verb
+
+push
+ENCOURAGE
+C1
+verb
+people: actions
+
+push
+ENCOURAGEMENT
+C1
+noun
+
+put your mind to sth
+C1
+phrase
+
+put sb in a difficult position
+C1
+phrase
+
+put something into practice
+C1
+phrase
+people: actions
+
+put a stop to sth
+C1
+phrase
+
+put sth forward or put forward sth
+C1
+phrasal verb
+communication
+
+put sth together or put together sth
+PREPARE
+C1
+phrasal verb
+
+puzzle
+C1
+verb
+
+pyramid
+C1
+noun
+
+qualification
+COMPETITION
+C1
+noun
+shopping
+
+be a question of
+C1
+phrase
+
+quote
+REPEAT
+C1
+verb
+communication
+
+quote
+GIVE EXAMPLE
+C1
+verb
+communication
+
+race
+PEOPLE
+C1
+noun
+people: appearance
+
+race
+FOR POWER
+C1
+noun
+
+race along/down/over, etc.
+C1
+phrase
+people: actions
+
+racially
+C1
+adverb
+people: appearance
+
+radiation
+C1
+noun
+
+radical
+CHANGE
+C1
+adjective
+
+radically
+C1
+adverb
+
+raise your voice
+C1
+phrase
+communication
+
+at random
+C1
+phrase
+
+random
+CHANCE
+C1
+adjective
+
+randomly
+C1
+adverb
+
+rank
+C1
+noun
+work
+
+rank
+C1
+verb
+
+rare
+MEAT
+C1
+adjective
+food and drink
+
+be a rarity
+C1
+phrase
+
+rarity
+C1
+noun
+
+rate
+SPEED
+C1
+noun
+
+first-/second-/third-rate
+C1
+phrase
+
+rate
+C1
+verb
+
+rating
+C1
+noun
+
+ratio
+C1
+noun
+
+rational
+C1
+adjective
+people: personality
+
+react
+BAD EFFECT
+C1
+verb
+body and health
+
+read up on sth
+C1
+phrasal verb
+communication
+
+readership
+C1
+noun
+
+readiness
+WILLING
+C1
+noun
+
+readjust
+SMALL CHANGE
+C1
+verb
+
+realistically
+SEEM REAL
+C1
+adverb
+
+realization
+NOTICING
+C1
+noun
+
+realize an ambition/dream/goal, etc.
+C1
+phrase
+
+the rear
+C1
+phrase
+
+rear
+C1
+verb
+relationships
+
+reassure
+C1
+verb
+communication
+
+reassuring
+C1
+adjective
+
+rebellion
+C1
+noun
+
+rebellious
+C1
+adjective
+
+receive
+REACT
+C1
+verb
+
+reception
+REACTION
+C1
+noun
+people: personality
+
+recharge
+C1
+verb
+
+recognize
+SHOW RESPECT
+C1
+verb
+
+reconsider
+C1
+verb
+
+reconstruct
+BUILD AGAIN
+C1
+verb
+people: actions
+
+reconstruction
+BUILD AGAIN
+C1
+noun
+buildings
+
+record
+SHOW MEASUREMENT
+C1
+verb
+
+put/set the record straight
+IDIOM
+C1
+phrase
+communication
+
+off the record
+IDIOM
+C1
+phrase
+communication
+
+recover
+GET BACK
+C1
+verb
+
+recovery
+SITUATION
+C1
+noun
+
+recreate
+C1
+verb
+
+recruit
+C1
+verb
+work
+
+recruitment
+C1
+noun
+
+rectangle
+C1
+noun
+
+rectify
+C1
+verb
+
+redevelop
+C1
+verb
+
+redevelopment
+C1
+noun
+
+redundancy
+C1
+noun
+
+refer to sb/sth
+RELATE TO
+C1
+phrasal verb
+
+reference
+MENTIONING
+C1
+noun
+communication
+
+reference
+READING
+C1
+noun
+communication
+
+reflect
+THINK
+C1
+verb
+people: actions
+
+a reflection of sth
+C1
+phrase
+
+refresh
+C1
+verb
+
+refresh
+C1
+verb
+
+refreshing
+DIFFERENT
+C1
+adjective
+
+refreshing
+FEEL BETTER
+C1
+adjective
+
+refund
+C1
+verb
+
+refusal
+C1
+noun
+communication
+
+regard
+RESPECT
+C1
+noun
+people: personality
+
+regardless of
+C1
+phrase
+
+in the region of sth
+C1
+phrase
+
+register
+LANGUAGE STYLE
+C1
+noun
+
+regulate
+ACTIVITY/PROCESS
+C1
+verb
+
+regulate
+SPEED/TEMPERATURE
+C1
+verb
+
+regulation
+CONTROL
+C1
+noun
+
+rehearse
+C1
+verb
+
+reign
+C1
+noun
+
+reinforce
+OPINION
+C1
+verb
+communication, people: personality
+
+relate to sb
+C1
+phrasal verb
+relationships
+
+relate to sb/sth
+C1
+phrasal verb
+
+relative
+MEASURED
+C1
+adjective
+
+relax
+LESS STIFF
+C1
+verb
+body and health
+
+release
+INFORMATION
+C1
+verb
+communication
+
+release
+SUBSTANCE
+C1
+verb
+people: actions
+
+release
+MAKING FREE
+C1
+noun
+crime
+
+release
+AREA/ATMOSPHERE
+C1
+noun
+
+relevance
+C1
+noun
+
+reliability
+C1
+noun
+
+relocate
+C1
+verb
+
+reluctant
+C1
+adjective
+
+reluctantly
+C1
+adverb
+people: personality
+
+remarkably
+C1
+adverb
+
+reminder
+C1
+noun
+communication
+
+render
+GIVE
+C1
+verb
+
+renewable
+ENERGY
+C1
+adjective
+
+renewal
+AGREEMENT
+C1
+noun
+
+renovate
+C1
+verb
+
+renovation
+C1
+noun
+
+reorganize
+C1
+verb
+
+repeatedly
+C1
+adverb
+
+repetitive
+C1
+adjective
+describing things
+
+replacement
+PROCESS
+C1
+noun
+
+reproduce
+COPY
+C1
+verb
+
+reproduce
+REPEAT
+C1
+verb
+
+reproduction
+COPY
+C1
+noun
+
+reptile
+C1
+noun
+animals
+
+republic
+C1
+noun
+politics
+
+reputable
+C1
+adjective
+describing things
+
+resemble
+C1
+verb
+people: appearance
+
+resident
+C1
+adjective
+
+resist
+FIGHT
+C1
+verb
+people: actions
+
+resolve
+C1
+verb
+
+in respect of sth
+C1
+phrase
+
+respectful
+C1
+adjective
+people: personality
+
+respective
+C1
+adjective
+
+respectively
+C1
+adverb
+
+restart
+C1
+verb
+
+restart
+C1
+verb
+
+restless
+NOT STILL
+C1
+adjective
+people: personality
+
+restore
+MAKE EXIST
+C1
+verb
+
+restrain
+C1
+verb
+people: actions
+
+restrict
+C1
+verb
+people: actions
+
+restriction
+LIMIT
+C1
+noun
+
+restricted
+C1
+adjective
+
+resume
+C1
+verb
+people: actions
+
+retail
+C1
+noun
+
+rethink
+C1
+verb
+
+return
+DO THE SAME
+C1
+verb
+people: personality
+
+return to normal
+C1
+phrase
+
+revenue
+C1
+noun
+
+reverse
+CHANGE
+C1
+verb
+
+in reverse
+C1
+phrase
+
+review
+CONSIDER
+C1
+verb
+
+rewarding
+C1
+adjective
+
+the rich
+C1
+phrase
+
+richness
+C1
+noun
+
+get rid of sb
+C1
+phrase
+
+have a/no right to do sth
+C1
+phrase
+
+riot
+C1
+noun
+
+rip sth out/off/from, etc.
+C1
+phrase
+
+rip-off
+C1
+noun
+money
+
+rise
+PAY
+C1
+noun
+money, work
+
+risk
+SOMETHING BAD
+C1
+noun
+
+rival
+C1
+noun
+
+mouth of a river
+C1
+phrase
+
+on the road
+C1
+phrase
+travel
+
+rocky
+WITH ROCKS
+C1
+adjective
+natural world
+
+role model
+C1
+noun
+
+room for improvement
+C1
+phrase
+
+the root of sth
+C1
+phrase
+
+rough
+DANGEROUS
+C1
+adjective
+
+rubbish
+NONSENSE
+C1
+noun
+
+rudely
+C1
+adverb
+people: personality
+
+rudeness
+C1
+noun
+people: personality
+
+be/lie in ruins
+C1
+phrase
+
+a rule of thumb
+IDIOM
+C1
+phrase
+
+rule
+CONTROL
+C1
+verb
+
+ruler
+LEADER
+C1
+noun
+
+run
+WORKING
+C1
+verb
+
+run
+PUBLISH
+C1
+verb
+arts and media
+
+run down sb/sth or run sb/sth down
+C1
+phrasal verb
+communication
+
+run on sth
+C1
+phrasal verb
+
+runway
+C1
+noun
+
+running water
+C1
+phrase
+
+rush
+FORCE ACTION
+C1
+verb
+
+rush into sth
+C1
+phrasal verb
+
+sack
+BAG
+C1
+noun
+
+sacred
+HOLY
+C1
+adjective
+
+sacrifice
+C1
+noun
+
+sacrifice
+C1
+verb
+people: actions
+
+safe
+WITHOUT RISK
+C1
+adjective
+
+a safe place; somewhere safe
+C1
+phrase
+
+safe to say
+C1
+phrase
+communication
+
+in safe hands
+IDIOM
+C1
+phrase
+
+safety
+HOW SAFE
+C1
+noun
+
+saint
+C1
+noun
+
+the same old arguments/face/story, etc.
+C1
+phrase
+
+in the same way
+C1
+phrase
+
+all/just the same
+C1
+phrase
+communication
+
+satisfactorily
+C1
+adverb
+
+be satisfied that
+C1
+phrase
+
+satisfy conditions/needs/requirements, etc.
+C1
+phrase
+
+save sb (from) doing sth
+C1
+phrase
+
+saving
+LESS MONEY
+C1
+noun
+money
+
+say sth to yourself
+C1
+phrase
+
+to say the least
+C1
+phrase
+communication
+
+easier said than done
+IDIOM
+C1
+phrase
+
+safe to say
+C1
+phrase
+communication
+
+needless to say
+C1
+phrase
+communication
+
+scan
+READ
+C1
+verb
+people: actions
+
+scan
+COMPUTER
+C1
+verb
+technology
+
+scar
+MIND
+C1
+noun
+people: personality
+
+scarce
+C1
+adjective
+describing things
+
+scare
+FRIGHTEN
+C1
+verb
+
+scare sb/sth away/off or scare away/off sb/sth
+C1
+phrasal verb
+
+scare sb away/off or scare away/off sb
+C1
+phrasal verb
+
+scenic
+C1
+adjective
+describing things
+
+scholarship
+C1
+noun
+education
+
+scholar
+C1
+noun
+education
+
+scope
+AMOUNT
+C1
+noun
+
+from scratch
+IDIOM
+C1
+phrase
+
+search
+FIND ANSWER
+C1
+verb
+
+out of season
+C1
+phrase
+food and drink
+
+secretary
+COMMITTEE
+C1
+noun
+
+sector
+C1
+noun
+money
+
+secure
+COMPUTER
+C1
+adjective
+
+security
+SAFE SITUATION
+C1
+noun
+
+I'll/we'll see
+C1
+phrase
+communication
+
+see
+HAPPEN
+C1
+verb
+
+you see
+C1
+phrase
+
+wait and see
+C1
+phrase
+
+seemingly
+C1
+adverb
+
+selective
+C1
+adjective
+
+self
+C1
+noun
+
+self-catering
+C1
+adjective
+travel
+
+self-centred
+C1
+adjective
+people: personality
+
+self-conscious
+C1
+adjective
+people: personality
+
+self-esteem
+C1
+noun
+people: personality
+
+selfishness
+C1
+noun
+people: personality
+
+semi-detached
+C1
+adjective
+buildings
+
+sensational
+SHOCKING
+C1
+adjective
+
+in a sense
+C1
+phrase
+communication
+
+sensibly
+C1
+adverb
+people: personality
+
+sensitivity
+KIND
+C1
+noun
+people: personality
+
+sensitivity
+EASILY UPSET
+C1
+noun
+people: personality
+
+sequence
+FILM
+C1
+noun
+
+serial
+C1
+adjective
+crime
+
+serial
+C1
+noun
+
+serve
+BE USEFUL
+C1
+verb
+
+serve
+WORK
+C1
+verb
+work
+
+service
+WORK
+C1
+noun
+work
+
+set
+LEVEL
+C1
+verb
+
+set foot in/on sth
+C1
+phrase
+
+set back sb/sth or set sb/sth back
+C1
+phrasal verb
+
+be all set
+C1
+phrase
+
+setback
+C1
+noun
+
+settle
+SNOW/DUST, ETC.
+C1
+verb
+natural world
+
+settle
+ARGUMENT
+C1
+verb
+communication
+
+settle in
+C1
+phrasal verb
+people: personality
+
+settle down
+MAKE HOME
+C1
+phrasal verb
+buildings, people: actions
+
+settlement
+AGREEMENT
+C1
+noun
+
+sewing
+C1
+noun
+people: actions
+
+the opposite sex
+C1
+phrase
+
+sexual
+MALE OR FEMALE
+C1
+adjective
+people: appearance
+
+shabby
+UNTIDY
+C1
+adjective
+describing things
+
+a shade
+C1
+phrase
+
+shake up sth or shake sth up
+C1
+phrasal verb
+
+shameful
+C1
+adjective
+
+shame
+BAD FEELING
+C1
+noun
+people: personality
+
+share your problems/thoughts/ideas, etc.
+C1
+phrase
+communication
+
+sharp
+CLEAR
+C1
+adjective
+
+sharp
+SUDDENLY
+C1
+adverb
+
+sharp
+EXACTLY
+C1
+adverb
+
+shed tears
+C1
+phrase
+people: actions, people: personality
+
+sheer
+LARGE
+C1
+adjective
+
+sheer
+EXTREME
+C1
+adjective
+
+shield
+C1
+verb
+
+shift
+MOVE STH
+C1
+verb
+people: actions
+
+shift
+CHANGE
+C1
+verb
+
+shift
+CHANGE
+C1
+noun
+
+shine
+REFLECT
+C1
+verb
+
+shoot
+FILM
+C1
+verb
+arts and media, people: actions
+
+at short notice
+C1
+phrase
+
+in short
+C1
+phrase
+communication
+
+to cut a long story short
+IDIOM
+C1
+phrase
+
+shorten
+C1
+verb
+
+shortcoming
+C1
+noun
+
+show
+EASY TO SEE
+C1
+verb
+
+on show
+C1
+phrase
+
+shuttle
+C1
+noun
+travel
+
+shyness
+C1
+noun
+people: personality
+
+look on the bright side
+IDIOM
+C1
+phrase
+
+side effect
+MEDICINE
+C1
+noun
+body and health
+
+significance
+C1
+noun
+
+similarly
+C1
+adverb
+
+simplicity
+C1
+noun
+
+simplify
+C1
+verb
+people: actions
+
+simulation
+C1
+noun
+
+simultaneous
+C1
+adjective
+describing things
+
+sincere
+HONEST
+C1
+adjective
+people: personality
+
+sincere apologies/thanks, etc.
+C1
+phrase
+
+sincerely
+EMPHASIS
+C1
+adverb
+
+sip
+C1
+verb
+food and drink
+
+on site
+C1
+phrase
+
+sketch
+PICTURE
+C1
+noun
+arts and media
+
+a skeleton crew/staff/service
+C1
+phrase
+work
+
+sketch
+ACTING
+C1
+noun
+
+skilful
+DONE WELL
+C1
+adjective
+
+skip
+AVOID
+C1
+verb
+communication
+
+slang
+C1
+noun
+communication
+
+slavery
+C1
+noun
+
+a sleepless night
+C1
+phrase
+
+sleepy
+PLACE
+C1
+adjective
+
+slippery
+C1
+adjective
+
+slogan
+C1
+noun
+communication
+
+slot
+HOLE
+C1
+noun
+
+slot
+TIME
+C1
+noun
+
+smart
+TECHNOLOGY
+C1
+adjective
+technology
+
+smog
+C1
+noun
+
+smooth
+PROCESS
+C1
+adjective
+
+smuggle
+C1
+verb
+crime
+
+to do so
+C1
+phrase
+
+even so
+C1
+phrase
+
+so as not to do sth
+C1
+phrase
+
+soak
+MAKE WET
+C1
+verb
+
+soaring
+C1
+adjective
+
+socialist
+C1
+noun
+politics
+
+sole
+C1
+adjective
+
+solely
+C1
+adverb
+
+solicitor
+C1
+noun
+work
+
+solid
+NOT LIQUID/GAS
+C1
+adjective
+describing things
+
+solid gold/silver/wood, etc.
+C1
+phrase
+
+solidarity
+C1
+noun
+
+solitude
+C1
+noun
+
+some
+NOT USING NAME
+C1
+determiner
+
+be/have something to do with sth/sb
+C1
+phrase
+
+somewhat
+C1
+adverb
+
+no sooner ... than
+C1
+phrase
+
+source
+PERSON
+C1
+noun
+
+sow
+C1
+verb
+people: actions
+
+soya
+C1
+noun
+food and drink
+
+spacious
+C1
+adjective
+describing things
+
+spam
+C1
+noun
+technology
+
+to spare
+C1
+phrase
+
+spare
+GIVE
+C1
+verb
+
+sparkling
+SPECIAL
+C1
+adjective
+describing things
+
+speak for/on behalf of sb
+C1
+phrase
+communication
+
+speciality
+C1
+noun
+
+specific
+EXACT
+C1
+adjective
+
+specifically
+PARTICULAR PURPOSE
+C1
+adverb
+
+specifically
+EXACTLY
+C1
+adverb
+
+specification
+C1
+noun
+
+spectrum
+ALL POSSIBILITIES
+C1
+noun
+
+speculation
+C1
+noun
+
+speechless
+C1
+adjective
+people: personality
+
+exceed the speed limit
+C1
+phrase
+
+up to speed
+C1
+phrase
+
+sphere
+C1
+noun
+
+spin
+TURN
+C1
+verb
+
+spine
+C1
+noun
+body and health
+
+spirit
+NOT BODY
+C1
+noun
+
+spirit
+DRINK
+C1
+noun
+food and drink
+
+splendid
+C1
+adjective
+describing things
+
+split
+SHARE
+C1
+verb
+
+spoil
+CHILD
+C1
+verb
+
+spokesman
+C1
+noun
+
+spokesperson
+C1
+noun
+
+sponsorship
+C1
+noun
+money
+
+sporty
+C1
+adjective
+shopping
+
+spread
+ARRANGE
+C1
+verb
+people: actions
+
+spring
+WATER
+C1
+noun
+natural world
+
+spy
+INFORMATION
+C1
+verb
+
+squeeze through/past, etc.
+C1
+phrase
+people: actions
+
+stability
+C1
+noun
+
+stable
+SITUATION
+C1
+adjective
+
+stable
+PERSON
+C1
+adjective
+people: personality
+
+staggering
+C1
+adjective
+describing things
+
+staircase
+C1
+noun
+buildings
+
+stale
+C1
+adjective
+food and drink
+
+stamina
+C1
+noun
+body and health
+
+stand
+NOT BE DESTROYED
+C1
+verb
+
+stand at sth
+C1
+phrase
+
+stand
+ACCEPT
+C1
+verb
+
+stand
+FOR SELLING/SHOWING
+C1
+noun
+
+stand up to sb/sth 
+C1
+phrasal verb
+
+two-star/three-star, etc.
+C1
+phrase
+
+star
+BEST
+C1
+noun
+
+start out
+C1
+phrasal verb
+
+from start to finish
+C1
+phrase
+
+for a start
+C1
+phrase
+communication
+
+starve
+C1
+verb
+body and health
+
+state
+COUNTRY
+C1
+noun
+natural world
+
+state-of-the-art
+C1
+adjective
+describing things
+
+statistic
+C1
+noun
+
+statistical
+C1
+adjective
+
+status
+C1
+noun
+
+status symbol
+C1
+noun
+
+stay away from sth
+C1
+phrasal verb
+
+stay on
+C1
+phrasal verb
+
+steady
+NOT CHANGING
+C1
+adjective
+
+steep
+LARGE
+C1
+adjective
+
+stem from sth
+C1
+phrasal verb
+
+step by step
+C1
+phrase
+
+stereotype
+C1
+noun
+
+stock
+C1
+verb
+shopping
+
+stocking
+C1
+noun
+clothes
+
+stock market
+C1
+noun
+money
+
+stop at nothing
+C1
+phrase
+
+put a stop to sth
+C1
+phrase
+
+in store
+C1
+phrase
+
+store up sth
+REMEMBER
+C1
+phrasal verb
+
+stormy
+ARGUING
+C1
+adjective
+describing things
+
+to cut a long story short
+IDIOM
+C1
+phrase
+
+get sth straight
+C1
+phrase
+
+put/set the record straight
+IDIOM
+C1
+phrase
+communication
+
+not think straight
+C1
+phrase
+
+strategic
+C1
+adjective
+
+straw
+C1
+noun
+natural world
+
+the final/last straw
+IDIOM
+C1
+phrase
+
+strength
+GOOD QUALITIES
+C1
+noun
+
+strength
+BEING BRAVE
+C1
+noun
+people: personality
+
+go from strength to strength
+C1
+phrase
+
+stress
+IMPORTANCE
+C1
+noun
+
+stretch
+C1
+noun
+natural world
+
+strike a balance
+C1
+phrase
+
+striker
+WORKER
+C1
+noun
+work
+
+strip
+C1
+noun
+describing things
+
+stroke
+SWIMMING
+C1
+noun
+shopping
+
+stroll
+C1
+noun
+
+stroll along/down/through, etc.
+C1
+phrase
+people: actions
+
+strong language
+C1
+phrase
+communication
+
+sb's strong point
+C1
+phrase
+people: personality
+
+stuck
+NOT CONTINUE
+C1
+adjective
+
+subject to sth
+C1
+phrase
+
+subjective
+C1
+adjective
+
+subsequently
+C1
+adverb
+
+subsequent
+C1
+adjective
+
+subsidy
+C1
+noun
+money
+
+substantially
+C1
+adverb
+
+substitution
+C1
+noun
+
+subtitles
+C1
+noun
+arts and media
+
+successor
+PERSON
+C1
+noun
+work
+
+sue
+C1
+verb
+
+sufficiently
+C1
+adverb
+describing things
+
+be suited to/for sth
+C1
+phrase
+
+suitability
+C1
+noun
+
+summarize
+C1
+verb
+communication
+
+summit
+MOUNTAIN
+C1
+noun
+
+superior
+BETTER
+C1
+adjective
+
+superior
+C1
+noun
+work
+
+supervision
+C1
+noun
+people: actions
+
+supervisor
+C1
+noun
+work
+
+support
+PROVE
+C1
+verb
+communication
+
+supportive
+C1
+adjective
+people: personality
+
+suppose
+LIKELY
+C1
+verb
+
+suppose/supposing (that)
+C1
+phrase
+
+supposedly
+C1
+adverb
+
+a sure thing
+C1
+phrase
+
+be sure to do sth
+C1
+phrase
+
+surge
+C1
+verb
+
+surgeon
+C1
+noun
+body and health, work, work
+
+surge
+C1
+noun
+
+survey
+QUESTION
+C1
+verb
+
+survey
+EXAMINE
+C1
+verb
+
+suspend
+STOP
+C1
+verb
+
+suspicion
+THINK GUILTY
+C1
+noun
+crime
+
+sustainable
+CONTINUE
+C1
+adjective
+
+sustainable
+ENVIRONMENT
+C1
+adjective
+
+swap
+C1
+verb
+
+tactic
+C1
+noun
+
+take effect
+C1
+phrase
+
+take your time
+C1
+phrase
+
+take it from me
+C1
+phrase
+communication
+
+take care of sth/doing sth
+C1
+phrase
+
+take sth on board
+IDIOM
+C1
+phrase
+
+take the initiative
+C1
+phrase
+
+take issue (with sb/sth)
+C1
+phrase
+communication
+
+take the liberty of doing sth
+C1
+phrase
+
+take sth personally
+C1
+phrase
+
+take note (of sth)
+C1
+phrase
+
+take sb's word for it
+C1
+phrase
+communication
+
+take on sth or take sth on
+C1
+phrasal verb
+people: actions, work
+
+take to sb/sth
+C1
+phrasal verb
+people: personality
+
+takeover
+C1
+noun
+work
+
+talk business/politics, etc.
+C1
+phrase
+communication
+
+know what you are talking about
+C1
+phrase
+
+talkative
+C1
+adjective
+people: personality
+
+tank
+VEHICLE
+C1
+noun
+travel
+
+target
+CRITICISM
+C1
+noun
+communication
+
+tasteless
+FOOD
+C1
+adjective
+food and drink
+
+tax
+C1
+verb
+money
+
+teamwork
+C1
+noun
+
+tear sth out of/off/down, etc.
+C1
+phrase
+
+tear up sth or tear sth up
+C1
+phrasal verb
+people: actions
+
+shed tears
+C1
+phrase
+people: actions, people: personality
+
+technically
+SCIENCE/INDUSTRY
+C1
+adverb
+
+technician
+C1
+noun
+work
+
+techno
+C1
+noun
+arts and media
+
+technologically
+C1
+adverb
+technology
+
+tedious
+C1
+adjective
+describing things
+
+tell the difference
+C1
+phrase
+
+telly
+C1
+noun
+arts and media
+
+tendency
+C1
+noun
+
+terrific
+LARGE/SERIOUS
+C1
+adjective
+describing things
+
+tertiary
+C1
+adjective
+education
+
+texture
+C1
+noun
+
+thankful
+C1
+adjective
+
+thankfully
+C1
+adverb
+
+that's that
+C1
+phrase
+
+that is (to say)
+C1
+phrase
+
+every now and then
+C1
+phrase
+
+therapeutic
+HEALTH
+C1
+adjective
+body and health
+
+therapeutic
+RELAXED
+C1
+adjective
+
+therapist
+C1
+noun
+buildings
+
+thereby
+C1
+adverb
+
+all things considered
+C1
+phrase
+communication
+
+the next best thing
+C1
+phrase
+
+a sure thing
+C1
+phrase
+
+not think straight
+C1
+phrase
+
+think of sb/sth as sth
+C1
+phrase
+
+think twice
+C1
+phrase
+
+not think twice
+C1
+phrase
+
+this
+C1
+adverb
+describing things
+
+thoughtful
+CAREFULLY CONSIDERING
+C1
+adjective
+people: personality
+
+threaten
+DAMAGE
+C1
+verb
+
+thrill
+C1
+noun
+
+thrive
+C1
+verb
+
+throughout
+EVERYWHERE
+C1
+preposition
+describing things
+
+through
+C1
+adjective
+
+throughout
+C1
+adverb
+
+throw sth in/on, etc.
+C1
+phrase
+people: actions
+
+throw yourself into sth
+C1
+phrasal verb
+
+a rule of thumb
+IDIOM
+C1
+phrase
+
+for the time being
+C1
+phrase
+
+about/high time
+C1
+phrase
+
+make time
+C1
+phrase
+
+time
+IN A PLACE
+C1
+noun
+
+at times
+C1
+phrase
+
+take your time
+C1
+phrase
+
+behind the times
+C1
+phrase
+
+it's only a matter of time
+C1
+phrase
+
+in no time
+C1
+phrase
+
+time-consuming
+C1
+adjective
+
+tip
+END
+C1
+noun
+
+to say the least
+C1
+phrase
+communication
+
+to do so
+C1
+phrase
+
+to spare
+C1
+phrase
+
+to the contrary
+C1
+phrase
+
+toast
+DRINK
+C1
+noun
+
+tobacco
+C1
+noun
+natural world
+
+token
+LOVE/THANKS
+C1
+noun
+
+tolerant
+C1
+adjective
+
+toll
+MONEY
+C1
+noun
+
+tool
+SOMETHING HELPFUL
+C1
+noun
+
+torture
+BORING/UNPLEASANT
+C1
+noun
+
+toss (a coin)
+C1
+phrase
+people: actions
+
+total
+C1
+verb
+people: actions
+
+towards
+PURPOSE
+C1
+preposition
+
+towards
+POSITION
+C1
+preposition
+
+trace
+ORIGIN
+C1
+verb
+people: actions
+
+trace
+FIND
+C1
+verb
+people: actions
+
+track
+TRAINS
+C1
+noun
+travel
+
+on track
+IDIOM
+C1
+phrase
+
+keep track
+C1
+phrase
+
+trade
+AREA OF BUSINESS
+C1
+noun
+work
+
+trainee
+C1
+noun
+work
+
+tranquil
+C1
+adjective
+describing things
+
+transaction
+C1
+noun
+money, shopping
+
+transformation
+C1
+noun
+
+transmit
+RADIO/TELEVISION
+C1
+verb
+arts and media, technology
+
+transportation
+C1
+noun
+travel
+
+sb's travels
+C1
+phrase
+
+trek
+C1
+noun
+people: actions, travel
+
+trial
+TEST
+C1
+noun
+
+trigger
+C1
+verb
+
+triumph
+SUCCESS
+C1
+noun
+shopping
+
+troubled
+C1
+adjective
+
+truly
+SINCERELY
+C1
+adverb
+communication
+
+I trust (that)
+C1
+phrase
+
+trustworthy
+C1
+adjective
+people: personality
+
+tuition
+C1
+noun
+
+out of tune
+C1
+phrase
+
+tune
+MUSICAL NOTES
+C1
+noun
+arts and media
+
+in tune
+C1
+phrase
+
+turn 16/21, etc.
+C1
+phrase
+
+turn a blind eye (to sth)
+IDIOM
+C1
+phrase
+
+in turn
+C1
+phrase
+
+in turn
+C1
+phrase
+
+in turn
+C1
+phrase
+
+turnover
+BUSINESS
+C1
+noun
+money
+
+think twice
+C1
+phrase
+
+not think twice
+C1
+phrase
+
+twist
+INJURE
+C1
+verb
+body and health
+
+twist
+C1
+noun
+
+or two
+C1
+phrase
+
+be in two minds
+C1
+phrase
+
+type
+PERSON
+C1
+noun
+people: personality
+
+ultimate
+FINAL
+C1
+adjective
+
+ultimately
+FINALLY
+C1
+adverb
+
+unaffordable
+C1
+adjective
+money
+
+unattractive
+NOT INTERESTING
+C1
+adjective
+
+unavoidable
+C1
+adjective
+
+unavailable
+CANNOT DO SOMETHING
+C1
+adjective
+
+uncertainty
+C1
+noun
+
+uncomfortable
+EMBARRASSED
+C1
+adjective
+people: personality
+
+uncomfortably
+C1
+adverb
+
+uncommon
+C1
+adjective
+
+unconventional
+C1
+adjective
+people: personality
+
+uncover
+C1
+verb
+
+undeniable
+C1
+adjective
+
+underestimate
+PERSON
+C1
+verb
+
+undergo
+C1
+verb
+
+underpaid
+C1
+adjective
+
+I/we understand (that)...
+C1
+phrase
+communication
+
+make yourself understood
+C1
+phrase
+communication
+
+understandably
+C1
+adverb
+
+undertake
+DO
+C1
+verb
+people: actions
+
+the unemployed
+C1
+phrase
+
+unfold
+OPEN
+C1
+verb
+people: actions
+
+unforeseen
+C1
+adjective
+
+unhelpful
+NOT IMPROVE
+C1
+adjective
+
+be unique to sb/sth
+C1
+phrase
+
+unit
+PEOPLE
+C1
+noun
+relationships
+
+unite
+C1
+verb
+
+unity
+C1
+noun
+
+universally
+C1
+adverb
+
+unjustified
+C1
+adjective
+
+the unknown
+C1
+phrase
+
+unload
+SHIP/AIRCRAFT
+C1
+verb
+
+unmarried
+C1
+adjective
+relationships
+
+unnecessarily
+C1
+adverb
+
+unnoticed
+C1
+adjective
+
+unpaid
+NOT PAID
+C1
+adjective
+
+unpaid
+WORK FOR FREE
+C1
+adjective
+
+unpleasant
+RUDE
+C1
+adjective
+people: personality
+
+unproductive
+C1
+adjective
+
+unprofessional
+C1
+adjective
+people: personality, work
+
+unqualified
+C1
+adjective
+
+unquestionably
+C1
+adverb
+
+unreal
+C1
+adjective
+
+unrelated
+C1
+adjective
+
+unreasonably
+C1
+adverb
+people: personality
+
+unsafe
+DANGEROUS
+C1
+adjective
+
+unsafe
+IN DANGER
+C1
+adjective
+
+unsolved
+C1
+adjective
+
+unspoiled
+C1
+adjective
+describing things
+
+unsuccessfully
+C1
+adverb
+
+unthinkable
+C1
+adjective
+
+untouched
+C1
+adjective
+
+untrue
+C1
+adjective
+
+unwanted
+C1
+adjective
+
+unwillingly
+C1
+adverb
+people: personality
+
+unwind
+RELAX
+C1
+verb
+
+unwillingness
+C1
+noun
+people: personality
+
+up to speed
+C1
+phrase
+
+upcoming
+C1
+adjective
+
+upper-class
+C1
+adjective
+
+the upper class
+C1
+noun
+
+upward
+C1
+adjective
+
+upwards
+HIGHER LEVEL
+C1
+adverb
+
+urge sb to do sth
+C1
+phrase
+
+usage
+WORDS
+C1
+noun
+
+usage
+AMOUNT
+C1
+noun
+
+usefulness
+C1
+noun
+
+utmost
+EMPHASIS
+C1
+adjective
+
+do your utmost
+C1
+phrase
+
+utterly
+C1
+adverb
+
+vacancy
+ROOM
+C1
+noun
+travel
+
+vacancy
+JOB
+C1
+noun
+work
+
+vague
+NOT CLEAR
+C1
+adjective
+
+in vain
+C1
+phrase
+
+at face value
+IDIOM
+C1
+phrase
+
+variable
+C1
+noun
+
+variable
+C1
+adjective
+
+vegetation
+C1
+noun
+
+veil
+C1
+noun
+clothes
+
+vein
+C1
+noun
+body and health
+
+verify
+C1
+verb
+
+version
+DESCRIPTION
+C1
+noun
+
+versus
+COMPARED WITH
+C1
+preposition
+
+versus
+AGAINST
+C1
+preposition
+shopping
+
+vertical
+C1
+adjective
+
+vest
+UNDERWEAR
+C1
+noun
+clothes
+
+vice versa
+C1
+adverb
+
+with a view to doing sth
+C1
+phrase
+
+viewpoint
+C1
+noun
+
+vine
+C1
+noun
+natural world
+
+virtual
+ALMOST
+C1
+adjective
+
+visible
+OBVIOUS
+C1
+adjective
+
+vision
+ABILITY TO PLAN
+C1
+noun
+
+vocabulary
+LANGUAGE
+C1
+noun
+
+raise your voice
+C1
+phrase
+communication
+
+voluntary
+C1
+adjective
+
+volunteer
+C1
+verb
+communication
+
+the vote
+C1
+phrase
+politics
+
+wait and see
+C1
+phrase
+
+wait
+NOT DO SOMETHING
+C1
+verb
+
+walk
+PATH
+C1
+noun
+
+walker
+C1
+noun
+
+wardrobe
+CLOTHES
+C1
+noun
+clothes
+
+warrior
+C1
+noun
+
+running water
+C1
+phrase
+
+wave
+MOVE SIDE TO SIDE
+C1
+verb
+
+way
+MANNER
+C1
+noun
+
+in no way/not in any way
+C1
+phrase
+
+by way of sth
+C1
+phrase
+
+get/have your (own) way
+C1
+phrase
+
+(take) the easy way out
+IDIOM
+C1
+phrase
+
+weak
+REASON
+C1
+adjective
+
+weak
+LIKELY TO FAIL
+C1
+adjective
+
+weaken
+LOSE POWER
+C1
+verb
+
+well
+CONSIDERABLY
+C1
+adverb
+communication
+
+may/might as well do sth
+C1
+phrase
+
+it's just as well
+C1
+phrase
+communication
+
+be all very well
+C1
+phrase
+
+well-balanced
+PERSON
+C1
+adjective
+people: personality
+
+well-being
+C1
+noun
+body and health
+
+well-educated
+C1
+adjective
+education
+
+well-equipped
+C1
+adjective
+
+well-informed
+C1
+adjective
+
+well-off
+C1
+adjective
+money
+
+well-qualified
+C1
+adjective
+education
+
+no ... whatsoever
+C1
+phrase
+
+when it comes to sth/doing sth
+C1
+phrase
+
+widespread
+C1
+adjective
+
+will
+WHAT SOMEONE WANTS
+C1
+noun
+people: personality
+
+win
+C1
+noun
+shopping
+
+conventional wisdom
+C1
+phrase
+
+wisely
+C1
+adverb
+
+wit
+C1
+noun
+people: personality
+
+witch
+C1
+noun
+
+with the aid of sth
+C1
+phrase
+
+with flying colours
+IDIOM
+C1
+phrase
+
+with a view to doing sth
+C1
+phrase
+
+withdraw
+MONEY
+C1
+verb
+money
+
+withdraw
+REMOVE
+C1
+verb
+
+within
+INSIDE
+C1
+preposition
+
+give sb your word
+C1
+phrase
+communication
+
+keep your word
+C1
+phrase
+
+take sb's word for it
+C1
+phrase
+communication
+
+can work sth; know how to work sth
+C1
+phrase
+
+workforce
+COMPANY
+C1
+noun
+work
+
+the working class
+C1
+noun
+
+working-class
+C1
+adjective
+
+workplace
+C1
+noun
+work
+
+workshop
+C1
+noun
+education
+
+(have) the best of both worlds
+IDIOM
+C1
+phrase
+
+worse
+C1
+noun
+
+worsen
+C1
+verb
+
+worship
+RELIGION
+C1
+verb
+
+worship
+ADMIRE
+C1
+verb
+
+worthless
+NOT IMPORTANT
+C1
+adjective
+
+worthy
+DESERVING RESPECT
+C1
+adjective
+
+write sth up or write up sth
+C1
+phrasal verb
+communication, people: actions
+
+wrong
+NOT SUITABLE
+C1
+adjective
+
+wrongly accused/convicted/imprisoned, etc.
+C1
+phrase
+
+yet
+IN THE FUTURE
+C1
+adverb
+
+as yet
+C1
+phrase
+
+you see
+C1
+phrase
+
+youngster
+C1
+noun

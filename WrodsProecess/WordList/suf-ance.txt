@@ -1,0 +1,214 @@
+appearance
+WAY YOU LOOK
+B1
+noun
+people: appearance
+
+importance
+B1
+noun
+
+performance
+ENTERTAINMENT
+B1
+noun
+arts and media
+
+appearance
+IN PUBLIC
+B2
+noun
+arts and media
+
+appearance
+BECOMING AVAILABLE
+B2
+noun
+shopping
+
+assistance
+B2
+noun
+people: actions
+
+disappearance
+B2
+noun
+
+guidance
+B2
+noun
+communication
+
+insurance
+B2
+noun
+money
+
+maintenance
+B2
+noun
+people: actions
+
+performance
+HOW SUCCESSFUL
+B2
+noun
+
+acceptance
+C1
+noun
+
+in accordance with sth
+C1
+phrase
+
+acquaintance
+C1
+noun
+
+allowance
+MONEY
+C1
+noun
+money
+
+annoyance
+C1
+noun
+
+appliance
+C1
+noun
+
+assurance
+PROMISE
+C1
+noun
+communication
+
+attendance
+NUMBER
+C1
+noun
+
+attendance
+REGULARLY
+C1
+noun
+
+disturbance
+INTERRUPTION
+C1
+noun
+
+relevance
+C1
+noun
+
+significance
+C1
+noun
+
+alliance
+C2
+noun
+
+make allowances for sb/sth
+C2
+phrase
+
+assurance
+CONFIDENCE
+C2
+noun
+people: personality
+
+in attendance
+C2
+phrase
+
+disturbance
+FIGHTING
+C2
+noun
+
+dominance
+C2
+noun
+
+endurance
+C2
+noun
+
+ignorance
+C2
+noun
+people: personality
+
+inheritance
+C2
+noun
+
+intolerance
+C2
+noun
+people: personality
+
+perseverance
+C2
+noun
+
+reassurance
+C2
+noun
+communication
+
+reliance on sb/sth
+C2
+phrase
+
+resemblance
+C2
+noun
+
+bear a/little/no, etc. resemblance to sth/sb
+C2
+phrase
+
+resistance
+DISAGREE
+C2
+noun
+
+resistance
+FIGHT
+C2
+noun
+
+resistance
+ORGANIZATION
+C2
+noun
+
+resistance
+ILLNESS
+C2
+noun
+body and health
+
+self-assurance
+C2
+noun
+people: personality
+
+self-reliance
+C2
+noun
+people: personality
+
+tolerance
+C2
+noun
+people: personality
+
