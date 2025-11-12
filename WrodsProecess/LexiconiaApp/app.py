@@ -2,84 +2,102 @@ from flask import Flask, render_template, jsonify, request
 import pandas as pd
 import os
 import random
+from models import CardDetailsManager
+from services import FlashcardService
+
+
 
 app = Flask(__name__)
 
-class FlashcardSystem:
-    def __init__(self):
-        self.word_repo = None
-        self.card_details = None
-        self.load_data()
-    
-    def load_data(self):
-        """加载CSV数据"""
-        try:
-            self.word_repo = pd.read_csv('LexiconiaApp/data/WordRepository.csv')
-            self.card_details = pd.read_csv('LexiconiaApp/data/CardDetails.csv')
-        except Exception as e:
-            print(f"Error loading data: {e}")
-    
-    def get_card_data(self, num=None):
-        """获取单词卡数据 - 如果init获取失败，则重新获取"""
-        if self.word_repo is None or self.card_details is None:
-            self.load_data()
-            
-        # 如果未指定序列号，随机选择一个
-        if num is None:
-            num = random.choice(self.word_repo['Num'].tolist())
-            
-        # 获取单词基本信息
-        word_data = self.word_repo[self.word_repo['Num'] == num].iloc[0]
-        
-        # 获取单词的多个释义（可能有多个词性）
-        card_definitions = self.card_details[self.card_details['Root'] == num]
-          
-        definitions_list = []
-        for _, definition in card_definitions.iterrows():
-            definitions_list.append({
-                'level': definition['Level'],
-                'part_of_speech': definition['Part of Speech'],
-                'addition': definition['addition'] if pd.notna(definition['addition']) and definition['addition'] != '-' else '',
-                'explanation_e': definition['ExplainationE'] if pd.notna(definition['ExplainationE']) and definition['ExplainationE'] != '-' else '',
-                'explanation_c': definition['ExplainationC'] if pd.notna(definition['ExplainationC']) and definition['ExplainationC'] != '-' else ''
-            })
-            
 
-            
-        return {
-            'word': word_data['WordB'],
-            'serial': num,
-            'definitions': definitions_list
-        }
-    
-    def get_all_cards(self):
-        """获取所有卡片序列号用于导航"""
-        if self.word_repo is None:
-            self.load_data()
-        return self.word_repo['Num'].tolist()
 
-flashcard_system = FlashcardSystem()
+# flashcard_system = FlashcardSystem()
 
 @app.route('/')
-def index():
-    return render_template('index.html')
+def guide():
+    return render_template('_guidepage.html')
+
+@app.route('/lexiconia')
+def lexiconia():
+    return render_template('lexiconia.html')
+
+@app.route('/addwords')
+def add_words():
+    print('add words')
+    return render_template('addwords.html')
+
+
+@app.route('/api/addwords', methods=['POST'])
+def add_words_api():
+    """处理添加单词的API"""
+    try:
+        # 打印调试信息
+        print(f"Received request: {request.method}")
+        print(f"Content-Type: {request.content_type}")
+        print(f"Headers: {dict(request.headers)}")
+        
+        if request.is_json:
+            data = request.get_json()
+        else:
+            # 尝试从原始数据解析
+            raw_data = request.get_data(as_text=True)
+            print(f"Raw data: {raw_data}")
+            try:
+                import json
+                data = json.loads(raw_data)
+            except json.JSONDecodeError:
+                return jsonify({'success': False, 'message': '请使用 JSON 格式发送数据'}), 400
+        
+        words_string = data.get('words', '')
+        print(f"Words string: {words_string}")
+        
+        if not words_string:
+            return jsonify({'success': False, 'message': '请输入单词'})
+        
+        # 处理添加单词的逻辑
+        flashcard_service = FlashcardService()
+        result = flashcard_service.add_words(words_string)
+        
+        result_message = f"成功添加 {result['added_count']} 个单词"
+        if result['skipped_count'] > 0:
+            result_message += f"，跳过 {result['skipped_count']} 个已存在的单词"
+        
+        response_data = {
+            'success': True,
+            'message': result_message,
+            'added': result['added'],
+            'skipped': result['skipped']
+        }
+        
+        print(f"Response: {response_data}")
+        return jsonify(response_data)
+        
+    except Exception as e:
+        print(f"Error adding words: {e}")
+        import traceback
+        traceback.print_exc()
+        return jsonify({'success': False, 'message': f'添加单词失败: {str(e)}'}), 500
+
+@app.route('/api/addcard')
+def add_card():
+    return render_template('addcard.html')
 
 @app.route('/api/card')
 def get_card():
-    serial = request.args.get('serial')
-    card_data = flashcard_system.get_card_data(serial)
-    return jsonify(card_data)
-
-@app.route('/api/card/<root>')
-def get_card():
-    serial = request.args.get('serial')
-    card_data = flashcard_system.get_card_data(serial)
-    return jsonify(card_data)
+    # if('num' not in request.args):
+    #     cards_list = flashcard_system.get_all_cards()
+    #     num = random.choice(cards_list)
+    # else:
+    #     num = int(request.args.get('num'))
+    # card_data = flashcard_system.get_card_data(num)
+    # return jsonify(card_data)
+    return render_template('lexiconia.html')
 
 @app.route('/api/cards/list')
 def get_cards_list():
-    cards_list = flashcard_system.get_all_cards()
-    return jsonify(cards_list)
+    # cards_list = flashcard_system.get_all_cards()
+    # return jsonify(cards_list)
+    return render_template('lexiconia.html')
 
 if __name__ == '__main__':
     app.run(debug=True)

@@ -36,10 +36,10 @@ class LexiconiaApp {
         });
     }
 
-    async loadCard(serial = null) {
+    async loadCard(num = null) {
         try {
             this.showLoading();
-            const url = serial ? `/api/card?serial=${serial}` : '/api/card';
+            const url = num ? `/api/card?num=${num}` : '/api/card';
             const response = await fetch(url);
             this.currentCard = await response.json();
             this.displayCard();

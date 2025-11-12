@@ -49,7 +49,7 @@ class FlashcardSystem:
         
         return {
             'word': word_data['WordB'],
-            'serial': num,
+            'num': num,
             'definitions': definitions_list
         }
     
@@ -67,8 +67,11 @@ def index():
 
 @app.route('/api/card')
 def get_card():
-    print(" ========== 2 ========== ")
-    num = int(request.args.get('serial'))
+    if('num' not in request.args):
+        cards_list = flashcard_system.get_all_cards()
+        num = random.choice(cards_list)
+    else:
+        num = int(request.args.get('num'))
     card_data = flashcard_system.get_card_data(num)
     return jsonify(card_data)
 

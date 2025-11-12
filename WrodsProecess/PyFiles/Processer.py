@@ -24,10 +24,3 @@ word_card_form= {
     "ExplainationE": "string",
     "ExplainationC": "string"
 }
-
-
-class CardProcesser:
-    def __init__(self):
-        pass
-    
-    
