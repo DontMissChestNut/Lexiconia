@@ -62,8 +62,8 @@ class FlashcardSystem:
 flashcard_system = FlashcardSystem()
 
 @app.route('/')
-def index():
-    return render_template('index.html')
+def lexiconia():
+    return render_template('lexiconia.html')
 
 @app.route('/api/card')
 def get_card():

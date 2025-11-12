@@ -1,8 +1,9 @@
+from operator import ne
 import pandas as pd
 from WordListProcesser import Processer
 # import crawler
 
-txtAddress = "../Assets/Words.txt"
+txtAddress = "./Assets/Words.txt"
 csvAddress_r = "../Assets/WordList.csv"
 csvAddress_w = "../Assets/WordList_w.csv"
 CEFR_csv_address_ = "./Assets/CEFRWordList_r.csv"
@@ -59,19 +60,18 @@ word_card_form= {
 }
 
 def main():
-    words = []
+    words = openTXT(txtAddress)
 
-    _ = {
-        "Num": "string",
-        "Root" : "string",
-        "Curr": "string",
-        "Leaf": "string",
-        "Step": "int",
-    }
-
-    wordf = pd.DataFrame(columns=['Num', "Serial", "WordB", "WordA"])
-    wordf = pd.concat([wordf, pd.DataFrame(words)], ignore_index=True)
-    wordf.to_csv("./Assets/WordRepository.csv", mode="w", index=False, encoding="utf-8", header=True)
+    with open("./Assets/all_words.txt", "w") as f:
+        cir = 100
+        for i in range(len(words)):
+            if cir%100 != 0:
+                f.write(words[i] + ",")
+                cir += 1
+            else:
+                cir += 1
+                print(cir//100, cir)
+                f.write("\n" + str(cir//100) +"\n" + words[i] + ",")
 
     
 
@@ -86,13 +86,17 @@ def openTXT(address):
         l = list()
         
         for i in words:
-            i = i.replace(" ", "")
-            if i:
-                l.append(i)
+            i = i.split(" ")
+            new_ = ""
+            for _ in i:
+                if _ != "":
+                    new_ = new_ + " " + _
+            if new_:
+                l.append(new_)
             
         my_data_form["Word"] = list(tuple(l))
         
-    return
+    return list(tuple(l))
     
 
 def readCSV(address):

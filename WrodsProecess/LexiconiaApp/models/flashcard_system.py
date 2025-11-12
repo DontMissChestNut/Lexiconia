@@ -1,9 +1,6 @@
-from flask import Flask, render_template, jsonify, request
 import pandas as pd
 import os
 import random
-
-app = Flask(__name__)
 
 class FlashcardSystem:
     def __init__(self):
@@ -14,8 +11,8 @@ class FlashcardSystem:
     def load_data(self):
         """加载CSV数据"""
         try:
-            self.word_repo = pd.read_csv('LexiconiaApp/data/WordRepository.csv')
-            self.card_details = pd.read_csv('LexiconiaApp/data/CardDetails.csv')
+            self.word_repo = pd.read_csv('LexiconiaApp/data/word_repository.csv')
+            self.card_details = pd.read_csv('LexiconiaApp/data/card_details.csv')
         except Exception as e:
             print(f"Error loading data: {e}")
     
@@ -58,28 +55,4 @@ class FlashcardSystem:
         if self.word_repo is None:
             self.load_data()
         return self.word_repo['Num'].tolist()
-
-flashcard_system = FlashcardSystem()
-
-@app.route('/')
-def index():
-    return render_template('index.html')
-
-@app.route('/api/card')
-def get_card():
-    if('num' not in request.args):
-        cards_list = flashcard_system.get_all_cards()
-        num = random.choice(cards_list)
-    else:
-        num = int(request.args.get('num'))
-    card_data = flashcard_system.get_card_data(num)
-    return jsonify(card_data)
-
-@app.route('/api/cards/list')
-def get_cards_list():
-    print(" ========== 1 ========== ")
-    cards_list = flashcard_system.get_all_cards()
-    return jsonify(cards_list)
-
-if __name__ == '__main__':
-    app.run(debug=True)
+    
