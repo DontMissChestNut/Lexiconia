@@ -7,6 +7,7 @@ txtAddress = "./Assets/Words.txt"
 csvAddress_r = "../Assets/WordList.csv"
 csvAddress_w = "../Assets/WordList_w.csv"
 CEFR_csv_address_ = "./Assets/CEFRWordList_r.csv"
+to_review_csv_address_ = "./Assets/ToReview.csv"
 
 my_data_form = {
     "Root": "string",
@@ -60,18 +61,22 @@ word_card_form= {
 }
 
 def main():
-    words = openTXT(txtAddress)
+    df = pd.read_csv(
+        to_review_csv_address_,
+        encoding="utf-8",
+        header=0
+        )
 
-    with open("./Assets/all_words.txt", "w") as f:
-        cir = 100
-        for i in range(len(words)):
-            if cir%100 != 0:
-                f.write(words[i] + ",")
-                cir += 1
-            else:
-                cir += 1
-                print(cir//100, cir)
-                f.write("\n" + str(cir//100) +"\n" + words[i] + ",")
+    for i in range(len(df)):
+        df["Root"][i] = str("{:0>6d}").format(int(df["Root"][i]))
+    df["CurNode"] = -2
+    df.drop(["Serial", "Word"], axis=1, inplace=True)
+
+    print(df)
+
+    new_df = pd.DataFrame(columns=df.columns)
+    new_df = pd.concat([new_df, pd.DataFrame(df)], ignore_index=True)
+    df.to_csv("./Assets/ToReview2.csv", index=False, encoding="utf-8")
 
     
 

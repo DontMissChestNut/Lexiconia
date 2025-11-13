@@ -78,6 +78,16 @@ def add_words_api():
         traceback.print_exc()
         return jsonify({'success': False, 'message': f'添加单词失败: {str(e)}'}), 500
 
+@app.route('/addmyreview')
+def add_my_review():
+    print('add review')
+    return render_template('addmyreview.html')
+
+@app.route('/api/addmyreview', methods=['POST'])
+def add_my_words_api():
+
+    return jsonify({'success': True, 'message': '添加单词成功'})
+
 @app.route('/api/addcard')
 def add_card():
     return render_template('addcard.html')
