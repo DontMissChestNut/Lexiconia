@@ -23,7 +23,7 @@ def lexiconia():
 
 @app.route('/addwords')
 def add_words():
-    print('add words')
+    # print('add words')
     return render_template('addwords.html')
 
 
@@ -41,7 +41,7 @@ def add_words_api():
         else:
             # 尝试从原始数据解析
             raw_data = request.get_data(as_text=True)
-            print(f"Raw data: {raw_data}")
+            # print(f"Raw data: {raw_data}")
             try:
                 import json
                 data = json.loads(raw_data)
@@ -69,13 +69,13 @@ def add_words_api():
             'skipped': result['skipped']
         }
         
-        print(f"Response: {response_data}")
+        # print(f"Response: {response_data}")
         return jsonify(response_data)
         
     except Exception as e:
-        print(f"Error adding words: {e}")
+        # print(f"Error adding words: {e}")
         import traceback
-        traceback.print_exc()
+        # traceback.print_exc()
         return jsonify({'success': False, 'message': f'添加单词失败: {str(e)}'}), 500
 
 @app.route('/addmyreview')
@@ -85,9 +85,59 @@ def add_my_review():
 
 @app.route('/api/addmyreview', methods=['POST'])
 def add_my_words_api():
+    """处理添加复习单词的API"""
+    try:
+        # 打印调试信息
+        print(f"Received request: {request.method}")
+        print(f"Content-Type: {request.content_type}")
+        print(f"Headers: {dict(request.headers)}")
+        
+        if request.is_json:
+            data = request.get_json()
+        else:
+            # 尝试从原始数据解析
+            raw_data = request.get_data(as_text=True)
+            # print(f"Raw data: {raw_data}")
+            try:
+                import json
+                data = json.loads(raw_data)
+            except json.JSONDecodeError:
+                return jsonify({'success': False, 'message': '请使用 JSON 格式发送数据'}), 400
+        
+        words_list = data.get('words', '').split(',')
+        print(f"Words list: {words_list}")
+        
+        if not words_list:
+            return jsonify({'success': False, 'message': '请输入单词'})
+        
+        # 处理添加单词的逻辑
+        flashcard_service = FlashcardService()
+        print(flashcard_service.type)
+        result = flashcard_service.add_my_review(words_list)
+        
+        result_message = f"成功添加 {result['added_count']} 个单词"
+        if result['false_count'] > 0:
+            result_message += f"，跳过 {result['false_count']} 个不存在的单词"
+        if result['skipped_count'] > 0:
+            result_message += f"，跳过 {result['skipped_count']} 个已存在的单词"
 
-    return jsonify({'success': True, 'message': '添加单词成功'})
-
+        
+        response_data = {
+            'success': True,
+            'message': result_message,
+            'false': result['false_words'],
+            'added': result['added'],
+            'skipped': result['skipped']
+        }
+        
+        # print(f"Response: {response_data}")
+        return jsonify(response_data)
+        
+    except Exception as e:
+        # print(f"Error adding words: {e}")
+        import traceback
+        traceback.print_exc()
+        return jsonify({'success': False, 'message': f'添加单词失败: {str(e)}'}), 500
 @app.route('/api/addcard')
 def add_card():
     return render_template('addcard.html')

@@ -17,20 +17,19 @@ class MyReviewManager:
         self.review_path = "LexiconiaApp/data/my_review.csv"
         self.word_repo = pd.read_csv('LexiconiaApp/data/word_repository.csv')
 
-        self.my_review = pd.read_csv(self.review_path,
-                                     encoding="utf-8",
-                                     header=0)
+        self.my_review = pd.read_csv(self.review_path)
 
     def new_word(self, word:str):
         """
         新增一个单词到复习列表
         """
         root = self.word_repo["Num"][self.word_repo["WordB"] == word].values[0] if self.word_repo[self.word_repo["WordB"] == word].values.size > 0 else None
-        print(root)
 
         if root is None:
-            return "单词不在单词库哦！"
+            # TODO: 单词库中不存在，提示用户
+            return 0
         elif root is not None and root not in self.my_review["Root"].values:
+            # 单词库中存在，不在复习列表，更新到复习列表
             new_word = {
                 "Root":root,
                 "Serial": "-",                          # 序列：无效
@@ -41,24 +40,32 @@ class MyReviewManager:
             }
             wordf = pd.DataFrame([new_word], columns=word_to_review_form.keys())
             wordf.to_csv(self.review_path, mode="a", index=False, header=False, encoding="utf-8")
-
+            return 1
+        elif root in self.my_review["Root"].values:
+            # TODO: 已存在在复习列表，修改复习状态
+            # 直接重制？倒退？不修改？
+            return 2
     
-    def new_words(self, words:list):
+    def new_words_web(self, words:list):
         """
         新增一组单词到复习列表
         """
-        current_words_review = self.my_review["Word"].tolist()      # current review
-        new_words = []
+        false_words = []
+        added_words = []
+        skipped_words = []
+
         for word in words:
-            if word in current_words_review:        # in review list, update           
-                # Todo: 已存在，更新
-                pass
-            else:
-                new_words.append(word)
+            result = self.new_word(word)
+            if result == 0:
+                false_words.append(word)
+            elif result == 1:
+                added_words.append(word)
+            elif result == 2:
+                skipped_words.append(word)
 
-        new_words = self.word_repo[self.word_repo["Num"].isin(new_words)]
+        added_words = self.word_repo[self.word_repo["Num"].isin(added_words)]
 
-        return new_words
+        return false_words, added_words, skipped_words
     
     def add_review_tasks(self, words:list):
         new_tasks = []

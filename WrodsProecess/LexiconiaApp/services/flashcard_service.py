@@ -1,4 +1,5 @@
 from models import WordRepositoryManager
+from models import MyReviewManager
 from models import CardDetailsManager
 
 class FlashcardService:
@@ -7,7 +8,9 @@ class FlashcardService:
     def __init__(self):
         self.word_repo = WordRepositoryManager()
         self.card_details = CardDetailsManager()
+        self.review_manager = MyReviewManager()
     
+    # 获取单词卡数据
     def get_card_data(self, num=None):
         """获取单词卡数据"""
         import random
@@ -44,6 +47,7 @@ class FlashcardService:
             'definitions': definitions_list
         }
     
+    # 添加多个单词
     def add_words(self, words_string):
         """添加多个单词"""
         words_list = [word.strip() for word in words_string.split(',') if word.strip()]
@@ -56,11 +60,29 @@ class FlashcardService:
             'skipped_count': len(skipped_words)
         }
     
+    # 获取所有卡片序列号
     def get_all_cards(self):
         """获取所有卡片序列号"""
         return self.word_repo.get_all_nums()
     
+    # multi: 向复习仓库添加复习单词
+    def add_my_review(self, words:list):
+        """向复习仓库添加复习单词"""
+        print(" ================ ADD REVIEW  ================ ")
+        false_words, added_words, skipped_words = self.review_manager.new_words_web(words)
+
+        return {
+            'false': false_words,
+            'added': added_words,
+            'skipped': skipped_words,
+            'false_count': len(false_words),
+            'added_count': len(added_words),
+            'skipped_count': len(skipped_words)
+        }
+
+    # 检查值是否有效（不为空、NaN或'-'）
     def _is_valid_value(self, value):
         """检查值是否有效（不为空、NaN或'-'）"""
         import pandas as pd
         return pd.notna(value) and value != '' and value != '-'
+    

@@ -6,8 +6,10 @@ from WordListProcesser import Processer
 txtAddress = "./Assets/Words.txt"
 csvAddress_r = "../Assets/WordList.csv"
 csvAddress_w = "../Assets/WordList_w.csv"
-CEFR_csv_address_ = "./Assets/CEFRWordList_r.csv"
-to_review_csv_address_ = "./Assets/ToReview.csv"
+CEFR_csv_address = "./Assets/CEFRWordList_r.csv"
+to_review_csv_address = "./Assets/ToReview.csv"
+word_repository_csv_address = "./Assets/WordRepository.csv"
+card_details_csv_address = "./Assets/CardDetails.csv"
 
 my_data_form = {
     "Root": "string",
@@ -62,21 +64,20 @@ word_card_form= {
 
 def main():
     df = pd.read_csv(
-        to_review_csv_address_,
+        card_details_csv_address,
         encoding="utf-8",
         header=0
         )
 
     for i in range(len(df)):
         df["Root"][i] = str("{:0>6d}").format(int(df["Root"][i]))
-    df["CurNode"] = -2
-    df.drop(["Serial", "Word"], axis=1, inplace=True)
 
-    print(df)
+        serial = df["Serial"][i].split("-")
+        df["Serial"][i] = "{:0>2d}-{:0>6d}-{:0>2d}-{:0>1d}".format(int(serial[0]), int(serial[1]), int(serial[2]), int(serial[3]))
 
     new_df = pd.DataFrame(columns=df.columns)
     new_df = pd.concat([new_df, pd.DataFrame(df)], ignore_index=True)
-    df.to_csv("./Assets/ToReview2.csv", index=False, encoding="utf-8")
+    df.to_csv("./Assets/CardDetails2.csv", index=False, encoding="utf-8")
 
     
 
