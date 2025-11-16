@@ -50,7 +50,7 @@ class WordRepositoryManager:
                 "Root": new_word["Num"],
                 "Serial" : new_word["Serial"],
                 "Level": "-",
-                "Part of Speech": "-",
+                "part_of_speech": "-",
                 "addition": "-",
                 "ExplainationE": "-",
                 "ExplainationC": "-"
@@ -111,7 +111,7 @@ class WordRepositoryManager:
                 "Root": word["Num"],
                 "Serial" : word["Serial"],
                 "Level": "-",
-                "Part of Speech": "-",
+                "part_of_speech": "-",
                 "addition": "-",
                 "ExplainationE": "-",
                 "ExplainationC": "-"

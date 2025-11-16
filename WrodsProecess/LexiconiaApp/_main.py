@@ -3,6 +3,6 @@ from services import FlashcardService
 
 if __name__ == "__main__":
     flashcard_service = FlashcardService()
-    print(1)
-    print(flashcard_service.type)
-    flashcard_service.add_my_review(["a","b","c","apple"])
+
+    roots = [7929, 3090, 2272, 5458, 7031]
+    flashcard_service.update_view_status_nodes(roots, 0)

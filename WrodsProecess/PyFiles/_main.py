@@ -7,7 +7,7 @@ txtAddress = "./Assets/Words.txt"
 csvAddress_r = "../Assets/WordList.csv"
 csvAddress_w = "../Assets/WordList_w.csv"
 CEFR_csv_address = "./Assets/CEFRWordList_r.csv"
-to_review_csv_address = "./Assets/ToReview.csv"
+to_review_csv_address = "./Assets/my_review.csv"
 word_repository_csv_address = "./Assets/WordRepository.csv"
 card_details_csv_address = "./Assets/CardDetails.csv"
 
@@ -33,7 +33,7 @@ word_form_CEFR = {
     "Word": "string",
     "Guideword" : "string",
     "Level": "string",
-    "Part of Speech": "string",
+    "part_of_speech": "string",
     "Topic": "string"
 }
 
@@ -41,7 +41,7 @@ word_repository_form = {
     "Num": "string",
     "Serial" : "string",
     "WordB": "string",
-    "WordA": "string",
+    "WordA": "string"
 }
 
 word_tree_form = {
@@ -49,35 +49,73 @@ word_tree_form = {
     "Root" : "string",
     "Curr": "string",
     "Leaf": "string",
-    "Step": "int",
+    "Step": "int"
 }
 
 word_card_form= {
     "Root": "string",
     "Serial" : "string",
     "Level": "string",
-    "Part of Speech": "string",
+    "part_of_speech": "string",
     "addition": "string",
     "ExplainationE": "string",
     "ExplainationC": "string"
 }
 
+word_to_review_form = {
+    "Root": "-",
+    "Word": "-",
+    "CurNode": -1,
+    "CurTime": "YYYY-MM-DD-hh-mm-ss",
+    "NextTime": "YYYY-MM-DD-hh-mm-ss"
+}
+
 def main():
-    df = pd.read_csv(
-        card_details_csv_address,
+    df_words = pd.read_csv(
+        word_repository_csv_address,
+        encoding="utf-8",
+        header=0
+        )
+    
+    df_review = pd.read_csv(
+        to_review_csv_address,
         encoding="utf-8",
         header=0
         )
 
-    for i in range(len(df)):
-        df["Root"][i] = str("{:0>6d}").format(int(df["Root"][i]))
+# 使用 merge 合并两个数据框
+    df_review = df_review.merge(
+        df_words[['Num', 'WordB']], 
+        left_on='Root', 
+        right_on='Num', 
+        how='left'
+    )
 
-        serial = df["Serial"][i].split("-")
-        df["Serial"][i] = "{:0>2d}-{:0>6d}-{:0>2d}-{:0>1d}".format(int(serial[0]), int(serial[1]), int(serial[2]), int(serial[3]))
+    # 将 WordB 列的值赋给 Word 列
+    df_review['Word'] = df_review['WordB']
 
-    new_df = pd.DataFrame(columns=df.columns)
-    new_df = pd.concat([new_df, pd.DataFrame(df)], ignore_index=True)
-    df.to_csv("./Assets/CardDetails2.csv", index=False, encoding="utf-8")
+    # 删除不需要的列
+    df_review = df_review.drop(['Num', 'WordB'], axis=1)
+
+    # 处理未匹配到的情况，设置为默认值
+    df_review['Word'] = df_review['Word'].fillna('-')
+    
+    for i in range(len(df_review)):
+        df_review["Root"][i] = str("{:0>6d}").format(int(df_review["Root"][i]))
+        
+    df_review = df_review[['Root', 'Word', 'CurNode', 'CurTime', 'NextTime']]
+    
+    print(df_review)
+    
+    # for i in range(len(df)):
+    #     df["Root"][i] = str("{:0>6d}").format(int(df["Root"][i]))
+
+    #     serial = df["Serial"][i].split("-")
+    #     df["Serial"][i] = "{:0>2d}-{:0>6d}-{:0>2d}-{:0>1d}".format(int(serial[0]), int(serial[1]), int(serial[2]), int(serial[3]))
+
+    new_df = pd.DataFrame(df_review.columns)
+    new_df = pd.concat([new_df, pd.DataFrame(df_review)], ignore_index=True)
+    df_review.to_csv("./Assets/my_review2.csv", index=False, encoding="utf-8")
 
     
 

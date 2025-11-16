@@ -34,7 +34,7 @@ class FlashcardService:
         for _, definition in card_definitions.iterrows():
             definitions_list.append({
                 'level': definition['Level'],
-                'part_of_speech': definition['Part of Speech'],
+                'part_of_speech': definition['part_of_speech'],
                 'addition': definition['addition'] if self._is_valid_value(definition['addition']) else '',
                 'explanation_e': definition['ExplainationE'] if self._is_valid_value(definition['ExplainationE']) else '',
                 'explanation_c': definition['ExplainationC'] if self._is_valid_value(definition['ExplainationC']) else '',
@@ -65,10 +65,10 @@ class FlashcardService:
         """获取所有卡片序列号"""
         return self.word_repo.get_all_nums()
     
+    """ =============== 复习 =============== """
     # multi: 向复习仓库添加复习单词
     def add_my_review(self, words:list):
         """向复习仓库添加复习单词"""
-        print(" ================ ADD REVIEW  ================ ")
         false_words, added_words, skipped_words = self.review_manager.new_words_web(words)
 
         return {
@@ -79,6 +79,36 @@ class FlashcardService:
             'added_count': len(added_words),
             'skipped_count': len(skipped_words)
         }
+
+    # 准备今日复习列表。获取状态为-1的单词，确认是否添加
+    def prepare_my_review(self, count:int):
+        pending_words = self.review_manager.add_review_tasks(count)
+
+        # 随机选择指定数量的单词
+        if len(pending_words) < count:
+            sample_words = pending_words
+        else:
+            sample_words = pending_words.sample(count)
+            
+        # sample_words["Detail"] = [self.card_details.details["Root"] == sample_words["Root"]]
+        
+        words = []
+        for _, row in sample_words.iterrows():
+            words.append({
+                "Root": row["Root"],
+                "Word": row["Word"],
+                "Details": self.card_details.get_details_by_root(row["Root"])
+            })
+            
+        
+        # print(words)
+            
+        return words
+    
+    # 更新选中单词的状态
+    def update_view_status_nodes(self, roots:list, target_node:int):
+        self.review_manager.update_cur_nodes(roots, target_node)
+            
 
     # 检查值是否有效（不为空、NaN或'-'）
     def _is_valid_value(self, value):

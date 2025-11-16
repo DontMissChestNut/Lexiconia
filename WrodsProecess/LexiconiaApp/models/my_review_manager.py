@@ -5,19 +5,19 @@ TEFC  = ("5min", "30min", "12h", "1d", "2d", "4d", "7d", "15d")  # 8 nodes
 
 word_to_review_form = {
     "Root": "-",
-    "Serial": "-",                      # 序列：无效
-    "Word": "-",                        # 单词：无效
-    "CurNode": -2,                      # 有误，处理为整数
+    "Word": "-",
+    "CurNode": -1,
     "CurTime": "YYYY-MM-DD-hh-mm-ss",
-    "NextTime": "YYYY-MM-DD-hh-mm-ss",
+    "NextTime": "YYYY-MM-DD-hh-mm-ss"
 }
 
 class MyReviewManager:
     def __init__(self):
         self.review_path = "LexiconiaApp/data/my_review.csv"
         self.word_repo = pd.read_csv('LexiconiaApp/data/word_repository.csv')
-
         self.my_review = pd.read_csv(self.review_path)
+
+        # self.my_review = pd.read_csv("LexiconiaApp/data/my_review.csv")
 
     def new_word(self, word:str):
         """
@@ -31,10 +31,9 @@ class MyReviewManager:
         elif root is not None and root not in self.my_review["Root"].values:
             # 单词库中存在，不在复习列表，更新到复习列表
             new_word = {
-                "Root":root,
-                "Serial": "-",                          # 序列：无效
-                "Word": "-",                            # 单词：无效    
-                "CurNode": -2,                          # 有误，处理为整数
+                "Root": "{:0>6d}".format(root),   
+                "Word": word,
+                "CurNode": -1,
                 "CurTime": "YYYY-MM-DD-hh-mm-ss",
                 "NextTime": "YYYY-MM-DD-hh-mm-ss",
             }
@@ -63,22 +62,23 @@ class MyReviewManager:
             elif result == 2:
                 skipped_words.append(word)
 
-        added_words = self.word_repo[self.word_repo["Num"].isin(added_words)]
-
         return false_words, added_words, skipped_words
     
-    def add_review_tasks(self, words:list):
-        new_tasks = []
-        for word in words:
-            new_tasks.append({
-                "Root": word["Num"],
-                "Serial": "-",                          # 序列：无效
-                "Word": "-",                            # 单词：无效
-                "CurNode": -2,                          # 有误，处理为整数
-                "CurTime": "YYYY-MM-DD-hh-mm-ss",
-                "NextTime": "YYYY-MM-DD-hh-mm-ss",
-            })
-
-        tasksf = pd.DataFrame(columns=word_to_review_form.keys())
-        tasksf = pd.concat([tasksf, pd.DataFrame(new_tasks)], ignore_index=True)
-        tasksf.to_csv(self.review_path, mode="a", index=False, header=False, encoding="utf-8")
+    def add_review_tasks(self, count:int):
+        
+        pending_words = self.my_review[self.my_review["CurNode"] == -1]
+        
+        return pending_words
+    
+    def update_cur_node(self, row, tar_node:int):
+        print(row)
+        pass
+    
+    
+    def update_cur_nodes(self, roots:list, tar_node:int):
+        to_update = self.my_review[self.my_review["Root"].isin(roots)]
+        for _, row in to_update.iterrows():
+            self.update_cur_node(row, tar_node)
+        # df.to_csv(self.review_path, mode="w", index=False, header=True, encoding="utf-8")
+        
+        

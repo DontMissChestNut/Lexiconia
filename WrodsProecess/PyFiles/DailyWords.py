@@ -47,16 +47,16 @@ def main():
             w["Root"] = addition_count
             ra = {
                 "Root": addition_count,
-                "Serial": "09-{:0>4d}-01-1".format(int(w["Root"])),         # Level - SortedIndex - Part of Speech - SubIndex
+                "Serial": "09-{:0>4d}-01-1".format(int(w["Root"])),         # Level - SortedIndex - part_of_speech - SubIndex
                 "Word": _
             }
             wa = {
                 "Root": addition_count,
-                "Serial": "09-{:0>4d}-01-1".format(int(w["Root"])),         # Level - SortedIndex - Part of Speech - SubIndex
+                "Serial": "09-{:0>4d}-01-1".format(int(w["Root"])),         # Level - SortedIndex - part_of_speech - SubIndex
                 "Word": _,
                 "Guideword": "-", 
                 "Level": "-",
-                "Part of Speech": "-", 
+                "part_of_speech": "-", 
                 "Topic": "-"
             }
             addition_count += 1
@@ -82,7 +82,7 @@ def main():
     radf = pd.concat([radf, pd.DataFrame(root_additon)], ignore_index=True)
     radf.to_csv(CEFR_csv_Root_address_, mode="a", index=False, encoding="utf-8", header=False)
     
-    wadf = pd.DataFrame(columns=['Root', "Serial", 'Word', "Guideword", "Level","Part of Speech", "Topic"])
+    wadf = pd.DataFrame(columns=['Root', "Serial", 'Word', "Guideword", "Level","part_of_speech", "Topic"])
     
     wadf = pd.concat([wadf, pd.DataFrame(word_addition)], ignore_index=True)
     wadf.to_csv(CEFR_csv_MyWords_address_, mode="a", index=False, encoding="utf-8", header=False)
