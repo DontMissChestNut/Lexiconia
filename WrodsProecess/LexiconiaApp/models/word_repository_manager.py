@@ -148,6 +148,17 @@ class WordRepositoryManager:
 
         return words
     
+    def get_words_by_roots(self, roots:list):
+        """
+        根据 root 获取 单词（仅单词）
+        """
+        words = []
+        for root in roots:
+            words.append([int(root), self.word_repo[self.word_repo["Num"] == "{:0>6d}".format(int(root))]["WordB"].values[0]])
+
+        return words
+        
+    
     def add_words_batch(self, words:list):
         """
         获取网页用户输入单词列表，批量添加单词到单词库
