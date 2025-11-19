@@ -80,61 +80,61 @@ class Crawler:
         # 查找class="simple dict-module"的div
         simple_dict_module = soup.find('div', class_='simple dict-module')
         
-        detail = {
-            "Root": root,
-            "Serial": "19-{:0>6d}-00-0".format(int(root)),
-            "Level": "9",
-            "Addition": "",
+        # 先提取单词变形信息
+        addition ={
+            "things": "",
+            "does": "",
+            "doing": "",
+            "did": "",
+            "done": "",
+            "better": "",
+            "best": "",
         }
-        if simple_dict_module:
-            # 在该div内查找所有class="word-exp"的标签
-            word_exps = simple_dict_module.find_all('li', class_='word-exp')
-            
-            output_lines.append(f"找到 {len(word_exps)} 个word-exp注释:")
-            output_lines.append("-" * 50)
-            
-            
-            details = []
-            for i, word_exp in enumerate(word_exps, 1):
-                # 提取词性和释义
-                pos = word_exp.find('span', class_='pos')
-                trans = word_exp.find('span', class_='trans')
+        word_forms = simple_dict_module.find_all('li', class_='word-wfs-cell-less')
+        if word_forms:
+
+            for form in word_forms:
+                wfs_name = form.find('span', class_='wfs-name')
+                transformation = form.find('span', class_='transformation')
                 
-                pos_text = pos.get_text(strip=True) if pos else "未知词性"
-                trans_text = trans.get_text(strip=True) if trans else "无释义"
+                wfs_text = wfs_name.get_text(strip=True) if wfs_name else ""
+                trans_text = transformation.get_text(strip=True) if transformation else ""
                 
-                output_lines.append(f"{i}. 词性: {pos_text}")
-                output_lines.append(f"   释义: {trans_text}")
-                output_lines.append("")
-                
-                details.append({
-                    "part_of_speech": pos_text,
-                    "ExplainationE": trans_text,
-                })
+                if wfs_text and trans_text:
+                    addition = self.switch_wfs(addition, wfs_text)
+                    # addition += f"{wfs_text}: {trans_text};"
+                    # print("addition:", addition)
+            # for i in range(len(details)):
+            #     details[i]["Addition"] = addition
+
+        # if simple_dict_module:
+        #     # 在该div内查找所有class="word-exp"的标签
+        #     word_exps = simple_dict_module.find_all('li', class_='word-exp')          
             
-            # 同时提取单词变形信息
-            word_forms = simple_dict_module.find_all('li', class_='word-wfs-cell-less')
-            if word_forms:
-                output_lines.append("单词变形:")
-                output_lines.append("-" * 30)
-                addition = ""
-                for form in word_forms:
-                    wfs_name = form.find('span', class_='wfs-name')
-                    transformation = form.find('span', class_='transformation')
-                    
-                    wfs_text = wfs_name.get_text(strip=True) if wfs_name else ""
-                    trans_text = transformation.get_text(strip=True) if transformation else ""
-                    
-                    if wfs_text and trans_text:
-                        addition += f"{wfs_text}: {trans_text};"
-                        output_lines.append(f"{wfs_text}: {trans_text}")
-                        print("addition:", addition)
-                for i in range(len(details)):
-                    details[i]["Addition"] = addition
-        else:
-            output_lines.append("未找到class='simple dict-module'的标签")
+        #     details = []
+        #     for i, word_exp in enumerate(word_exps, 1):
+        #         # 提取词性和释义
+        #         pos = word_exp.find('span', class_='pos')
+        #         trans = word_exp.find('span', class_='trans')
+                
+        #         pos_text = pos.get_text(strip=True) if pos else "未知词性"
+        #         trans_text = trans.get_text(strip=True) if trans else "无释义"
+                
+        #         detail = {
+        #             "Root": root,
+        #             "Serial": "19-{:0>6d}-00-0".format(int(root)),
+        #             "Level": "9",
+        #             "part_of_speech": pos_text,
+        #             "Addition": "-",
+        #             "ExplainationE": trans_text,
+        #             "ExplainationC": "-",
+        #         }
+            
+
+        # else:
+        #     output_lines.append("未找到class='simple dict-module'的标签")
         
-        return details
+        # return details
         
     def http(self, url):
         headers = {"user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/"}
@@ -145,3 +145,21 @@ class Crawler:
         headers = {"user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/"}
         response = requests.get(url,headers=headers)
         return response.content.decode(response.apparent_encoding)
+    
+    def switch_wfs(self, addition:dict, wfs_text:str):
+        match wfs_text:
+            case "复数":
+                addition["things"] = wfs_text
+            case "第三人称单数":
+                addition["does"] = wfs_text
+            case "现在分词":
+                addition["doing"] = wfs_text
+            case "过去式":
+                addition["did"] = wfs_text
+            case "过去分词":
+                addition["done"] = wfs_text
+            case "比较级":
+                addition["better"] = wfs_text
+            case "最高级":
+                addition["best"] = wfs_text
+        return addition
