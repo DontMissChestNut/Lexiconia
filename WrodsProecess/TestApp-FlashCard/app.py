@@ -41,7 +41,7 @@ class FlashcardSystem:
         for _, definition in card_definitions.iterrows():
             definitions_list.append({
                 'level': definition['Level'],
-                'part_of_speech': definition['Part of Speech'],
+                'part_of_speech': definition['part_of_speech'],
                 'addition': definition['addition'] if pd.notna(definition['addition']) and definition['addition'] != '-' else '',
                 'explanation_e': definition['ExplainationE'] if pd.notna(definition['ExplainationE']) and definition['ExplainationE'] != '-' else '',
                 'explanation_c': definition['ExplainationC'] if pd.notna(definition['ExplainationC']) and definition['ExplainationC'] != '-' else ''

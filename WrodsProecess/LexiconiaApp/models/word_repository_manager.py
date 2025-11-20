@@ -50,7 +50,7 @@ class WordRepositoryManager:
                 "Root": new_word["Num"],
                 "Serial" : new_word["Serial"],
                 "Level": "-",
-                "Part of Speech": "-",
+                "part_of_speech": "-",
                 "addition": "-",
                 "ExplainationE": "-",
                 "ExplainationC": "-"
@@ -111,7 +111,7 @@ class WordRepositoryManager:
                 "Root": word["Num"],
                 "Serial" : word["Serial"],
                 "Level": "-",
-                "Part of Speech": "-",
+                "part_of_speech": "-",
                 "addition": "-",
                 "ExplainationE": "-",
                 "ExplainationC": "-"
@@ -147,6 +147,17 @@ class WordRepositoryManager:
         words = new_words + exist_words
 
         return words
+    
+    def get_words_by_roots(self, roots:list):
+        """
+        根据 root 获取 单词（仅单词）
+        """
+        words = []
+        for root in roots:
+            words.append([int(root), self.word_repo[self.word_repo["Num"] == "{:0>6d}".format(int(root))]["WordB"].values[0]])
+
+        return words
+        
     
     def add_words_batch(self, words:list):
         """
