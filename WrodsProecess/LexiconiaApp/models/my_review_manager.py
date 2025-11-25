@@ -2,6 +2,11 @@ import pandas as pd
 from datetime import datetime, timedelta
 from models import WordRepositoryManager
 
+"""
+MyReviewManager 管理单词的复习列表
+
+"""
+
 TEFC  = ("5min", "30min", "12h", "1d", "2d", "4d", "7d", "15d")  # 8 nodes
 
 word_to_review_form = {
@@ -17,7 +22,7 @@ class MyReviewManager:
         self.review_path = "LexiconiaApp/data/my_review_copy.csv" # test
         # self.review_path = "LexiconiaApp/data/my_review.csv"
 
-        self.word_repo = pd.read_csv('LexiconiaApp/data/word_repository_manager.csv')
+        self.word_repo = pd.read_csv('LexiconiaApp/data/word_repository.csv')
         # self.word_repo = pd.read_csv('LexiconiaApp/data/my_review.csv') 
         self.my_review = pd.read_csv(self.review_path)
         
@@ -33,6 +38,7 @@ class MyReviewManager:
             "15d": timedelta(days=15)
         }
 
+    # single: 新增一个单词到复习列表
     def new_word(self, word:str):
         """
         新增一个单词到复习列表
@@ -60,6 +66,7 @@ class MyReviewManager:
             # 直接重制？倒退？不修改？
             return 2
     
+    # multi: 新增一组单词到复习列表
     def new_words_web(self, words:list):
         """
         新增一组单词到复习列表
@@ -79,25 +86,26 @@ class MyReviewManager:
 
         return false_words, added_words, skipped_words
     
+    # multi: 返回所有待添加到复习表的单词（node为-1）
     def add_review_tasks(self, count:int):
         """
         返回所有待添加到复习表的单词（node为-1）
         count部分由flashcard_service控制
         """
-        
         pending_words = self.my_review[self.my_review["CurNode"] == -1]
         
         return pending_words
     
+    # single: 更新单个单词的当前节点
     def update_cur_node(self, row_index, row, tar_node: int):
         """更新单个单词的当前节点"""
 
-        # print(row)
+        print(self.get_current_time())
 
         if row["CurNode"] < 0:     # 还没开始复习
             self.my_review.at[row_index, "CurNode"] = tar_node
-            self.my_review.at[row_index, "CurTime"] = "0000-00-00-00-00-00"
-            self.my_review.at[row_index, "NextTime"] = "0000-00-00-00-00-00"
+            self.my_review.at[row_index, "CurTime"] = self.get_current_time()
+            self.my_review.at[row_index, "NextTime"] = self.get_current_time()
         
         if tar_node > 0 and tar_node - 1 < len(TEFC):       # 已经开始复习，并且复习节点在TEFC范围内
             current_time = self.get_current_time()
@@ -112,28 +120,36 @@ class MyReviewManager:
         # 保存到CSV
         self.my_review.to_csv(self.review_path, index=False, encoding="utf-8")
     
+    # multi: 批量更新多个单词的当前节点
     def update_cur_nodes(self, roots: list, tar_node: int):
         """批量更新多个单词的当前节点"""
         to_update = self.my_review[self.my_review["Root"].isin(roots)]
         
+        count = 0
         for index, row in to_update.iterrows():
             self.update_cur_node(index, row, tar_node)
-        # df.to_csv(self.review_path, mode="w", index=False, header=True, encoding="utf-8")
-
+            count += 1
+        
+        return count
+    
+    
+    # multi: 获取到期的复习任务
     def get_due_reviews(self):
         """获取到期的复习任务"""
         current_time = datetime.now()
         due_reviews = []
         
         for _, row in self.my_review.iterrows():
+            if row["CurNode"] < 0:
+                continue
             try:
                 next_time = datetime.strptime(row["NextTime"], "%Y-%m-%d-%H-%M-%S")
+
                 if next_time <= current_time:
                     due_reviews.append(row)
             except ValueError:
                 # 处理时间格式错误的情况
                 continue
-                
         return pd.DataFrame(due_reviews)    
     
     def get_current_time(self):

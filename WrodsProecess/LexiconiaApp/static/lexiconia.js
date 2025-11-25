@@ -39,7 +39,7 @@ class LexiconiaApp {
     async loadCard(num = null) {
         try {
             this.showLoading();
-            const url = num ? `/api/card?num=${num}` : '/api/card';
+            const url = num ? `/api/lexiconia?num=${num}` : '/api/lexiconia';
             const response = await fetch(url);
             this.currentCard = await response.json();
             this.displayCard();
@@ -161,7 +161,7 @@ class LexiconiaApp {
     // 初始化加载卡片列表
     async initializeCardsList() {
         try {
-            const response = await fetch('/api/cards/list');
+            const response = await fetch('/api/lexiconia/list');        
             this.allCards = await response.json();
 
         } catch (error) {

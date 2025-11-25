@@ -2,21 +2,68 @@ from flask import Flask, render_template, jsonify, request
 import pandas as pd
 import os
 import random
-from models import CardDetailsManager
+from datetime import datetime
+
+# from models import CardDetailsManager, WordRepositoryManager, MyReviewManager, Crawler
 from services import FlashcardService
 
+"""
+Lexiconia App
+
+work stream
+===== Lexiconia =====
+
+
+===== Add Words =====
+
+
+===== Prepare Review Words =====
+
+
+===== Review Words =====
+
+"""
 
 
 app = Flask(__name__)
 
 flashcard_service = FlashcardService()
 
+""" =============== Guide Page =============== """
+
 @app.route('/')
 def guide():
     return render_template('_guidepage.html')
 
+""" =============== Lexiconia =============== 
+背单词页面 - daily review
+"""
+
 @app.route('/lexiconia')
 def lexiconia():
+    return render_template('lexiconia.html')
+
+@app.route('/api/lexiconia')
+def get_lexiconia():
+
+    due_reviews = flashcard_service.get_daily_reviews()
+
+    # 打印调试信息
+    # print(f"Content-Type: {request.content_type}")
+    # print(f"Headers: {dict(request.headers)}")
+    # if('num' not in request.args):
+    #     cards_list = flashcard_system.get_all_cards()
+    #     num = random.choice(cards_list)
+    # else:
+    #     num = int(request.args.get('num'))
+    # card_data = flashcard_system.get_card_data(num)
+    # return jsonify(card_data)
+    return render_template('lexiconia.html')
+
+@app.route('/api/lexiconia/list')
+def get_lexiconia_list():
+    # cards_list = flashcard_system.get_all_cards()
+    # return jsonify(cards_list)
     return render_template('lexiconia.html')
 
 @app.route('/addwords')
@@ -29,11 +76,6 @@ def add_words():
 def add_words_api():
     """处理添加单词的API"""
     try:
-        # 打印调试信息
-        print(f"Received request: {request.method}")
-        print(f"Content-Type: {request.content_type}")
-        print(f"Headers: {dict(request.headers)}")
-        
         if request.is_json:
             data = request.get_json()
         else:
@@ -47,7 +89,6 @@ def add_words_api():
                 return jsonify({'success': False, 'message': '请使用 JSON 格式发送数据'}), 400
         
         words_string = data.get('words', '')
-        print(f"Words string: {words_string}")
         
         if not words_string:
             return jsonify({'success': False, 'message': '请输入单词'})
@@ -78,18 +119,13 @@ def add_words_api():
 
 @app.route('/addmyreview')
 def add_my_review():
-    print('add review')
     return render_template('addmyreview.html')
 
 @app.route('/api/addmyreview', methods=['POST'])
 def add_my_words_api():
     """处理添加复习单词的API"""
     try:
-        # 打印调试信息
-        print(f"Received request: {request.method}")
-        print(f"Content-Type: {request.content_type}")
-        print(f"Headers: {dict(request.headers)}")
-        
+
         if request.is_json:
             data = request.get_json()
         else:
@@ -103,7 +139,6 @@ def add_my_words_api():
                 return jsonify({'success': False, 'message': '请使用 JSON 格式发送数据'}), 400
         
         words_list = data.get('words', '').split(',')
-        print(f"Words list: {words_list}")
         
         if not words_list:
             return jsonify({'success': False, 'message': '请输入单词'})
@@ -137,26 +172,9 @@ def add_my_words_api():
 def add_card():
     return render_template('addcard.html')
 
-@app.route('/api/card')
-def get_card():
-    # if('num' not in request.args):
-    #     cards_list = flashcard_system.get_all_cards()
-    #     num = random.choice(cards_list)
-    # else:
-    #     num = int(request.args.get('num'))
-    # card_data = flashcard_system.get_card_data(num)
-    # return jsonify(card_data)
-    return render_template('lexiconia.html')
 
-@app.route('/api/cards/list')
-def get_cards_list():
-    # cards_list = flashcard_system.get_all_cards()
-    # return jsonify(cards_list)
-    return render_template('lexiconia.html')
 
-import pandas as pd
-import os
-from datetime import datetime
+
 
 @app.route('/preparereview')
 def preparereview():
@@ -168,15 +186,22 @@ def get_prepare_review_words():
     count = request.args.get('count', default=120, type=int)
     
     try:
-        # 筛选状态为-1（未开始复习）的单词
-        sample_words = flashcard_service.prepare_my_review(count)
-        
+        # 筛选状态为-1（未开始复习）的单词c
+        # sample_words = flashcard_service.prepare_my_review(count, "complex")
+        sample_words = flashcard_service.prepare_my_review(count, "youdao")
+
         words_list = []
         for word in sample_words:
+            detail = ""
+            for d in word["Details"]:
+                detail = d["part_of_speech"] + " " + d["ExplainationC"] + "\n"
+
+
             words_list.append({
                 "root": word["Root"],
                 "word": word["Word"],
                 "details": word["Details"]
+                # "details": detail
             })
             
         
@@ -186,7 +211,6 @@ def get_prepare_review_words():
         })
         
     except Exception as e:
-        print(f"获取准备复习单词失败: {e}")
         return jsonify({'error': '获取单词失败'}), 500
 
 @app.route('/api/update_review_list', methods=['POST'])
@@ -198,29 +222,23 @@ def update_review_list():
             data = request.get_json()
     selected_root = data.get('selectedWords', [])
     
-    print([i["root"] for i in selected_root])
+    # print([i["root"] for i in selected_root])           # 获取需要开始背的单词root序列
     
     try:
-        # 读取my_review.csv
-        my_review_df = pd.read_csv('data/my_review.csv')
-        
-        # 更新选中的单词状态为1（今日复习），并设置复习日期
-        today = datetime.now().strftime('%Y-%m-%d')
-        for serial in selected_root:
-            mask = my_review_df['serial'] == serial
-            my_review_df.loc[mask, 'status'] = 1
-            my_review_df.loc[mask, 'review_date'] = today
-        
-        # 保存更新后的CSV
-        my_review_df.to_csv('data/my_review.csv', index=False)
-        
-        return jsonify({
-            'status': 'success',
-            'updated_count': len(selected_root)
-        })
+        count = flashcard_service.start_review_0([i["root"] for i in selected_root])
+
+        if(count == len(selected_root)):
+            return jsonify({
+                'status': 'success',
+                'updated_count': count
+            })
+        elif(count != len(selected_root)):
+            return jsonify({
+                'status': 'Warning',
+                'message': f'只有 {count} 个单词被更新'
+            })
         
     except Exception as e:
-        print(f"更新复习列表失败: {e}")
         return jsonify({'error': '更新复习列表失败'}), 500
 
 

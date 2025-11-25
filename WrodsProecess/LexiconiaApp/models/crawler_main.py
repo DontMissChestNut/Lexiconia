@@ -19,18 +19,11 @@ word_card_form_youdao= {
     "ExplainationC": "string",
     # "Phonetic": "string"          # TODO： 音标
 }
-
-
  
 user_agent = "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36"
 
  
 url = "https://www.shicimingjv.com/bookview/1392.html"
- 
-
- 
-
-
 
 class Crawler:
     def __init__(self):
@@ -48,30 +41,24 @@ class Crawler:
         self.word_repo = WordRepositoryManager()
         
     def crawl(self, roots: list):
-        """Main crawl method"""
+        """
+        Main crawl method
+        
+        Args:
+            roots (list): A list of roots to crawl. Root is insured to be exist in the word repository in previous process
+        """
 
         words = self.word_repo.get_words_by_roots(roots)
+        details = []
         for word in words:
             root, word = word
             url = self.search_api.format(word)
             response = requests.get(url, headers=self.headers)
 
-            detail = self._parse_and_save_word_info(root, response.content.decode(response.apparent_encoding))
-            
+            # detail = self._parse_and_save_word_info(root, response.content.decode(response.apparent_encoding))
+            details.append(self._parse_and_save_word_info(root, response.content.decode(response.apparent_encoding)))            
 
-        # url = self.search_api.format("yield")
-        # response = requests.get(self.search_api.format("yield"))
-        
-        # # 保存原始HTML到文件
-        # with open("tieba.txt", "w", encoding=response.apparent_encoding) as f:
-        #     f.write(response.content.decode(response.apparent_encoding))
-        
-        # print("原始网页已保存到 tieba.txt")
-        
-        # 直接解析响应内容并提取单词信息
-        # details = self._parse_and_save_word_info(roots, response.content.decode(response.apparent_encoding))
-
-        # print(details)
+        return details
         
     def _parse_and_save_word_info(self, root, html_content):
         """解析HTML并保存单词信息到文件"""
@@ -79,6 +66,9 @@ class Crawler:
         
         # 查找class="simple dict-module"的div
         simple_dict_module = soup.find('div', class_='simple dict-module')
+
+        if not simple_dict_module:
+            return None
         
         # 先提取单词变形信息
         addition ={
@@ -101,40 +91,32 @@ class Crawler:
                 trans_text = transformation.get_text(strip=True) if transformation else ""
                 
                 if wfs_text and trans_text:
-                    addition = self.switch_wfs(addition, wfs_text)
-                    # addition += f"{wfs_text}: {trans_text};"
-                    # print("addition:", addition)
-            # for i in range(len(details)):
-            #     details[i]["Addition"] = addition
-
-        # if simple_dict_module:
-        #     # 在该div内查找所有class="word-exp"的标签
-        #     word_exps = simple_dict_module.find_all('li', class_='word-exp')          
-            
-        #     details = []
-        #     for i, word_exp in enumerate(word_exps, 1):
-        #         # 提取词性和释义
-        #         pos = word_exp.find('span', class_='pos')
-        #         trans = word_exp.find('span', class_='trans')
-                
-        #         pos_text = pos.get_text(strip=True) if pos else "未知词性"
-        #         trans_text = trans.get_text(strip=True) if trans else "无释义"
-                
-        #         detail = {
-        #             "Root": root,
-        #             "Serial": "19-{:0>6d}-00-0".format(int(root)),
-        #             "Level": "9",
-        #             "part_of_speech": pos_text,
-        #             "Addition": "-",
-        #             "ExplainationE": trans_text,
-        #             "ExplainationC": "-",
-        #         }
-            
-
-        # else:
-        #     output_lines.append("未找到class='simple dict-module'的标签")
+                    addition = self._switch_wfs(addition, wfs_text, trans_text)
         
-        # return details
+        if simple_dict_module:
+            # 在该div内查找所有class="word-exp"的标签
+            word_exps = simple_dict_module.find_all('li', class_='word-exp')          
+            
+            details = []
+            for i, word_exp in enumerate(word_exps, 1):
+                # 提取词性和释义
+                pos = word_exp.find('span', class_='pos')
+                trans = word_exp.find('span', class_='trans')
+                
+                pos_text = pos.get_text(strip=True) if pos else "-"
+                trans_text = trans.get_text(strip=True) if trans else "-"
+                
+                details.append({
+                    "Root": root,
+                    "Serial": "19-{:0>6d}-00-{}".format(int(root), i),
+                    "Level": "9",
+                    "part_of_speech": pos_text,
+                    "Addition": self._switch_pfs(pos_text, addition),
+                    "ExplainationE": "-",
+                    "ExplainationC": trans_text,
+                })
+
+        return details      
         
     def http(self, url):
         headers = {"user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/"}
@@ -146,20 +128,33 @@ class Crawler:
         response = requests.get(url,headers=headers)
         return response.content.decode(response.apparent_encoding)
     
-    def switch_wfs(self, addition:dict, wfs_text:str):
+    def _switch_wfs(self, addition:dict, wfs_text:str, trans_text:str):
         match wfs_text:
             case "复数":
-                addition["things"] = wfs_text
+                addition["things"] = trans_text
             case "第三人称单数":
-                addition["does"] = wfs_text
+                addition["does"] = trans_text
             case "现在分词":
-                addition["doing"] = wfs_text
+                addition["doing"] = trans_text
             case "过去式":
-                addition["did"] = wfs_text
+                addition["did"] = trans_text
             case "过去分词":
-                addition["done"] = wfs_text
+                addition["done"] = trans_text
             case "比较级":
-                addition["better"] = wfs_text
+                addition["better"] = trans_text
             case "最高级":
-                addition["best"] = wfs_text
+                addition["best"] = trans_text
         return addition
+    
+    def _switch_pfs(self, pfs_text:str, addition:dict):
+        add = "-"
+        match pfs_text:
+            case "n.":
+                add = addition["things"]
+            case "v.":
+                add = "{}-{}-{}-{}".format(addition["does"], addition["doing"], addition["did"], addition["done"])
+            case "adj.":
+                add = "{}-{}".format(addition["better"], addition["best"])
+        return add
+        
+        

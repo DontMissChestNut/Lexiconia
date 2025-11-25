@@ -1,6 +1,22 @@
 import pandas as pd
 from models import CardDetailsManager
 
+"""
+WordRepositoryManager
+
+private:
+- single:添加新单词
+
+public:   
+- single:创建单词信息
+- multi:创建单词信息
+- single:添加单词到单词库
+- multi:添加单词到单词库
+- multi:根据单词获取单词num
+- multi:根据 root 获取 单词（仅单词）
+- multi:分批处理，返回添加和跳过的单词列表
+"""
+
 word_repository_form = {
     "Num": "string",
     "Serial" : "string",
@@ -15,7 +31,8 @@ class WordRepositoryManager:
 
         self.word_repo = pd.read_csv(self.repository_path, dtype=word_repository_form)
 
-    def add_new_word(self, word_detail: dict):
+    # single:添加新单词
+    def _add_new_word(self, word_detail: dict):
         """添加新单词"""
         wordf = pd.DataFrame([word_detail], columns=word_repository_form.keys())
         wordf.to_csv(self.repository_path, mode="a", index=False, header=False, encoding="utf-8")
@@ -43,7 +60,7 @@ class WordRepositoryManager:
             }
             
             # 新单词，添加到单词库
-            self.add_new_word(new_word)
+            self._add_new_word(new_word)
 
             # 新单词，创建卡片详情
             self.details_manager.add_card_detail({
@@ -117,7 +134,7 @@ class WordRepositoryManager:
                 "ExplainationC": "-"
             })
 
-    # multi:获取单词num
+    # multi:根据单词获取单词num
     def generate_words_num(self, words:list):
         """
         输入单词列表，获取单词对应的num
@@ -148,6 +165,7 @@ class WordRepositoryManager:
 
         return words
     
+    # multi:根据 root 获取 单词（仅单词）
     def get_words_by_roots(self, roots:list):
         """
         根据 root 获取 单词（仅单词）
@@ -158,7 +176,7 @@ class WordRepositoryManager:
 
         return words
         
-    
+    # multi:分批处理，返回添加和跳过的单词列表
     def add_words_batch(self, words:list):
         """
         获取网页用户输入单词列表，批量添加单词到单词库
@@ -177,8 +195,6 @@ class WordRepositoryManager:
                 added_words.append(w)
             else:
                 skipped_words.append(w)
-
-
 
         return added_words, skipped_words
 

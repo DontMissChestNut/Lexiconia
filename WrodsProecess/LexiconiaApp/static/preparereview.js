@@ -3,7 +3,7 @@ class PrepareReview {
         this.words = []; // 所有待处理的单词
         this.currentIndex = 0; // 当前单词索引
         this.selectedWords = []; // 用户选择的不熟悉单词
-        this.batchSize = 120; // 初始批次大小
+        this.batchSize = 10; // 初始批次大小
         this.additionalBatchSize = 20; // 后续批次大小
         this.targetCount = 5; // 目标复习单词数
         this.isLoading = false;
@@ -120,6 +120,7 @@ class PrepareReview {
         }
         
         const wordData = this.words[this.currentIndex];
+        console.log('DoadeWord:', wordData);
         this.wordDisplay.textContent = wordData.word;
         
         console.log("wordInfo: ", wordData);
@@ -130,7 +131,7 @@ class PrepareReview {
     renderWordDetails(wordData) {
         this.wordDetails.innerHTML = '';
         
-        console.log("wordPhonetico: ", wordData.phonetic);
+        // console.log("wordPhonetico: ", wordData.details);
         /* =============== TODO =============== */
         // 显示单词的基本信息   音标信息
         // if (wordData.phonetic) {
@@ -142,7 +143,7 @@ class PrepareReview {
         
         // 显示单词的释义
         if (wordData.details && wordData.details.length > 0) {
-
+            console.log("wordDetails: ", wordData.details);
             const definitionElem = document.createElement('div');
             definitionElem.className = 'definition-preview';
 
