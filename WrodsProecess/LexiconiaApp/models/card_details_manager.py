@@ -114,7 +114,7 @@ class CardDetailsManager:
         self._update_details()
         return
 
-    # 获取单词的卡片详情
+    # single: 获取单词的卡片详情
     def get_details_by_root(self, root:int):
         """获取单词的卡片详情"""
 
@@ -176,7 +176,7 @@ class CardDetailsManager:
         
         return
     
-    # 获取单词的有道卡片详情
+    # single：获取单词的有道卡片详情
     def get_youdao_details_by_root(self, root:int):
         details = []
         for _, row in self.details_youdao[ self.details_youdao["Root"] == root].iterrows():

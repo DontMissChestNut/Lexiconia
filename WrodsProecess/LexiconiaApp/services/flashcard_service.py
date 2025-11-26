@@ -9,13 +9,28 @@ class FlashcardService:
         self.review_manager = MyReviewManager()
     
     """ =============== Lexiconia =============== """
-    def get_daily_reviews(self):
+    def get_daily_reviews(self, repo: str = 'youdao'):
         """获取每日复习单词"""
 
-        due_reviews = self.review_manager.get_due_reviews()
+        due_roots = self.review_manager.get_due_reviews()
+        wordlist = self.word_repo.get_words_by_roots(due_roots)
 
-        print(f"Due reviews: {due_reviews}")
-        return due_reviews
+        youdao_details = []
+        for word in wordlist:
+            # TODO: select repo by param
+            details = self.detail_manager.get_youdao_details_by_root(word[0])
+            for d in details:
+                youdao_details.append({
+                    "Root": word[0],
+                    "Word": word[1],
+                    # TODO: "Phonetic": word["Phonetic"],
+                    "Level": d["Level"],
+                    "part_of_speech": d["part_of_speech"],
+                    "Addition": d["Addition"],                # 名词复数、动词变形等
+                    "ExplainationC": d["ExplainationC"],
+                })
+        
+        return youdao_details
 
 
     # 获取单词卡数据

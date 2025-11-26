@@ -6,7 +6,7 @@ from models import WordRepositoryManager
 MyReviewManager 管理单词的复习列表
 
 """
-
+# TODO：新增 -0min- 节点
 TEFC  = ("5min", "30min", "12h", "1d", "2d", "4d", "7d", "15d")  # 8 nodes
 
 word_to_review_form = {
@@ -28,6 +28,7 @@ class MyReviewManager:
         
         # 定义时间间隔映射
         self.interval_mapping = {
+            "0min": timedelta(minutes=0),
             "5min": timedelta(minutes=5),
             "30min": timedelta(minutes=30),
             "12h": timedelta(hours=12),
@@ -133,24 +134,31 @@ class MyReviewManager:
         return count
     
     
-    # multi: 获取到期的复习任务
+    # multi: 获取到期的复习任务，返回到期的单词root list
+    # TODO：根据时间排序，早 -> 晚
+    # TODO：0-2阶段考虑时分秒信息，其他阶段只考虑日期
     def get_due_reviews(self):
         """获取到期的复习任务"""
         current_time = datetime.now()
-        due_reviews = []
+        due_roots = []
         
         for _, row in self.my_review.iterrows():
+            
             if row["CurNode"] < 0:
                 continue
             try:
                 next_time = datetime.strptime(row["NextTime"], "%Y-%m-%d-%H-%M-%S")
 
                 if next_time <= current_time:
-                    due_reviews.append(row)
+                    due_roots.append({"Root": row["Root"], "NextTime": row["NextTime"]})
             except ValueError:
                 # 处理时间格式错误的情况
                 continue
-        return pd.DataFrame(due_reviews)    
+
+        # TODO： 根据时间排序
+        due_roots.sort(key=lambda x: x["NextTime"])
+
+        return [item["Root"] for item in due_roots]
     
     def get_current_time(self):
         """获取当前时间并格式化为 YYYY-MM-DD-HH-MM-SS"""
