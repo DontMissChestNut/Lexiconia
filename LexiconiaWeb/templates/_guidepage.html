@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lexiconia Guide Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="guide" id="guide-lexicoina-data">
+            <h1>Lexiconia Guide Page Data Collection</h1>
+            <p><a href="/addwords" >add words</a></p>
+            <p><a href="/addmyreview" >add my review</a></p>
+            <p><a href="/preparereview"> prepare review </a></p>
+            <p><a href="/addcard" >add card</a></p>
+        </div>
+        <div class="guide" id="guide-lexicoina-review">
+            <h1>Lexiconia Guide Page Review</h1>
+            <p><a href="/lexiconia">lexiconia</a></p>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
