@@ -19,13 +19,12 @@ card_details_youdao_csv_address = "LexiconiaApp/data/card_details_youdao.csv"
 def main():
     flashcard_service, word_repo_manager, detail_manager, my_review_manager, crawler = init()
 
-    word_list = ['yield', 'apace', 'periodical', 'periodically', 'commonwealth', 'dismantle', 'optional', 'attendance', 'inspiring', 'invasion', 'eternal', 'momentary', 'eternity', 'infinite', 'ventilation', 'ventilate', 'counteract', 'forfeit', 'impart', 'companion', 'mutual', 'equity', 'immigration', 'subliminal', 'liminal', 'subliminally', 'consortium', 'hierarchy', 'burgeon', 'regent', 'elicit', 'delve', 'questionnaire', 'questionary', 'substantial', 'substantially', 'sponsor', 'opponent', 'component', 'deliberate', 'ponder']
+    due_reviews = flashcard_service.get_daily_reviews()
 
-    word_list = flashcard_service.prepare_my_review(10, "youdao")
-
-    # roots = [i["Root"] for i in word_list]
-
-    # print(detail_manager.update_youdao_details(roots))
+    for review in due_reviews:
+        for i in review["Details"]:
+            add = [_ for _ in i["Addition"].split("-") if _ != ""]
+            print(add, len(add))
 
 
 def init():

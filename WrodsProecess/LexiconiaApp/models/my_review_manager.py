@@ -158,7 +158,10 @@ class MyReviewManager:
         # TODO： 根据时间排序
         due_roots.sort(key=lambda x: x["NextTime"])
 
-        return [item["Root"] for item in due_roots]
+        result = set(item["Root"] for item in due_roots)
+        print(result)
+
+        return result
     
     def get_current_time(self):
         """获取当前时间并格式化为 YYYY-MM-DD-HH-MM-SS"""

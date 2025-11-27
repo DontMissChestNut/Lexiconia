@@ -155,6 +155,10 @@ class Crawler:
                 add = "{}-{}-{}-{}".format(addition["does"], addition["doing"], addition["did"], addition["done"])
             case "adj.":
                 add = "{}-{}".format(addition["better"], addition["best"])
+        
+        if len([_ for _ in add.split("-") if _ != ""]) == 0:
+            add = "-"
+        
         return add
         
         

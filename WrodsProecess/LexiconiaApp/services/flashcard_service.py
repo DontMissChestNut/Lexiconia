@@ -19,16 +19,20 @@ class FlashcardService:
         for word in wordlist:
             # TODO: select repo by param
             details = self.detail_manager.get_youdao_details_by_root(word[0])
+            detail = []
             for d in details:
-                youdao_details.append({
-                    "Root": word[0],
-                    "Word": word[1],
-                    # TODO: "Phonetic": word["Phonetic"],
+                # print(d["Addition"])
+                detail.append({
                     "Level": d["Level"],
                     "part_of_speech": d["part_of_speech"],
                     "Addition": d["Addition"],                # 名词复数、动词变形等
-                    "ExplainationC": d["ExplainationC"],
+                    "ExplainationC": d["ExplainationC"]
                 })
+            youdao_details.append({
+                "Root": word[0],
+                "Word": word[1],
+                "Details": detail
+            })
         
         return youdao_details
 
@@ -164,7 +168,7 @@ class FlashcardService:
             })
             
         
-        print(words)
+        # print(words)
             
         return words
     

@@ -41,30 +41,30 @@ word_card_form_youdao= {
 }
 
 Level = {
-    "A1": 1,
-    "A2": 2,
-    "B1": 3,
-    "B2": 4,
-    "C1": 5,
-    "C2": 6,
-    "-":  9
+    1:"A1",
+    2:"A2",
+    3:"B1",
+    4:"B2",
+    5:"C1",
+    6:"C2",
+    9:"-",
 }
 
 PartofSpeech = {
-    "adjective":        1,
-    "adverb":           2,
-    "auxiliary verb":   3,
-    "conjunction":      4, 
-    "determiner":       5,
-    "exclamation":      6,
-    "modal verb":       7,
-    "noun":             8,
-    "number":           9,
-    "preposition":      10,
-    "pronoun":          11,
-    "verb":             12,
-    "phrase":           21,
-    "phrasal verb":     22,
+    1:"adjective",        
+    2:"adverb",           
+    3:"auxiliary verb",   
+    4:"conjunction",      
+    5:"determiner",       
+    6:"exclamation",      
+    7:"modal verb",       
+    8:"noun",             
+    9:"number",           
+    10:"preposition",     
+    11:"pronoun",         
+    12:"verb",            
+    21:"phrase",          
+    22:"phrasal verb",    
 }
 
 class CardDetailsManager:
@@ -129,7 +129,7 @@ class CardDetailsManager:
                 "ExplainationC": row["ExplainationC"]
             })
             
-        print(details)
+        # print(details)
         
         return details
     
@@ -179,10 +179,11 @@ class CardDetailsManager:
     # single：获取单词的有道卡片详情
     def get_youdao_details_by_root(self, root:int):
         details = []
-        for _, row in self.details_youdao[ self.details_youdao["Root"] == root].iterrows():
+        for _, row in self.details_youdao[ self.details_youdao["Root"] == root].iterrows():              
+            # print(row)
             details.append({
                 # TODO："Phonetic": "string",
-                "Level": row["Level"],
+                "Level": Level[int(row["Level"])],
                 "part_of_speech": row["part_of_speech"],
                 "Addition": row["Addition"],                # 名词复数、动词变形等
                 "ExplainationE": row["ExplainationE"],
@@ -190,8 +191,6 @@ class CardDetailsManager:
             })
         
         return details
-    
-        # 查询详情是否已添加
     
     # 更新详情
     def update_youdao_details(self, roots: list):

@@ -79,21 +79,32 @@ def get_daily_review():
 
     due_reviews = flashcard_service.get_daily_reviews()
 
-    # 打印调试信息
-    # print(f"Content-Type: {request.content_type}")
-    # print(f"Headers: {dict(request.headers)}")
-    # if('num' not in request.args):
-    #     cards_list = flashcard_system.get_all_cards()
-    #     num = random.choice(cards_list)
-    # else:
-    #     num = int(request.args.get('num'))
-    # card_data = flashcard_system.get_card_data(num)
-    # return jsonify(card_data)
-    return render_template('lexiconia.html')
+    # for d in due_reviews:
+    #     print(d["Root"])
+
+    if len(due_reviews) == 0:
+        result_message = "暂无待复习单词"
+        response_data = {
+            'success': False,
+            'message': result_message,
+            'reviews': []
+        }
+    else:
+        result_message = f"待复习复习： {len(due_reviews)} 个单词"
+        response_data = {
+            'success': True,
+            'message': result_message,
+            'reviews': due_reviews
+        }
+
+    return jsonify(response_data)
 
 @app.route('/api/dailyreview/list')
 def get_daily_review_list():
     due_reviews = flashcard_service.get_daily_reviews()
+
+    # for d in due_reviews:
+    #     print(d["Root"])
     
     if len(due_reviews) == 0:
         result_message = "暂无待复习单词"
@@ -110,7 +121,6 @@ def get_daily_review_list():
             'reviews': due_reviews
         }
         
-    # print(f"Response: {response_data}")
     return jsonify(response_data)
 
 """ =============== Add Words =============== """
@@ -264,7 +274,7 @@ def get_prepare_review_words():
 
 @app.route('/api/update_review_list', methods=['POST'])
 def update_review_list():
-    print(" =============== update_review_list =============== ")
+    # print(" =============== update_review_list =============== ")
     """更新复习列表，将选中的单词标记为今日复习"""
     # data = request.json
     if request.is_json:
