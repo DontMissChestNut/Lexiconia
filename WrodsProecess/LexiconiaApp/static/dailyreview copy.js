@@ -1,12 +1,14 @@
-class LexiconiaApp {
+class DailyReviewApp {
     constructor() {
         this.currentCard = null;
-        this.allCards = [];
+        this.cardsRepo = [];
         this.currentIndex = 0;
 
         this.initializeElements();
         this.bindEvents();
-        this.loadRandomCard();
+        this.loadReviewRepo();
+
+        // this.displayCurrCard();
     }
 
     initializeElements() {
@@ -19,60 +21,71 @@ class LexiconiaApp {
         this.prevBtn = document.getElementById('prevBtn');
         this.nextBtn = document.getElementById('nextBtn');
         this.randomBtn = document.getElementById('randomBtn');
+
+        this.fmlBtn = document.getElementById('fmlBtn');
+        this.unfmlBtn = document.getElementById('unfmlBtn');
     }
 
     bindEvents() {
         this.prevBtn.addEventListener('click', () => this.prevCard());
         this.nextBtn.addEventListener('click', () => this.nextCard());
-        this.randomBtn.addEventListener('click', () => this.loadRandomCard());
+        this.randomBtn.addEventListener('click', () => this.loadReviewRepo());
+
+        this.fmlBtn.addEventListener('click', () => this.markFamiliar());
+        this.unfmlBtn.addEventListener('click', () => this.markUnfamiliar());
 
         // 键盘导航
         document.addEventListener('keydown', (e) => {
             switch (e.key) {
                 case 'ArrowLeft': this.prevCard(); break;
                 case 'ArrowRight': this.nextCard(); break;
-                case 'r': this.loadRandomCard(); break;
+                case 'r': this.loadReviewRepo(); break;
             }
         });
     }
 
-    async loadCard(num = null) {
+    async loadCards(num = null) {
         try {
             this.showLoading();
-            const url = num ? `/api/card?num=${num}` : '/api/card';
+            const url = num ? `/api/dailyreview?num=${num}` : '/api/dailyreview';
             const response = await fetch(url);
-            this.currentCard = await response.json();
-            this.displayCard();
+            let data = await response.json();
+            this.cardsRepo = data.reviews;
+            this.displayCurrCard();
         } catch (error) {
             console.error('Error loading card:', error);
             this.showError('加载单词失败，请重试');
         }
     }
 
-    loadRandomCard() {
-        this.loadCard();
+    loadReviewRepo() {
+        this.loadCards();
     }
 
-    displayCard() {
+    displayCurrCard() {
         // 显示单词基本信息
-        this.wordDisplay.textContent = this.currentCard.word;
-        this.progressDisplay.textContent = `${this.currentIndex + 1} / ${this.allCards.length}`;
+        this.wordDisplay.textContent = this.cardsRepo[this.currentIndex].Word;
+        this.progressDisplay.textContent = `${this.currentIndex + 1} / ${this.cardsRepo.length}`;
 
         // 清空之前的释义
         this.detailsSection.innerHTML = '';
 
+        let definitions = this.cardsRepo[this.currentIndex].Details;
+
         // 动态生成每个释义的section
-        this.currentCard.definitions.forEach((definition, index) => {
+        definitions.forEach((definition, index) => {
             this.createDefinitionSection(definition, index);
         });
 
         // 如果没有释义，显示提示
-        if (this.currentCard.definitions.length === 0) {
+        if (definitions.length === 0) {
             this.detailsSection.innerHTML = '<div class="no-definitions">暂无释义</div>';
         }
     }
 
     createDefinitionSection(definition, index) {
+                console.log(' ========== displayCurrCard : this.currentCard.definitions ========== ', 
+                    definition);
         const detailElement = document.createElement('div');
         detailElement.className = 'detail';
         detailElement.setAttribute('data-index', index);
@@ -83,7 +96,7 @@ class LexiconiaApp {
 
         const levelSpan = document.createElement('span');
         levelSpan.className = 'level';
-        levelSpan.textContent = definition.level || 'N/A';
+        levelSpan.textContent = definition.Level || 'N/A';
 
         const partOfSpeechSpan = document.createElement('span');
         partOfSpeechSpan.className = 'part-of-speech';
@@ -94,10 +107,10 @@ class LexiconiaApp {
         header.appendChild(partOfSpeechSpan);
 
         // 如果有补充信息，添加到头部
-        if (definition.addition && definition.addition !== '-') {
+        if (definition.Addition && definition.Addition !== '-') {
             const additionSpan = document.createElement('span');
             additionSpan.className = 'addition';
-            additionSpan.textContent = ` | ${definition.addition}`;
+            additionSpan.textContent = ` | ${definition.Addition}`;
             header.appendChild(additionSpan);
         }
 
@@ -107,19 +120,19 @@ class LexiconiaApp {
         const explainDiv = document.createElement('div');
         explainDiv.className = 'explain';
 
-        // 英文解释
-        if (definition.explanation_e && definition.explanation_e !== '-') {
-            const englishExplain = document.createElement('div');
-            englishExplain.className = 'english-explanation';
-            englishExplain.innerHTML = `----- ${definition.explanation_e}`;
-            explainDiv.appendChild(englishExplain);
-        }
+        // TODO: 英文解释
+        // if (definition.explanation_e && definition.explanation_e !== '-') {
+        //     const englishExplain = document.createElement('div');
+        //     englishExplain.className = 'english-explanation';
+        //     englishExplain.innerHTML = `----- ${definition.explanation_e}`;
+        //     explainDiv.appendChild(englishExplain);
+        // }
 
         // 中文解释
-        if (definition.explanation_c && definition.explanation_c !== '-') {
+        if (definition.ExplainationC && definition.ExplainationC !== '-') {
             const chineseExplain = document.createElement('div');
             chineseExplain.className = 'chinese-explanation';
-            chineseExplain.innerHTML = `----- ${definition.explanation_c}`;
+            chineseExplain.innerHTML = `${definition.ExplainationC}`;
             explainDiv.appendChild(chineseExplain);
         }
 
@@ -145,24 +158,38 @@ class LexiconiaApp {
     }
 
     prevCard() {
-        if (this.allCards.length === 0) return;
+        if (this.cardsRepo.length === 0) return;
 
-        this.currentIndex = (this.currentIndex - 1 + this.allCards.length) % this.allCards.length;
-        this.loadCard(this.allCards[this.currentIndex]);
+        this.currentIndex = (this.currentIndex - 1 + this.cardsRepo.length) % this.cardsRepo.length;
+        this.loadCards(this.cardsRepo[this.currentIndex]);
     }
 
     nextCard() {
-        if (this.allCards.length === 0) return;
+        if (this.cardsRepo.length === 0) return;
 
-        this.currentIndex = (this.currentIndex + 1) % this.allCards.length;
-        this.loadCard(this.allCards[this.currentIndex]);
+        this.currentIndex = (this.currentIndex + 1) % this.cardsRepo.length;
+        this.loadCards(this.cardsRepo[this.currentIndex]);
+    }
+
+    markFamiliar() {
+        if (this.cardsRepo.length === 0) return;
+
+        this.currentIndex = (this.currentIndex + 1) % this.cardsRepo.length;
+        this.loadCards(this.cardsRepo[this.currentIndex]);
+    }
+
+    markUnfamiliar() {
+        if (this.cardsRepo.length === 0) return;
+
+        this.currentIndex = (this.currentIndex + 1) % this.cardsRepo.length;
+        this.loadCards(this.cardsRepo[this.currentIndex]);
     }
 
     // 初始化加载卡片列表
     async initializeCardsList() {
         try {
-            const response = await fetch('/api/cards/list');
-            this.allCards = await response.json();
+            const response = await fetch('/api/dailyreview/list');        
+            this.cardsRepo = await response.json();
 
         } catch (error) {
             console.error('Error loading cards list:', error);
@@ -172,6 +199,6 @@ class LexiconiaApp {
 
 // 初始化应用
 document.addEventListener('DOMContentLoaded', async () => {
-    const app = new LexiconiaApp();
+    const app = new DailyReviewApp();
     await app.initializeCardsList();
 });

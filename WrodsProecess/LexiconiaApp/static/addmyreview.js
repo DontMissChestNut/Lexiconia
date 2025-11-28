@@ -31,7 +31,7 @@ class AddWordsApp {
         console.log(wordsString);
         
         try {
-            const response = await fetch('/api/addwords', {
+            const response = await fetch('/api/addmyreview', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

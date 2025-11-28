@@ -6,7 +6,11 @@ from WordListProcesser import Processer
 txtAddress = "./Assets/Words.txt"
 csvAddress_r = "../Assets/WordList.csv"
 csvAddress_w = "../Assets/WordList_w.csv"
-CEFR_csv_address_ = "./Assets/CEFRWordList_r.csv"
+CEFR_csv_address = "./Assets/CEFRWordList_r.csv"
+to_review_csv_address = "./Assets/my_review.csv"
+word_repository_csv_address = "./Assets/WordRepository.csv"
+card_details_csv_address = "./Assets/CardDetails.csv"
+card_details_youdao_csv_address = "./Assets/CardDetails_youdao.csv"
 
 my_data_form = {
     "Root": "string",
@@ -30,7 +34,7 @@ word_form_CEFR = {
     "Word": "string",
     "Guideword" : "string",
     "Level": "string",
-    "Part of Speech": "string",
+    "part_of_speech": "string",
     "Topic": "string"
 }
 
@@ -38,7 +42,7 @@ word_repository_form = {
     "Num": "string",
     "Serial" : "string",
     "WordB": "string",
-    "WordA": "string",
+    "WordA": "string"
 }
 
 word_tree_form = {
@@ -46,32 +50,51 @@ word_tree_form = {
     "Root" : "string",
     "Curr": "string",
     "Leaf": "string",
-    "Step": "int",
+    "Step": "int"
 }
 
 word_card_form= {
     "Root": "string",
     "Serial" : "string",
     "Level": "string",
-    "Part of Speech": "string",
+    "part_of_speech": "string",
     "addition": "string",
     "ExplainationE": "string",
     "ExplainationC": "string"
 }
 
-def main():
-    words = openTXT(txtAddress)
+word_to_review_form = {
+    "Root": "-",
+    "Word": "-",
+    "CurNode": -1,
+    "CurTime": "YYYY-MM-DD-hh-mm-ss",
+    "NextTime": "YYYY-MM-DD-hh-mm-ss"
+}
 
-    with open("./Assets/all_words.txt", "w") as f:
-        cir = 100
-        for i in range(len(words)):
-            if cir%100 != 0:
-                f.write(words[i] + ",")
-                cir += 1
-            else:
-                cir += 1
-                print(cir//100, cir)
-                f.write("\n" + str(cir//100) +"\n" + words[i] + ",")
+word_card_form_youdao= {
+    "Root": "string",
+    "Serial" : "10-000000-00-0",        # youdao(1)+level - root - part of speech - num
+    "Level": "string",
+    "part_of_speech": "string",
+    "Addition": "string",           # 名词复数、动词变形等
+    "ExplainationE": "string",
+    "ExplainationC": "string",
+    # "Phonetic": "string"          # TODO： 音标
+}
+
+def main():
+    df_words = pd.read_csv(
+        word_repository_csv_address,
+        encoding="utf-8",
+        header=0
+        )
+    
+    print(df_words)
+
+
+    # new_df = pd.DataFrame(df_review.columns)
+    # new_df = pd.concat([new_df, pd.DataFrame(df_review)], ignore_index=True)
+    # df_review.to_csv("./Assets/my_review2.csv", index=False, encoding="utf-8")
 
     
 
