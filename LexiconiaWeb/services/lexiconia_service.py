@@ -1,4 +1,5 @@
-from models import WordRepositoryManager, MyReviewManager, CardDetailsManager
+import pandas as pd
+from models import WordRepositoryManager, MyReviewManager, CardDetailsManager, PathGraphManager
 
 class LexiconiaService:
     """单词卡业务逻辑服务"""
@@ -7,6 +8,8 @@ class LexiconiaService:
         self.word_repo = WordRepositoryManager()
         self.detail_manager = CardDetailsManager()
         self.review_manager = MyReviewManager()
+        self.path_graph = PathGraphManager()
+
     
     """ =============== daily review =============== """
     # 获取每日复习单词
@@ -169,9 +172,6 @@ class LexiconiaService:
                 "Details": self.detail_manager.get_youdao_details_by_root(row["Root"])
             })
             
-        
-        # print(words)
-            
         return words
     
     # 更新选中单词的状态
@@ -186,6 +186,19 @@ class LexiconiaService:
         
         return count
     
+    
+    """ =============== Path Builder =============== """
+    """ multy:获取单词的根 """
+    def get_num(self, word:list):
+        nums = [_["Num"] for _ in self.word_repo.generate_words_num(word)]
+        return int(nums[0])
+    
+    def get_graph_info(self):
+        graph = self.path_graph.get_graph_info()
+        word_list = self.word_repo.generate_word_list()
+        return graph, word_list
+    
+    """ =============== Daily Update =============== """
     def daily_update(self):
         self.review_manager.daily_update()
 

@@ -5,7 +5,7 @@ import random
 
 app = Flask(__name__)
 
-class FlashcardSystem:
+class lexiconiaSystem:
     def __init__(self):
         self.word_repo = None
         self.card_details = None
@@ -59,7 +59,7 @@ class FlashcardSystem:
             self.load_data()
         return self.word_repo['Num'].tolist()
 
-flashcard_system = FlashcardSystem()
+lexiconia_system = lexiconiaSystem()
 
 @app.route('/')
 def lexiconia():
@@ -68,17 +68,17 @@ def lexiconia():
 @app.route('/api/card')
 def get_card():
     if('num' not in request.args):
-        cards_list = flashcard_system.get_all_cards()
+        cards_list = lexiconia_system.get_all_cards()
         num = random.choice(cards_list)
     else:
         num = int(request.args.get('num'))
-    card_data = flashcard_system.get_card_data(num)
+    card_data = lexiconia_system.get_card_data(num)
     return jsonify(card_data)
 
 @app.route('/api/cards/list')
 def get_cards_list():
     print(" ========== 1 ========== ")
-    cards_list = flashcard_system.get_all_cards()
+    cards_list = lexiconia_system.get_all_cards()
     return jsonify(cards_list)
 
 if __name__ == '__main__':

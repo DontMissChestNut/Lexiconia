@@ -21,11 +21,12 @@ class MyReviewManager:
     def __init__(self):
         self.updateTime = time(5, 0, 0)  # 05:00:00
 
-        self.review_path = "LexiconiaApp/data/my_review_copy.csv" # test
-        # self.review_path = "LexiconiaApp/data/my_review.csv"
+        # self.word_repo_path = "../Assets/word_repository_copy.csv"   # test
+        # self.review_path = "../Assets/my_review_copy.csv" # test
+        self.word_repo_path = "./Assets/word_repository.csv"
+        self.review_path = "./Assets/my_review.csv"
 
-        self.word_repo = pd.read_csv('LexiconiaApp/data/word_repository.csv')
-        # self.word_repo = pd.read_csv('LexiconiaApp/data/my_review.csv') 
+        self.word_repo = pd.read_csv(self.word_repo_path)
         self.my_review = pd.read_csv(self.review_path)
         
         # 定义时间间隔映射
@@ -72,9 +73,6 @@ class MyReviewManager:
     
     """ multi: 新增一组单词到复习列表 """
     def new_words_web(self, words:list):
-        """
-        新增一组单词到复习列表
-        """
         false_words = []
         added_words = []
         skipped_words = []
@@ -125,8 +123,6 @@ class MyReviewManager:
             print(f"Error saving to CSV: {e}")
             return False
     
-        
-    
     """ single: 更新单词的当前节点 """
     def update_cur_nodes(self, roots: list):
         """批量更新多个单词的当前节点"""
@@ -156,15 +152,11 @@ class MyReviewManager:
     根据时间排序，早 -> 晚
     TODO：0-2阶段考虑时分秒信息，其他阶段只考虑日期
     """
-    
     def get_due_reviews(self):
-        """获取到期的复习任务"""
         current_time = datetime.now()
         due_roots = []
         
-        for _, row in self.my_review.iterrows():
-            
-            
+        for _, row in self.my_review.iterrows():            
             if row["CurNode"] < 0:
                 continue
             try:

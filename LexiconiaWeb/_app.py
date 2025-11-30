@@ -83,9 +83,6 @@ def get_daily_review():
 
     print(due_reviews)
 
-    # for d in due_reviews:
-    #     print(d["Root"])
-
     if len(due_reviews) == 0:
         result_message = "暂无待复习单词"
         response_data = {
@@ -155,7 +152,6 @@ def add_words():
     # print('add words')
     return render_template('addwords.html')
 
-
 @app.route('/api/addwords', methods=['POST'])
 def add_words_api():
     """处理添加单词的API"""
@@ -180,6 +176,8 @@ def add_words_api():
         # 处理添加单词的逻辑
 
         result = lexiconia_service .add_words(words_string)
+
+        print(f"result: {result}")
         
         result_message = f"成功添加 {result['added_count']} 个单词"
         if result['skipped_count'] > 0:
@@ -201,6 +199,16 @@ def add_words_api():
         # traceback.print_exc()
         return jsonify({'success': False, 'message': f'添加单词失败: {str(e)}'}), 500
 
+@app.route('/api/cards/list', methods=['POST', 'GET'])
+def get_cards_list():
+    """获取所有卡片序列号"""
+    # cards_list = lexiconia_service .get_all_cards()
+    cards_list = []
+    return jsonify({'success': True, 'cards_list': cards_list})
+
+
+
+""" =============== Prepare Review =============== """
 @app.route('/addmyreview')
 def add_my_review():
     return render_template('addmyreview.html')
@@ -255,10 +263,6 @@ def add_my_words_api():
 @app.route('/api/addcard')
 def add_card():
     return render_template('addcard.html')
-
-
-
-
 
 @app.route('/preparereview')
 def preparereview():
@@ -324,6 +328,88 @@ def update_review_list():
         
     except Exception as e:
         return jsonify({'error': '更新复习列表失败'}), 500
+
+""" =============== Path Builder =============== """
+
+@app.route('/pathbuilder')
+def get_word_info():
+    return render_template('pathbuilder.html')
+
+""" api: 获取路径图 """
+@app.route('/api/pathbuilder')
+def api_get_graph_info():
+    print(" =============== api_get_graph_info =============== ")
+
+    graph, word_list = lexiconia_service.get_graph_info()
+    return jsonify({'success': True, 'graph': graph, 'word_list': word_list})
+
+""" api: 获取路径图 """
+@app.route('/api/pathbuilder/<word>', methods=["POST", "GET"])
+def api_get_word_info(word):
+    print(" =============== word =============== ", word)
+
+    num = lexiconia_service.get_num([word])
+    print(" =============== num =============== ", num)
+    # graph, word_list = lexiconia_service.get_graph_info()
+    return jsonify({'success': True, 'num': num})
+
+
+# @app.route('/api/pathbuilder/word/<root>')
+# def get_word_info(root):
+#     """获取单词详细信息"""
+#     try:
+#         word_info = lexiconia_service.get_word_info(root)
+#         if word_info:
+#             return jsonify({'success': True, 'data': word_info})
+#         else:
+#             return jsonify({'success': False, 'message': '单词未找到'})
+#     except Exception as e:
+#         return jsonify({'success': False, 'message': f'获取单词信息失败: {str(e)}'}), 500
+
+# @app.route('/api/pathbuilder/search')
+# def search_words():
+#     """搜索单词"""
+#     keyword = request.args.get('keyword', '')
+#     try:
+#         words = lexiconia_service.search_words(keyword)
+#         return jsonify({'success': True, 'words': words})
+#     except Exception as e:
+#         return jsonify({'success': False, 'message': f'搜索失败: {str(e)}'}), 500
+
+# @app.route('/api/pathbuilder/connection', methods=['POST'])
+# def add_connection():
+#     """添加单词连接"""
+#     try:
+#         data = request.get_json()
+#         root = data.get('root')
+#         point = data.get('point')
+#         step = data.get('step')
+        
+#         if not all([root, point, step is not None]):
+#             return jsonify({'success': False, 'message': '缺少必要参数'}), 400
+        
+#         success, message = lexiconia_service.add_word_connection(root, point, step)
+#         return jsonify({'success': success, 'message': message})
+        
+#     except Exception as e:
+#         return jsonify({'success': False, 'message': f'添加连接失败: {str(e)}'}), 500
+
+# @app.route('/api/pathbuilder/connection', methods=['DELETE'])
+# def delete_connection():
+#     """删除单词连接"""
+#     try:
+#         data = request.get_json()
+#         root = data.get('root')
+#         point = data.get('point')
+        
+#         if not all([root, point]):
+#             return jsonify({'success': False, 'message': '缺少必要参数'}), 400
+        
+#         success, message = lexiconia_service.delete_word_connection(root, point)
+#         return jsonify({'success': success, 'message': message})
+        
+#     except Exception as e:
+#         return jsonify({'success': False, 'message': f'删除连接失败: {str(e)}'}), 500
 
 
 if __name__ == '__main__':

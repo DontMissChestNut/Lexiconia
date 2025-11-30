@@ -175,12 +175,12 @@ def SaveMyWord(words):
             "Serial": "00-0000-0-0",         # Level - SortedIndex - part_of_speech - SubIndex
             "Word": "-"
         }
-        word["Root"] = "{:0>4d}".format(i + 1)
-        word["Serial"] = "00-{:0>4d}-0-0".format(i + 1)
+        word["Root"] = "{:0>6d}".format(i + 1)
+        word["Serial"] = "00-{:0>6d}-0-0".format(i + 1)
         word["Word"] = v
         
         l.append(word)
-        d[v] = "{:0>4d}".format(i + 1)
+        d[v] = "{:0>6d}".format(i + 1)
         
 
 

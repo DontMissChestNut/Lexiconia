@@ -1,7 +1,8 @@
 from operator import ne
 import pandas as pd
+from datetime import datetime, timedelta, time
 from models import CardDetailsManager, WordRepositoryManager, MyReviewManager, Crawler
-from services import FlashcardService
+from services import LexiconiaService
 
 word_card_form_youdao= {
     "Root": "string",
@@ -17,24 +18,24 @@ word_card_form_youdao= {
 card_details_youdao_csv_address = "LexiconiaApp/data/card_details_youdao.csv"
 
 def main():
-    flashcard_service, word_repo_manager, detail_manager, my_review_manager, crawler = init()
-
-    due_reviews = flashcard_service.get_daily_reviews()
-
-    for review in due_reviews:
-        for i in review["Details"]:
-            add = [_ for _ in i["Addition"].split("-") if _ != ""]
-            print(add, len(add))
+    lexiconia_service , word_repo_manager, detail_manager, my_review_manager, crawler, updateTime = init()
+    
+    root = [3561, 7530, 4811, 3054, 1103, 3377, 7889, 8213, 1046, 7125, 7381, 7386, 8347, 3966]
+    # lexiconia_service .update_view_status_nodes(root)
+    
+    print(lexiconia_service .update_view_status_nodes(root))
 
 
 def init():
-    flashcard_service = FlashcardService()
+    lexiconia_service  = LexiconiaService()
     word_repo_manager = WordRepositoryManager()
     detail_manager = CardDetailsManager()
     my_review_manager = MyReviewManager()
     crawler = Crawler()
 
-    return flashcard_service, word_repo_manager, detail_manager, my_review_manager, crawler
+    updateTime = time(5, 0, 0)  # 05:00:00
+
+    return lexiconia_service , word_repo_manager, detail_manager, my_review_manager, crawler, updateTime
 
 if __name__ == "__main__":
     main()

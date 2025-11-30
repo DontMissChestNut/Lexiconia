@@ -26,7 +26,7 @@ word_repository_form = {
 
 class WordRepositoryManager:
     def __init__(self):
-        self.repository_path = "LexiconiaApp/data/word_repository.csv"
+        self.repository_path = "./Assets/word_repository.csv"
         self.details_manager = CardDetailsManager()
 
         self.word_repo = pd.read_csv(self.repository_path, dtype=word_repository_form)
@@ -92,8 +92,8 @@ class WordRepositoryManager:
                 new_words.append({
                     "Num": "{:0>6d}".format(addition_count),
                     "Serial" : "09-{:0>6d}-01-1".format(addition_count),
-                "WordB": word,
-                "WordA": word,
+                    "WordB": word,
+                    "WordA": word,
                 })
                 addition_count += 1
                 
@@ -121,7 +121,7 @@ class WordRepositoryManager:
         # word.strip()
         words = [word.replace(" ", "") for word in words]
 
-        new_words = self.create_new_word(words)
+        new_words = self.create_new_words(words)
 
         for word in new_words:
             self.details_manager.add_card_detail({
@@ -146,22 +146,22 @@ class WordRepositoryManager:
                 new_words.append(word)
             elif word in self.word_repo["WordB"].values:
                 exist_words.append({
-                    "Num": self.word_repo[self.word_repo["WordB"] == word]["Num"],
+                    "Num": self.word_repo[self.word_repo["WordB"] == word]["Num"].values[0],
                     "Word": word
                 })
             elif word in self.word_repo["WordA"].values:
                 exist_words.append({
-                    "Num": self.word_repo[self.word_repo["WordA"] == word]["Num"],
+                    "Num": self.word_repo[self.word_repo["WordA"] == word]["Num"].values[0],
                     "Word": word
                 })
 
-        new_words = self.create_new_word(new_words)
+        new_words = self.create_new_words(new_words)
         new_words = [{
             "Num": word["Num"],
             "Word": word["WordB"],
         } for word in new_words if word["WordB"]]
         
-        words = new_words + exist_words
+        words = new_words + exist_words       
 
         return words
     
@@ -198,3 +198,9 @@ class WordRepositoryManager:
 
         return added_words, skipped_words
 
+    def generate_word_list(self):
+        word_list = []
+        for _, row in self.word_repo.iterrows():
+            word_list.append({int(row["Num"]): row["WordB"]})
+
+        return word_list

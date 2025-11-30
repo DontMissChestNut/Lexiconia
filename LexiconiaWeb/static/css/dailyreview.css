@@ -1,0 +1,21 @@
+/* 每日复习页面特殊样式 */
+.modal-overlay {
+    display: none;
+}
+
+.modal-content h2 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-size: 1.8em;
+}
+
+.modal-content p {
+    color: #7f8c8d;
+    margin-bottom: 25px;
+    font-size: 1.1em;
+}
+
+.familiar-btn, .unfamiliar-btn {
+    font-size: 1.1em;
+    padding: 15px 30px;
+}
