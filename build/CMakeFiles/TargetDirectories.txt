@@ -1,0 +1,3 @@
+/Users/bytedance/Documents/MyDocuments/Lexiconia/Lexiconia/build/CMakeFiles/app.dir
+/Users/bytedance/Documents/MyDocuments/Lexiconia/Lexiconia/build/CMakeFiles/edit_cache.dir
+/Users/bytedance/Documents/MyDocuments/Lexiconia/Lexiconia/build/CMakeFiles/rebuild_cache.dir

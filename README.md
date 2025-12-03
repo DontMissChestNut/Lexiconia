@@ -1,24 +1,16 @@
 # Lexiconia - 言灵王权
 
 FileOrganization
-Assets/
-├── Lexiconia/
-    ├── models/
-    ├── services/
-    ├──static/
-        ├── css/
-        │   ├── style.css
-        │   ├── addcard.css
-        │   ├── addmyreview.css
-        │   ├── addwords.css
-        │   ├── guidepage.css
-        │   ├── lexiconia.css
-        │   ├── preparereview.css
-        │   └── dailyreview.css
-        └── js/
-            ├── lexiconia.js
-            ├── addmyreview.js
-            ├── _guidepage.js
-            ├── addwords.js
-            ├── preparereview.js
-            └── dailyreview.js
+Lexiconia/
+├── .vscode/
+│   ├── tasks.json         # VSCode任务
+│   └── launch.json        # 调试配置
+├── build/                  # 构建目录（CMake生成）
+├── LexiconiaApp/
+│   ├── include/
+│   │   ├── glad/
+│   │   └── KHR/
+│   └── src/
+│       ├── _main.cpp
+│       └── glad.cpp
+└── CMakeLists.txt          # CMake配置

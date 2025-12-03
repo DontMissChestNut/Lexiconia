@@ -23,7 +23,7 @@ Root,Word,CurNode,CurTime,NextTime
 7015,equity,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 2855,immigration,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7016,subliminal,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-7017,liminal,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
+7017,liminal,1,2025-12-01-11-17-27,2025-12-01-11-22-27
 7018,subliminally,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7019,consortium,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 2703,hierarchy,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -83,7 +83,7 @@ Root,Word,CurNode,CurTime,NextTime
 4372,preserve,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7044,grunt,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7045,reginal,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-2839,illusion,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
+2839,illusion,1,2025-12-01-11-15-20,2025-12-01-11-20-20
 1342,cruise,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 3072,internal,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7046,hose,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -188,7 +188,7 @@ Root,Word,CurNode,CurTime,NextTime
 7094,intersection,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7095,trapeze,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7096,crossroad,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-1225,convention,3,2025-11-30-21-23-47,2025-12-01-09-23-47
+1225,convention,5,2025-12-01-11-07-03,2025-12-03-05-00-00
 1226,conventional,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7097,conventionally,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 6162,unconventional,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -208,7 +208,7 @@ Root,Word,CurNode,CurTime,NextTime
 7105,apprise,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 6309,urban,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7106,urbanization,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-1103,comprise,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
+1103,comprise,2,2025-12-01-11-17-27,2025-12-01-11-47-27
 1098,compose,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7107,wean,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7108,fossil,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -331,14 +331,14 @@ Root,Word,CurNode,CurTime,NextTime
 3743,necessarily,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 3328,licence,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 131,administration,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-7163,ornamental,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
+7163,ornamental,1,2025-12-01-11-17-27,2025-12-01-11-22-27
 7164,ornamenter,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 5522,statistics,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 3937,oppose,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 1460,defect,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 4139,perfect,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 1461,defective,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-1703,distribution,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
+1703,distribution,1,2025-12-01-11-15-20,2025-12-01-11-20-20
 1432,decay,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 945,circulation,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7165,circulate,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -355,7 +355,7 @@ Root,Word,CurNode,CurTime,NextTime
 7170,constancy,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 4527,purchase,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 3431,luxury,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-7171,purchaser,3,2025-11-30-21-23-47,2025-12-01-09-23-47
+7171,purchaser,5,2025-12-01-11-01-32,2025-12-03-05-00-00
 7172,luxuriant,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 762,calculate,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 3361,literacy,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -382,7 +382,7 @@ Root,Word,CurNode,CurTime,NextTime
 7179,unyielding,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 4354,pregnant,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7180,blaze,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-6361,verdict,3,2025-11-30-21-23-47,2025-12-01-09-23-47
+6361,verdict,5,2025-12-01-11-07-03,2025-12-03-05-00-00
 3934,opinion,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7181,judgement,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 261,analysis,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -422,7 +422,7 @@ Root,Word,CurNode,CurTime,NextTime
 1702,distribute,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 6084,tribute,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 1217,contribute,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-1703,distribution,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
+1703,distribution,1,2025-12-01-11-15-20,2025-12-01-11-20-20
 7197,gelatin,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 314,apparently,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 3266,laundry,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -444,7 +444,7 @@ Root,Word,CurNode,CurTime,NextTime
 7206,hunch,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7207,hunched,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 1329,criticize,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-1802,dynamic,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
+1802,dynamic,1,2025-12-01-11-15-20,2025-12-01-11-20-20
 7208,static,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 5842,terrace,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 2840,illustrate,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -493,7 +493,7 @@ Root,Word,CurNode,CurTime,NextTime
 7228,reorient,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7229,tutorial,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 1454,deem,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-7230,boom,3,2025-11-30-21-23-47,2025-12-01-09-23-47
+7230,boom,5,2025-12-01-11-01-32,2025-12-03-05-00-00
 7231,booming,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7232,burgeon,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 99,acid,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -505,7 +505,7 @@ Root,Word,CurNode,CurTime,NextTime
 7236,unanimity,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7237,trimester,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 3077,interpretation,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-829,casual,3,2025-11-30-21-23-47,2025-12-01-09-23-47
+829,casual,5,2025-12-01-11-01-32,2025-12-03-05-00-00
 1317,creep,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7238,creeper,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7239,creeping,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -513,7 +513,7 @@ Root,Word,CurNode,CurTime,NextTime
 2210,fiction,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7240,collate,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 2338,formulate,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-7241,ubiquitous,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
+7241,ubiquitous,1,2025-12-01-11-15-20,2025-12-01-11-20-20
 611,boast,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7242,greasy,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7243,stout,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -531,7 +531,7 @@ Root,Word,CurNode,CurTime,NextTime
 114,adapt,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7247,pledge,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7248,gallop,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-7249,plagiarism,3,2025-11-30-21-23-47,2025-12-01-09-23-47
+7249,plagiarism,5,2025-12-01-11-07-03,2025-12-03-05-00-00
 7250,plagiarize,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 376,assemble,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 377,assembly,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -570,7 +570,7 @@ Root,Word,CurNode,CurTime,NextTime
 3084,intimate,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7268,calibre,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7269,bulk,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-5394,sophisticated,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
+5394,sophisticated,1,2025-12-01-11-15-20,2025-12-01-11-20-20
 7270,sophistication,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 2077,experienced,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7271,proficient,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -592,7 +592,7 @@ Root,Word,CurNode,CurTime,NextTime
 7279,detour,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7280,junction,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 5595,stripe,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-5594,strip,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
+5594,strip,1,2025-12-01-11-17-27,2025-12-01-11-22-27
 3041,intact,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7281,undamaged,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 5400,sound,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -623,7 +623,7 @@ Root,Word,CurNode,CurTime,NextTime
 7288,specialized,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7289,specialization,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 4671,recreation,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-4672,recreational,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
+4672,recreational,1,2025-12-01-11-15-20,2025-12-01-11-20-20
 4670,recreate,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7290,scrape,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7291,aesthetic,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -659,7 +659,7 @@ Root,Word,CurNode,CurTime,NextTime
 7310,aerobics,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7311,barge,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7312,stake,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-7313,goggles,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
+7313,goggles,2,2025-12-01-11-15-20,2025-12-01-11-45-20
 4401,primitive,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 2033,exceptional,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 2031,except,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -687,7 +687,7 @@ Root,Word,CurNode,CurTime,NextTime
 1683,disruption,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 1684,disruptive,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 1362,currency,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-2172,fatal,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
+2172,fatal,1,2025-12-01-11-17-27,2025-12-01-11-22-27
 2173,fate,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7322,tramp,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7323,entrepreneur,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -696,7 +696,7 @@ Root,Word,CurNode,CurTime,NextTime
 7325,magnitude,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 418,attribute,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7326,ascribe,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-7327,turbine,3,2025-11-30-21-23-47,2025-12-01-09-23-47
+7327,turbine,5,2025-12-01-11-01-32,2025-12-03-05-00-00
 76,accessible,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 2081,expire,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7328,expiry,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -716,7 +716,7 @@ Root,Word,CurNode,CurTime,NextTime
 7334,compact,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 1942,enquiry,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7335,tropospheric,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-4905,rival,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
+4905,rival,2,2025-12-01-11-01-32,2025-12-01-11-31-32
 4906,rivalry,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 2821,identical,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7336,duplicate,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -731,7 +731,7 @@ Root,Word,CurNode,CurTime,NextTime
 7340,congregate,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7341,ensue,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7342,sophisticate,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-5394,sophisticated,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
+5394,sophisticated,1,2025-12-01-11-15-20,2025-12-01-11-20-20
 7343,conquest,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 1153,conquer,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7344,ration,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -795,7 +795,7 @@ Root,Word,CurNode,CurTime,NextTime
 2332,format,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7375,foam,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7376,splint,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-7377,deplete,3,2025-11-30-21-23-47,2025-12-01-09-23-47
+7377,deplete,5,2025-12-01-11-07-03,2025-12-03-05-00-00
 7378,advisable,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 6408,vitality,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 2471,genuine,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -825,7 +825,7 @@ Root,Word,CurNode,CurTime,NextTime
 7390,pretension,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 1349,cultivation,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 5112,sensational,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-1466,deficiency,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
+1466,deficiency,2,2025-12-01-11-15-20,2025-12-01-11-45-20
 4935,route,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 2568,grip,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7391,federal,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -857,7 +857,7 @@ Root,Word,CurNode,CurTime,NextTime
 3231,label,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7407,labor,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 3553,merge,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-7408,fetus,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
+7408,fetus,1,2025-12-01-11-17-27,2025-12-01-11-22-27
 7409,feotus,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 5257,sincere,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7410,stem,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -896,7 +896,7 @@ Root,Word,CurNode,CurTime,NextTime
 7425,fracture,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 1904,empire,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7426,propel,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-7427,extracurricular,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
+7427,extracurricular,2,2025-12-01-11-01-32,2025-12-01-11-31-32
 7428,adhere,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7429,ailment,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7430,herbivore,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -918,10 +918,10 @@ Root,Word,CurNode,CurTime,NextTime
 7437,incapacitate,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 4811,residence,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 2890,impulse,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-7438,consolation,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
+7438,consolation,2,2025-12-01-11-15-20,2025-12-01-11-45-20
 322,appliance,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7439,epidemic,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-7440,pandemic,3,2025-11-30-21-23-47,2025-12-01-09-23-47
+7440,pandemic,5,2025-12-01-11-01-32,2025-12-03-05-00-00
 7441,frock,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7442,sociology,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 5708,surpass,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -983,7 +983,7 @@ Root,Word,CurNode,CurTime,NextTime
 7476,shatter,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7477,shutter,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 814,cargo,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-7478,freight,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
+7478,freight,1,2025-12-01-11-15-20,2025-12-01-11-20-20
 4450,prohibit,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 5850,territory,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7479,mock,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -996,7 +996,7 @@ Root,Word,CurNode,CurTime,NextTime
 7484,overrate,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7485,conformity,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 6020,toxic,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-7486,toxicity,3,2025-11-30-21-23-47,2025-12-01-09-23-47
+7486,toxicity,5,2025-12-01-11-01-32,2025-12-03-05-00-00
 7487,noxious,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7488,obnoxious,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7489,sundial,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -1047,7 +1047,7 @@ Root,Word,CurNode,CurTime,NextTime
 7520,brew,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7521,brewery,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7522,consist,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-7523,dome,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
+7523,dome,1,2025-12-01-11-17-27,2025-12-01-11-22-27
 7524,apparatus,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 2566,grim,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 127,adjacent,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -1058,7 +1058,7 @@ Root,Word,CurNode,CurTime,NextTime
 7528,vigorous,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7529,hasty,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7530,redress,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-2237,finite,3,2025-11-30-21-23-47,2025-12-01-09-23-47
+2237,finite,5,2025-12-01-11-01-32,2025-12-03-05-00-00
 7531,compensation,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7532,commission,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7533,terrestrial,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -1069,7 +1069,7 @@ Root,Word,CurNode,CurTime,NextTime
 1318,crew,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 1015,coincide,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7537,concur,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-1016,coincidence,1,2025-11-30-19-35-51,2025-11-30-19-40-51
+1016,coincidence,2,2025-12-01-11-01-32,2025-12-01-11-31-32
 7538,cord,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7539,flicker,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7540,scriptural,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -1084,8 +1084,8 @@ Root,Word,CurNode,CurTime,NextTime
 7545,incline,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 2903,inclination,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 65,absurd,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-2103,external,3,2025-11-30-21-23-47,2025-12-01-09-23-47
-583,bizarre,3,2025-11-30-21-23-47,2025-12-01-09-23-47
+2103,external,5,2025-12-01-11-01-32,2025-12-03-05-00-00
+583,bizarre,5,2025-12-01-11-07-03,2025-12-03-05-00-00
 3033,institution,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7546,faculty,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 1492,democratic,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -1125,7 +1125,7 @@ Root,Word,CurNode,CurTime,NextTime
 7561,decipher,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7562,exhilaration,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 75,access,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-229,alternative,1,2025-11-30-19-35-51,2025-11-30-19-40-51
+229,alternative,2,2025-12-01-11-01-32,2025-12-01-11-31-32
 5432,specimen,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 5568,strand,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 3108,investigate,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -1153,7 +1153,7 @@ Root,Word,CurNode,CurTime,NextTime
 6045,tranquility,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 1232,conviction,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7574,con-fiction,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-7575,compress,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
+7575,compress,2,2025-12-01-11-15-20,2025-12-01-11-45-20
 1912,enclose,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 5689,supplement,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7576,derive,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -1171,7 +1171,7 @@ Root,Word,CurNode,CurTime,NextTime
 1185,consultant,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7583,molecule,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7584,optimum,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-7585,cavort,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
+7585,cavort,1,2025-12-01-11-15-20,2025-12-01-11-20-20
 7586,exuberant,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7587,engross,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7588,prowess,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -1201,7 +1201,7 @@ Root,Word,CurNode,CurTime,NextTime
 7605,circumvent,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 292,anticipate,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7606,flora,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-7607,Flora,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
+7607,Flora,2,2025-12-01-11-15-20,2025-12-01-11-45-20
 1128,conduct,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 5505,stance,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 4744,relieve,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -1219,7 +1219,7 @@ Root,Word,CurNode,CurTime,NextTime
 7617,plateau,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7618,convection,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7619,impoverish,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-7620,exploitative,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
+7620,exploitative,1,2025-12-01-11-15-20,2025-12-01-11-20-20
 7621,dearth,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7622,entrepreneurial,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7623,predatory,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -1267,7 +1267,7 @@ Root,Word,CurNode,CurTime,NextTime
 3691,mundane,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 5630,substitution,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 5627,substantial,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-229,alternative,1,2025-11-30-19-35-51,2025-11-30-19-40-51
+229,alternative,2,2025-12-01-11-01-32,2025-12-01-11-31-32
 7642,emeritus,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7643,utterance,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7644,scrupulous,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -1278,7 +1278,7 @@ Root,Word,CurNode,CurTime,NextTime
 7648,introspection,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7649,manor,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 3368,litter,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-1946,enterprise,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
+1946,enterprise,2,2025-12-01-11-01-32,2025-12-01-11-31-32
 7650,premier,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7651,aptitude,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7652,subtract,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -1303,7 +1303,7 @@ Root,Word,CurNode,CurTime,NextTime
 7657,dissemination,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 1713,divert,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 5457,spite,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-5594,strip,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
+5594,strip,1,2025-12-01-11-17-27,2025-12-01-11-22-27
 7658,exploitation,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7659,supersede,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7660,opulence,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -1460,10 +1460,10 @@ Root,Word,CurNode,CurTime,NextTime
 7740,bacterial,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 1877,eligible,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7741,thorny,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-7742,capsize,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
+7742,capsize,1,2025-12-01-11-15-20,2025-12-01-11-20-20
 7743,replicate,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7744,duplicate,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-7745,swivel,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
+7745,swivel,1,2025-12-01-11-15-20,2025-12-01-11-20-20
 7746,prototype,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7747,unveil,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 4862,reveal,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -1474,7 +1474,7 @@ Root,Word,CurNode,CurTime,NextTime
 3874,obsession,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7752,fraught,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7753,retailing,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-7754,dispersal,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
+7754,dispersal,1,2025-12-01-11-17-27,2025-12-01-11-22-27
 7755,revegetate,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7756,enclosure,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 4956,rural,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -1576,7 +1576,7 @@ Root,Word,CurNode,CurTime,NextTime
 3031,instinct,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7815,foreland,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7816,induction,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-1082,compile,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
+1082,compile,2,2025-12-01-11-01-32,2025-12-01-11-31-32
 7817,underling,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7818,menace,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7819,moist,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -1678,7 +1678,7 @@ Root,Word,CurNode,CurTime,NextTime
 1572,dialect,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7878,gauge,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 1994,estimate,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-1999,evaluate,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
+1999,evaluate,2,2025-12-01-11-17-27,2025-12-01-11-47-27
 1324,criterion,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 4289,portable,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 4069,partial,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -1700,7 +1700,7 @@ Root,Word,CurNode,CurTime,NextTime
 7892,geometry,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7893,paralysis,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7894,prefabrication,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-7895,conversely,3,2025-11-30-21-23-47,2025-12-01-09-23-47
+7895,conversely,5,2025-12-01-11-07-03,2025-12-03-05-00-00
 7896,anecdote,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7897,forum,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7898,solemn,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -1763,19 +1763,19 @@ Root,Word,CurNode,CurTime,NextTime
 7936,caustic,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7937,miscellaneous,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 4651,recession,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-7938,undisguised,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
+7938,undisguised,2,2025-12-01-11-01-32,2025-12-01-11-31-32
 1653,disguise,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 235,amateur,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 2204,fertile,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7939,probe,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7940,disfigure,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7941,inflammable,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-3372,liver,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
+3372,liver,2,2025-12-01-11-01-32,2025-12-01-11-31-32
 1164,conservative,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7942,inflection,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 5534,steer,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 228,alternate,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-7943,exorbitant,3,2025-11-30-21-23-47,2025-12-01-09-23-47
+7943,exorbitant,5,2025-12-01-11-01-32,2025-12-03-05-00-00
 6092,trivial,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7944,starchy,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 1260,corridor,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -1789,7 +1789,7 @@ Root,Word,CurNode,CurTime,NextTime
 7946,crescent,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 1894,eminent,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7947,prevalent,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-1693,distinctive,3,2025-11-30-21-23-47,2025-12-01-09-23-47
+1693,distinctive,5,2025-12-01-11-01-32,2025-12-03-05-00-00
 1883,elusive,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7948,jeopardize,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 7949,peripheral,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -1966,7 +1966,7 @@ Root,Word,CurNode,CurTime,NextTime
 8054,conduce,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 8055,dystrophy,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 8056,militant,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-8057,combative,1,2025-11-30-19-35-51,2025-11-30-19-40-51
+8057,combative,2,2025-12-01-11-01-32,2025-12-01-11-31-32
 8058,agitator,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 8059,firebrand,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 8060,dove,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -1993,12 +1993,12 @@ Root,Word,CurNode,CurTime,NextTime
 5116,sensible,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 8068,pamphlet,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 1896,emit,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-392,assurance,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
+392,assurance,1,2025-12-01-11-15-20,2025-12-01-11-20-20
 3773,neutral,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 8069,captive,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 6182,undertake,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 6169,underestimate,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-8070,tickle,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
+8070,tickle,1,2025-12-01-11-15-20,2025-12-01-11-20-20
 8071,slump,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 4961,sack,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 8072,requisition,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -2036,7 +2036,7 @@ Root,Word,CurNode,CurTime,NextTime
 5626,substance,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 2765,hostel,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 8087,inscribe,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-8088,inflate,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
+8088,inflate,2,2025-12-01-11-01-32,2025-12-01-11-31-32
 2760,hospitable,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 2115,extrovert,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 703,browse,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -2057,7 +2057,7 @@ Root,Word,CurNode,CurTime,NextTime
 3049,intelligence,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 8096,embryo,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 8097,embryonic,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-1922,endorse,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
+1922,endorse,2,2025-12-01-11-01-32,2025-12-01-11-31-32
 726,bureaucracy,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 8098,dispenser,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 3643,monopoly,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -2114,7 +2114,7 @@ Root,Word,CurNode,CurTime,NextTime
 8128,imperil,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 8129,inhumane,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 4873,revive,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-8130,torment,3,2025-11-30-21-23-47,2025-12-01-09-23-47
+8130,torment,5,2025-12-01-11-01-32,2025-12-03-05-00-00
 8131,guzzle,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 1581,diesel,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 8132,vile,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -2153,7 +2153,7 @@ Root,Word,CurNode,CurTime,NextTime
 8157,estrange,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 8158,extinguish,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 4960,ruthless,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-8159,begrimed,2,2025-11-30-19-35-51,2025-11-30-20-05-51
+8159,begrimed,3,2025-12-01-11-01-32,2025-12-01-23-01-32
 1339,cruel,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 8160,ruthlessly,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 2036,excessive,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -2170,7 +2170,7 @@ Root,Word,CurNode,CurTime,NextTime
 8168,alluring,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 8169,abide,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 8170,catastrophic,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-1035,combat,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
+1035,combat,1,2025-12-01-11-15-20,2025-12-01-11-20-20
 8171,combatant,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 8172,combative,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 8173,orbit,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -2201,7 +2201,7 @@ Root,Word,CurNode,CurTime,NextTime
 8188,conductive,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 8189,barren,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 8190,fruitless,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-8191,devoid,1,2025-11-30-19-35-51,2025-11-30-19-40-51
+8191,devoid,2,2025-12-01-11-07-03,2025-12-01-11-37-03
 2204,fertile,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 8192,fecund,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 8193,semantic,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -2332,7 +2332,7 @@ Root,Word,CurNode,CurTime,NextTime
 1339,cruel,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 8277,bestial,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 8278,feral,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-8279,brutality,3,2025-11-30-21-23-47,2025-12-01-09-23-47
+8279,brutality,5,2025-12-01-11-07-03,2025-12-03-05-00-00
 8280,inculcate,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 2564,grill,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 8281,overexploit,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -2349,7 +2349,7 @@ Root,Word,CurNode,CurTime,NextTime
 8289,virtuous,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 4840,restore,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 8290,restoration,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-8291,slander,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
+8291,slander,1,2025-12-01-11-17-27,2025-12-01-11-22-27
 8292,penalize,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 8293,inviolable,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 8294,dupe,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -2364,7 +2364,7 @@ Root,Word,CurNode,CurTime,NextTime
 1969,episode,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 8301,thrift,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 8302,susceptibility,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-8303,allergic,1,2025-11-30-19-35-51,2025-11-30-19-40-51
+8303,allergic,2,2025-12-01-11-01-32,2025-12-01-11-31-32
 6430,vulnerable,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 8304,inviolability,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 8305,cognitive,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -2384,7 +2384,7 @@ Root,Word,CurNode,CurTime,NextTime
 6371,veteran,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 8316,acclimatize,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 8317,aboriginal,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-8318,abject,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
+8318,abject,1,2025-12-01-11-17-27,2025-12-01-11-22-27
 8319,stranding,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 8320,remnant,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 8321,cosmetics,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
@@ -2465,9 +2465,9 @@ Root,Word,CurNode,CurTime,NextTime
 1979,eradicate,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 1231,convict,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 5841,terms,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-8363,perceptual,3,2025-11-30-21-23-47,2025-12-01-09-23-47
+8363,perceptual,5,2025-12-01-11-01-32,2025-12-03-05-00-00
 8364,mutate,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
-8365,collective,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
+8365,collective,1,2025-12-01-11-15-20,2025-12-01-11-20-20
 8366,mimic,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 1046,comic,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss
 8367,interweave,-1,YYYY-MM-DD-hh-mm-ss,YYYY-MM-DD-hh-mm-ss

@@ -3,9 +3,9 @@ class PrepareReview {
         this.words = []; // 所有待处理的单词
         this.currentIndex = 0; // 当前单词索引
         this.selectedWords = []; // 用户选择的不熟悉单词
-        this.batchSize = 10; // 初始批次大小
-        this.additionalBatchSize = 20; // 后续批次大小
-        this.targetCount = 5; // 目标复习单词数
+        this.batchSize = 15; // 初始批次大小
+        this.additionalBatchSize = 10; // 后续批次大小
+        this.targetCount = 10; // 目标复习单词数
         this.isLoading = false;
         this.isCompleted = false;
         this.isDefinitionVisible = false; // 新增：控制释义显示状态
