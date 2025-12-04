@@ -1,3 +1,3 @@
-from .flashcard_service import FlashcardService
+from .lexiconia_service  import LexiconiaService
 
-__all__ = ['FlashcardService']
+__all__ = ['LexiconiaService']

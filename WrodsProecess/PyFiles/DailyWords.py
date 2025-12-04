@@ -32,7 +32,7 @@ def main():
     
     root = {}
     for i in range(len(df2)):
-        root[df2["Word"][i]] = "{:0>4d}".format(int(df2["Root"][i]))
+        root[df2["Word"][i]] = "{:0>6d}".format(int(df2["Root"][i]))
         
     addition_count = len(df2) + 342
     
@@ -47,16 +47,16 @@ def main():
             w["Root"] = addition_count
             ra = {
                 "Root": addition_count,
-                "Serial": "09-{:0>4d}-01-1".format(int(w["Root"])),         # Level - SortedIndex - Part of Speech - SubIndex
+                "Serial": "09-{:0>6d}-01-1".format(int(w["Root"])),         # Level - SortedIndex - part_of_speech - SubIndex
                 "Word": _
             }
             wa = {
                 "Root": addition_count,
-                "Serial": "09-{:0>4d}-01-1".format(int(w["Root"])),         # Level - SortedIndex - Part of Speech - SubIndex
+                "Serial": "09-{:0>6d}-01-1".format(int(w["Root"])),         # Level - SortedIndex - part_of_speech - SubIndex
                 "Word": _,
                 "Guideword": "-", 
                 "Level": "-",
-                "Part of Speech": "-", 
+                "part_of_speech": "-", 
                 "Topic": "-"
             }
             addition_count += 1
@@ -64,7 +64,7 @@ def main():
             root_additon.append(ra)
             word_addition.append(wa)
             
-        w["Serial"] = "00-{:0>4d}-0-0".format(int(w["Root"]))
+        w["Serial"] = "00-{:0>6d}-0-0".format(int(w["Root"]))
         w["Word"] = _
         w["CurNode"] = -2,
         w["CurTime"] = "YYYY-MM-DD-hh-mm-ss"
@@ -82,7 +82,7 @@ def main():
     radf = pd.concat([radf, pd.DataFrame(root_additon)], ignore_index=True)
     radf.to_csv(CEFR_csv_Root_address_, mode="a", index=False, encoding="utf-8", header=False)
     
-    wadf = pd.DataFrame(columns=['Root', "Serial", 'Word', "Guideword", "Level","Part of Speech", "Topic"])
+    wadf = pd.DataFrame(columns=['Root', "Serial", 'Word', "Guideword", "Level","part_of_speech", "Topic"])
     
     wadf = pd.concat([wadf, pd.DataFrame(word_addition)], ignore_index=True)
     wadf.to_csv(CEFR_csv_MyWords_address_, mode="a", index=False, encoding="utf-8", header=False)

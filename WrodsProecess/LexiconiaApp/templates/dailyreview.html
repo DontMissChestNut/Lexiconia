@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lexiconia</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="main-card" id="word-card">
+            <div class="progress">
+                <span id="progress">current / total</span>
+            </div>
+
+            <div class="word-section">
+                <h1 class="word" id="word-display">Word</h1>
+                <div class="phonetic-section">
+                    <span id="phonetic-symbol">phonetic</span>
+                    <span id="phonetic-audio">phonetic-audio</span>
+                </div>
+            </div>
+
+            <!-- 动态生成释义部分 -->
+            <div class="details-section" id="details-section">
+                <!-- 这里会被JavaScript动态填充 -->
+                <div class="loading">加载中...</div>
+            </div>
+
+            <div class="controls">
+                <!-- <button id="prevBtn" class="prev-btn">上一个</button>
+                <button id="nextBtn" class="next-btn">下一个单词</button>
+                <button id="randomBtn" class="random-btn">随机单词</button> -->
+
+                <button id="fmlBtn" class="prev-btn">认识</button>
+                <button id="unfmlBtn" class="next-btn">不认识</button>
+            </div>
+            <div>
+                <a href="/" class="btn btn-secondary">返回主页</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='dailyreview.js') }}"></script>
+</body>
+</html>

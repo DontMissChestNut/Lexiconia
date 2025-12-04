@@ -1,0 +1,13 @@
+/* 添加单词页面特殊样式 */
+.add-words-container h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    font-size: 2.2em;
+}
+
+.submit-btn {
+    width: 100%;
+    font-size: 1.1em;
+    padding: 15px;
+}

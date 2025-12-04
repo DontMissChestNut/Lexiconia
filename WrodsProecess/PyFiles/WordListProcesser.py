@@ -23,7 +23,7 @@ word_form_CEFR = {
     "Word": "string",
     "Guideword" : "string",
     "Level": "string",
-    "Part of Speech": "string",
+    "part_of_speech": "string",
     "Topic": "string"
 }
 
@@ -79,7 +79,7 @@ class Processer:
                 "Word": "-",
                 "Guideword" : "-",
                 "Level": "-",
-                "Part of Speech": "-",
+                "part_of_speech": "-",
                 "Topic": "-"
             }
             cursor = 0
@@ -97,12 +97,12 @@ class Processer:
                     
                 else:
                     if (i - cursor + 2) == 3:
-                        word["Part of Speech"] = detail
+                        word["part_of_speech"] = detail
                     elif (i - cursor + 2) == 4:
                         word["Topic"] = detail
                         
             if(word):                
-                if word["Part of Speech"] == "phrase" or word["Part of Speech"] == "phrasal verb":
+                if word["part_of_speech"] == "phrase" or word["part_of_speech"] == "phrasal verb":
                     phrace_list_processed.append(word)
                 else:
                     word_list_processed.append(word)
@@ -114,7 +114,7 @@ class Processer:
         # file_exists = os.path.isfile(address)
         
         # 创建DataFrame
-        df = pd.DataFrame(columns=['Root', "Serial", 'Word', "Guideword", "Level","Part of Speech", "Topic"])
+        df = pd.DataFrame(columns=['Root', "Serial", 'Word', "Guideword", "Level","part_of_speech", "Topic"])
         
         df = pd.concat([df, pd.DataFrame(data)], ignore_index=True)
         df.to_csv(address, mode="w", index=False, encoding="utf-8", header=True)
@@ -144,7 +144,7 @@ class CardGenerator:
                 "Word": df["Word"][i],
                 "Guideword" : df["Guideword"][i],
                 "Level": df["Level"][i],
-                "Part of Speech": df["Part of Speech"][i],
+                "part_of_speech": df["part_of_speech"][i],
                 "Topic": df["Topic"][i]
             }
             
@@ -172,15 +172,15 @@ def SaveMyWord(words):
         
         word = {
             "Root": "-",
-            "Serial": "00-0000-0-0",         # Level - SortedIndex - Part of Speech - SubIndex
+            "Serial": "00-0000-0-0",         # Level - SortedIndex - part_of_speech - SubIndex
             "Word": "-"
         }
-        word["Root"] = "{:0>4d}".format(i + 1)
-        word["Serial"] = "00-{:0>4d}-0-0".format(i + 1)
+        word["Root"] = "{:0>6d}".format(i + 1)
+        word["Serial"] = "00-{:0>6d}-0-0".format(i + 1)
         word["Word"] = v
         
         l.append(word)
-        d[v] = "{:0>4d}".format(i + 1)
+        d[v] = "{:0>6d}".format(i + 1)
         
 
 
@@ -213,7 +213,7 @@ def generateCard():
             cursor += 1
         level = Level[c["Level"]]
         serial = d[c["Word"]]
-        p = PartofSpeech[c["Part of Speech"]]
+        p = PartofSpeech[c["part_of_speech"]]
         sub_index = cursor
         
         card_serial = "{:0>2d}-{}-{:0>2d}-{:0>1d}".format(level, serial, p, sub_index)
@@ -226,19 +226,19 @@ def generateCard():
             pc["Root"] = "0000"
         level = Level[pc["Level"]]
         serial = pc["Root"]
-        p = PartofSpeech[pc["Part of Speech"]]
+        p = PartofSpeech[pc["part_of_speech"]]
         sub_index = "0"
         
         card_serial = "{:0>2d}-{}-{:0>2d}-{}".format(level, serial, p, sub_index)
         pc["Serial"] = card_serial
     
     # 创建DataFrame
-    df = pd.DataFrame(columns=['Root', "Serial", 'Word', "Guideword", "Level","Part of Speech", "Topic"])
+    df = pd.DataFrame(columns=['Root', "Serial", 'Word', "Guideword", "Level","part_of_speech", "Topic"])
     
     df = pd.concat([df, pd.DataFrame(cards)], ignore_index=True)
     df.to_csv(CEFR_csv_MyWords_address_, mode="w", index=False, encoding="utf-8", header=True)
     
-    df2 = pd.DataFrame(columns=['Root', "Serial", 'Word', "Guideword", "Level","Part of Speech", "Topic"])
+    df2 = pd.DataFrame(columns=['Root', "Serial", 'Word', "Guideword", "Level","part_of_speech", "Topic"])
     
     df2 = pd.concat([df2, pd.DataFrame(phraceCards)], ignore_index=True)
     df2.to_csv(CEFR_csv_MyPhraces_address_, mode="w", index=False, encoding="utf-8", header=True)

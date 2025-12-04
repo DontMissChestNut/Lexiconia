@@ -1,0 +1,386 @@
+/* 基础重置和通用样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: #2c3e50;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+}
+
+/* 卡片基础样式 */
+.word-card, .guide-card, .add-words-container, 
+.review-card, .guide-section, .message-card {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    padding: 30px;
+    position: relative;
+}
+
+/* 进度条样式 */
+.progress {
+    text-align: right;
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.progress-container {
+    margin: 20px 0;
+}
+
+.progress-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.progress-bar {
+    height: 8px;
+    background: #e9ecef;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background: #3498db;
+    transition: width 0.3s ease;
+}
+
+/* 单词部分样式 */
+.word-section {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.word {
+    font-size: 3em;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.phonetic-section {
+    color: #7f8c8d;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+/* 详情部分样式 */
+.details-section, .word-details {
+    margin-bottom: 30px;
+}
+
+.detail {
+    background: #f8f9fa;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-left: 4px solid #3498db;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.detail:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.definition-header {
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: #2c3e50;
+    font-size: 1.1em;
+}
+
+.level {
+    color: #e74c3c;
+}
+
+.part-of-speech {
+    color: #3498db;
+}
+
+.addition {
+    color: #27ae60;
+    font-style: italic;
+}
+
+.explain {
+    margin-left: 10px;
+}
+
+.english-explanation {
+    color: #e74c3c;
+    margin-bottom: 8px;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.chinese-explanation {
+    color: #27ae60;
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.illustrative.sentence {
+    margin-top: 12px;
+    padding: 10px;
+    background: white;
+    border-radius: 8px;
+    border-left: 3px solid #f39c12;
+    color: #34495e;
+    font-style: italic;
+}
+
+/* 控制按钮区域 */
+.controls, .review-controls, .session-controls, 
+.completion-actions, .modal-actions {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+/* 按钮基础样式 */
+button, .btn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    background: #3498db;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+}
+
+button:hover, .btn:hover {
+    background: #2980b9;
+    transform: translateY(-2px);
+    text-decoration: none;
+    color: white;
+}
+
+button:active, .btn:active {
+    transform: translateY(0);
+}
+
+/* 特定按钮样式 */
+.prev-btn, .btn-skip {
+    background: #95a5a6;
+}
+
+.prev-btn:hover, .btn-skip:hover {
+    background: #7f8c8d;
+}
+
+.next-btn, .random-btn, .btn-show-definition {
+    background: #3498db;
+}
+
+.next-btn:hover, .random-btn:hover, .btn-show-definition:hover {
+    background: #2980b9;
+}
+
+.btn-unfamiliar, .unfamiliar-btn {
+    background: #e74c3c;
+}
+
+.btn-unfamiliar:hover, .unfamiliar-btn:hover {
+    background: #c0392b;
+}
+
+.familiar-btn, .btn-finish, .submit-btn {
+    background: #27ae60;
+}
+
+.familiar-btn:hover, .btn-finish:hover, .submit-btn:hover {
+    background: #219653;
+}
+
+.btn-primary {
+    background: #9b59b6;
+}
+
+.btn-primary:hover {
+    background: #8e44ad;
+}
+
+.btn-secondary {
+    background: #95a5a6;
+}
+
+.btn-secondary:hover {
+    background: #7f8c8d;
+}
+
+/* 表单样式 */
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #2c3e50;
+    font-size: 1.1em;
+}
+
+.form-group textarea {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    resize: vertical;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.form-group textarea:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+.form-tip {
+    font-size: 14px;
+    color: #7f8c8d;
+    margin-top: 8px;
+    font-style: italic;
+}
+
+/* 消息和状态样式 */
+.loading, .error, .no-definitions {
+    text-align: center;
+    padding: 40px;
+    color: #7f8c8d;
+    font-size: 1.1em;
+}
+
+.error {
+    color: #e74c3c;
+}
+
+.result-message {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* 导航和链接 */
+.navigation {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.guide-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.guide-link, .nav-link {
+    display: block;
+    padding: 15px 20px;
+    background: #f8f9fa;
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #2c3e50;
+    text-align: center;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.guide-link:hover, .nav-link:hover {
+    background: #3498db;
+    color: white;
+    border-color: #3498db;
+    text-decoration: none;
+    transform: translateY(-2px);
+}
+
+/* 模态窗口 */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+}
+
+/* 显示定义控制 */
+.show-definition-control {
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* 完成消息 */
+.completion-message {
+    text-align: center;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .word-card, .guide-card, .add-words-container, 
+    .review-card, .guide-section, .message-card {
+        padding: 20px;
+    }
+
+    .word {
+        font-size: 2.5em;
+    }
+
+    .controls, .review-controls, .session-controls,
+    .completion-actions, .modal-actions {
+        flex-direction: column;
+    }
+
+    button, .btn {
+        width: 100%;
+    }
+    
+    .guide-links {
+        gap: 10px;
+    }
+}

@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container">
-        <div class="word-card" id="word-card">
+        <div class="main-card" id="word-card">
             <div class="progress">
                 <span id="progress">current / total</span>
             </div>
@@ -32,9 +32,12 @@
                 <button id="nextBtn" class="next-btn">下一个单词</button>
                 <button id="randomBtn" class="random-btn">随机单词</button>
             </div>
+            <div>
+                <a href="/" class="btn btn-secondary">返回主页</a>
+            </div>
         </div>
     </div>
 
-    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <script src="{{ url_for('static', filename='lexiconia.js') }}"></script>
 </body>
 </html>

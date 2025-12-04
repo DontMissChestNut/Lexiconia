@@ -19,7 +19,7 @@ word_card_form= {
     "Root": "string",
     "Serial" : "string",
     "Level": "string",
-    "Part of Speech": "string",
+    "part_of_speech": "string",
     "addition": "string",
     "ExplainationE": "string",
     "ExplainationC": "string"

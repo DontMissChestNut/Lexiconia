@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.omtl": "glsl",
+        "*.glsl": "glsl",
+        "*.frag": "glsl",
+        "iostream": "cpp",
+        "queue": "cpp",
+        "stack": "cpp"
+    }
+}

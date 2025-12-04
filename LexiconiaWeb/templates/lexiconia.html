@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lexiconia</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='/css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='/css/lexiconia.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="card word-card">
+            <div class="progress-container">
+                <span id="progressText" class="progress-text">current / total</span>
+            </div>
+
+            <div class="word-section">
+                <h1 class="word" id="word-display">Word</h1>
+                <div class="phonetic-section">
+                    <span id="phonetic-symbol">phonetic</span>
+                    <span id="phonetic-audio">phonetic-audio</span>
+                </div>
+            </div>
+
+            <!-- 动态生成释义部分 -->
+            <div class="details-section" id="details-section">
+                <!-- 这里会被JavaScript动态填充 -->
+                <div class="loading">加载中...</div>
+            </div>
+
+            <div class="controls">
+                <button id="prev-btn" class="prev-btn">上一个</button>
+                <button id="next-btn" class="next-btn">下一个单词</button>
+                <button id="random-btn" class="random-btn">随机单词</button>
+            </div>
+            <div>
+                <a href="/" class="btn btn-secondary">返回主页</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='/js/lexiconia.js') }}"></script>
+</body>
+</html>

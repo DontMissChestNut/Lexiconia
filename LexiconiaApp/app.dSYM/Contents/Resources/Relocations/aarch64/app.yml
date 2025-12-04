@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/bytedance/Documents/MyDocuments/Lexiconia/Lexiconia/LexiconiaApp/app'
+relocations:     []
+...

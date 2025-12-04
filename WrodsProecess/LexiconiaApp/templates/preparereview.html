@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>准备复习 - Lexiconia</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='preparereview.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header class="review-header">
+            <h1>准备今日复习</h1>
+            <p class="subtitle">标记不熟悉的单词加入今日复习列表</p>
+            
+            <div class="progress-container">
+                <div class="progress-info">
+                    <span class="progress-text" id="progress-text">0/100</span>
+                    <span class="progress-percent" id="progress-percent">0%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-fill"></div>
+                </div>
+            </div>
+        </header>
+
+        <div class="review-card" id="review-card">
+            <div class="word-section">
+                <h2 class="word" id="word-display">加载中...</h2>
+                <div class="word-details" id="word-details">
+                    <!-- 单词详细信息将在这里动态生成 -->
+                </div>
+            </div>
+
+            <div class="review-controls">
+                <button class="btn btn-skip" id="btn-skip">
+                    <span class="btn-icon">⏭️</span>
+                    <span class="btn-text">熟悉 (跳过)</span>
+                </button>
+                <button class="btn btn-unfamiliar" id="btn-unfamiliar">
+                    <span class="btn-icon">➕</span>
+                    <span class="btn-text">不熟悉 (加入复习)</span>
+                </button>
+            </div>
+
+            <div class="session-controls">
+                <button class="btn btn-finish" id="btn-finish">
+                    <span class="btn-icon">🏁</span>
+                    <span class="btn-text">结束准备</span>
+                </button>
+                <a href="/" class="nav-link">返回主页</a>
+            </div>
+        </div>
+
+        <div class="completion-message" id="completion-message" style="display: none;">
+            <div class="message-card">
+                <h2>准备完成！</h2>
+                <p>已选择 <span id="selected-count">0</span> 个单词加入今日复习</p>
+                <div class="completion-actions">
+                    <button class="btn btn-primary" id="btn-start-review">开始复习</button>
+                    <a href="/" class="btn btn-secondary">返回主页</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='preparereview.js') }}"></script>
+</body>
+</html>
