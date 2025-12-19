@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/LexiconiaApp.dir/_main.cpp.o CMakeFiles/LexiconiaApp.dir/src/Core/Application.cpp.o CMakeFiles/LexiconiaApp.dir/src/Core/Logger.cpp.o CMakeFiles/LexiconiaApp.dir/src/Core/Time.cpp.o CMakeFiles/LexiconiaApp.dir/src/Core/Window.cpp.o -o ../lexiconia

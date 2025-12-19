@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/bytedance/Documents/MyDocuments/Lexiconia/Lexiconia
+CMAKE_SOURCE_DIR = /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/bytedance/Documents/MyDocuments/Lexiconia/Lexiconia/build
+CMAKE_BINARY_DIR = /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bytedance/Documents/MyDocuments/Lexiconia/Lexiconia/build/CMakeFiles /Users/bytedance/Documents/MyDocuments/Lexiconia/Lexiconia/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/build/CMakeFiles /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bytedance/Documents/MyDocuments/Lexiconia/Lexiconia/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,65 +117,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named app
+# Target rules for targets named LexiconiaApp
 
 # Build rule for target.
-app: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app
-.PHONY : app
+LexiconiaApp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LexiconiaApp
+.PHONY : LexiconiaApp
 
 # fast build rule for target.
-app/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/build
-.PHONY : app/fast
-
-LexiconiaApp/src/_main.o: LexiconiaApp/src/_main.cpp.o
-.PHONY : LexiconiaApp/src/_main.o
-
-# target to build an object file
-LexiconiaApp/src/_main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/LexiconiaApp/src/_main.cpp.o
-.PHONY : LexiconiaApp/src/_main.cpp.o
-
-LexiconiaApp/src/_main.i: LexiconiaApp/src/_main.cpp.i
-.PHONY : LexiconiaApp/src/_main.i
-
-# target to preprocess a source file
-LexiconiaApp/src/_main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/LexiconiaApp/src/_main.cpp.i
-.PHONY : LexiconiaApp/src/_main.cpp.i
-
-LexiconiaApp/src/_main.s: LexiconiaApp/src/_main.cpp.s
-.PHONY : LexiconiaApp/src/_main.s
-
-# target to generate assembly for a file
-LexiconiaApp/src/_main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/LexiconiaApp/src/_main.cpp.s
-.PHONY : LexiconiaApp/src/_main.cpp.s
-
-LexiconiaApp/src/glad.o: LexiconiaApp/src/glad.cpp.o
-.PHONY : LexiconiaApp/src/glad.o
-
-# target to build an object file
-LexiconiaApp/src/glad.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/LexiconiaApp/src/glad.cpp.o
-.PHONY : LexiconiaApp/src/glad.cpp.o
-
-LexiconiaApp/src/glad.i: LexiconiaApp/src/glad.cpp.i
-.PHONY : LexiconiaApp/src/glad.i
-
-# target to preprocess a source file
-LexiconiaApp/src/glad.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/LexiconiaApp/src/glad.cpp.i
-.PHONY : LexiconiaApp/src/glad.cpp.i
-
-LexiconiaApp/src/glad.s: LexiconiaApp/src/glad.cpp.s
-.PHONY : LexiconiaApp/src/glad.s
-
-# target to generate assembly for a file
-LexiconiaApp/src/glad.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/LexiconiaApp/src/glad.cpp.s
-.PHONY : LexiconiaApp/src/glad.cpp.s
+LexiconiaApp/fast:
+	$(MAKE) $(MAKESILENT) -f LexiconiaApp/CMakeFiles/LexiconiaApp.dir/build.make LexiconiaApp/CMakeFiles/LexiconiaApp.dir/build
+.PHONY : LexiconiaApp/fast
 
 # Help Target
 help:
@@ -185,13 +137,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... app"
-	@echo "... LexiconiaApp/src/_main.o"
-	@echo "... LexiconiaApp/src/_main.i"
-	@echo "... LexiconiaApp/src/_main.s"
-	@echo "... LexiconiaApp/src/glad.o"
-	@echo "... LexiconiaApp/src/glad.i"
-	@echo "... LexiconiaApp/src/glad.s"
+	@echo "... LexiconiaApp"
 .PHONY : help
 
 

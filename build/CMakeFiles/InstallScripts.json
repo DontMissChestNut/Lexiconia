@@ -1,7 +1,8 @@
 {
 	"InstallScripts" : 
 	[
-		"/Users/bytedance/Documents/MyDocuments/Lexiconia/Lexiconia/build/cmake_install.cmake"
+		"/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/build/cmake_install.cmake",
+		"/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/build/LexiconiaApp/cmake_install.cmake"
 	],
 	"Parallel" : false
 }
