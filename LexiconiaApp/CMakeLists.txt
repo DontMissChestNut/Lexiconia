@@ -19,22 +19,26 @@ target_include_directories(${TARGET_NAME} PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}/src
 )
 
+target_compile_definitions(${TARGET_NAME} PRIVATE
+    GL_SILENCE_DEPRECATION
+)
+
 # ========== 第三方库配置 ==========
 
 # 1. GLFW（窗口管理）
-# if(NOT TARGET glfw)
-#     include(FetchContent)
-#     FetchContent_Declare(
-#         glfw
-#         GIT_REPOSITORY https://github.com/glfw/glfw.git
-#         GIT_TAG 3.3.8
-#     )
-#     FetchContent_MakeAvailable(glfw)
-#     set(GLFW_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
-#     set(GLFW_BUILD_TESTS OFF CACHE BOOL "" FORCE)
-#     set(GLFW_BUILD_DOCS OFF CACHE BOOL "" FORCE)
-# endif()
-# target_link_libraries(${TARGET_NAME} PRIVATE glfw)
+if(NOT TARGET glfw)
+    include(FetchContent)
+    FetchContent_Declare(
+        glfw
+        GIT_REPOSITORY https://github.com/glfw/glfw.git
+        GIT_TAG 3.3.8
+    )
+    FetchContent_MakeAvailable(glfw)
+    set(GLFW_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
+    set(GLFW_BUILD_TESTS OFF CACHE BOOL "" FORCE)
+    set(GLFW_BUILD_DOCS OFF CACHE BOOL "" FORCE)
+endif()
+target_link_libraries(${TARGET_NAME} PRIVATE glfw)
 
 # 2. GLAD（OpenGL加载器）
 # if(NOT TARGET glad)
