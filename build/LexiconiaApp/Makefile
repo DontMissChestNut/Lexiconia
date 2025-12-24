@@ -250,6 +250,30 @@ src/Core/Window.cpp.s:
 	cd /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/build && $(MAKE) $(MAKESILENT) -f LexiconiaApp/CMakeFiles/LexiconiaApp.dir/build.make LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Window.cpp.s
 .PHONY : src/Core/Window.cpp.s
 
+src/glad.o: src/glad.c.o
+.PHONY : src/glad.o
+
+# target to build an object file
+src/glad.c.o:
+	cd /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/build && $(MAKE) $(MAKESILENT) -f LexiconiaApp/CMakeFiles/LexiconiaApp.dir/build.make LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/glad.c.o
+.PHONY : src/glad.c.o
+
+src/glad.i: src/glad.c.i
+.PHONY : src/glad.i
+
+# target to preprocess a source file
+src/glad.c.i:
+	cd /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/build && $(MAKE) $(MAKESILENT) -f LexiconiaApp/CMakeFiles/LexiconiaApp.dir/build.make LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/glad.c.i
+.PHONY : src/glad.c.i
+
+src/glad.s: src/glad.c.s
+.PHONY : src/glad.s
+
+# target to generate assembly for a file
+src/glad.c.s:
+	cd /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/build && $(MAKE) $(MAKESILENT) -f LexiconiaApp/CMakeFiles/LexiconiaApp.dir/build.make LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/glad.c.s
+.PHONY : src/glad.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -274,6 +298,9 @@ help:
 	@echo "... src/Core/Window.o"
 	@echo "... src/Core/Window.i"
 	@echo "... src/Core/Window.s"
+	@echo "... src/glad.o"
+	@echo "... src/glad.i"
+	@echo "... src/glad.s"
 .PHONY : help
 
 

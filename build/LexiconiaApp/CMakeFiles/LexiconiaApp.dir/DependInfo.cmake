@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/src/glad.c" "LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/glad.c.o" "gcc" "LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/glad.c.o.d"
   "/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/_main.cpp" "LexiconiaApp/CMakeFiles/LexiconiaApp.dir/_main.cpp.o" "gcc" "LexiconiaApp/CMakeFiles/LexiconiaApp.dir/_main.cpp.o.d"
   "/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/src/Core/Application.cpp" "LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Application.cpp.o" "gcc" "LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Application.cpp.o.d"
   "/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/src/Core/Logger.cpp" "LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Logger.cpp.o" "gcc" "LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Logger.cpp.o.d"

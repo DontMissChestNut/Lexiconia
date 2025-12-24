@@ -72,10 +72,24 @@ include LexiconiaApp/CMakeFiles/LexiconiaApp.dir/flags.make
 LexiconiaApp/CMakeFiles/LexiconiaApp.dir/codegen:
 .PHONY : LexiconiaApp/CMakeFiles/LexiconiaApp.dir/codegen
 
+LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/glad.c.o: LexiconiaApp/CMakeFiles/LexiconiaApp.dir/flags.make
+LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/glad.c.o: /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/src/glad.c
+LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/glad.c.o: LexiconiaApp/CMakeFiles/LexiconiaApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/glad.c.o"
+	cd /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/build/LexiconiaApp && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/glad.c.o -MF CMakeFiles/LexiconiaApp.dir/src/glad.c.o.d -o CMakeFiles/LexiconiaApp.dir/src/glad.c.o -c /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/src/glad.c
+
+LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/glad.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LexiconiaApp.dir/src/glad.c.i"
+	cd /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/build/LexiconiaApp && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/src/glad.c > CMakeFiles/LexiconiaApp.dir/src/glad.c.i
+
+LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/glad.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LexiconiaApp.dir/src/glad.c.s"
+	cd /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/build/LexiconiaApp && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/src/glad.c -o CMakeFiles/LexiconiaApp.dir/src/glad.c.s
+
 LexiconiaApp/CMakeFiles/LexiconiaApp.dir/_main.cpp.o: LexiconiaApp/CMakeFiles/LexiconiaApp.dir/flags.make
 LexiconiaApp/CMakeFiles/LexiconiaApp.dir/_main.cpp.o: /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/_main.cpp
 LexiconiaApp/CMakeFiles/LexiconiaApp.dir/_main.cpp.o: LexiconiaApp/CMakeFiles/LexiconiaApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object LexiconiaApp/CMakeFiles/LexiconiaApp.dir/_main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object LexiconiaApp/CMakeFiles/LexiconiaApp.dir/_main.cpp.o"
 	cd /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/build/LexiconiaApp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT LexiconiaApp/CMakeFiles/LexiconiaApp.dir/_main.cpp.o -MF CMakeFiles/LexiconiaApp.dir/_main.cpp.o.d -o CMakeFiles/LexiconiaApp.dir/_main.cpp.o -c /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/_main.cpp
 
 LexiconiaApp/CMakeFiles/LexiconiaApp.dir/_main.cpp.i: cmake_force
@@ -89,7 +103,7 @@ LexiconiaApp/CMakeFiles/LexiconiaApp.dir/_main.cpp.s: cmake_force
 LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Application.cpp.o: LexiconiaApp/CMakeFiles/LexiconiaApp.dir/flags.make
 LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Application.cpp.o: /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/src/Core/Application.cpp
 LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Application.cpp.o: LexiconiaApp/CMakeFiles/LexiconiaApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Application.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Application.cpp.o"
 	cd /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/build/LexiconiaApp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Application.cpp.o -MF CMakeFiles/LexiconiaApp.dir/src/Core/Application.cpp.o.d -o CMakeFiles/LexiconiaApp.dir/src/Core/Application.cpp.o -c /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/src/Core/Application.cpp
 
 LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Application.cpp.i: cmake_force
@@ -103,7 +117,7 @@ LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Application.cpp.s: cmake_force
 LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Logger.cpp.o: LexiconiaApp/CMakeFiles/LexiconiaApp.dir/flags.make
 LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Logger.cpp.o: /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/src/Core/Logger.cpp
 LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Logger.cpp.o: LexiconiaApp/CMakeFiles/LexiconiaApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Logger.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Logger.cpp.o"
 	cd /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/build/LexiconiaApp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Logger.cpp.o -MF CMakeFiles/LexiconiaApp.dir/src/Core/Logger.cpp.o.d -o CMakeFiles/LexiconiaApp.dir/src/Core/Logger.cpp.o -c /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/src/Core/Logger.cpp
 
 LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Logger.cpp.i: cmake_force
@@ -117,7 +131,7 @@ LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Logger.cpp.s: cmake_force
 LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Time.cpp.o: LexiconiaApp/CMakeFiles/LexiconiaApp.dir/flags.make
 LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Time.cpp.o: /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/src/Core/Time.cpp
 LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Time.cpp.o: LexiconiaApp/CMakeFiles/LexiconiaApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Time.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Time.cpp.o"
 	cd /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/build/LexiconiaApp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Time.cpp.o -MF CMakeFiles/LexiconiaApp.dir/src/Core/Time.cpp.o.d -o CMakeFiles/LexiconiaApp.dir/src/Core/Time.cpp.o -c /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/src/Core/Time.cpp
 
 LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Time.cpp.i: cmake_force
@@ -131,7 +145,7 @@ LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Time.cpp.s: cmake_force
 LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Window.cpp.o: LexiconiaApp/CMakeFiles/LexiconiaApp.dir/flags.make
 LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Window.cpp.o: /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/src/Core/Window.cpp
 LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Window.cpp.o: LexiconiaApp/CMakeFiles/LexiconiaApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Window.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Window.cpp.o"
 	cd /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/build/LexiconiaApp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Window.cpp.o -MF CMakeFiles/LexiconiaApp.dir/src/Core/Window.cpp.o.d -o CMakeFiles/LexiconiaApp.dir/src/Core/Window.cpp.o -c /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/src/Core/Window.cpp
 
 LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Window.cpp.i: cmake_force
@@ -144,6 +158,7 @@ LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Window.cpp.s: cmake_force
 
 # Object files for target LexiconiaApp
 LexiconiaApp_OBJECTS = \
+"CMakeFiles/LexiconiaApp.dir/src/glad.c.o" \
 "CMakeFiles/LexiconiaApp.dir/_main.cpp.o" \
 "CMakeFiles/LexiconiaApp.dir/src/Core/Application.cpp.o" \
 "CMakeFiles/LexiconiaApp.dir/src/Core/Logger.cpp.o" \
@@ -153,14 +168,16 @@ LexiconiaApp_OBJECTS = \
 # External object files for target LexiconiaApp
 LexiconiaApp_EXTERNAL_OBJECTS =
 
+lexiconia: LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/glad.c.o
 lexiconia: LexiconiaApp/CMakeFiles/LexiconiaApp.dir/_main.cpp.o
 lexiconia: LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Application.cpp.o
 lexiconia: LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Logger.cpp.o
 lexiconia: LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Time.cpp.o
 lexiconia: LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Window.cpp.o
 lexiconia: LexiconiaApp/CMakeFiles/LexiconiaApp.dir/build.make
+lexiconia: /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/lib/libglfw3.a
 lexiconia: LexiconiaApp/CMakeFiles/LexiconiaApp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../lexiconia"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../lexiconia"
 	cd /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/build/LexiconiaApp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LexiconiaApp.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Copying Assets directory"
 	cd /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/build/LexiconiaApp && /opt/homebrew/bin/cmake -E copy_directory /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/Assets /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/build/Assets

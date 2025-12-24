@@ -11,9 +11,11 @@ file(REMOVE_RECURSE
   "CMakeFiles/LexiconiaApp.dir/src/Core/Time.cpp.o.d"
   "CMakeFiles/LexiconiaApp.dir/src/Core/Window.cpp.o"
   "CMakeFiles/LexiconiaApp.dir/src/Core/Window.cpp.o.d"
+  "CMakeFiles/LexiconiaApp.dir/src/glad.c.o"
+  "CMakeFiles/LexiconiaApp.dir/src/glad.c.o.d"
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
+foreach(lang C CXX)
   include(CMakeFiles/LexiconiaApp.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()
