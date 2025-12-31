@@ -862,4 +862,38 @@ LexiconiaApp/CMakeFiles/LexiconiaApp.dir/_main.cpp.o: \
   /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/include/glm/./core/func_integer.hpp \
   /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/include/glm/./core/func_integer.inl \
   /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/include/glm/./core/func_noise.hpp \
-  /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/include/glm/./core/func_noise.inl
+  /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/include/glm/./core/func_noise.inl \
+  /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/include/Graphics/Shader.hpp \
+  /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/include/glm/gtc/type_ptr.hpp \
+  /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/include/glm/gtc/../glm.hpp \
+  /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/include/glm/gtc/../gtc/half_float.hpp \
+  /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/include/glm/gtc/../gtc/../glm.hpp \
+  /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/include/glm/gtc/../gtc/half_float.inl \
+  /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/include/glm/gtc/../gtc/quaternion.hpp \
+  /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/include/glm/gtc/../gtc/../gtc/half_float.hpp \
+  /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/include/glm/gtc/../gtc/quaternion.inl \
+  /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/include/glm/gtc/type_ptr.inl \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_status.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perms.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/file_clock.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/operations.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/space_info.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
+  /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/include/Graphics/Camera.hpp \
+  /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/include/glm/gtc/matrix_transform.hpp \
+  /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/include/glm/gtc/matrix_transform.inl

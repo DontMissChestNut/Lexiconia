@@ -2,6 +2,8 @@
 #include <glad/glad.h>  // 必须在GLFW之前
 #include <GLFW/glfw3.h>
 #include <glm/glm.hpp>
+#include "include/Graphics/Shader.hpp"
+#include "include/Graphics/Camera.hpp"
 
 using namespace std;
 
@@ -128,24 +130,53 @@ int main()
     glDeleteShader(vertexShader);
     glDeleteShader(fragmentShader);
 
+    // 2. 创建着色器
+    Shader basicShader("assets/shaders/basic.vert", "assets/shaders/basic.frag");
+    if (!basicShader.IsValid()) {
+        std::cerr << "Failed to compile shader!" << std::endl;
+        return -1;
+    }
+    
+    // 3. 创建相机
+    Camera camera(glm::vec3(0.0f, 0.0f, 3.0f));
+    camera.SetAspectRatio(800.0f / 600.0f);
+
     // 渲染循环
-    while (!glfwWindowShouldClose(window))
-    {
+    while (!glfwWindowShouldClose(window)) {
         // 输入处理
         if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
             glfwSetWindowShouldClose(window, true);
-
+        
+        // 相机控制示例（简单WASD）
+        float cameraSpeed = 0.05f;
+        if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
+            camera.MoveForward(cameraSpeed);
+        if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS)
+            camera.MoveForward(-cameraSpeed);
+        if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS)
+            camera.MoveRight(-cameraSpeed);
+        if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)
+            camera.MoveRight(cameraSpeed);
+        
         // 清除颜色缓冲
         glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
-
-        // 使用着色器程序
-        glUseProgram(shaderProgram);
+        
+        // 使用着色器
+        basicShader.Bind();
+        
+        // 设置变换矩阵
+        glm::mat4 model = glm::mat4(1.0f);
+        glm::mat4 view = camera.GetViewMatrix();
+        glm::mat4 projection = camera.GetProjectionMatrix();
+        
+        basicShader.SetTransformMatrices(model, view, projection);
+        basicShader.SetCameraPosition(camera.GetPosition());
         
         // 绘制三角形
         glBindVertexArray(VAO);
         glDrawArrays(GL_TRIANGLES, 0, 3);
-
+        
         // 交换缓冲并检查事件
         glfwSwapBuffers(window);
         glfwPollEvents();
