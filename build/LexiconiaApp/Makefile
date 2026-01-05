@@ -250,6 +250,54 @@ src/Core/Window.cpp.s:
 	cd /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/build && $(MAKE) $(MAKESILENT) -f LexiconiaApp/CMakeFiles/LexiconiaApp.dir/build.make LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Window.cpp.s
 .PHONY : src/Core/Window.cpp.s
 
+src/Graphics/Camera.o: src/Graphics/Camera.cpp.o
+.PHONY : src/Graphics/Camera.o
+
+# target to build an object file
+src/Graphics/Camera.cpp.o:
+	cd /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/build && $(MAKE) $(MAKESILENT) -f LexiconiaApp/CMakeFiles/LexiconiaApp.dir/build.make LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Graphics/Camera.cpp.o
+.PHONY : src/Graphics/Camera.cpp.o
+
+src/Graphics/Camera.i: src/Graphics/Camera.cpp.i
+.PHONY : src/Graphics/Camera.i
+
+# target to preprocess a source file
+src/Graphics/Camera.cpp.i:
+	cd /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/build && $(MAKE) $(MAKESILENT) -f LexiconiaApp/CMakeFiles/LexiconiaApp.dir/build.make LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Graphics/Camera.cpp.i
+.PHONY : src/Graphics/Camera.cpp.i
+
+src/Graphics/Camera.s: src/Graphics/Camera.cpp.s
+.PHONY : src/Graphics/Camera.s
+
+# target to generate assembly for a file
+src/Graphics/Camera.cpp.s:
+	cd /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/build && $(MAKE) $(MAKESILENT) -f LexiconiaApp/CMakeFiles/LexiconiaApp.dir/build.make LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Graphics/Camera.cpp.s
+.PHONY : src/Graphics/Camera.cpp.s
+
+src/Graphics/Shader.o: src/Graphics/Shader.cpp.o
+.PHONY : src/Graphics/Shader.o
+
+# target to build an object file
+src/Graphics/Shader.cpp.o:
+	cd /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/build && $(MAKE) $(MAKESILENT) -f LexiconiaApp/CMakeFiles/LexiconiaApp.dir/build.make LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Graphics/Shader.cpp.o
+.PHONY : src/Graphics/Shader.cpp.o
+
+src/Graphics/Shader.i: src/Graphics/Shader.cpp.i
+.PHONY : src/Graphics/Shader.i
+
+# target to preprocess a source file
+src/Graphics/Shader.cpp.i:
+	cd /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/build && $(MAKE) $(MAKESILENT) -f LexiconiaApp/CMakeFiles/LexiconiaApp.dir/build.make LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Graphics/Shader.cpp.i
+.PHONY : src/Graphics/Shader.cpp.i
+
+src/Graphics/Shader.s: src/Graphics/Shader.cpp.s
+.PHONY : src/Graphics/Shader.s
+
+# target to generate assembly for a file
+src/Graphics/Shader.cpp.s:
+	cd /Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/build && $(MAKE) $(MAKESILENT) -f LexiconiaApp/CMakeFiles/LexiconiaApp.dir/build.make LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Graphics/Shader.cpp.s
+.PHONY : src/Graphics/Shader.cpp.s
+
 src/glad.o: src/glad.c.o
 .PHONY : src/glad.o
 
@@ -298,6 +346,12 @@ help:
 	@echo "... src/Core/Window.o"
 	@echo "... src/Core/Window.i"
 	@echo "... src/Core/Window.s"
+	@echo "... src/Graphics/Camera.o"
+	@echo "... src/Graphics/Camera.i"
+	@echo "... src/Graphics/Camera.s"
+	@echo "... src/Graphics/Shader.o"
+	@echo "... src/Graphics/Shader.i"
+	@echo "... src/Graphics/Shader.s"
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"

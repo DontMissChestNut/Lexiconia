@@ -131,7 +131,7 @@ int main()
     glDeleteShader(fragmentShader);
 
     // 2. 创建着色器
-    Shader basicShader("build/Assets/shaders/basic.vert", "build/Assets/shaders/basic.frag");
+    Shader basicShader("Assets/shaders/basic.vert", "Assets/shaders/basic.frag");
     if (!basicShader.IsValid()) {
         std::cerr << "Failed to compile shader!" << std::endl;
         return -1;

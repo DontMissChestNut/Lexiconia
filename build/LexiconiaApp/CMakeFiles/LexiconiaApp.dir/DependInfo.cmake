@@ -14,6 +14,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/src/Core/Logger.cpp" "LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Logger.cpp.o" "gcc" "LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Logger.cpp.o.d"
   "/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/src/Core/Time.cpp" "LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Time.cpp.o" "gcc" "LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Time.cpp.o.d"
   "/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/src/Core/Window.cpp" "LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Window.cpp.o" "gcc" "LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Core/Window.cpp.o.d"
+  "/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/src/Graphics/Camera.cpp" "LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Graphics/Camera.cpp.o" "gcc" "LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Graphics/Camera.cpp.o.d"
+  "/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/src/Graphics/Shader.cpp" "LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Graphics/Shader.cpp.o" "gcc" "LexiconiaApp/CMakeFiles/LexiconiaApp.dir/src/Graphics/Shader.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

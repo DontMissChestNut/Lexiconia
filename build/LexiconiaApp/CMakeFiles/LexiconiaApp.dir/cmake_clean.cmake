@@ -11,6 +11,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/LexiconiaApp.dir/src/Core/Time.cpp.o.d"
   "CMakeFiles/LexiconiaApp.dir/src/Core/Window.cpp.o"
   "CMakeFiles/LexiconiaApp.dir/src/Core/Window.cpp.o.d"
+  "CMakeFiles/LexiconiaApp.dir/src/Graphics/Camera.cpp.o"
+  "CMakeFiles/LexiconiaApp.dir/src/Graphics/Camera.cpp.o.d"
+  "CMakeFiles/LexiconiaApp.dir/src/Graphics/Shader.cpp.o"
+  "CMakeFiles/LexiconiaApp.dir/src/Graphics/Shader.cpp.o.d"
   "CMakeFiles/LexiconiaApp.dir/src/glad.c.o"
   "CMakeFiles/LexiconiaApp.dir/src/glad.c.o.d"
 )

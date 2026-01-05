@@ -24,6 +24,8 @@ set(CXX_SOURCES
     src/Core/Logger.cpp
     src/Core/Time.cpp
     src/Core/Window.cpp
+    src/Graphics/Shader.cpp
+    src/Graphics/Camera.cpp
 )
 
 # 创建可执行文件
@@ -88,10 +90,10 @@ set_target_properties(${TARGET_NAME} PROPERTIES
 )
 
 # 复制Assets目录
-if(EXISTS ${CMAKE_SOURCE_DIR}/Assets)
+if(EXISTS ${CMAKE_SOURCE_DIR}/LexiconiaApp/Assets)
     add_custom_command(TARGET ${TARGET_NAME} POST_BUILD
         COMMAND ${CMAKE_COMMAND} -E copy_directory
-        ${CMAKE_SOURCE_DIR}/Assets
+        ${CMAKE_SOURCE_DIR}/LexiconiaApp/Assets
         $<TARGET_FILE_DIR:${TARGET_NAME}>/Assets
         COMMENT "Copying Assets directory"
     )
