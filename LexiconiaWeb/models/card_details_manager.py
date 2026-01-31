@@ -86,7 +86,7 @@ class CardDetailsManager:
     # 添加卡片详情
     def add_card_detail(self, card_detail: dict):
         """添加卡片详情"""
-        cardf = pd.DataFrame([card_detail], columns=word_card_form.keys())
+        cardf = pd.DataFrame([card_detail], columns=list(word_card_form.keys()))
         cardf.to_csv(self.detail_path, mode="a", index=False, header=False, encoding="utf-8")
         
         self._update_details()
@@ -127,8 +127,6 @@ class CardDetailsManager:
                 "ExplainationE": row["ExplainationE"],
                 "ExplainationC": row["ExplainationC"]
             })
-            
-        # print(details)
         
         return details
     
@@ -136,7 +134,7 @@ class CardDetailsManager:
     # 添加卡片详情
     def add_card_detail_youdao(self, card_detail: dict):
         """添加卡片详情"""
-        cardf = pd.DataFrame([card_detail], columns=word_card_form_youdao.keys())
+        cardf = pd.DataFrame([card_detail], columns=list(word_card_form_youdao.keys()))
         cardf.to_csv(self.detail_youdao_path, mode="a", index=False, header=False, encoding="utf-8")
         
         self._update_details()
@@ -145,15 +143,13 @@ class CardDetailsManager:
     # multi: 添加卡片详情
     def add_card_details_youdao(self, card_details: list):
         """添加卡片详情"""
-        print(card_details)
-
         data = []
         for detail in card_details:
             if detail:
                 for i in [_ for _ in detail]:
                     data.append(i)
 
-        cardf = pd.DataFrame(data, columns=word_card_form_youdao.keys())
+        cardf = pd.DataFrame(data, columns=list(word_card_form_youdao.keys()))
         cardf.to_csv(self.detail_youdao_path, mode="a", index=False, header=False, encoding="utf-8")
         
         self._update_details()
@@ -179,7 +175,6 @@ class CardDetailsManager:
     def get_youdao_details_by_root(self, root:int):
         details = []
         for _, row in self.details_youdao[ self.details_youdao["Root"] == root].iterrows():              
-            # print(row)
             details.append({
                 # TODO："Phonetic": "string",
                 "Level": Level[int(row["Level"])],

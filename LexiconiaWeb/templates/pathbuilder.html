@@ -10,32 +10,34 @@
 </head>
 
 <body>
-    <div class="container">
-        <form id="word-selecter">
-            <div class="form-group">
-                <label for="word-select">输入查询单词</label>
-                <textarea id="word-select" placeholder="例如：apple" required></textarea>
-                <button type="submit" class="submit-btn">查询路径</button>
+    <div id="app-container">
+        <div id="graph-container">
+            <div class="search-overlay">
+                <form id="word-selecter">
+                    <div class="form-group">
+                        <input type="text" id="word-select" placeholder="输入单词查询..." required>
+                        <button type="submit" class="submit-btn">查询</button>
+                    </div>
+                </form>
             </div>
-        </form>
+            <svg id="main-svg"></svg>
+        </div>
 
-        <div class="result-container" style="display: block;">
-            <div class="result-message" id="path-root">root</div>
-            <div class="result-message" id="path-node">node</div>
-            <div class="result-message" id="path-step0">step0</div>
-            <div class="result-message" id="path-step1">step1</div>
-            <div class="result-message" id="path-step2">step2</div>
-            <div class="result-message" id="path-step3">step3</div>
-            <div class="result-message" id="path-step4">step4</div>
+        <div id="details-panel" class="connection-panel">
+            <h3>单词详情</h3>
+            <div id="word-details-content">
+                <p class="placeholder-text">点击节点查看详情</p>
+            </div>
         </div>
     </div>
 
-    <div class="navigation">
+    <div class="navigation" style="position: fixed; bottom: 20px; left: 20px; z-index: 100;">
         <a href="/">
             <button class="btn btn-secondary">返回首页</button>
         </a>
     </div>
 
+    <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="{{ url_for('static', filename='/js/pathbuilder.js') }}"></script>
 </body>
 
