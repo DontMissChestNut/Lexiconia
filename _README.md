@@ -1,5 +1,19 @@
 # Lexiconia - 言灵王权
 
+## Web
+**Related Packages**
+
+conda activate lexiconia
+
+conda install flask nunmpy pandas bs4 requests lxml
+- flask
+- numpy
+- pandas
+- bs4
+- requests
+- lxml
+
+
 FileOrganization
 Lexiconia/
 ├── .vscode/
