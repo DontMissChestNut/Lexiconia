@@ -5,12 +5,32 @@ from bs4 import BeautifulSoup, Tag
 import json
 import re
 
-OFXORD_DICT_FORM = {
-    "hearder": {
-        "word": "str",
-        "pronunciation": "str",
-        "part_of_speech": "str",
-        "symbols": "str",
+
+HEADER_FORM = {             # 针对OxfordDict的头信息
+    "root": "str",              # 单词根
+    "word": "str",              # 单词本身，可以不要
+    "pronunciation": "str",     # 单词发音
+    "part_of_speech": "list",   # 词性，definition里是tab，TODO:统一
+    "symbols": "list",          # 单词分级
+    "definitions": "list",      # 
+
+}
+
+DEFINITION_FORM = {         # 单词每条释义详情
+    "root": "str",              # 单词根 TODO:可以不要
+    "serial": "str",            # 本条序列
+    "word": "str",              # 单词本身 TODO:可以不要
+    "symbols": "list",          # 单词分级
+    "tab": "str",               # 词性
+    "series": "",               # 本条解析在词典中的次序（数字 / idiom）
+    "explaination": {           # 解析 TODO:怎么划分中英文
+        "phrase": "",
+        "eng": "",
+        "simp": "",
+    },      
+    "references": {             # 其他相关
+        "type": "str",              # 关联类型
+        "words": "list",            # 关联列表[word, word-id]
     },
 }
 
@@ -41,7 +61,7 @@ class OxfordDictProcessor:
         }
         
         # 读取HTML文件
-        with open('OxfordDictProcessor/test.html', 'r', encoding='utf-8') as file:
+        with open('OxfordDictProcessor/test2.html', 'r', encoding='utf-8') as file:
             html_content = file.read()
 
         # 创建BeautifulSoup对象
@@ -110,22 +130,304 @@ class OxfordDictProcessor:
             },
         }
 
-        # 提取词性标签（noun, verb, adj等）
+        # 提取词性标签(noun, verb, adj等)
         tabs = []
         try_tabs = self.soup.find_all('div', class_="tabs_tab__IVkNv")
         for tab in try_tabs:
             tabs.append(self.tab_mapping[tab.get_text(strip=True)])
         # print(tabs)
+
+        details = self.soup.find_all('div', class_="vocabulary_detail__h-hsa")      # 分页
+        for index,d in enumerate(details):
+            print("\n", tabs[index], "==========")     
+            sections = d.find_all('div', class_="vocabulary-top_multipleSense__wX134")
+
+            for s in sections:
+                if s.parent.attrs["class"] != ["vocabulary-top_extendBlock__tseM2"]:  # 判断是不是idoms
+                    self.get_define(s, tabs[index])
+                    
+                else: # idoms,特殊处理
+                    # 提取idoms
+                    print("**idoms**")
+                    self.get_define_idoms(s, tabs[index])
+
+    def get_define(self, s, tab):
+        print("--------------------")
+        define_dict = {
+            "tab": tab,
+            "category": "",
+            "symbols": [],
+            "series": "",
+            "grammar": "",
+            "define_en": "",
+            "define_simp": "",
+            "examples": [],
+            "references": [],
+        }
+        # 提取每个分类
+        category_section = s.find_all('div', class_="vocabulary-chunk_group__FrAQ9 vocabulary-chunk_inline__uWEOK vocabulary-top_eng__VWJ54")
+        for _ in category_section:
+            # 提取分类文本信息
+            category_chunks = _.find_all('span', class_="vocabulary-chunk_root__sjfAa vocabulary-chunk_bold__Cb0D1")
+            category = ""
+            for c in category_chunks:
+                category += c["data-search-key"]
+            category = category.strip()
+            define_dict["category"] = category
+            # print(category)
+
+        details = s.find_all('div', class_="vocabulary-top_sense__Fja-g")
+        for d in details:
+            define = d.find('div', class_="vocabulary-chunk_group__FrAQ9")
+            if define:
+                ll = define.find_all('span')        # 获取define所有信息
+                line_symbol = []
+                line_series = ""
+                line_en = ""
+                line_simp = ""
+                line_grammar = ""
+                line_trans = ""
+                for l in ll:
+                    if "data-symbol-key" in l.attrs:        # 等级信息
+                        line_symbol.append(l["data-symbol-key"])
+                    elif "data-search-key" in l.attrs:      # defina信息
+                        if "data-chinese" in l.attrs:
+                            line_trans += l["data-search-key"]
+                            if l["data-chinese"] == "true":   # 中文define
+                                line_simp += l["data-search-key"]
+                            else:                                                           # 英文define
+                                if l["data-search-key"].isdigit():
+                                    line_series += l["data-search-key"]
+                                else:   
+                                    line_en += l["data-search-key"]
+                        elif l["data-search-key"].isdigit():                                # 序列                                   # 系列信息
+                            line_series += l["data-search-key"]
+                    elif "data-gram-key" in l.attrs:
+                        line_grammar += l["data-gram-key"] + ", "
+                    
+                define_dict["symbols"] = line_symbol
+                define_dict["series"] = line_series.strip() + "."
+                define_dict["define_en"] = line_en.strip()
+                define_dict["define_simp"] = line_simp.strip()
+                define_dict["grammar"] = line_grammar.strip()[:-1]
+                
+                # print(line_trans)
         
-        # 提取每个词性的详细释义
+        example = s.find("ul", class_="vocabulary-top_exampleList__j+ZMa")
+        if example:
+            ll = example.find_all('li')
+            for l in ll:
+                ee = {
+                "phrase": "",
+                "eng": "",
+                "simp": "",
+                }
+                cf = l.find("div", class_="vocabulary-top_exampleCf__V3vMx", id="cf")
+                if cf:
+                    cf_content = cf.find_all('span')
+                    for c in cf_content:
+                        ee["phrase"] += c["data-search-key"]
+                exp = l.find("div", class_="vocabulary-top_example__l1WCN")
+                if exp:
+                    exp_content = exp.find_all('span')
+                    b_mark = False
+                    for e in exp_content:
+                        # if "data-tag" in e.attrs and e["data-tag"] == "cl":
+                        #     if not b_mark:
+                        #         ee["eng"] += "**"
+                        #         b_mark = True
+                        # else:
+                        #     ee["eng"] += "**"
+                        #     b_mark = False
+                        if "data-chinese" in e.attrs and e["data-chinese"] == "true":
+                            ee["simp"] += e.get_text(strip=True)
+                        else:
+                            ee["eng"] += e.get_text(strip=True) + " "
+                ee["phrase"] = ee["phrase"].strip()
+                ee["eng"] = ee["eng"].strip()
+                ee["eng"] = ee["eng"].replace("  ", " ")
+                define_dict["examples"].append(ee)
+                # print(ee)
+        
+        reference = s.find("div", class_="vocabulary-top_reference__jQwlq")
+
+        if reference:
+            rr = {
+            "type":"",
+            "words": [],
+            }
+            reference_content = reference.find_all('span', class_="vocabulary-top_word__Uar1T")
+            for r in reference_content:
+                if "data-ref-type" in r.attrs:
+                    rr["type"] = r["data-ref-type"]
+                    rr["words"].append([r.get_text(strip=True), r["data-word-id"]])
+                    
+            # print(rr)
+            define_dict["references"].append(rr)
+        
+        print(define_dict)
+        # return line_symbol, line_en, line_simp
+
+    def get_define_idoms(self, s, tab):
+        print("--------------------")
+        define_dict = {
+            "tab": tab,
+            "category": "",
+            "symbols": [],
+            "series": "",
+            "grammar": "",
+            "define_en": "",
+            "define_simp": "",
+            "examples": [],
+            "references": [],
+        }
+        # 提取每个分类
+        category_section = s.find_all('div', class_="vocabulary-chunk_group__FrAQ9 vocabulary-chunk_inline__uWEOK vocabulary-top_eng__VWJ54")
+        for _ in category_section:
+            # 提取分类文本信息
+            category_chunks = _.find_all('span', class_="vocabulary-chunk_root__sjfAa vocabulary-chunk_bold__Cb0D1")
+            category = ""
+            for c in category_chunks:
+                category += c["data-search-key"]
+            category = category.strip()
+            define_dict["category"] = category
+            # print(category)
+
+        details = s.find_all('div', class_="vocabulary-top_sense__Fja-g")
+        for d in details:
+            define = d.find('div', class_="vocabulary-chunk_group__FrAQ9")
+            if define:
+                ll = define.find_all('span')        # 获取define所有信息
+                line_symbol = []
+                line_series = ""
+                line_en = ""
+                line_simp = ""
+                line_grammar = ""
+                line_trans = ""
+                for l in ll:
+                    if "data-symbol-key" in l.attrs:        # 等级信息
+                        line_symbol.append(l["data-symbol-key"])
+                    elif "data-search-key" in l.attrs:      # defina信息
+                        if "data-chinese" in l.attrs:
+                            line_trans += l["data-search-key"]
+                            if l["data-chinese"] == "true":   # 中文define
+                                line_simp += l["data-search-key"]
+                            else:                                                           # 英文define
+                                if l["data-search-key"].isdigit():
+                                    line_series += l["data-search-key"]
+                                else:   
+                                    line_en += l["data-search-key"]
+                        elif l["data-search-key"].isdigit():                                # 序列                                   # 系列信息
+                            line_series += l["data-search-key"]
+                    elif "data-gram-key" in l.attrs:
+                        line_grammar += l["data-gram-key"] + ", "
+                    
+                define_dict["symbols"] = line_symbol
+                define_dict["series"] = line_series.strip() + "."
+                define_dict["define_en"] = line_en.strip()
+                define_dict["define_simp"] = line_simp.strip()
+                define_dict["grammar"] = line_grammar.strip()[:-1]
+                
+                # print(line_trans)
+        
+        example = s.find("ul", class_="vocabulary-top_exampleList__j+ZMa")
+        if example:
+            ll = example.find_all('li')
+            for l in ll:
+                ee = {
+                "phrase": "",
+                "eng": "",
+                "simp": "",
+                }
+                cf = l.find("div", class_="vocabulary-top_exampleCf__V3vMx", id="cf")
+                if cf:
+                    cf_content = cf.find_all('span')
+                    for c in cf_content:
+                        ee["phrase"] += c["data-search-key"]
+                exp = l.find("div", class_="vocabulary-top_example__l1WCN")
+                if exp:
+                    exp_content = exp.find_all('span')
+                    b_mark = False
+                    for e in exp_content:
+                        # if "data-tag" in e.attrs and e["data-tag"] == "cl":
+                        #     if not b_mark:
+                        #         ee["eng"] += "**"
+                        #         b_mark = True
+                        # else:
+                        #     ee["eng"] += "**"
+                        #     b_mark = False
+                        if "data-chinese" in e.attrs and e["data-chinese"] == "true":
+                            ee["simp"] += e.get_text(strip=True)
+                        else:
+                            ee["eng"] += e.get_text(strip=True) + " "
+                ee["phrase"] = ee["phrase"].strip()
+                ee["eng"] = ee["eng"].strip()
+                ee["eng"] = ee["eng"].replace("  ", " ")
+                define_dict["examples"].append(ee)
+                # print(ee)
+        
+        reference = s.find("div", class_="vocabulary-top_reference__jQwlq")
+        if reference:
+            rr = {
+            "type":"",
+            "words": [],
+            }
+            reference_content = reference.find_all('span', class_="vocabulary-top_word__Uar1T")
+            for r in reference_content:
+                if "data-ref-type" in r.attrs:
+                    rr["type"] = r["data-ref-type"]
+                    rr["words"].append([r.get_text(strip=True), r["data-word-id"]])
+                    
+            # print(rr)
+            define_dict["references"].append(rr)
+        
+        print(define_dict)
+        # return line_symbol, line_en, line_simp
+    
+    def _extract_definitions(self):
+        results = []
+        result = {
+            "part_of_speech": "",
+            "definitions": [],
+        }
+
+        define = {
+            "chunk_group":{
+                "eng":  "str",
+                "simp": "str",
+            },
+        }
+
+        # 提取词性标签(noun, verb, adj等)
+        tabs = []
+        try_tabs = self.soup.find_all('div', class_="tabs_tab__IVkNv")
+        for tab in try_tabs:
+            tabs.append(self.tab_mapping[tab.get_text(strip=True)])
+        # print(tabs)
+
+        details = self.soup.find_all('div', class_="vocabulary_detail__h-hsa")
+        for d in details:
+            sections = d.find_all('div', class_="vocabulary-top_multipleSense__wX134")
+            details = []
+            for s in sections:
+                category_section = s.find('div', class_="vocabulary-chunk_group__FrAQ9 vocabulary-chunk_inline__uWEOK vocabulary-top_eng__VWJ54")
+                category_chunks = category_section.find_all('span', class_="vocabulary-chunk_root__sjfAa vocabulary-chunk_bold__Cb0D1")
+                category = ""
+                for c in category_chunks:
+                    category += c["data-search-key"]
+                category = category.strip()
+                print(category)
+
+        """ =============== 废弃 =============="""
+        # 提取每个词性的详细释义  
         word_details = self.soup.find_all('div', id="wordDetail")
         for idx, wordDetail in enumerate(word_details):
             rs_detail = []
-            """rs_detail[x] = {
-                "part_of_speech": tabs[idx],
-                "chunks": [],
-                "definitions": [],
-            }"""
+            # rs_detail[x] = {
+            #     "part_of_speech": tabs[idx],
+            #     "chunks": [],
+            #     "definitions": [],
+            # }
             part_of_speech_elem = tabs[idx]
             detail_section = wordDetail.find_all('div', class_="vocabulary-top_multipleSense__wX134")
             for detail in detail_section:
@@ -257,7 +559,7 @@ class OxfordDictProcessor:
             # elif sense.name == "div" and sense.class_ == "vocabulary-top_sense__Fja-g":
                 
             pass
-
+        
 # 提取词性释义
 def extract_definitions(soup):
     """提取单词的各个释义和例句"""
@@ -390,58 +692,24 @@ def extract_user_info(soup):
     return user_info
 
 # 主函数
-def _main():
-    # 提取所有信息
-    word_info = extract_word_basic_info(soup)
-    # print(word_info)    
+# def _main():
+#     # 提取所有信息
+#     word_info = extract_word_basic_info(soup)
+#     # print(word_info)    
 
-    definitions = extract_definitions(soup)
-    # print(definitions[0])
+#     definitions = extract_definitions(soup)
+#     # print(definitions[0])
 
-    search_history = extract_search_history(soup)
-    user_info = extract_user_info(soup)
+#     search_history = extract_search_history(soup)
+#     user_info = extract_user_info(soup)
     
-    # 组合所有数据
-    result = {
-        'word_info': word_info,
-        'definitions': definitions,
-        'search_history': search_history,
-        'user_info': user_info
-    }
-    
-    # # 打印结果
-    # print("=" * 50)
-    # print("单词基本信息:")
-    # print(f"单词: {word_info.get('word', 'N/A')}")
-    # print(f"词性: {word_info.get('part_of_speech', 'N/A')}")
-    # print(f"发音: {word_info.get('pronunciation', {})}")
-    # print(f"标签: {', '.join(word_info.get('symbols', []))}")
-    
-    # print("\n" + "=" * 50)
-    # print("详细释义:")
-    # for i, definition in enumerate(definitions, 1):
-    #     print(f"\n释义 {definition.get('sense_number', i)}:")
-    #     print(f"  英文释义: {definition.get('definition_en', 'N/A')}")
-    #     print(f"  中文释义: {definition.get('definition_cn', 'N/A')}")
-        
-    #     if definition.get('examples'):
-    #         print(f"  例句:")
-    #         for j, example in enumerate(definition['examples'], 1):
-    #             print(f"    {j}. 英文: {example.get('english', 'N/A')}")
-    #             print(f"       中文: {example.get('chinese', 'N/A')}")
-    
-    # print("\n" + "=" * 50)
-    # print(f"搜索历史: {', '.join(search_history)}")
-    
-    # print("\n" + "=" * 50)
-    # print(f"用户信息: {user_info}")
-    
-    # # 将结果保存为JSON文件
-    # with open('word_grand_info.json', 'w', encoding='utf-8') as f:
-    #     json.dump(result, f, ensure_ascii=False, indent=2)
-    
-    # print("\n" + "=" * 50)
-    # print("数据已保存到 word_grand_info.json 文件")
+#     # 组合所有数据
+#     result = {
+#         'word_info': word_info,
+#         'definitions': definitions,
+#         'search_history': search_history,
+#         'user_info': user_info
+#     }
 
 def main():
     processer = OxfordDictProcessor()
