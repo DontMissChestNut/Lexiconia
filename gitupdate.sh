@@ -8,8 +8,6 @@ current_branch=$(git rev-parse --abbrev-ref HEAD)
 current_upstream=$(git rev-parse --abbrev-ref --symbolic-full-name @{u} 2>/dev/null)
 
 update_repo() {
-    
-
     echo "更新当前上游仓库 $current_upstream"
     git pull
     git add .
@@ -20,7 +18,7 @@ update_repo() {
     if [ "$target_upstream" != "$current_upstream" ]; then
         echo "更新目标上游分支 $target_upstream"
         git branch --set-upstream-to=$target_upstream
-        # git pull
+        git pull
         git add .
         git commit -m "update $target_upstream"
         git push origin HEAD:develop
