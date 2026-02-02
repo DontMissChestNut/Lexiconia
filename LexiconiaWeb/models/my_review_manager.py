@@ -10,7 +10,7 @@ MyReviewManager 管理单词的复习列表
 TEFC  = ("5min", "30min", "12h", "1d", "2d", "4d", "7d", "15d")  # 8 nodes
 
 word_to_review_form = {
-    "Root": "-",
+    "root": "-",
     "Word": "-",
     "CurNode": -1,
     "CurTime": "YYYY-MM-DD-hh-mm-ss",
@@ -54,10 +54,10 @@ class MyReviewManager:
         if root is None:
             # TODO: 单词库中不存在，提示用户
             return 0
-        elif root is not None and root not in self.my_review["Root"].values:
+        elif root is not None and root not in self.my_review["root"].values:
             # 单词库中存在，不在复习列表，更新到复习列表
             new_word = {
-                "Root": "{:0>6d}".format(root),   
+                "root": "{:0>6d}".format(root),   
                 "Word": word,
                 "CurNode": -1,
                 "CurTime": "YYYY-MM-DD-hh-mm-ss",
@@ -66,7 +66,7 @@ class MyReviewManager:
             wordf = pd.DataFrame([new_word], columns=word_to_review_form.keys())
             wordf.to_csv(self.review_path, mode="a", index=False, header=False, encoding="utf-8")
             return 1
-        elif root in self.my_review["Root"].values:
+        elif root in self.my_review["root"].values:
             # TODO: 已存在在复习列表，修改复习状态
             # 直接重制？倒退？不修改？
             return 2
@@ -127,7 +127,7 @@ class MyReviewManager:
     def update_cur_nodes(self, roots: list):
         """批量更新多个单词的当前节点"""
         try:
-            to_update = self.my_review[self.my_review["Root"].isin(roots)]
+            to_update = self.my_review[self.my_review["root"].isin(roots)]
 
             for index, row in to_update.iterrows():
                 self.update_cur_node(index, row, int(row["CurNode"]) + 1)
@@ -139,7 +139,7 @@ class MyReviewManager:
     
     """ multi: 批量更新多个单词的当前节点 """
     def update_cur_nodes_tar(self, roots: list, tar_node: int):
-        to_update = self.my_review[self.my_review["Root"].isin(roots)]
+        to_update = self.my_review[self.my_review["root"].isin(roots)]
         
         count = 0
         for index, row in to_update.iterrows():
@@ -164,14 +164,14 @@ class MyReviewManager:
                 next_time = datetime.strptime(row["NextTime"], "%Y-%m-%d-%H-%M-%S")
 
                 if next_time <= current_time:
-                    due_roots.append({"Root": row["Root"], "NextTime": row["NextTime"]})
+                    due_roots.append({"root": row["root"], "NextTime": row["NextTime"]})
             except ValueError:
                 # 处理时间格式错误的情况
                 continue
         due_roots.sort(key=lambda x: x["NextTime"])
 
         """ sort by NextTime, from early to late"""
-        result = set(item["Root"] for item in due_roots)        
+        result = set(item["root"] for item in due_roots)        
 
         return result
     

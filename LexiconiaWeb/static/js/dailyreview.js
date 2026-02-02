@@ -5,7 +5,7 @@ class DailyReviewApp {
 
         this.currentCard = null;
         this.originRepo = [];       // 所有单词(origin) - all
-        this.finishedRoot = [];     // 已完成单词 - Root
+        this.finishedRoot = [];     // 已完成单词 - root
 
         this.dailyRepo = [];        // 所有单词 - all
         this.displayTask = 0;
@@ -222,7 +222,7 @@ class DailyReviewApp {
 
         const levelSpan = document.createElement('span');
         levelSpan.className = 'level';
-        levelSpan.textContent = definition.Level || 'N/A';
+        levelSpan.textContent = definition.level || 'N/A';
 
         const partOfSpeechSpan = document.createElement('span');
         partOfSpeechSpan.className = 'part-of-speech';
@@ -233,10 +233,10 @@ class DailyReviewApp {
         header.appendChild(partOfSpeechSpan);
 
         // 如果有补充信息，添加到头部
-        if (definition.Addition && definition.Addition !== '-') {
+        if (definition.addition && definition.addition !== '-') {
             const additionSpan = document.createElement('span');
             additionSpan.className = 'addition';
-            additionSpan.textContent = ` | ${definition.Addition}`;
+            additionSpan.textContent = ` | ${definition.addition}`;
             header.appendChild(additionSpan);
         }
 
@@ -255,10 +255,10 @@ class DailyReviewApp {
         // }
 
         // 中文解释
-        if (definition.ExplainationC && definition.ExplainationC !== '-') {
+        if (definition.explaination_c && definition.explaination_c !== '-') {
             const chineseExplain = document.createElement('div');
             chineseExplain.className = 'chinese-explanation';
-            chineseExplain.innerHTML = `${definition.ExplainationC}`;
+            chineseExplain.innerHTML = `${definition.explaination_c}`;
             explainDiv.appendChild(chineseExplain);
         }
 
@@ -301,7 +301,7 @@ class DailyReviewApp {
         this.currentProcess += 1;
         this.dailyProcess += 1;
         this.currentIndex += 1;
-        this.finishedRoot.push(deepCloneByJSON(this.currentCard.Root));
+        this.finishedRoot.push(deepCloneByJSON(this.currentCard.root));
         if (this.currentRepo.length === 0 && this.currentGroup.length === 0) {
             this.progressDisplay.textContent = `${this.currentProcess} / ${this.currentTask}`;
 

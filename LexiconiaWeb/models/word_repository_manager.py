@@ -3,7 +3,6 @@ from models import CardDetailsManager
 
 """
 WordRepositoryManager
-
 private:
 - single:添加新单词
 
@@ -19,9 +18,10 @@ public:
 
 word_repository_form = {
     "Num": "string",
-    "Serial" : "string",
+    "serial" : "string",
     "WordB": "string",
     "WordA": "string",
+
 }
 
 class WordRepositoryManager:
@@ -54,7 +54,7 @@ class WordRepositoryManager:
 
             new_word = {
                 "Num": "{:0>6d}".format(addition_count),
-                "Serial" : "09-{:0>6d}-01-1".format(addition_count),
+                "serial" : "09-{:0>6d}-01-1".format(addition_count),
                 "WordB": word,
                 "WordA": word,      # 美式
             }
@@ -64,9 +64,9 @@ class WordRepositoryManager:
 
             # 新单词，创建卡片详情
             self.details_manager.add_card_detail({
-                "Root": new_word["Num"],
-                "Serial" : new_word["Serial"],
-                "Level": "-",
+                "root": new_word["Num"],
+                "serial" : new_word["serial"],
+                "level": "-",
                 "part_of_speech": "-",
                 "addition": "-",
                 "ExplainationE": "-",
@@ -91,7 +91,7 @@ class WordRepositoryManager:
             if word not in words["WordA"].values and word not in words["WordB"].values:
                 new_words.append({
                     "Num": "{:0>6d}".format(addition_count),
-                    "Serial" : "09-{:0>6d}-01-1".format(addition_count),
+                    "serial" : "09-{:0>6d}-01-1".format(addition_count),
                     "WordB": word,
                     "WordA": word,
                 })
@@ -125,9 +125,9 @@ class WordRepositoryManager:
 
         for word in new_words:
             self.details_manager.add_card_detail({
-                "Root": word["Num"],
-                "Serial" : word["Serial"],
-                "Level": "-",
+                "root": word["Num"],
+                "serial" : word["serial"],
+                "level": "-",
                 "part_of_speech": "-",
                 "addition": "-",
                 "ExplainationE": "-",
@@ -198,6 +198,7 @@ class WordRepositoryManager:
 
         return added_words, skipped_words
 
+    # multi: 生成单词列表
     def generate_word_list(self):
         word_list = []
         for _, row in self.word_repo.iterrows():

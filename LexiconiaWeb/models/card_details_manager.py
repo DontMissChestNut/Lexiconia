@@ -18,28 +18,28 @@ import pandas as pd
 """
 
 word_card_form= {
-    "Root": "string",
-    "Serial" : "string",
-    "Level": "string",
+    "root": "string",
+    "serial" : "string",
+    "level": "string",
     "part_of_speech": "00-000000-00-0",        # CEFR(0)+level - root - part of speech - num
-    "Addition": "string",           # 名词复数、动词变形等
-    "ExplainationE": "string",
-    "ExplainationC": "string",
+    "addition": "string",           # 名词复数、动词变形等
+    "explaination_e": "string",
+    "explaination_c": "string",
     # "Phonetic": "string"          # TODO： 音标
 }
 
 word_card_form_youdao= {
-    "Root": "string",
-    "Serial" : "10-000000-00-0",        # youdao(1)+level - root - part of speech - num
-    "Level": "string",
+    "root": "string",
+    "serial" : "10-000000-00-0",        # youdao(1)+level - root - part of speech - num
+    "level": "string",
     "part_of_speech": "string",
-    "Addition": "string",           # 名词复数、动词变形等
-    "ExplainationE": "string",
-    "ExplainationC": "string",
+    "addition": "string",           # 名词复数、动词变形等
+    "explaination_e": "string",
+    "explaination_c": "string",
     # "Phonetic": "string"          # TODO： 音标
 }
 
-Level = {
+level = {
     1:"A1",
     2:"A2",
     3:"B1",
@@ -96,7 +96,7 @@ class CardDetailsManager:
     def erase_card_detail(self, serial: str):
         """删除卡片详情"""
         df = pd.read_csv(self.detail_path, encoding="utf-8", header=0)
-        df = df[df["Serial"] != serial]
+        df = df[df["serial"] != serial]
         df.to_csv(self.detail_path, mode="w", index=False, header=True, encoding="utf-8")
         
         self._update_details()
@@ -106,7 +106,7 @@ class CardDetailsManager:
     def rewrite_card_detail(self, card_detail: dict, serial: str):
         """重写卡片详情"""
         df = pd.read_csv(self.detail_path, encoding="utf-8", header=0)
-        df = df[df["Serial"] != serial]
+        df = df[df["serial"] != serial]
         df.to_csv(self.detail_path, mode="w", index=False, header=True, encoding="utf-8")
         self.add_card_detail(card_detail)
 
@@ -118,14 +118,14 @@ class CardDetailsManager:
         """获取单词的卡片详情"""
 
         details = []
-        for _, row in self.details[ self.details["Root"] == root].iterrows():
+        for _, row in self.details[ self.details["root"] == root].iterrows():
             details.append({
                 # TODO："Phonetic": "string",
-                "Level": row["Level"],
+                "level": row["level"],
                 "part_of_speech": row["part_of_speech"],
-                "Addition": row["Addition"],                # 名词复数、动词变形等
-                "ExplainationE": row["ExplainationE"],
-                "ExplainationC": row["ExplainationC"]
+                "addition": row["addition"],                # 名词复数、动词变形等
+                "explaination_e": row["explaination_e"],
+                "explaination_c": row["explaination_c"]
             })
             
         # print(details)
@@ -163,7 +163,7 @@ class CardDetailsManager:
     def erase_card_detail_youdao(self, serial: str):
         """删除卡片详情"""
         df = pd.read_csv(self.detail_youdao_path, encoding="utf-8", header=0)
-        df = df[df["Serial"] != serial]
+        df = df[df["serial"] != serial]
         df.to_csv(self.detail_youdao_path, mode="w", index=False, header=True, encoding="utf-8")
         
         self._update_details()
@@ -178,15 +178,15 @@ class CardDetailsManager:
     # single：获取单词的有道卡片详情
     def get_youdao_details_by_root(self, root:int):
         details = []
-        for _, row in self.details_youdao[ self.details_youdao["Root"] == root].iterrows():              
+        for _, row in self.details_youdao[ self.details_youdao["root"] == root].iterrows():              
             # print(row)
             details.append({
                 # TODO："Phonetic": "string",
-                "Level": Level[int(row["Level"])],
+                "level": level[int(row["level"])],
                 "part_of_speech": row["part_of_speech"],
-                "Addition": row["Addition"],                # 名词复数、动词变形等
-                "ExplainationE": row["ExplainationE"],
-                "ExplainationC": row["ExplainationC"]
+                "addition": row["addition"],                # 名词复数、动词变形等
+                "explaination_e": row["explaination_e"],
+                "explaination_c": row["explaination_c"]
             })
         
         return details
@@ -209,7 +209,7 @@ class CardDetailsManager:
         查询详情是否已添加
         
         Args:
-            root (list): A list of roots to query. Root is insured to be exist in the word repository in previous process
+            root (list): A list of roots to query. root is insured to be exist in the word repository in previous process
         
         Returns:
             added(list): A list of serials that are added
@@ -218,7 +218,7 @@ class CardDetailsManager:
         added = []
         not_added = []
         for r in roots:
-            if r in self.details_youdao["Root"].values:
+            if r in self.details_youdao["root"].values:
                 added.append(r)
             else:
                 not_added.append(r)

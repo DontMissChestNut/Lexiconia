@@ -27,15 +27,15 @@ class LexiconiaService:
             details = self.detail_manager.get_youdao_details_by_root(word[0])
             detail = []
             for d in details:
-                # print(d["Addition"])
+                # print(d["addition"])
                 detail.append({
-                    "Level": d["Level"],
+                    "level": d["level"],
                     "part_of_speech": d["part_of_speech"],
-                    "Addition": d["Addition"],                # 名词复数、动词变形等
-                    "ExplainationC": d["ExplainationC"]
+                    "addition": d["addition"],                # 名词复数、动词变形等
+                    "explaination_c": d["explaination_c"]
                 })
             youdao_details.append({
-                "Root": word[0],
+                "root": word[0],
                 "Word": word[1],
                 "Details": detail
             })
@@ -65,11 +65,11 @@ class LexiconiaService:
         definitions_list = []
         for _, definition in card_definitions.iterrows():
             definitions_list.append({
-                'level': definition['Level'],
+                'level': definition['level'],
                 'part_of_speech': definition['part_of_speech'],
                 'addition': definition['addition'] if self._is_valid_value(definition['addition']) else '',
-                'explanation_e': definition['ExplainationE'] if self._is_valid_value(definition['ExplainationE']) else '',
-                'explanation_c': definition['ExplainationC'] if self._is_valid_value(definition['ExplainationC']) else '',
+                'explanation_e': definition['explaination_e'] if self._is_valid_value(definition['explaination_e']) else '',
+                'explanation_c': definition['explaination_c'] if self._is_valid_value(definition['explaination_c']) else '',
                 'example': definition['Example'] if self._is_valid_value(definition['Example']) else ''
             })
         
@@ -129,17 +129,17 @@ class LexiconiaService:
         else:
             sample_words = pending_words.sample(count)
             
-        # sample_words["Detail"] = [self.detail_manager.details["Root"] == sample_words["Root"]]
-        roots = [i for i in sample_words["Root"]]
+        # sample_words["Detail"] = [self.detail_manager.details["root"] == sample_words["root"]]
+        roots = [i for i in sample_words["root"]]
 
         self.detail_manager.update_youdao_details(roots)
 
         words = []
         for _, row in sample_words.iterrows():
             words.append({
-                "Root": row["Root"],
+                "root": row["root"],
                 "Word": row["Word"],
-                "Details": self.detail_manager.get_details_by_root(row["Root"]) if repo == "complex" else self.detail_manager.get_youdao_details_by_root(row["Root"])
+                "Details": self.detail_manager.get_details_by_root(row["root"]) if repo == "complex" else self.detail_manager.get_youdao_details_by_root(row["root"])
             })
             
         return words
@@ -158,18 +158,18 @@ class LexiconiaService:
         else:
             sample_words = pending_words.sample(count)
             
-        # sample_words["Detail"] = [self.detail_manager.details["Root"] == sample_words["Root"]]
-        # print(sample_words["Root"])
+        # sample_words["Detail"] = [self.detail_manager.details["root"] == sample_words["root"]]
+        # print(sample_words["root"])
 
         # 检查是否待添加单词详情完整
-        self.detail_manager.update_youdao_details(sample_words["Root"])
+        self.detail_manager.update_youdao_details(sample_words["root"])
         
         words = []
         for _, row in sample_words.iterrows():
             words.append({
-                "Root": row["Root"],
+                "root": row["root"],
                 "Word": row["Word"],
-                "Details": self.detail_manager.get_youdao_details_by_root(row["Root"])
+                "Details": self.detail_manager.get_youdao_details_by_root(row["root"])
             })
             
         return words

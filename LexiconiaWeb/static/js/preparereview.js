@@ -188,7 +188,7 @@ class PrepareReview {
 
                 const lElem = document.createElement('span');
                 lElem.className = "defination-level";
-                lElem.textContent = detail.Level;
+                lElem.textContent = detail.level;
                 info.appendChild(lElem);
                 
                 const pElem = document.createElement('span');
@@ -198,19 +198,19 @@ class PrepareReview {
 
                 const aElem = document.createElement('span');
                 aElem.className = "defination-addition"
-                aElem.textContent = detail.Addition;
+                aElem.textContent = detail.addition;
                 info.appendChild(aElem);
 
                 definitionElem.appendChild(info);
 
                 const eeElem = document.createElement('div');
-                eeElem.className = "defination-explainatione"
-                eeElem.textContent = detail.ExplainationE;
+                eeElem.className = "defination-explaination_e"
+                eeElem.textContent = detail.explaination_e;
                 definitionElem.appendChild(eeElem);
 
                 const ecElem = document.createElement('span');
-                ecElem.className = "defination-explainationc"
-                ecElem.textContent = detail.ExplainationC;
+                ecElem.className = "defination-explaination_c"
+                ecElem.textContent = detail.explaination_c;
                 definitionElem.appendChild(ecElem);
             });
             

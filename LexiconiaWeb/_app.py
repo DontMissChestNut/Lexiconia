@@ -107,7 +107,7 @@ def get_daily_review_list():
     print(f"due_reviews: {due_reviews}")
 
     # for d in due_reviews:
-    #     print(d["Root"])
+    #     print(d["root"])
     
     if len(due_reviews) == 0:
         result_message = "暂无待复习单词"
@@ -282,11 +282,11 @@ def get_prepare_review_words():
         for word in sample_words:
             detail = ""
             for d in word["Details"]:
-                detail = d["part_of_speech"] + " " + d["ExplainationC"] + "\n"
+                detail = d["part_of_speech"] + " " + d["explaination_c"] + "\n"
 
 
             words_list.append({
-                "root": word["Root"],
+                "root": word["root"],
                 "word": word["Word"],
                 "details": word["Details"]
                 # "details": detail

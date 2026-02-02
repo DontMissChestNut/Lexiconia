@@ -7,24 +7,24 @@ from services import LexiconiaService
 
 word_repository_form = {
     "Num": "string",
-    "Serial" : "string",
+    "serial" : "string",
     "WordB": "string",
     "WordA": "string",
 }
 
 word_card_form_youdao= {
-    "Root": "string",
-    "Serial" : "10-000000-00-0",        # youdao(1)+level - root - part of speech - num
-    "Level": "string",
+    "root": "string",
+    "serial" : "10-000000-00-0",        # youdao(1)+level - root - part of speech - num
+    "level": "string",
     "part_of_speech": "string",
-    "Addition": "string",           # 名词复数、动词变形等
-    "ExplainationE": "string",
-    "ExplainationC": "string",
+    "addition": "string",           # 名词复数、动词变形等
+    "explaination_e": "string",
+    "explaination_c": "string",
     # "Phonetic": "string"          # TODO： 音标
 }
 
 word_to_review_form = {
-    "Root": "-",
+    "root": "-",
     "Word": "-",
     "CurNode": -1,
     "CurTime": "YYYY-MM-DD-hh-mm-ss",

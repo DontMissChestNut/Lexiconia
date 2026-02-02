@@ -10,13 +10,13 @@ from lxml import etree
 from models import WordRepositoryManager
 
 word_card_form_youdao= {
-    "Root": "string",
-    "Serial" : "10-000000-00-0",        # youdao(1)+level - root - part of speech - num
-    "Level": "string",
+    "root": "string",
+    "serial" : "10-000000-00-0",        # youdao(1)+level - root - part of speech - num
+    "level": "string",
     "part_of_speech": "string",
-    "Addition": "string",           # 名词复数、动词变形等
-    "ExplainationE": "string",
-    "ExplainationC": "string",
+    "addition": "string",           # 名词复数、动词变形等
+    "explaination_e": "string",
+    "explaination_c": "string",
     # "Phonetic": "string"          # TODO： 音标
 }
  
@@ -45,7 +45,7 @@ class Crawler:
         Main crawl method
         
         Args:
-            roots (list): A list of roots to crawl. Root is insured to be exist in the word repository in previous process
+            roots (list): A list of roots to crawl. root is insured to be exist in the word repository in previous process
         """
 
         words = self.word_repo.get_words_by_roots(roots)
@@ -107,13 +107,13 @@ class Crawler:
                 trans_text = trans.get_text(strip=True) if trans else "-"
                 
                 details.append({
-                    "Root": "{:0>6d}".format(int(root)),
-                    "Serial": "19-{:0>6d}-00-{}".format(int(root), i),
-                    "Level": "9",
+                    "root": "{:0>6d}".format(int(root)),
+                    "serial": "19-{:0>6d}-00-{}".format(int(root), i),
+                    "level": "9",
                     "part_of_speech": pos_text,
-                    "Addition": self._switch_pfs(pos_text, addition),
-                    "ExplainationE": "-",
-                    "ExplainationC": trans_text,
+                    "addition": self._switch_pfs(pos_text, addition),
+                    "explaination_e": "-",
+                    "explaination_c": trans_text,
                 })
 
         return details      

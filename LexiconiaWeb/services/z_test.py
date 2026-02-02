@@ -103,7 +103,7 @@ class LexiconiaService:
             result.append({
                 "root": word["Num"],
                 "word": word["WordB"],
-                "serial": word["Serial"]
+                "serial": word["serial"]
             })
         
         return result
@@ -124,7 +124,7 @@ class LexiconiaService:
             "root": root,
             "word": word_data["WordB"],
             "word_a": word_data["WordA"],
-            "serial": word_data["Serial"],
+            "serial": word_data["serial"],
             "details": details,
             "connections": self.get_word_connections(root)
         }
