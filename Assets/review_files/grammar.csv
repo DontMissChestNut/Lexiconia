@@ -1,0 +1,7 @@
+type,category,core,content,translation,remark,count
+语法,冠词缺失,language,it is universal language -> it is a universal language,它是一种通用语言,单数可数名词前需加冠词,1
+语法,平行结构,rate,cause watching rate declining` reduce TV channels' incomes` and finally shrink… -> 1. cause declining ratings` reduce revenues` and shrink the scale... (动词短语平行) 2. lead to declining ratings` reduced revenue` and a contraction in scale... (名词短语平行),导致收视率下降、收入减少，并最终缩减规模 -> 1. 导致收视率下降，减少收入，并缩减规模 2. 导致收视率下降、收入减少以及规模收缩,由and连接的并列成分需保持语法形式一致,1
+语法,动词名词化,improve,the final improving limits -> the potential for improvement is limited,最终的改善有限 -> 改善的潜力有限,将动词“improve”误作名词主语,1
+语法,动词搭配,cause,cause watching rate declining -> 1. cause ratings to decline (cause sth to do) 2. lead to declining ratings (lead to sth),导致收视率下降 -> 1. 导致收视率下降 2. 导致收视率下降,注意动词后接宾语补足语的正确形式,1
+语法,句子结构粘连,Take,Take World Cup for example` men's sports shows obviously have more watchers...` which illustrates... -> 1. Take the World Cup for example: the men's tournament… 2. Using the World Cup as an example` we can see that...,以世界杯为例，男子体育节目显然有更多观众..., 这说明了... -> 1. 以世界杯为例：男子比赛... 2. 以世界杯为例，我们可以看到...`“祈使句 + 完整句”用逗号连接造成结构不清，应使用冒号或改为状语从句,1
+语法,主谓一致,reason,the reason... are / audience are -> the reason... Is; audience is;audiences are,原因...是 / 观众是 -> 原因是；观众是（整体）；观众们是（多个群体）,找到真正主语，判断单复数。集合名词“audience”作为整体时单数，强调成员时复数,1

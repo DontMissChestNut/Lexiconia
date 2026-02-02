@@ -1,0 +1,43 @@
+type,category,core,content,translation,remark,count
+表达优化,定义与用词,precise,exact defination -> precise meanings,精确的含义,,0
+表达优化,语气与客观性,undoubtedly,absolutely -> undoubtedly,毫无疑问地,“absolutely”语气过强，“undoubtedly”更客观,1
+表达优化,精准表达,accuracy,expressive accuracy,表达上的准确性,,0
+表达优化,精准表达,barrier,the barriers to its creation,其创作的障碍,,0
+表达优化,精准表达,form,a kind of language -> a form of language,一种语言形式,,1
+表达优化,精准表达,evoke,rising emotions -> evoke emotions,唤起情感,,1
+表达优化,精准表达,region,with some specific section -> through specific brain regions,通过特定的大脑区域,,0
+表达优化,句式优化,make,"…` thus the respondance is universal` which needs no translation. -> …` making this response universal and requiring no translation.""",...，使得这种反应具有普遍性且无需翻译。,,1
+表达优化,用词精准,elicit,bring up reaction -> elicit reaction,引起反应,“bring up”常指抚养,1
+表达优化,用词精准,inherent,natural barriers -> inherent barrier,固有的障碍,,0
+表达优化,用词精准,master,Playing instruments … need … -> Mastering an instrument … requires …,演奏乐器需要... -> 掌握一种乐器需要...,,0
+表达优化,概念优化,acquisition,children learnig first language from a specific growing up envirenment -> natural language acquisition that occurs as children grow up in a linguistic environment,儿童在特定成长环境中学习第一语言 -> 儿童在语言环境中成长时发生的自然语言习得,,1
+表达优化,用词精准,utility,limits the universal function -> restricts its utility,限制其效用,,0
+表达优化,用词精准,everyday,a regular communication tool -> an everyday communicative tool for all,一个日常的通用交流工具,,1
+表达优化,用词精准,genre,scific type of music -> specific genres,特定的音乐类型（流派）,,1
+表达优化,用词精准,context,cultural or historical background -> particular cultural or historical contexts,特定的文化或历史背景,,0
+表达优化,介词优化,Without,Lacking of … -> Without …,缺少... -> 没有...,,1
+表达优化,用词精准,miss,engage in -> grasp/understand;gain its beauty -> appreciate its beauty;rather than engage in its deep narrative -> miss its deeper narrative,参与 -> 把握/理解；获得其美 -> 欣赏其美；而非参与其深层叙事 -> 错过其更深层的叙事,,1
+表达优化,比喻优化,see,may be a better window to (do) …`d instead of dictionary to (do) ... -> may be better seen as a window offering a glimpse into …` rather than as a dictionary to (do) …,或许是（做）...的更好窗口，而非（做）...的词典 -> 或许最好被视为一扇让人窥见...的窗口，而非一本（用来）...的词典,,1
+表达优化,用词精准,see,reckon it as a suppimentary demention -> see it as a complementary dimension,将其视为一个补充维度,,0
+表达优化,用词精准,Song,Music is a natural perfect vessel -> Song is a perfect example,音乐是一个天然的完美载体 -> 歌曲是一个绝佳的例子,,0
+表达优化,用词精准,amplify,music magnifies -> music amplifies,音乐放大,,0
+表达优化,用词精准,convey,colorize the emotion expressed by language -> colors the emotions conveyed by the lyrics,将语言表达的情感上色 -> 渲染歌词所传达的情感,,0
+表达优化,概念精炼,inexpressible,where language can not reach -> the inexpressible,语言无法触及之处 -> 不可言说之物,,1
+表达优化,用词精准,distribution,allocation -> inequitable distribution,分配 -> 不公平的分配,,1
+表达优化,用词正式,contravene,it violates -> it contravenes,它违反 -> 它违背（更正式）,,1
+表达优化,用词精准,stem,this is caused by -> disparity stems from,这是由...引起的 -> 差异源于...,,0
+表达优化,用词精准,optimal,best solution -> optimal solution,最佳解决方案 -> 最优解决方案,,0
+表达优化,用词正式,owing,due to -> owing to,由于 -> 由于（更正式）,,1
+表达优化,用词精准,entity,financial institutions -> commercial entities,金融机构 -> 商业实体,,0
+表达优化,用词精准,generate,bringing more benefits -> generating higher revenue,带来更多利益 -> 产生更高收入,,0
+表达优化,用词精准,merely,binary increasing -> merely increasing,二元增加 -> 仅仅增加,,1
+表达优化,用词精准,airtime,showing time -> airtime,播出时间,,1
+表达优化,用词精准,broadcaster,TV channels -> broadcasters,电视频道 -> 广播公司/电视台,,0
+表达优化,连接词优化,In addition to,beside -> in addition to,除了 -> 除了（之外）,,1
+表达优化,用词精准,sponsor,financial institution -> financial sponsor,金融机构 -> 资金赞助方,,1
+表达优化,用词精准,funding,economical investment and political supports -> funding and policy support,经济投资和政治支持 -> 资金和政策支持,,0
+表达优化,用词精准,disparity,difference -> disparity,差异 -> 悬殊、差距,,1
+表达优化,用词精准,driven,finalcial circulation -> financially-driven cycle,金融循环 -> 由金融驱动的循环,,0
+表达优化,用词精准,simplistic,the simple 'equal time' -> a simplistic 'equal airtime' policy,简单的“等时” -> 一种简单化的“播出时间均等”政策,“simplistic”含贬义,0
+表达优化,用词精准,fail,does not -> fails to,没有 -> 未能,,0
+表达优化,用词精准,address,fix the real gap -> address the underlying gap,弥补真实差距 -> 解决根本差距,,0

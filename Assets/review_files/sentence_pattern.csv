@@ -1,0 +1,33 @@
+type,category,core,content,translation,remark,count
+句式,开头与引入,appreciate,is widely appreciated across the globe,在全球范围内被广泛欣赏,,1
+句式,结果,lead,…` leading many to regard it as …,使得许多人将其视为...,,0
+句式,条件;定义,define,If we define ... broadly as …` then … undoubtedly qualifies as one.,如果我们广义地将...定义为...，那么...无疑符合这一标准。,,1
+句式,转折;承认,acknowledge,However` we must also acknowledge its limitations in terms of …,然而，我们也必须承认其在...方面的局限性。,,0
+句式,功能;原因,function,… functions as a form of ... owing to its power to …,...作为一种...形式发挥作用，因为它能够...,,0
+句式,强调;观点,capacity,It is this primal capacity for … that underpins …,正是这种...的原始能力支撑了...,,1
+句式,事实;陈述,evident,It is evident that …,很明显...,,1
+句式,否定;功能,tool,… is not a functional tool for ...,...不是一个用于...的功能性工具,,1
+句式,影响,shape,Its meaning is open to …` shaped by …,其意义对...开放，并由...塑造。,,1
+句式,存在,there,There are inherent barriers to (doing) …,存在固有的（做）...的障碍。,,0
+句式,关联,associate,… be deeply associated with particular cultural or historical contexts,...与特定的文化或历史背景密切相关。,,0
+句式,场景,In,In this fusion… ;In this scenario …,在这种融合中...；在此情境下...,,0
+句式,举例,example,… is a prime example of this.;The ... serves as a prime example.,...是这方面的一个主要例证。,,1
+句式,总结,way,In this way` …,通过这种方式，...,,0
+句式,视角,light,In this light/regard …,从这个角度来看，...,,1
+句式,强调,decidedly,it is decidedly (not the best approach),这显然（不是最佳方法）,,1
+句式,原因,reason,The primary reason for ... is that ...,...的主要原因是...,,1
+句式,结果,Consequently, Consequently .../ Therefore,因此，...,,1
+句式,转折,Therefore,Therefore` imposing ...` while seemingly ...` is an inefficient remedy.,因此，强制...，虽然看似...，是一种低效的补救措施。,,1
+句式,原因,lie,The root causes hindering ... lie in,阻碍...的根本原因在于,,1
+句式,潜力限制,potential,Thus` its potential for ... is severely limited.,因此，其...的潜力受到严重限制。,,1
+句式,方法,require,a more viable and holistic approach to ... requires ...,一个更可行且全面的...方法需要...,,0
+句式,倒装;强调,only,Only through ... can this be ...,只有通过...才能...,,1
+句式,原因,due,the disparity exists primarily due to ...,差异的存在主要归因于...,,0
+句式,方法,way,is the proper way to foster ...,是促进...的正确方法,,0
+句式,对比,need,What is needed is not... but rather...,我们需要的不是...，而是...,,0
+句式,问题,become,have become...problems to address,已成为需要解决的...问题,,0
+句式,观点,lie,I believe the optimal solution lies in,我认为最优解决方案在于,,1
+句式,本质,measure,... is essentially a measure that ...,本质上是一种...的措施,,0
+句式,同时,Simultaneously,Simultaneously` ...,同时，...,,0
+句式,范畴,Beyond,Beyond ...,除了...之外,,1
+句式,结果,thereby,thereby ...,从而...,,1
