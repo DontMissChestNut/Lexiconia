@@ -34,7 +34,7 @@ class PathGraphManager:
     def __init__(self):
         self.graph_path = "./Assets/path_graph.csv"
 
-        self.graph = pd.read_csv(self.graph_path, dtype=path_graph_form)
+        self.graph = pd.read_csv(self.graph_path, dtype=path_graph_form) # type: ignore
 
     def get_graph_info(self):
         graph = []

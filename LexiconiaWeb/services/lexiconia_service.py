@@ -17,9 +17,7 @@ class LexiconiaService:
         """获取每日复习单词"""
 
         due_roots = self.review_manager.get_due_reviews()
-
-        print(f"due_roots: {due_roots}")
-        wordlist = self.word_repo.get_words_by_roots(due_roots)
+        wordlist = self.word_repo.get_words_by_roots(list(due_roots))
 
         youdao_details = []
         for word in wordlist:
@@ -27,7 +25,10 @@ class LexiconiaService:
             details = self.detail_manager.get_youdao_details_by_root(word[0])
             detail = []
             for d in details:
+<<<<<<< HEAD
                 # print(d["addition"])
+=======
+>>>>>>> b45d19f8b7f02acecb2de47adde6487006728cf8
                 detail.append({
                     "level": d["level"],
                     "part_of_speech": d["part_of_speech"],
@@ -41,9 +42,6 @@ class LexiconiaService:
             })
         
         return youdao_details
-
-    # 获取单词卡数据
-    def get_card_data(self, num=None):
         """获取单词卡数据"""
         import random
         
@@ -91,11 +89,6 @@ class LexiconiaService:
             'added_count': len(added_words),
             'skipped_count': len(skipped_words)
         }
-    
-    # 获取所有卡片序列号
-    def get_all_cards(self):
-        """获取所有卡片序列号"""
-        return self.word_repo.get_all_nums()
     
     """ =============== Prepare Review Words =============== """
     # multi: 向复习仓库添加复习单词
@@ -157,12 +150,18 @@ class LexiconiaService:
             sample_words = pending_words
         else:
             sample_words = pending_words.sample(count)
+<<<<<<< HEAD
             
         # sample_words["Detail"] = [self.detail_manager.details["root"] == sample_words["root"]]
         # print(sample_words["root"])
 
         # 检查是否待添加单词详情完整
         self.detail_manager.update_youdao_details(sample_words["root"])
+=======
+
+        # 检查是否待添加单词详情完整
+        self.detail_manager.update_youdao_details(list(sample_words["Root"]))
+>>>>>>> b45d19f8b7f02acecb2de47adde6487006728cf8
         
         words = []
         for _, row in sample_words.iterrows():
@@ -198,6 +197,15 @@ class LexiconiaService:
         word_list = self.word_repo.generate_word_list()
         return graph, word_list
     
+    def get_word_info(self, root):
+        """获取单词详细信息"""
+        # Try complex details first
+        details = self.detail_manager.get_details_by_root(int(root))
+        if not details:
+            # Try youdao details
+            details = self.detail_manager.get_youdao_details_by_root(int(root))
+        return details
+
     """ =============== Daily Update =============== """
     def daily_update(self):
         self.review_manager.daily_update()

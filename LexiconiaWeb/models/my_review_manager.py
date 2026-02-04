@@ -63,7 +63,7 @@ class MyReviewManager:
                 "CurTime": "YYYY-MM-DD-hh-mm-ss",
                 "NextTime": "YYYY-MM-DD-hh-mm-ss",
             }
-            wordf = pd.DataFrame([new_word], columns=word_to_review_form.keys())
+            wordf = pd.DataFrame([new_word], columns=list(word_to_review_form.keys()))
             wordf.to_csv(self.review_path, mode="a", index=False, header=False, encoding="utf-8")
             return 1
         elif root in self.my_review["root"].values:
@@ -120,7 +120,6 @@ class MyReviewManager:
             self.my_review.to_csv(self.review_path, index=False, encoding="utf-8")
             return True
         except Exception as e:
-            print(f"Error saving to CSV: {e}")
             return False
     
     """ single: 更新单词的当前节点 """
@@ -134,7 +133,6 @@ class MyReviewManager:
             
             return True
         except Exception as e:
-            print(f"Error updating cur nodes: {e}")
             return False
     
     """ multi: 批量更新多个单词的当前节点 """
@@ -182,7 +180,7 @@ class MyReviewManager:
         for _, row in self.my_review.iterrows():
             if (int(row["CurNode"]) < 3 and int(row["CurNode"]) > 0):
                 # 更新DataFrame - 按照索引更新
-                self.my_review.at[_, "CurNode"] = 3
+                self.my_review[_, "CurNode"] = 3
             
                 # 保存到CSV
                 self.my_review.to_csv(self.review_path, index=False, encoding="utf-8")

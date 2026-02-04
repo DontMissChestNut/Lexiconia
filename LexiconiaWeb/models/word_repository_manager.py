@@ -28,13 +28,22 @@ class WordRepositoryManager:
         self.file_path = "./Assets/word_repository.csv"
         self.details_manager = CardDetailsManager()
 
+<<<<<<< HEAD
         self.word_repo = pd.read_csv(self.file_path, dtype=word_repository_form)
+=======
+        self.word_repo = pd.read_csv(self.repository_path, dtype=word_repository_form) # type: ignore
+>>>>>>> b45d19f8b7f02acecb2de47adde6487006728cf8
 
     # single:添加新单词
     def _add_new_word(self, word_detail: dict):
         """添加新单词"""
+<<<<<<< HEAD
         wordf = pd.DataFrame([word_detail], columns=word_repository_form.keys())
         wordf.to_csv(self.file_path, mode="a", index=False, header=False, encoding="utf-8")
+=======
+        wordf = pd.DataFrame([word_detail], columns=list(word_repository_form.keys()))
+        wordf.to_csv(self.repository_path, mode="a", index=False, header=False, encoding="utf-8")
+>>>>>>> b45d19f8b7f02acecb2de47adde6487006728cf8
 
     # single:创建单词信息
     def create_new_word(self, word: str):
@@ -95,7 +104,7 @@ class WordRepositoryManager:
                 })
                 addition_count += 1
                 
-        wlf = pd.DataFrame(columns=word_repository_form.keys())
+        wlf = pd.DataFrame(columns=list(word_repository_form.keys()))
         wlf = pd.concat([wlf, pd.DataFrame(new_words)], ignore_index=True)
         wlf.to_csv(self.file_path, mode="a", index=False, header=False, encoding="utf-8")
         return new_words

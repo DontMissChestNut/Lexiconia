@@ -86,8 +86,13 @@ class CardDetailsManager:
     # 添加卡片详情
     def add_card_detail(self, card_detail: dict):
         """添加卡片详情"""
+<<<<<<< HEAD
         cardf = pd.DataFrame([card_detail], columns=word_card_form.keys())
         cardf.to_csv(self.file_path, mode="a", index=False, header=False, encoding="utf-8")
+=======
+        cardf = pd.DataFrame([card_detail], columns=list(word_card_form.keys()))
+        cardf.to_csv(self.detail_path, mode="a", index=False, header=False, encoding="utf-8")
+>>>>>>> b45d19f8b7f02acecb2de47adde6487006728cf8
         
         self._update_details()
         return
@@ -128,10 +133,13 @@ class CardDetailsManager:
                 "explaination_e": row["explaination_e"],
                 "explaination_c": row["explaination_c"]
             })
+<<<<<<< HEAD
 
             level.append(row["level"])
             
         # print(details)
+=======
+>>>>>>> b45d19f8b7f02acecb2de47adde6487006728cf8
         
         return details
     
@@ -150,8 +158,13 @@ class CardDetailsManager:
     # 添加卡片详情
     def add_card_detail_youdao(self, card_detail: dict):
         """添加卡片详情"""
+<<<<<<< HEAD
         cardf = pd.DataFrame([card_detail], columns=word_card_form_youdao.keys())
         cardf.to_csv(self.file_youdao_path, mode="a", index=False, header=False, encoding="utf-8")
+=======
+        cardf = pd.DataFrame([card_detail], columns=list(word_card_form_youdao.keys()))
+        cardf.to_csv(self.detail_youdao_path, mode="a", index=False, header=False, encoding="utf-8")
+>>>>>>> b45d19f8b7f02acecb2de47adde6487006728cf8
         
         self._update_details()
         return
@@ -159,16 +172,19 @@ class CardDetailsManager:
     # multi: 添加卡片详情
     def add_card_details_youdao(self, card_details: list):
         """添加卡片详情"""
-        print(card_details)
-
         data = []
         for detail in card_details:
             if detail:
                 for i in [_ for _ in detail]:
                     data.append(i)
 
+<<<<<<< HEAD
         cardf = pd.DataFrame(data, columns=word_card_form_youdao.keys())
         cardf.to_csv(self.file_youdao_path, mode="a", index=False, header=False, encoding="utf-8")
+=======
+        cardf = pd.DataFrame(data, columns=list(word_card_form_youdao.keys()))
+        cardf.to_csv(self.detail_youdao_path, mode="a", index=False, header=False, encoding="utf-8")
+>>>>>>> b45d19f8b7f02acecb2de47adde6487006728cf8
         
         self._update_details()
         return
@@ -192,8 +208,12 @@ class CardDetailsManager:
     # single：获取单词的有道卡片详情
     def get_youdao_details_by_root(self, root:int):
         details = []
+<<<<<<< HEAD
         for _, row in self.details_youdao[ self.details_youdao["root"] == root].iterrows():              
             # print(row)
+=======
+        for _, row in self.details_youdao[ self.details_youdao["Root"] == root].iterrows():              
+>>>>>>> b45d19f8b7f02acecb2de47adde6487006728cf8
             details.append({
                 # TODO："Phonetic": "string",
                 "level": level[int(row["level"])],
