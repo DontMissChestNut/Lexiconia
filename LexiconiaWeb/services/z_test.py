@@ -32,9 +32,9 @@ class LexiconiaService:
             
             # 获取目标单词信息
             target_word = self.word_repo.word_repo[
-                self.word_repo.word_repo["Num"] == target
-            ]["WordB"].values[0] if not self.word_repo.word_repo[
-                self.word_repo.word_repo["Num"] == target
+                self.word_repo.word_repo["num"] == target
+            ]["word_b"].values[0] if not self.word_repo.word_repo[
+                self.word_repo.word_repo["num"] == target
             ].empty else "Unknown"
                 
             result.append({
@@ -94,15 +94,15 @@ class LexiconiaService:
         
         # 在单词库中搜索
         words = self.word_repo.word_repo[
-            (self.word_repo.word_repo["WordA"].str.contains(keyword, case=False, na=False)) |
-            (self.word_repo.word_repo["WordB"].str.contains(keyword, case=False, na=False))
+            (self.word_repo.word_repo["word_a"].str.contains(keyword, case=False, na=False)) |
+            (self.word_repo.word_repo["word_b"].str.contains(keyword, case=False, na=False))
         ].head(20)  # 限制返回数量
         
         result = []
         for _, word in words.iterrows():
             result.append({
-                "root": word["Num"],
-                "word": word["WordB"],
+                "root": word["num"],
+                "word": word["word_b"],
                 "serial": word["serial"]
             })
         
@@ -111,7 +111,7 @@ class LexiconiaService:
     def get_word_info(self, root):
         """获取单词详细信息"""
         word_info = self.word_repo.word_repo[
-            self.word_repo.word_repo["Num"] == root
+            self.word_repo.word_repo["num"] == root
         ]
         
         if word_info.empty:
@@ -122,8 +122,8 @@ class LexiconiaService:
         
         return {
             "root": root,
-            "word": word_data["WordB"],
-            "word_a": word_data["WordA"],
+            "word": word_data["word_b"],
+            "word_a": word_data["word_a"],
             "serial": word_data["serial"],
             "details": details,
             "connections": self.get_word_connections(root)

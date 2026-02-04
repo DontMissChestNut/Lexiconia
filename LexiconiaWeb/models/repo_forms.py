@@ -3,10 +3,9 @@ WordRepositoryManager 管理单词库
 - 包含单词序号、英式、美式
 """
 word_repository_form = {
-    "Num": "string",
-    "serial" : "string",
-    "WordB": "string",
-    "WordA": "string",
+    "num": "string",
+    "word_b": "string",
+    "word_a": "string",
 }
 
 """

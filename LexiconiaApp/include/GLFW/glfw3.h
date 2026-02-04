@@ -554,9 +554,9 @@ extern "C" {
  *  GLFW_LOCK_KEY_MODS input mode is set.
  */
 #define GLFW_MOD_CAPS_LOCK       0x0010
-/*! @brief If this bit is set the Num Lock key is enabled.
+/*! @brief If this bit is set the num Lock key is enabled.
  *
- *  If this bit is set the Num Lock key is enabled and the @ref
+ *  If this bit is set the num Lock key is enabled and the @ref
  *  GLFW_LOCK_KEY_MODS input mode is set.
  */
 #define GLFW_MOD_NUM_LOCK        0x0020
@@ -4709,7 +4709,7 @@ GLFWAPI int glfwGetInputMode(GLFWwindow* window, int mode);
  *  enable lock key modifier bits, or `GLFW_FALSE` to disable them.  If enabled,
  *  callbacks that receive modifier bits will also have the @ref
  *  GLFW_MOD_CAPS_LOCK bit set when the event was generated with Caps Lock on,
- *  and the @ref GLFW_MOD_NUM_LOCK bit when Num Lock was on.
+ *  and the @ref GLFW_MOD_NUM_LOCK bit when num Lock was on.
  *
  *  If the mode is `GLFW_RAW_MOUSE_MOTION`, the value must be either `GLFW_TRUE`
  *  to enable raw (unscaled and unaccelerated) mouse motion when the cursor is

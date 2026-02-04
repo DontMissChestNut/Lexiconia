@@ -74,7 +74,7 @@ class LexiconiaService:
             })
         
         return {
-            'word': word_data['WordB'],
+            'word': word_data['word_b'],
             'num': num,
             'definitions': definitions_list
         }
@@ -190,7 +190,7 @@ class LexiconiaService:
     """ =============== Path Builder =============== """
     """ multy:获取单词的根 """
     def get_num(self, word:list):
-        nums = [_["Num"] for _ in self.word_repo.generate_words_num(word)]
+        nums = [_["num"] for _ in self.word_repo.generate_words_num(word)]
         return int(nums[0])
     
     def get_graph_info(self):

@@ -17,25 +17,24 @@ public:
 """
 
 word_repository_form = {
-    "Num": "string",
-    "serial" : "string",
-    "WordB": "string",
-    "WordA": "string",
+    "num": "string",            # "{:0>8d}".format(list(word.keys())[0]),    
+    "word_b": "string",
+    "word_a": "string",
 
 }
 
 class WordRepositoryManager:
     def __init__(self):
-        self.repository_path = "./Assets/word_repository.csv"
+        self.file_path = "./Assets/word_repository.csv"
         self.details_manager = CardDetailsManager()
 
-        self.word_repo = pd.read_csv(self.repository_path, dtype=word_repository_form)
+        self.word_repo = pd.read_csv(self.file_path, dtype=word_repository_form)
 
     # single:添加新单词
     def _add_new_word(self, word_detail: dict):
         """添加新单词"""
         wordf = pd.DataFrame([word_detail], columns=word_repository_form.keys())
-        wordf.to_csv(self.repository_path, mode="a", index=False, header=False, encoding="utf-8")
+        wordf.to_csv(self.file_path, mode="a", index=False, header=False, encoding="utf-8")
 
     # single:创建单词信息
     def create_new_word(self, word: str):
@@ -47,16 +46,15 @@ class WordRepositoryManager:
         words = self.word_repo
 
         # 判断是否是新单词
-        if word not in words["WordA"].values and word not in words["WordB"].values:
+        if word not in words["word_a"].values and word not in words["word_b"].values:
             # 新单词，创建单词信息
             # TODO: 区分英式英语和美式英语
             addition_count = len(words) + 342       # 非原生部分从7000开始添加
 
             new_word = {
-                "Num": "{:0>6d}".format(addition_count),
-                "serial" : "09-{:0>6d}-01-1".format(addition_count),
-                "WordB": word,
-                "WordA": word,      # 美式
+                "num": "{:0>6d}".format(addition_count),
+                "word_b": word,
+                "word_a": word,      # 美式
             }
             
             # 新单词，添加到单词库
@@ -64,8 +62,8 @@ class WordRepositoryManager:
 
             # 新单词，创建卡片详情
             self.details_manager.add_card_detail({
-                "root": new_word["Num"],
-                "serial" : new_word["serial"],
+                "root": new_word["num"],
+                "serial" : "09-{:0>6d}-01-1".format(addition_count),
                 "level": "-",
                 "part_of_speech": "-",
                 "addition": "-",
@@ -88,18 +86,18 @@ class WordRepositoryManager:
         
         new_words = []
         for word in word_list:
-            if word not in words["WordA"].values and word not in words["WordB"].values:
+            if word not in words["word_a"].values and word not in words["word_b"].values:
                 new_words.append({
-                    "Num": "{:0>6d}".format(addition_count),
+                    "num": "{:0>6d}".format(addition_count),
                     "serial" : "09-{:0>6d}-01-1".format(addition_count),
-                    "WordB": word,
-                    "WordA": word,
+                    "word_b": word,
+                    "word_a": word,
                 })
                 addition_count += 1
                 
         wlf = pd.DataFrame(columns=word_repository_form.keys())
         wlf = pd.concat([wlf, pd.DataFrame(new_words)], ignore_index=True)
-        wlf.to_csv(self.repository_path, mode="a", index=False, header=False, encoding="utf-8")
+        wlf.to_csv(self.file_path, mode="a", index=False, header=False, encoding="utf-8")
         return new_words
 
     # single:添加单词到单词库
@@ -125,7 +123,7 @@ class WordRepositoryManager:
 
         for word in new_words:
             self.details_manager.add_card_detail({
-                "root": word["Num"],
+                "root": word["num"],
                 "serial" : word["serial"],
                 "level": "-",
                 "part_of_speech": "-",
@@ -142,24 +140,24 @@ class WordRepositoryManager:
         new_words = []
         exist_words = []
         for word in words:
-            if word not in self.word_repo["WordA"].values and word not in self.word_repo["WordB"].values:
+            if word not in self.word_repo["word_a"].values and word not in self.word_repo["word_b"].values:
                 new_words.append(word)
-            elif word in self.word_repo["WordB"].values:
+            elif word in self.word_repo["word_b"].values:
                 exist_words.append({
-                    "Num": self.word_repo[self.word_repo["WordB"] == word]["Num"].values[0],
+                    "num": self.word_repo[self.word_repo["word_b"] == word]["num"].values[0],
                     "Word": word
                 })
-            elif word in self.word_repo["WordA"].values:
+            elif word in self.word_repo["word_a"].values:
                 exist_words.append({
-                    "Num": self.word_repo[self.word_repo["WordA"] == word]["Num"].values[0],
+                    "num": self.word_repo[self.word_repo["word_a"] == word]["num"].values[0],
                     "Word": word
                 })
 
         new_words = self.create_new_words(new_words)
         new_words = [{
-            "Num": word["Num"],
-            "Word": word["WordB"],
-        } for word in new_words if word["WordB"]]
+            "num": word["num"],
+            "Word": word["word_b"],
+        } for word in new_words if word["word_b"]]
         
         words = new_words + exist_words       
 
@@ -172,7 +170,7 @@ class WordRepositoryManager:
         """
         words = []
         for root in roots:
-            words.append([int(root), self.word_repo[self.word_repo["Num"] == "{:0>6d}".format(int(root))]["WordB"].values[0]])
+            words.append([int(root), self.word_repo[self.word_repo["num"] == "{:0>6d}".format(int(root))]["word_b"].values[0]])
 
         return words
         
@@ -184,7 +182,7 @@ class WordRepositoryManager:
             新添加的单词列表： added_words: list
             跳过（已存在）的单词列表： skipped_words: list
         """
-        cur_words = list(tuple(self.word_repo["WordA"].values.tolist() + self.word_repo["WordB"].values.tolist()))
+        cur_words = list(tuple(self.word_repo["word_a"].values.tolist() + self.word_repo["word_b"].values.tolist()))
         
         added_words = []
         skipped_words = []
@@ -202,6 +200,6 @@ class WordRepositoryManager:
     def generate_word_list(self):
         word_list = []
         for _, row in self.word_repo.iterrows():
-            word_list.append({int(row["Num"]): row["WordB"]})
+            word_list.append({int(row["num"]): row["word_b"]})
 
         return word_list

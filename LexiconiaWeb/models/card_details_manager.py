@@ -68,17 +68,17 @@ PartofSpeech = {
 
 class CardDetailsManager:
     def __init__(self):
-        self.detail_path = "./Assets/card_details.csv"
-        # self.detail_youdao_path = "./Assets/card_details_youdao_test.csv"
-        self.detail_youdao_path = "./Assets/card_details_youdao.csv"
+        self.file_path = "./Assets/card_details.csv"
+        # self.file_youdao_path = "./Assets/card_details_youdao_test.csv"
+        self.file_youdao_path = "./Assets/card_details_youdao.csv"
         
-        self.details = pd.read_csv(self.detail_path)
-        self.details_youdao = pd.read_csv(self.detail_youdao_path)
+        self.details = pd.read_csv(self.file_path)
+        self.details_youdao = pd.read_csv(self.file_youdao_path)
 
     def _update_details(self):
         """读取内容"""
-        self.details = pd.read_csv(self.detail_path)
-        self.details_youdao = pd.read_csv(self.detail_youdao_path)
+        self.details = pd.read_csv(self.file_path)
+        self.details_youdao = pd.read_csv(self.file_youdao_path)
         return
 
 
@@ -87,7 +87,7 @@ class CardDetailsManager:
     def add_card_detail(self, card_detail: dict):
         """添加卡片详情"""
         cardf = pd.DataFrame([card_detail], columns=word_card_form.keys())
-        cardf.to_csv(self.detail_path, mode="a", index=False, header=False, encoding="utf-8")
+        cardf.to_csv(self.file_path, mode="a", index=False, header=False, encoding="utf-8")
         
         self._update_details()
         return
@@ -95,9 +95,9 @@ class CardDetailsManager:
     # 删除卡片详情
     def erase_card_detail(self, serial: str):
         """删除卡片详情"""
-        df = pd.read_csv(self.detail_path, encoding="utf-8", header=0)
+        df = pd.read_csv(self.file_path, encoding="utf-8", header=0)
         df = df[df["serial"] != serial]
-        df.to_csv(self.detail_path, mode="w", index=False, header=True, encoding="utf-8")
+        df.to_csv(self.file_path, mode="w", index=False, header=True, encoding="utf-8")
         
         self._update_details()
         return
@@ -105,9 +105,9 @@ class CardDetailsManager:
     # 重写卡片详情 （更新）
     def rewrite_card_detail(self, card_detail: dict, serial: str):
         """重写卡片详情"""
-        df = pd.read_csv(self.detail_path, encoding="utf-8", header=0)
+        df = pd.read_csv(self.file_path, encoding="utf-8", header=0)
         df = df[df["serial"] != serial]
-        df.to_csv(self.detail_path, mode="w", index=False, header=True, encoding="utf-8")
+        df.to_csv(self.file_path, mode="w", index=False, header=True, encoding="utf-8")
         self.add_card_detail(card_detail)
 
         self._update_details()
@@ -118,6 +118,7 @@ class CardDetailsManager:
         """获取单词的卡片详情"""
 
         details = []
+        level = []
         for _, row in self.details[ self.details["root"] == root].iterrows():
             details.append({
                 # TODO："Phonetic": "string",
@@ -127,17 +128,30 @@ class CardDetailsManager:
                 "explaination_e": row["explaination_e"],
                 "explaination_c": row["explaination_c"]
             })
+
+            level.append(row["level"])
             
         # print(details)
         
         return details
+    
+    def get_level_by_root(self, root:int):
+        """获取单词的卡片详情"""
+
+        level = ""
+        for _, row in self.details[ self.details["root"] == root].iterrows():
+            level = row["level"]
+            
+        # print(level)
+        
+        return level
     
     """ =============== Youdao Card Details =============== """
     # 添加卡片详情
     def add_card_detail_youdao(self, card_detail: dict):
         """添加卡片详情"""
         cardf = pd.DataFrame([card_detail], columns=word_card_form_youdao.keys())
-        cardf.to_csv(self.detail_youdao_path, mode="a", index=False, header=False, encoding="utf-8")
+        cardf.to_csv(self.file_youdao_path, mode="a", index=False, header=False, encoding="utf-8")
         
         self._update_details()
         return
@@ -154,7 +168,7 @@ class CardDetailsManager:
                     data.append(i)
 
         cardf = pd.DataFrame(data, columns=word_card_form_youdao.keys())
-        cardf.to_csv(self.detail_youdao_path, mode="a", index=False, header=False, encoding="utf-8")
+        cardf.to_csv(self.file_youdao_path, mode="a", index=False, header=False, encoding="utf-8")
         
         self._update_details()
         return
@@ -162,9 +176,9 @@ class CardDetailsManager:
     # 删除卡片详情
     def erase_card_detail_youdao(self, serial: str):
         """删除卡片详情"""
-        df = pd.read_csv(self.detail_youdao_path, encoding="utf-8", header=0)
+        df = pd.read_csv(self.file_youdao_path, encoding="utf-8", header=0)
         df = df[df["serial"] != serial]
-        df.to_csv(self.detail_youdao_path, mode="w", index=False, header=True, encoding="utf-8")
+        df.to_csv(self.file_youdao_path, mode="w", index=False, header=True, encoding="utf-8")
         
         self._update_details()
         return

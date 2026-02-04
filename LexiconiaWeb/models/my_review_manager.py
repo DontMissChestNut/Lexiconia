@@ -49,7 +49,7 @@ class MyReviewManager:
         新增一个单词到复习列表
         """
         # TODO:更新为交给word_repo管理
-        root = self.word_repo["Num"][self.word_repo["WordB"] == word].values[0] if self.word_repo[self.word_repo["WordB"] == word].values.size > 0 else None
+        root = self.word_repo["num"][self.word_repo["word_b"] == word].values[0] if self.word_repo[self.word_repo["word_b"] == word].values.size > 0 else None
 
         if root is None:
             # TODO: 单词库中不存在，提示用户
