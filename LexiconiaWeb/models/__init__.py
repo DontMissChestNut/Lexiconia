@@ -6,6 +6,8 @@ from .my_review_manager import MyReviewManager
 from .crawler_main import Crawler
 from .path_graph_manager import PathGraphManager
 from .detail_repository_manager import DetailRepositoryManager
+from .detail_repository_manager import RecordingManager
+
 
 
 __all__ = [
@@ -20,4 +22,5 @@ __all__ = [
     "Crawler",
     "PathGraphManager",
     "DetailRepositoryManager",
+    "RecordingManager",
 ]

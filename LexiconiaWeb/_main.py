@@ -1,19 +1,26 @@
-<<<<<<< HEAD
 from multiprocessing.managers import BaseManager
 from operator import ne
 import pandas as pd
 from datetime import datetime, timedelta, time
 import os
-from models import CardDetailsManager, WordRepositoryManager, MyReviewManager, Crawler, PathGraphManager, DetailRepositoryManager
+from models import CardDetailsManager, WordRepositoryManager, MyReviewManager, Crawler, PathGraphManager, DetailRepositoryManager, RecordingManager
 from models import detail_repo_form
 from services import LexiconiaService
 
 def main():
-    lexiconia_service , word_repo_manager, detail_manager, my_review_manager, crawler, path_graph_manager, detail_repo_manager, updateTime = init()
-    daily_path = "/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/Assets/review_files/daily_words.txt"
-    detail_path = "/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/Assets/detail_repository copy.csv"
-    word_repo_path = "/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/Assets/word_repository.csv"
-    merge_word_repository(daily_path, detail_path, word_repo_path)
+    lexiconia_service , word_repo_manager, detail_manager, my_review_manager, crawler, path_graph_manager, detail_repo_manager, recording_manager, updateTime = init()
+    # daily_path = "./Assets/review_files/daily_words.txt"
+    # detail_path = "./Assets/detail_repository copy.csv"
+    # word_repo_path = "./Assets/word_repository.csv"
+    # merge_word_repository(daily_path, detail_path, word_repo_path)
+    
+    # 处理 recording.csv 文件
+    recording_path = "g:\\DontMissChestNut\\Lexiconia\\Assets\\review_files\\recording.csv"
+    word_repo_path = "g:\\DontMissChestNut\\Lexiconia\\Assets\\word_repository.csv"
+    merge_recording_to_word_repo(recording_path, word_repo_path)
+    
+    # 生成复习列表
+    recording_manager.generate_review_lists()
 
 
 def init():
@@ -23,11 +30,12 @@ def init():
     my_review_manager = MyReviewManager()
     path_graph_manager = PathGraphManager()
     detail_repo_manager = DetailRepositoryManager()
+    recording_manager = RecordingManager()
     crawler = Crawler()
 
     updateTime = time(5, 0, 0)  # 05:00:00
 
-    return lexiconia_service , word_repo_manager, detail_manager, my_review_manager, crawler, path_graph_manager, detail_repo_manager, updateTime
+    return lexiconia_service , word_repo_manager, detail_manager, my_review_manager, crawler, path_graph_manager, detail_repo_manager, recording_manager, updateTime
 
 def write_csv(data, path, form):
     df = pd.DataFrame(columns = form.keys())
@@ -98,6 +106,18 @@ def read_word_repository(path):
             df[c] = pd.Series(dtype=str)
     return df[cols]
 
+def read_recording(path):
+    df = pd.read_csv(path, encoding="utf-8")
+    if "root" not in df.columns:
+        return []
+    df = df[["root"]].dropna()
+    roots = []
+    for _, r in df.iterrows():
+        root = str(r["root"]).strip()
+        if root:
+            roots.append(root)
+    return roots
+
 def write_word_repository_append(path, rows):
     cols = ["num", "word_b", "word_a"]
     df = pd.DataFrame(rows, columns=cols)
@@ -138,6 +158,34 @@ def merge_word_repository(daily_path, detail_path, word_repo_path):
     if to_write:
         write_word_repository_append(word_repo_path, to_write)
 
+def merge_recording_to_word_repo(recording_path, word_repo_path):
+    existing = read_word_repository(word_repo_path)
+    existing_words = set([str(x).strip() for x in existing["word_b"].tolist()]) if not existing.empty else set()
+    recording_roots = read_recording(recording_path)
+    seen_roots = set()
+    to_write = []
+    # 计算当前最大 num 值
+    current_num = 0
+    if not existing.empty:
+        for num in existing["num"]:
+            try:
+                n = int(str(num))
+                if n > current_num:
+                    current_num = n
+            except:
+                pass
+    # 处理 recording 中的 root
+    for root in recording_roots:
+        root_stripped = str(root).strip()
+        if not root_stripped or root_stripped in existing_words or root_stripped in seen_roots:
+            continue
+        current_num += 1
+        num_str = "{:0>8d}".format(current_num)
+        to_write.append([num_str, root_stripped, root_stripped])
+        seen_roots.add(root_stripped)
+    if to_write:
+        write_word_repository_append(word_repo_path, to_write)
+
 if __name__ == "__main__":
     main()
     
@@ -147,5 +195,3 @@ if __name__ == "__main__":
 
 
     
-=======
->>>>>>> b45d19f8b7f02acecb2de47adde6487006728cf8

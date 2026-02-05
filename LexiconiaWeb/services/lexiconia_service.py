@@ -25,10 +25,7 @@ class LexiconiaService:
             details = self.detail_manager.get_youdao_details_by_root(word[0])
             detail = []
             for d in details:
-<<<<<<< HEAD
                 # print(d["addition"])
-=======
->>>>>>> b45d19f8b7f02acecb2de47adde6487006728cf8
                 detail.append({
                     "level": d["level"],
                     "part_of_speech": d["part_of_speech"],
@@ -150,18 +147,12 @@ class LexiconiaService:
             sample_words = pending_words
         else:
             sample_words = pending_words.sample(count)
-<<<<<<< HEAD
             
         # sample_words["Detail"] = [self.detail_manager.details["root"] == sample_words["root"]]
         # print(sample_words["root"])
 
         # 检查是否待添加单词详情完整
         self.detail_manager.update_youdao_details(sample_words["root"])
-=======
-
-        # 检查是否待添加单词详情完整
-        self.detail_manager.update_youdao_details(list(sample_words["Root"]))
->>>>>>> b45d19f8b7f02acecb2de47adde6487006728cf8
         
         words = []
         for _, row in sample_words.iterrows():
