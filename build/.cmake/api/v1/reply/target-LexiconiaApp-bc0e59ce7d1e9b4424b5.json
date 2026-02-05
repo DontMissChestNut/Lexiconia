@@ -1,0 +1,372 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "lexiconia"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"add_custom_command",
+			"target_compile_options",
+			"target_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"LexiconiaApp/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 74,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 78,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 94,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 48,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 67,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -arch arm64"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wno-register"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wno-deprecated-register"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wno-shift-op-parentheses"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "GL_SILENCE_DEPRECATION"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/include/Core"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/include/glad"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/include/GLFW"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/include/glm"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/include/KHR"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/src/Core"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-std=c++17 -arch arm64"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wno-register"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wno-deprecated-register"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wno-shift-op-parentheses"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "GL_SILENCE_DEPRECATION"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/include/Core"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/include/glad"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/include/GLFW"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/include/glm"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/include/KHR"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/src/Core"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
+			]
+		}
+	],
+	"id" : "LexiconiaApp::@be0b6aa215a0ea931a84",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wl,-search_paths_first -Wl,-headerpad_max_install_names",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/lib/libglfw3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-framework OpenGL",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-framework Cocoa",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-framework IOKit",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-framework CoreVideo",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"linkLibraries" : 
+	[
+		{
+			"backtrace" : 2,
+			"fragment" : "/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/lib/libglfw3.a"
+		},
+		{
+			"backtrace" : 3,
+			"fragment" : "-framework OpenGL"
+		},
+		{
+			"backtrace" : 3,
+			"fragment" : "-framework Cocoa"
+		},
+		{
+			"backtrace" : 3,
+			"fragment" : "-framework IOKit"
+		},
+		{
+			"backtrace" : 3,
+			"fragment" : "-framework CoreVideo"
+		}
+	],
+	"name" : "LexiconiaApp",
+	"nameOnDisk" : "lexiconia",
+	"orderDependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "LexiconiaApp::@be0b6aa215a0ea931a84"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "LexiconiaApp",
+		"source" : "LexiconiaApp"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "LexiconiaApp/src/glad.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "LexiconiaApp/_main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "LexiconiaApp/src/Core/Application.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "LexiconiaApp/src/Core/Logger.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "LexiconiaApp/src/Core/Time.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "LexiconiaApp/src/Core/Window.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "LexiconiaApp/src/Graphics/Shader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "LexiconiaApp/src/Graphics/Camera.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
