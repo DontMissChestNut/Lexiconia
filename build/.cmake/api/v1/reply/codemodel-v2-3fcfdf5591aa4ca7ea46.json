@@ -11,7 +11,7 @@
 					[
 						1
 					],
-					"jsonFile" : "directory-.-9ad1a58d4644cf6543fa.json",
+					"jsonFile" : "directory-.-Debug-9ad1a58d4644cf6543fa.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
@@ -21,7 +21,7 @@
 				},
 				{
 					"build" : "LexiconiaApp",
-					"jsonFile" : "directory-LexiconiaApp-10a152fc52203fa42f7e.json",
+					"jsonFile" : "directory-LexiconiaApp-Debug-10a152fc52203fa42f7e.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
@@ -35,7 +35,7 @@
 					]
 				}
 			],
-			"name" : "",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -56,7 +56,7 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "LexiconiaApp::@be0b6aa215a0ea931a84",
-					"jsonFile" : "target-LexiconiaApp-bc0e59ce7d1e9b4424b5.json",
+					"jsonFile" : "target-LexiconiaApp-Debug-eaffe2791a80b2eeb623.json",
 					"name" : "LexiconiaApp",
 					"projectIndex" : 0
 				}

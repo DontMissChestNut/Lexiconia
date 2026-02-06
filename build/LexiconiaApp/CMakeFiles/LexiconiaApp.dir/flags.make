@@ -7,15 +7,15 @@ C_DEFINES = -DGL_SILENCE_DEPRECATION
 
 C_INCLUDES = -I/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/include -I/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/include/Core -I/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/include/glad -I/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/include/GLFW -I/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/include/glm -I/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/include/KHR -I/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/src -I/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/src/Core
 
-C_FLAGSarm64 =  -arch arm64 -Wno-register -Wno-deprecated-register -Wno-shift-op-parentheses
+C_FLAGSarm64 = -g -arch arm64 -Wno-register -Wno-deprecated-register -Wno-shift-op-parentheses
 
-C_FLAGS =  -arch arm64 -Wno-register -Wno-deprecated-register -Wno-shift-op-parentheses
+C_FLAGS = -g -arch arm64 -Wno-register -Wno-deprecated-register -Wno-shift-op-parentheses
 
 CXX_DEFINES = -DGL_SILENCE_DEPRECATION
 
 CXX_INCLUDES = -I/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/include -I/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/include/Core -I/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/include/glad -I/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/include/GLFW -I/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/include/glm -I/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/include/KHR -I/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/src -I/Users/bytedance/Documents/MyDocuments/DontMissChestNut/Lexiconia/LexiconiaApp/src/Core
 
-CXX_FLAGSarm64 = -std=c++17 -arch arm64 -Wno-register -Wno-deprecated-register -Wno-shift-op-parentheses
+CXX_FLAGSarm64 = -g -std=c++17 -arch arm64 -Wno-register -Wno-deprecated-register -Wno-shift-op-parentheses
 
-CXX_FLAGS = -std=c++17 -arch arm64 -Wno-register -Wno-deprecated-register -Wno-shift-op-parentheses
+CXX_FLAGS = -g -std=c++17 -arch arm64 -Wno-register -Wno-deprecated-register -Wno-shift-op-parentheses
 
