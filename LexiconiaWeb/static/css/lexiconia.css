@@ -1,9 +1,0 @@
-/* Lexiconia页面特殊样式 - 主要样式已在style.css中定义 */
-/* 这里可以添加lexiconia页面的特殊样式 */
-.random-btn {
-    background: #9b59b6;
-}
-
-.random-btn:hover {
-    background: #8e44ad;
-}
