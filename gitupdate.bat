@@ -30,4 +30,4 @@ git add LICENSE
 git commit -m "."
 
 @REM git branch --set-upstream-to=origin/develop
-@REM git branch --set-upstream-to=origin/dev/win
+@REM git branch --set-upstream-to=origin/dev/win_mate
