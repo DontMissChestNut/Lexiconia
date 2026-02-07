@@ -2,7 +2,7 @@ git add ./.vscode
 
 git add ./app
 
-git add ./assets/inout/daily_words.txt
+git add ./assets/inout/detail_repository.csv
 git add ./assets/word_repository.csv
 
 git add ./tempfiles
