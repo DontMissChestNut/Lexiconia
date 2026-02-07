@@ -1,31 +1,19 @@
 cmake_minimum_required(VERSION 3.10)
-project(LexiconiaApp)
+project(Lexiconia VERSION 1.0.0 LANGUAGES CXX)
 
-set(CMAKE_C_STANDARD 11)
+# 设置C++标准
 set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
 
-# 查找 GLFW
-find_package(glfw3 REQUIRED)
+# 设置输出目录
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
-# 添加可执行文件
-add_executable(app 
-    LexiconiaApp/src/_main.cpp
-    LexiconiaApp/src/glad.cpp
-)
+# 构建选项
+option(BUILD_WITH_IMGUI "Build with Dear ImGui for debugging" ON)
+option(BUILD_WITH_SPDLOG "Build with spdlog for logging" ON)
 
-# 包含目录
-target_include_directories(app PRIVATE 
-    LexiconiaApp/include
-    ${GLFW_INCLUDE_DIRS}
-)
-
-# 链接库
-target_link_libraries(app glfw)
-
-# macOS 特定设置
-if(APPLE)
-    target_link_libraries(app "-framework OpenGL")
-    target_link_libraries(app "-framework Cocoa")
-    target_link_libraries(app "-framework IOKit")
-    target_link_libraries(app "-framework CoreVideo")
-endif()
+# 添加子目录（App）
+add_subdirectory(LexiconiaApp)

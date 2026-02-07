@@ -1,0 +1,459 @@
+root,serial-等级,serial-词性,serial-释义,serial-短语,sentence,reviewcode-类型,reviewcode-小类,reviewcode-话题,reviewcode-态度,content,translation,remark,count
+reckon,错词,01,,,reckoned,看作,应为过去分词形式,,,,,,0
+appreciate,错词,01,,,appreciated,欣赏,,,,,,,0
+masterpiece,错词,01,,,masterpieces,杰作,,,,,,,0
+define,错词,01,,,definition,定义,,,,,,,0
+bottle,错词,01,,,bottle,瓶子,,,,,,,0
+respond,错词,01,,,respond,反应,,,,,,,0
+rhythm,错词,01,,,rhythm,节奏,,,,,,,0
+specific,错词,01,,,specific,特定的,,,,,,,0
+aesthetic,错词,01,,,aesthetic,美学的,,,,,,,0
+dimension,错词,01,,,dimension,维度,,,,,,,0
+melody,错词,01,,,melody,旋律,,,,,,,0
+scenario,错词,01,,,scenario,情景,,,,,,,0
+Opera,错词,01,,,Opera,歌剧,,,,,,,0
+stimulate,错词,01,,,stimulate,刺激,,,,,,,0
+compulsory,错词,01,,,compulsory,强制的,,,,,,,0
+definitely,错词,01,,,definitely,肯定地,,,,,,,0
+imbalance,错词,01,,,imbalance,不平衡,,,,,,,0
+long-term,错词,01,,,long-term,长期的,,,,,,,0
+Therefore,错词,01,,,Therefore,因此,,,,,,,0
+specifically,错词,01,,,specifically,具体地,,,,,,,0
+approach,错词,01,,,approach,方法,,,,,,,0
+equity,错词,01,,,equity,公平,,,,,,,0
+shoulder,错词,01,,,shoulder,承担,,,,,,,0
+responsibility,错词,01,,,responsibility,责任,,,,,,,0
+allocation,错词,01,,,allocation,分配,,,,,,,0
+environment,错词,01,,,environment,环境,,,,,,,0
+conclusion,错词,01,,,conclusion,结论,,,,,,,0
+essential,错词,01,,,essential,必要的,,,,,,,0
+implicit,错词,01,,,implicit,隐含的,,,,,,,0
+genuinely,错词,01,,,genuinely,真正地,,,,,,,0
+price,错词,01,,,price,价格,,,,,,,0
+vehicle,错词,01,,,vehicles,车辆,,,,,,,0
+mechanic,错词,01,,,mechanical,机械的,原词性有误,,,,,,0
+benefit,错词,01,,,benefits,利益,,,,,,,0
+hinder,错词,01,,,hinders,阻碍,,,,,,,0
+establish,错词,01,,,establish,建立,,,,,,,0
+synchronize,错词,01,,,synchronized,同步的,应为形容词形式,,,,,,0
+trajectory,错词,01,,,trajectory,轨迹,,,,,,,0
+intelligent,错词,01,,,intelligent,智能的,,,,,,,0
+infrastructure,错词,01,,,infrastructure,基础设施,,,,,,,0
+technology,错词,01,,,technology,技术,,,,,,,0
+sustainable,错词,01,,,sustainable,可持续的,,,,,,,0
+promoting,错词,01,,,promoting,推广,,,,,,,0
+establishment,错词,01,,,establishment,建立/机构,,,,,,,0
+synchronously,错词,01,,,synchronously,同步地,,,,,,,0
+associate,错词,01,,,associated,与...相关,应为过去分词,,,,,,0
+conclusion,错词,01,,,conclusion,结论,,,,,,,0
+limitation,错词,02,,,limitations,限制,,,,,,,0
+audience,错词,02,,,audiences,观众,,,,,,,0
+barrier,错词,03,,,barriers to creation,创作壁垒,,,,,,,0
+research,错词,03,,,conduct research,进行研究,,,,,,,0
+transcend,错词,04,,,transcending,超越,,,,,,,0
+request,错词,04,,,requests,请求,,,,,,,0
+interpretation,错词,04,,,interpretation,诠释,原错误词为illustration(插图),,,,,,0
+communicative,错词,04,,,everyday communicative tool,日常沟通工具,,,,,,,0
+lyric,错词,04,,,lyrics,歌词,,,,,,,0
+usher,错词,04,,,ushered in,引领,,,,,,,0
+touching,错词,04,,,moving/touching,动人的,touchy意为“易怒的”,,,,,,0
+dialogue,错词,04,,,dialogue,对话,,,,,,,0
+simplistic,错词,04,,,simplistically,过分简单地,,,,,,,0
+response,错词,05,,,response,反应,原错误词为respondance,,,,,,0
+creation,错词,05,,,creation tools,创作工具,,,,,,,0
+tend,错词,05,,,tend to,倾向于,,,,,,,0
+base,错词,05,,,base,基础,原错误词为basement(地下室),,,,,,0
+tent,错词,05,,,tend,倾向于,原错误01,,,,,,0
+economic,错词,05,,,economic/financial,经济的/金融的,,,,,,,0
+abundant,错词,05,,,abundant,丰富的,原错误词为aboudance,,,,,,0
+effective,错词,06,,,effective,有效的,原错误词为efficiency(效率),,,,,,0
+exert,错词,06,,,exert,施加,原错误词为extract(提取),,,,,,0
+affected,错词,06,,,affected,受到影响,原错误词为effected(实现),,,,,,0
+contemporary,词伙,,9.0,,contemporary pop,当代流行乐,,,,,,,0
+transcend,词伙,,9.0,,transcend culture,超越文化,,,,,,,0
+evoke,词伙,,9.0,,evoke emotional responses,唤起情感反应,,,,,,,0
+universal,词伙,,9.0,,universal response,普遍的反应,,,,,,,0
+translation,词伙,,9.0,,requiring no translation,无需翻译,,,,,,,0
+signal,词伙,,9.0,,physical signals,物理信号,,,,,,,0
+ambiguity,词伙,,9.0,,avoids the ambiguity inherent in,避免...固有的模糊性,,,,,,,0
+language,词伙,,9.0,,verbal language,口头语言,,,,,,,0
+connection,词伙,,9.0,,allows for a direct connection,允许直接连接,,,,,,,0
+score,词伙,,9.0,,film scores,电影配乐,,,,,,,0
+elicit,词伙,,9.0,,elicit similar emotional reactions,引发相似的情感反应,,,,,,,0
+worldwide,词伙,,9.0,,audiences worldwide,全球观众,,,,,,,0
+expression,词伙,,9.0,,emotional expression and reception,情感表达与接收,,,,,,,0
+underpin,词伙,,9.0,,underpins its claim to being,支撑了它作为...的主张,,,,,,,0
+convey,词伙,,9.0,,convey specific requests,传达具体的请求,,,,,,,0
+articulate,词伙,,9.0,,articulating precise concepts,阐述精确的概念,,,,,,,0
+interpretation,词伙,,9.0,,subjective interpretation,主观诠释,,,,,,,0
+create,词伙,,9.0,,create/produce music,创作音乐,,,,,,,0
+genre,词伙,,9.0,,blues and folk music,蓝调与民谣音乐,,,,,,,0
+narrative,词伙,,9.0,,its deeper narrative,其更深层的叙事,,,,,,,0
+glimpse,词伙,,9.0,,a glimpse into a culture`s aesthetic,对文化美学的窥见,,,,,,,0
+dimension,词伙,,9.0,,a complementary dimension,一个互补的维度,,,,,,,0
+spectrum,词伙,,9.0,,within the broader spectrum of,在...更广阔的范畴内,,,,,,,0
+convey,词伙,,9.0,,the emotions conveyed by the lyrics,由歌词传达的情感,,,,,,,0
+barrier,词伙,,9.0,,lower the barriers to entry,降低准入门槛,,,,,,,0
+foster,词伙,,9.0,,fosters greater cross-cultural exchange,促进更大的跨文化交流,,,,,,,0
+collaborate,词伙,,9.0,,collaboratively forging,共同锻造,,,,,,,0
+piece,词伙,,9.0,,a moving piece of music,一首动人的乐曲,,,,,,,0
+pique,词伙,,9.0,,pique listeners` interest,激起听众的兴趣,,,,,,,0
+transcend,词伙,,9.0,,transcends its role as,超越了其作为...的角色,,,,,,,0
+catalyst,词伙,,9.0,,a catalyst for deeper cultural dialogue,更深层文化对话的催化剂,,,,,,,0
+usher,词伙,,9.0,,ushered in a more accessible era,开启了一个更易接触的时代,,,,,,,0
+value,词伙,,9.0,,the supreme value of ... lies not in ... but in ..., ...的最高价值不在于...而在于...,,,,,,,0
+inexpressible,词伙,,9.0,,expressing the inexpressible,表达不可言说之物,,,,,,,0
+window,词伙,,9.0,,opening the window for,为...打开窗口,,,,,,,0
+dialogue,词伙,,9.0,,genuine dialogue,真诚的对话,,,,,,,0
+broadcast,词伙,,12.0,,broadcast more sports programs,转播更多体育节目,,,,,,,0
+feature,词伙,,12.0,,programs featuring men,以男性为主的节目,,,,,,,0
+factor,词伙,,12.0,,historical factors,历史因素,,,,,,,0
+base,词伙,,12.0,,established viewer bases,稳定的观众基础,,,,,,,0
+investment,词伙,,12.0,,greater economic investment,更大的经济投资,,,,,,,0
+mandate,词伙,,12.0,,mandating equal broadcast time,强制规定平等的播出时间,,,,,,,0
+approach,词伙,,12.0,,effective approach,有效的方法,,,,,,,0
+platform,词伙,,12.0,,create a fair competitive platform,创造一个公平的竞争平台,,,,,,,0
+opposition,词伙,,12.0,,my opposition to,我反对...,,,,,,,0
+bias,词伙,,12.0,,gender bias,性别偏见,,,,,,,0
+cycle,词伙,,12.0,,a self-reinforcing cycle,一个自我强化的循环,,,,,,,0
+interest,词伙,,12.0,,economic interests,经济利益,,,,,,,0
+quality,词伙,,12.0,,achieve higher production quality,达到更高的制作质量,,,,,,,0
+cultivate,词伙,,12.0,,cultivate star athletes,培养明星运动员,,,,,,,0
+appeal,词伙,,12.0,,brand appeal,品牌吸引力,,,,,,,0
+right,词伙,,12.0,,broadcasting rights,转播权,,,,,,,0
+prefer,词伙,,12.0,,naturally prefer,自然倾向于,,,,,,,0
+content,词伙,,12.0,,content that yields higher profits,带来更高利润的内容,,,,,,,0
+attract,词伙,,12.0,,attract larger audiences,吸引更大的观众群,,,,,,,0
+preference,词伙,,12.0,,the market`s objective preference,市场的客观偏好,,,,,,,0
+impose,词伙,,12.0,,imposing equal airtime,强加平等的播出时间,,,,,,,0
+remedy,词伙,,12.0,,an inefficient remedy,一个低效的补救措施,,,,,,,0
+principle,词伙,,12.0,,market principles,市场原则,,,,,,,0
+disregard,词伙,,12.0,,disregarding viewer preferences,忽视观众偏好,,,,,,,0
+rating,词伙,,12.0,,lead to declining ratings,导致收视率下降,,,,,,,0
+revenue,词伙,,12.0,,reduced revenue,减少的收入,,,,,,,0
+contraction,词伙,,12.0,,a contraction in scale,规模收缩,,,,,,,0
+coverage,词伙,,12.0,,sports coverage,体育报道,,,,,,,0
+detrimental,词伙,,12.0,,be detrimental to,对...有害,,,,,,,0
+channel,词伙,,12.0,,television channels,电视频道,,,,,,,0
+mandate,词伙,,12.0,,such a mandate,这样的强制规定,,,,,,,0
+address,词伙,,12.0,,addresses the symptom superficially,表面化地处理症状,,,,,,,0
+investment,词伙,,12.0,,chronic underinvestment,长期投资不足,,,,,,,0
+building,词伙,,12.0,,brand building,品牌建设,,,,,,,0
+improve,词伙,,12.0,,do nothing to improve,对改善...毫无作用,,,,,,,0
+appeal,词伙,,12.0,,narrative appeal,叙事吸引力,,,,,,,0
+change,词伙,,12.0,,driving real change,推动真正的改变,,,,,,,0
+equity,词伙,,12.0,,achieving equity,实现公平,,,,,,,0
+effort,词伙,,12.0,,concerted efforts,协同努力,,,,,,,0
+stakeholder,词伙,,12.0,,multiple stakeholders,多方利益相关者,,,,,,,0
+ecosystem,词伙,,12.0,,cultivate the entire ecosystem,培育整个生态系统,,,,,,,0
+initiative,词伙,,12.0,,take the initiative to,主动去...,,,,,,,0
+showcase,词伙,,12.0,,showcase high-quality events,展示高质量赛事,,,,,,,0
+invest,词伙,,12.0,,invest in,投资于,,,,,,,0
+storytelling,词伙,,12.0,,compelling storytelling,引人入胜的叙事,,,,,,,0
+shoulder,词伙,,12.0,,shoulder their responsibility by,通过...承担他们的责任,,,,,,,0
+allocation,词伙,,12.0,,equitable allocation of resources,资源的公平分配,,,,,,,0
+alliance,词伙,,12.0,,collaborative alliance,协作联盟,,,,,,,0
+cycle,词伙,,12.0,,vicious/virtuous cycle,恶性/良性循环,,,,,,,0
+measure,词伙,,12.0,,adopting proactive measures,采取积极措施,,,,,,,0
+market,词伙,,12.0,,a healthy and equitable market,健康公平的市场,,,,,,,0
+vehicle,词伙,,14.0,,private vehicles,私家车,,,,,,,0
+ownership,词伙,,14.0,,widespread ownership,广泛的拥有率,,,,,,,0
+congestion,词伙,,14.0,,traffic congestion,交通拥堵,,,,,,,0
+problem,词伙,,14.0,,increasingly urgent problem,日益紧迫的问题,,,,,,,0
+cost,词伙,,14.0,,raising the cost,提高成本,,,,,,,0
+petrol,词伙,,14.0,,cars and petrol,汽车与汽油,,,,,,,0
+optimal,词伙,,14.0,,far from optimal,远非最佳,,,,,,,0
+alternative,词伙,,14.0,,affordable and environmentally friendly alternative,经济环保的替代选择,,,,,,,0
+transfer,词伙,,14.0,,transfer the cost from ... to ...,将成本从...转移至...,,,,,,,0
+household,词伙,,14.0,,individual households,个体家庭,,,,,,,0
+strategy,词伙,,14.0,,implicit strategy,隐含的策略,,,,,,,0
+distribution,词伙,,14.0,,inequitable distribution,不公平的分配,,,,,,,0
+cost,词伙,,14.0,,social costs,社会成本,,,,,,,0
+burden,词伙,,14.0,,place a disproportionate burden on,将不成比例的负担加于...,,,,,,,0
+family,词伙,,14.0,,middle- and low-income families,中低收入家庭,,,,,,,0
+individual,词伙,,14.0,,high-income individuals,高收入个人,,,,,,,0
+unaffected,词伙,,14.0,,largely unaffected,基本不受影响,,,,,,,0
+exacerbate,词伙,,14.0,,exacerbates social inequity,加剧社会不公,,,,,,,0
+stifle,词伙,,14.0,,stifle technological transformation,扼杀技术转型,,,,,,,0
+demand,词伙,,14.0,,reduce demand,减少需求,,,,,,,0
+incentive,词伙,,14.0,,weakens the market incentive,削弱市场激励,,,,,,,0
+breakthrough,词伙,,14.0,,technological breakthroughs,技术突破,,,,,,,0
+sector,词伙,,14.0,,in this sector,在这个领域,,,,,,,0
+innovation,词伙,,14.0,,slow down the pace of innovation,减缓创新步伐,,,,,,,0
+technology,词伙,,14.0,,green transportation technologies,绿色交通技术,,,,,,,0
+impact,词伙,,14.0,,negatively impact,对...产生负面影响,,,,,,,0
+industry,词伙,,14.0,,automobile manufacturing industry,汽车制造业,,,,,,,0
+chain,词伙,,14.0,,supply chain,供应链,,,,,,,0
+component,词伙,,14.0,,mechanical components,机械部件,,,,,,,0
+sector,词伙,,14.0,,logistics sectors,物流部门,,,,,,,0
+benefit,词伙,,14.0,,diminished economic benefits,减少的经济效益,,,,,,,0
+strategy,词伙,,14.0,,a price-hiking strategy,涨价策略,,,,,,,0
+progress,词伙,,14.0,,hinder technological progress,阻碍技术进步,,,,,,,0
+development,词伙,,14.0,,hinder economic development,阻碍经济发展,,,,,,,0
+alternative,词伙,,14.0,,efficient` affordable` and green alternatives,高效`经济`环保的替代方案,,,,,,,0
+system,词伙,,14.0,,synchronised public transportation system,协同的公共交通系统,,,,,,,0
+promotion,词伙,,14.0,,promotion of electric vehicles,推广电动汽车,,,,,,,0
+invest,词伙,,14.0,,invest in improving,投资改善,,,,,,,0
+network,词伙,,14.0,,public transport network,公共交通网络,,,,,,,0
+subsidy,词伙,,14.0,,provide subsidies,提供补贴,,,,,,,0
+fare,词伙,,14.0,,reduce fares,降低票价,,,,,,,0
+decrease,词伙,,14.0,,travel time and costs decrease,出行时间和成本下降,,,,,,,0
+opt,词伙,,14.0,,opt for ... over ...,选择...而非...,,,,,,,0
+orient,词伙,,14.0,,oriented around,以...为中心,,,,,,,0
+hub,词伙,,14.0,,public transit hubs,公共交通枢纽,,,,,,,0
+distance,词伙,,14.0,,shorten commuting distances,缩短通勤距离,,,,,,,0
+efficiency,词伙,,14.0,,increase road efficiency,提高道路效率,,,,,,,0
+system,词伙,,14.0,,intelligent traffic management systems,智能交通管理系统,,,,,,,0
+upgrade,词伙,,14.0,,upgrade current infrastructure,升级现有基础设施,,,,,,,0
+technology,词伙,,14.0,,investment in future technology,对未来技术的投资,,,,,,,0
+connect,词伙,,14.0,,connect present systems to a sustainable future,连接现有系统与可持续的未来,,,,,,,0
+production,词伙,,14.0,,promoting electric vehicle production,促进电动汽车生产,,,,,,,0
+infrastructure,词伙,,14.0,,charging infrastructure,充电基础设施,,,,,,,0
+research,词伙,,14.0,,funding clean energy research,资助清洁能源研究,,,,,,,0
+crucial,词伙,,14.0,,be crucial for,对...至关重要,,,,,,,0
+achieve,词伙,,14.0,,achieve a sustainable future,实现可持续的未来,,,,,,,0
+mechanism,词伙,,14.0,,price mechanisms,价格机制,,,,,,,0
+tool,词伙,,14.0,,a powerful and immediate tool,一个有力且立竿见影的工具,,,,,,,0
+measure,词伙,,14.0,,supplementary measure,补充措施,,,,,,,0
+revenue,词伙,,14.0,,revenue from congestion charges,拥堵费收入,,,,,,,0
+ring-fence,词伙,,14.0,,ring-fenced to,专款用于,,,,,,,0
+investment,词伙,,14.0,,strategic investment,战略性投资,,,,,,,0
+disincentive,词伙,,14.0,,a disincentive,一种抑制手段,,,,,,,0
+transform,词伙,,14.0,,transform a disincentive into an investment,将抑制手段转化为投资,,,,,,,0
+harm,词伙,,14.0,,cause economic harm,造成经济损害,,,,,,,0
+focus,词伙,,14.0,,a focus on systematic investment,对系统性投资的关注,,,,,,,0
+development,词伙,,14.0,,the development of public infrastructure,公共基础设施的发展,,,,,,,0
+promotion,词伙,,14.0,,the promotion of a green technology revolution,绿色技术革命的推动,,,,,,,0
+meaning,表达优化,,,,precise meanings,精确的含义,,,,,,,0
+undoubtedly,表达优化,,,,undoubtedly,无疑地,替代绝对化的“absolutely”,,,,,,0
+accuracy,表达优化,,,,expressive accuracy,表达的准确性,,,,,,,0
+creation,表达优化,,,,the barriers to its creation,其创作的壁垒,,,,,,,0
+form,表达优化,,,,a form of language,一种语言形式,比“a kind of”更正式,,,,,,0
+evoke,表达优化,,,,evoke emotions,唤起情感,比“rise emotions”准确,,,,,,0
+region,表达优化,,,,through specific brain regions,通过特定脑区,比“with some section”准确,,,,,,0
+make,表达优化,,,,making this response universal,使这种反应具有普遍性,将从句改为分词结构，更简洁,,,,,,0
+elicit,表达优化,,,,elicit similar reactions,引发相似的反应,比“bring up reaction”准确,,,,,,0
+inherent,表达优化,,,,inherent barriers,固有的壁垒,比“natural barriers”更精准,,,,,,0
+master,表达优化,,,,Mastering an instrument,掌握一种乐器,比“Playing instruments”更强调技能,,,,,,0
+acquisition,表达优化,,,,natural language acquisition,自然语言习得,,,,,,,0
+restrict,表达优化,,,,restricts its utility,限制了其实用性,比“limits the function”更自然,,,,,,0
+tool,表达优化,,,,an everyday communicative tool,一种日常沟通工具,比“regular communication tool”更贴切,,,,,,0
+genre,表达优化,,,,specific genres,特定的流派,比“type of music”更专业,,,,,,0
+context,表达优化,,,,particular cultural or historical contexts,特定的文化或历史背景,,,,,,,0
+without,表达优化,,,,Without knowledge,缺乏...知识,替代不地道的“Lacking of”,,,,,,0
+appreciate,表达优化,,,,appreciate its beauty,欣赏其美,比“gain its beauty”更地道,,,,,,0
+miss,表达优化,,,,miss its deeper narrative,错过其更深层的叙事,比“not engage in”更简洁,,,,,,0
+see,表达优化,,,,may be better seen as,或许最好被视为,引入更客观的视角,,,,,,0
+complementary,表达优化,,,,a complementary dimension,一个互补的维度,修正01并提升用词,,,,,,0
+example,表达优化,,,,Song is a perfect example,歌曲是一个完美的例子,将抽象比喻具体化,,,,,,0
+amplify,表达优化,,,,amplifies the emotions,放大了情感,比“magnify”更常用于此语境,,,,,,0
+convey,表达优化,,,,conveyed by the lyrics,由歌词传达,使动作主体更明确,,,,,,0
+inexpressible,表达优化,,,,the inexpressible,不可言说之物,高度凝练的表达,,,,,,0
+distribution,表达优化,,,,inequitable distribution,不公平的分配,比“imbalance allocation”更专业,,,,,,0
+contravene,表达优化,,,,contravenes,违反,比“violates”更正式,,,,,,0
+stem,表达优化,,,,disparity stems from,差异源于,比“is caused by”更书面,,,,,,0
+optimal,表达优化,,,,optimal solution,最优解决方案,比“best solution”更客观,,,,,,0
+owing,表达优化,,,,owing to,由于,比“due to”更正式,,,,,,0
+entity,表达优化,,,,commercial entities,商业实体,比“financial institutions”更准确（非特指银行）,,,,,,0
+generate,表达优化,,,,generating higher revenue,产生更高的收入,比“bringing more benefits”更具体,,,,,,0
+merely,表达优化,,,,merely increasing,仅仅增加,指出其片面性,,,,,,0
+airtime,表达优化,,,,airtime,播出时间,专业术语,,,,,,0
+broadcaster,表达优化,,,,broadcasters,广播公司/机构,比“TV channels”更书面,,,,,,0
+in addition to,表达优化,,,,In addition to,除了...之外,比“beside”更正式且准确,,,,,,0
+sponsor,表达优化,,,,financial sponsors,财务赞助商,比“institutions”更具体,,,,,,0
+support,表达优化,,,,funding and policy support,资金和政策支持,概括更全面,,,,,,0
+disparity,表达优化,,,,disparity,差异,比“difference”更强调不平等,,,,,,0
+cycle,表达优化,,,,financially-driven cycle,由金融驱动的循环,提升概念层次,,,,,,0
+simplistic,表达优化,,,,a simplistic policy,一个过于简单的政策,含批判意味,,,,,,0
+fail,表达优化,,,,fails to address,未能解决,比“does not fix”更正式,,,,,,0
+address,表达优化,,,,address the underlying gap,解决根本的差距,比“fix the real gap”更地道,,,,,,0
+appreciate,句式,,,,is widely appreciated across the globe,在全球范围内被广泛欣赏,,,,,,,0
+lead,句式,,,,leading many to regard it as,使得许多人将其视为,,,,,,,0
+define,句式,,,,If we define ... broadly as ... then ... undoubtedly qualifies as one.,如果我们广义地将...定义为...那么...无疑符合条件。,,,,,,,0
+acknowledge,句式,,,,we must also acknowledge its limitations in terms of,我们也必须承认其在...方面的局限性,,,,,,,0
+function,句式,,,,functions as a form of ... owing to its power to,作为一种...发挥作用，归功于其...的能力,,,,,,,0
+capacity,句式,,,,It is this primal capacity for ... that underpins ...,正是这种...的原始能力支撑了...,,,,,,,0
+evident,句式,,,,It is evident that ...,显然...,,,,,,,0
+tool,句式,,,,... is not a functional tool for ...,...不是一个用于...的功能性工具,,,,,,,0
+open,句式,,,,Its meaning is open to ... shaped by ...,其意义对...开放，由...塑造,,,,,,,0
+barrier,句式,,,,there are inherent barriers to ...,存在固有的障碍...,,,,,,,0
+associate,句式,,,,... be deeply associated with ...,...与...密切相关,,,,,,,0
+fusion,句式,,,,In this fusion` ...,在这种融合下...,,,,,,,0
+example,句式,,,,... is a prime example of this.,...是此点的典型例证。,,,,,,,0
+way,句式,,,,In this way` ...,通过这种方式...,,,,,,,0
+light,句式,,,,In this light` ...,从这个角度来看...,,,,,,,0
+decidedly,句式,,,,it is decidedly not ...,这显然不是...,,,,,,,0
+reason,句式,,,,The primary reason for ... is that ...,...的主要原因是...,,,,,,,0
+Consequently,句式,,,,Consequently` ...,因此`...,,,,,,,0
+example,句式,,,,The ... serves as a prime example.,...就是一个主要的例子。,,,,,,,0
+remedy,句式,,,,Therefore` imposing ...` while seemingly ...` is an inefficient remedy.,因此`强加...`虽然看似...`却是一种低效的补救措施。,,,,,,,0
+lie,句式,,,,The root causes hindering ... lie in ...,阻碍...的根本原因在于...,,,,,,,0
+limited,句式,,,,Thus` its potential for ... is severely limited.,因此`其...的潜力受到严重限制。,,,,,,,0
+require,句式,,,,a more viable and holistic approach to ... requires ...,一个更可行、更全面的...方法需要...,,,,,,,0
+only,句式,,,,only through ... can this be ...,只有通过...才能实现...,,,,,,,0
+due,句式,,,,the disparity exists primarily due to ...,这种差异主要源于...,,,,,,,0
+foster,句式,,,,is the proper way to foster ...,是培育...的正确途径,,,,,,,0
+need,句式,,,,What is needed is not... but rather...,我们需要的不是...而是...,,,,,,,0
+become,句式,,,,have become...problems to address,已成为需要解决的...问题,,,,,,,0
+believe,句式,,,,I believe the optimal solution lies in ...,我认为最优解决方案在于...,,,,,,,0
+measure,句式,,,,... is essentially a measure that ...,...本质上是一种...的措施,,,,,,,0
+Simultaneously,句式,,,,Simultaneously` ...,同时`...,,,,,,,0
+Beyond,句式,,,,Beyond ...` ...,除了...`...,,,,,,,0
+thereby,句式,,,,` thereby ...,`从而...,,,,,,,0
+Therefore,句式,,,,Therefore` ...,因此`...,,,,,,,0
+language,语法,冠词缺失,,,a universal language,一种通用语言,单数可数名词前需加冠词,,,,,,0
+lead to,语法,并列结构,,,lead to declining ratings` reduced revenue` and a contraction in scale,导致收视率下降`收入减少和规模收缩,确保并列成分形式一致(名词短语),,,,,,0
+potential,语法,用词与搭配,,,the potential for improvement is limited,改进的潜力是有限的,使用正确的名词和搭配,,,,,,0
+cause,语法,动词搭配,,,cause ratings to decline,导致收视率下降,`cause sth to do` 为正确搭配,,,,,,0
+example,语法,句子结构,,,Take the World Cup for example: the men`s tournament...,以世界杯为例：男子比赛...,使用冒号连接举例与说明，或改为状语从句,,,,,,0
+reason,语法,主谓一致,,,the reason... is,原因...是,主语`reason`为单数,,,,,,0
+audience,语法,主谓一致,,,the audience is / audiences are,观众是/观众们是,注意集合名词的单复数用法,,,,,,0
+interpretation,长句复写,意义诠释,,,Its meaning is open to subjective interpretation by individual listeners` shaped by their cultural and personal experiences.,其意义对个体听众的主观诠释开放`由他们的文化和个人经历所塑造。,,,,,,,0
+acquisition,长句复写,对比论证,,,Mastering an instrument or music production requires systematic training` unlike the natural language acquisition that occurs as children grow up in a linguistic environment.,掌握乐器或音乐制作需要系统训练`这与儿童在语言环境中成长时发生的自然语言习得不同。,,,,,,,0
+window,长句复写,比喻论证,,,Overall` music may be better seen as a window offering a glimpse into a culture`s aesthetic` rather than as a dictionary to be read word for word.,总体而言`音乐或许最好被视为一扇让人窥见文化美学的窗户`而非一本需要逐字阅读的词典。,,,,,,,0
+dimension,长句复写,定义与定位,,,Therefore` the best way to understand music is to see it as a complementary dimension within the broader spectrum of human communication.,因此`理解音乐的最佳方式是将其视为人类更广阔交流范畴内的一个互补维度。,,,,,,,0
+catalyst,长句复写,功能升华,,,A moving piece of music can pique listeners` interest` motivating them to explore the culture` history` and even the personal narratives behind it. In this way` music transcends its role as a mere `language` and becomes a catalyst for deeper cultural dialogue.,一首动人的乐曲能激起听众的兴趣`促使他们探索其背后的文化`历史乃至个人叙事。如此一来`音乐便超越了其作为单纯“语言”的角色`成为更深层文化对话的催化剂。,,,,,,,0
+value,长句复写,价值提炼,,,In this light` the supreme value of music lies not in replacing language` but in expressing the inexpressible and opening the window for genuine dialogue to begin.,从这个角度看`音乐的最高价值不在于取代语言`而在于表达不可言说之物`并为开启真诚的对话打开一扇窗。,,,,,,,0
+incentive,长句复写,经济逻辑,,,Higher prices reduce demand` which in turn weakens the market incentive for technological breakthroughs in this sector.,价格上涨减少需求`这反过来削弱了该领域技术突破的市场激励。,,,,,,,0
+Beethoven,专有名词,人名,,,Beethoven,贝多芬,,,,,,,0
+FIFA,专有名词,赛事,,,FIFA World Cup,国际足联世界杯,,,,,,,0
+listener,同义替换,观众,,,audience/listener,观众/听众,,,,,,,0
+song,同义替换,音乐形式,,,music/song,音乐/歌曲,,,,,,,0
+fusion,同义替换,情景,,,scenario/fusion,情景/融合,,,,,,,0
+generation,同义替换,年轻人,,,young people/the younger generation,年轻人/年轻一代,,,,,,,0
+moving,同义替换,动人的,,,touching/moving,动人的/感人的,,,,,,,0
+pique,同义替换,激发,,,stimulate/pique,刺激/激起,,,,,,,0
+establish,错词,01,,,establish,建立,常见01错误,,,,,,0
+hierarchy,错词,01,,,hierarchy,层级；等级制度,,,,,,,0
+proponent,错词,01,,,proponent,支持者；倡导者,,,,,,,0
+strategy,错词,01,,,strategy,策略,,,,,,,0
+potential,错词,01,,,potential,潜力；潜在的,,,,,,,0
+differential,错词,01,,,differential,差异；差额,,,,,,,0
+ultimate,错词,01,,,ultimate,最终的；根本的,,,,,,,0
+merit,错词,01,,,merit,优点；价值,,,,,,,0
+ration,错词,01,,,ration->rationality,理性；合理性,将名词“配额”(ration)误写为“理性”(rationality),,,,,,0
+decision,错词,01,,,decision,决定,,,,,,,0
+benefit,错词,01,,,benefit,利益；好处,,,,,,,0
+encourage,错词,01,,,encourage,鼓励,,,,,,,0
+wholeheartedly,错词,01,,,wholeheartedly,全心全意地,,,,,,,0
+disparate,错词,01,,,disparate,迥然不同的；无法比较的,,,,,,,0
+absence,错词,01,,,absence,缺乏；缺席,,,,,,,0
+promising,错词,01,,,promising,有前途的,,,,,,,0
+tend,错词,06,,,tent->tend,倾向于,“tent”是帐篷,,,,,,0
+mechanism,生词,,,,mechanism,机制,,,,,,,0
+scarce,生词,,,,scarce,稀缺的,,,,,,,0
+constitute,生词,,,,constitute,构成；组成,,,,,,,0
+premium,生词,,,,premium,溢价；额外费用,,,,,,,0
+seasoned,生词,,,,seasoned,经验丰富的；老练的,,,,,,,0
+requisite,生词,,,,requisite,必需的；必备的,,,,,,,0
+perceptual,生词,,,,perceptual,感知的；知觉的,,,,,,,0
+asymmetry,生词,,,,asymmetry,不对称,,,,,,,0
+scepticism,生词,,,,scepticism,怀疑,,,,,,,0
+institutionalise,生词,,,,institutionalise,使制度化,,,,,,,0
+critic,生词,,,,critic,批评者,,,,,,,0
+hierarchy,同义替换,,,,implement salary hierarchies` this practice` pay differentials` such differentials` offering high executive compensation` high remuneration` executive compensation,实施薪资等级制度`这种做法`薪酬差异`此类差异`提供高管高薪`高额报酬`高管薪酬,关于“薪资差异”的同义表达,,,,,,0
+issue,同义替换,,,,question` issue,问题`议题,,,,,,,0
+director,同义替换,,,,directorial roles` directors,总监/董事职位`董事们,,,,,,,0
+information,同义替换,,,,information gap` information asymmetry` misunderstandings` information imbalances,信息差`信息不对称`误解`信息失衡,,,,,,,0
+employee,同义替换,,,,ordinary workers` employees` executive and average employee,普通工人`员工`高管与普通员工,,,,,,,0
+company,同义替换,,,,company` corporate` organisation,公司`企业`组织,,,,,,,0
+differential,词伙,,,,such differentials,这样的差异,,,,,,,0
+potential,词伙,,,,its potential to (exacerbate inequality),其（加剧不平等的）潜力,,,,,,,0
+rationality,词伙,,,,commercial rationality,商业理性,,,,,,,0
+capital,词伙,,,,purchasing scarce (decision-making) capital,购买稀缺的（决策）资本,,,,,,,0
+premium,词伙,,,,risk premium,风险溢价,经济学概念，指为承担更高风险而支付的额外补偿,,,,,,0
+premium,词伙,,,,it constitutes a risk premium,它构成了一种风险溢价,,,,,,,0
+decision,词伙,,,,make pivotal decisions,做出关键决策,,,,,,,0
+development,词伙,,,,steer a company’s development,引领公司发展,,,,,,,0
+responsibility,词伙,,,,bear (ultimate) responsibility for (its risks),承担（对风险的最终）责任,,,,,,,0
+professional,词伙,,,,seasoned professionals,经验丰富的专业人士,,,,,,,0
+strategy,词伙,,,,devise (more effective) strategies to (navigate risks),设计（更有效的）策略以（规避风险）,,,,,,,0
+skill,词伙,,,,a skill set,一套技能组合,,,,,,,0
+reward,词伙,,,,commands greater reward,要求更高的回报,,,,,,,0
+incentive,词伙,,,,it aligns (individual incentives) with (the company's long-term success),它将（个人激励）与（公司的长期成功）相结合,,,,,,,0
+motivation,词伙,,,,motivating … to contribute wholeheartedly,激励…全心全意地贡献,,,,,,,0
+cycle,词伙,,,,a self-reinforcing cycle,自我强化的循环,,,,,,,0
+viability,词伙,,,,commercial drive/viability,商业驱动力/生存能力,,,,,,,0
+dominance,词伙,,,,brand dominance,品牌主导地位,,,,,,,0
+mandate,词伙,,,,a well-intentioned yet ineffective mandate,一个出于好意但无效的强制规定,,,,,,,0
+field,词伙,,,,level the playing field,创造公平竞争环境,,,,,,,0
+intervention,词伙,,,,proactive intervention,积极干预,,,,,,,0
+approach,词伙,,,,sustainable approach,可持续的方案,,,,,,,0
+competence,词伙,,,,sb. lacking the requisite competence,某人缺乏必要的能力,,,,,,,0
+practice,词伙,,,,adopt`employ` follow`continue` cease`stop … practices,采用`运用`遵循`继续`停止`终止…的做法,,,,,,,0
+conduct,词伙,,,,adopt`employ` follow`continue` cease`stop … conduct,采取`进行`遵循…的行为,多指具体行为,,,,,,0
+behaviour,词伙,,,,adopt`employ` follow`continue` cease`stop … behaviour,表现出…的行为,,,,,,,0
+activity,词伙,,,,adopt`employ` follow`continue` cease`stop … activities,从事…的活动,,,,,,,0
+practice,词伙,,,,engage in corrupt practices,从事腐败行为,,,,,,,0
+practice,词伙,,,,The company was fined for engaging in unethical marketing practices.,该公司因从事不道德营销活动被罚款。,“engage in”框架负面用法,,,,,,0
+practice,词伙,,,,The investigation revealed that the firm had engaged in deceptive accounting practices.,调查显示该公司从事了欺诈性会计操作。,“engage in”框架负面用法,,,,,,0
+practice,词伙,,,,The NGO campaigns against corporations that engage in exploitative labor practices.,该非政府组织抗议从事剥削性劳工行为的企业。,“engage in”框架负面用法,,,,,,0
+practice,词伙,,,,The law prohibits employers from engaging in discriminatory hiring practices.,法律禁止雇主从事歧视性招聘行为。,“engage in”框架负面用法,,,,,,0
+practice,词伙,,,,The tech giant was accused of engaging in anti-competitive practices to maintain its monopoly.,该科技巨头被指控从事反竞争行为以维持垄断。,“engage in”框架商业负面用法,,,,,,0
+practice,词伙,,,,engage in corrupt practices,从事腐败行为,,,,,,,0
+practice,词伙,,,,engage in unfair trading practices,从事不公平交易行为,,,,,,,0
+practice,词伙,,,,More farmers are now engaging in sustainable agricultural practices.,更多农民现在从事可持续农业实践。,“engage in”框架正面用法,,,,,,0
+practice,词伙,,,,Some companies still engage in environmentally damaging practices.,一些公司仍在从事破坏环境的行为。,“engage in”框架负面用法,,,,,,0
+practice,词伙,,,,We encourage all departments to engage in industry best practices.,我们鼓励所有部门采用行业最佳实践。,“engage in”框架中性/正面用法,,,,,,0
+practice,词伙,,,,The workshop aimed to help teachers reflect on and improve their teaching practices.,该研讨会旨在帮助教师反思并改进其教学实践。,“engage in”框架中性用法,,,,,,0
+practice,词伙,,,,Cultural differences often manifest in different business practices.,文化差异常体现在不同的商业惯例中。,“engage in”框架中性用法,,,,,,0
+practice,词伙,,,,engage in financial practices,从事金融活动/操作,,,,,,,0
+practice,词伙,,,,Educating children to engage in healthy eating practices is crucial.,教育儿童养成健康的饮食习惯至关重要。,“engage in”框架正面用法,,,,,,0
+practice,词伙,,,,All workers must engage in safe working practices on the construction site.,所有工人在建筑工地都必须遵守安全操作规程。,“engage in”框架正面用法,,,,,,0
+practice,词伙,,,,The school is commended for its inclusive educational practices.,该校因其包容性的教育实践而受到表彰。,“engage in”框架正面用法,,,,,,0
+practice,词伙,,,,Governments should incentivize businesses to adopt cleaner production practices.,政府应激励企业采用更清洁的生产方式。,“engage in/adopt”框架,,,,,,0
+practice,词伙,,,,adopt transparent compensation practices,采用透明的薪酬制度,,,,,,,0
+issue,词伙,,,,perceptual issues,感知问题；观念问题,,,,,,,0
+issue,词伙,,,,perceptual issues arise from …,感知问题源于…,,,,,,,0
+employee,词伙,,,,rank-and-file employees,普通员工；基层员工,,,,,,,0
+asymmetry,词伙,,,,information asymmetry,信息不对称,经济学概念，指各方掌握信息不同,,,,,,0
+visibility,词伙,,,,sb. have little visibility into the genuine demands of (directorial roles),某人对（总监角色的）真实要求知之甚少,,,,,,,0
+quantifiability,词伙,,,,sth. are not easily quantifiable,某事难以量化,,,,,,,0
+scepticism,词伙,,,,this fuels scepticism about (whether) …,这助长了（关于是否…的）怀疑,,,,,,,0
+transparency,词伙,,,,systemic transparency,系统性透明,,,,,,,0
+mechanism,词伙,,,,accountability  mechanisms,问责机制,,,,,,,0
+justifiability,词伙,,,,sth. is fundamentally justifiable,某事从根本上说是合理的,,,,,,,0
+legitimacy,词伙,,,,their legitimacy must be actively constructed,必须积极构建其合法性,,,,,,,0
+disparity,词伙,,,,institutionalise justifiable disparity,将合理的差异制度化,,,,,,,0
+justice,词伙,,,,(uphold) procedural justice,（维护）程序正义,,,,,,,0
+structure,词伙,,,,salary structures should be transparent and tied to measurable performance metrics,薪酬结构应透明且与可衡量的绩效指标挂钩,,,,,,,0
+metric,词伙,,,,measurable performance metrics,可衡量的绩效指标,,,,,,,0
+legitimacy,词伙,,,,ensure legitimacy,确保合法性,,,,,,,0
+rationale,词伙,,,,understand the rationale behind pay disparities,理解薪酬差异背后的原理,,,,,,,0
+gap,词伙,,,,bridge the information gap,弥合信息差,,,,,,,0
+strength,词伙,,,,harnesses the collective strength of the entire workforce,凝聚整个员工队伍的集体力量,,,,,,,0
+strength,词伙,,,,cohesive strength,凝聚力,,,,,,,0
+system,词伙,,,,robust oversight and correction systems must be established,必须建立强有力的监督和纠正体系,,,,,,,0
+corruption,词伙,,,,rooting out corruption and incompetence,根除腐败和无能,,,,,,,0
+potential,词伙,,,,dual potential to …,具有…的双重潜力,,,,,,,0
+performance,词伙,,,,drive performance,驱动绩效,,,,,,,0
+inequity,词伙,,,,create inequity,造成不公,,,,,,,0
+deficiency,词伙,,,,systemic deficiencies,系统性缺陷,,,,,,,0
+check,词伙,,,,implementing robust checks,实施强有力的制衡措施,,,,,,,0
+organisation,词伙,,,,foster healthy and promising organisations,培育健康且有前途的组织,,,,,,,0
+engine,词伙,,,,an indispensable engine,不可或缺的引擎,,,,,,,0
+efficiency,词伙,,,,corporate efficiency,企业效率,,,,,,,0
+source,词伙,,,,a source of deep-seated inequity,根深蒂固的不平等之源,,,,,,,0
+safeguard,词伙,,,,stringent institutional safeguards,严格的制度保障,,,,,,,0
+number,句式,,,,Nowadays` an increasing number of … tend to …,如今`越来越多的…倾向于…,用于开篇描述普遍现象,,,,,,0
+proponent,句式,,,,Proponents argue that …` while others strongly oppose …,支持者认为…`而其他人强烈反对…,用于引出对立观点,,,,,,0
+contention,句式,,,,I contend that …,我认为…,用于明确阐述个人观点,,,,,,0
+merit,句式,,,,both perspectives hold merit,两种观点都有其道理,用于承认双方合理性,,,,,,0
+approach,句式,,,,the optimal approach lies in …,最优方法在于…,用于提出解决方案,,,,,,0
+benefit,句式,,,,harnessing the benefits of ... while mitigating their drawbacks,利用…的好处`同时减轻其弊端,用于表达辩证的解决方案,,,,,,0
+view,句式,,,,be viewed as …,可以被视为…,用于下定义或做比喻,,,,,,0
+investment,句式,,,,Only when (consistent investment) is made can (women's sports) thrive.,只有当（持续投资）到位`（女子运动）才能蓬勃发展。,倒装句`强调条件,,,,,,0
+problem,句式,,,,Admittedly` objective problems exist` such as …,诚然`存在客观问题`例如…,用于让步论证,,,,,,0
+deficiency,句式,,,,highlights a deeper deficiency in …,突显了…方面更深层的缺陷,用于深化分析,,,,,,0
+debate,句式,,,,In conclusion` the debate around … is valid` reflecting …,总之`围绕…的辩论是有道理的`它反映了…,用于总结性开头,,,,,,0
+origin,句式,,,,… stem from …,…源于…,用于分析原因,,,,,,0
+way,句式,,,,The way forward is to embrace their motivational value while …,未来的方向是接纳其激励价值`同时…,用于提出建设性结论,,,,,,0
+gap,句式,,,,The widening gap between … has sparked intense debate.,…之间日益扩大的差距引发了激烈争论。,高分开篇句式,,,,,,0
+proponent,句式,,,,Proponents defend it as …` while critics condemn it as …,支持者为其辩护`称其为…`而批评者则谴责其为…,更丰富的观点引出方式,,,,,,0
+perspective,句式,,,,While I acknowledge the validity of both perspectives` I argue that …,虽然我承认双方观点都有道理`但我认为…,更地道的个人立场引入,,,,,,0
+standpoint,句式,,,,From an economic standpoint` …,从经济角度来看`…,用于引入经济学视角分析,,,,,,0
+hierarchy,长句复写,,,,Salary hierarchies are an outcome of commercial rationality` which naturally selects for the most effective mechanisms.,薪资等级制度是商业理性的产物`它自然选择了最有效的机制。,,,,,,,0
+director,长句复写,,,,Directors who make pivotal decisions steer a company’s development and bear ultimate responsibility for its risks.,做出关键决策的董事们引领公司发展`并为其风险承担最终责任。,,,,,,,0
+professional,长句复写,,,,Moreover` seasoned professionals can devise more effective strategies to navigate risks` a skill set that commands greater reward.,此外`经验丰富的专业人士能够设计更有效的策略来驾驭风险`这套技能组合理应获得更高回报。,,,,,,,0
+,,语法,,,,,,,,,,,0
+,,专有名词,,,,,,,,,,,0

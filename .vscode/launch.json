@@ -4,14 +4,14 @@
             "name": "Debug with CMake",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/app",  // CMake 生成的可执行文件
+            "program": "${workspaceFolder}/build/app", // CMake 生成的可执行文件
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": false,
             "MIMode": "lldb",
-            "preLaunchTask": "cmake-build"  // 先构建再运行
+            "preLaunchTask": "cmake-build" // 先构建再运行
         },
         {
             "name": "C/C++: clang++ 构建和调试活动文件",

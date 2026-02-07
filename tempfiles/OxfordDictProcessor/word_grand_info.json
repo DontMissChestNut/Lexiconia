@@ -1,0 +1,167 @@
+{
+  "word_info": {
+    "word": "com·mis·sion",
+    "pronunciation": {
+      "BrE": "/kəˈmɪʃn/",
+      "NAmE": "/kəˈmɪʃn/"
+    },
+    "part_of_speech": "noun",
+    "symbols": [
+      "Ox3000 key_L",
+      "CEFR_B2_S",
+      "CET4",
+      "CET6",
+      "NETM"
+    ]
+  },
+  "definitions": [
+    {
+      "sense_number": "",
+      "definition_en": " ( often  Commission )   [ ]  an  official  group  of  people  who  have  been  given  responsibility  to  control  sth ,  or  to  find  out  about  sth ,  usually  for  the  government （ ）  The  commission  is  expected  to  report  its  findings  next  month .  ( )   The  government  has  set  up  a  commission  of  inquiry  into  the  disturbances  at  the  prison . on  a  commission  the  British  representative  on  the  commission commission  on  sth  She  was  also  a  member  of  the  commission  on  religious  education .",
+      "definition_cn": "通常为政府管控或调查某事的 委员会 预计委员会将在下个月报告调查结果 。 政府成立了一个委员会来调查监狱骚乱事件 。 委员会中的英国代表 她还是宗教教育委员会的成员 。",
+      "examples": [
+        {
+          "english": "The commission is expected to report its findings next month .",
+          "chinese": "预计委员会将在下个月报告调查结果 。"
+        },
+        {
+          "english": "( BrE ) The government has set up a commission of inquiry into the disturbances at the prison .",
+          "chinese": "政府成立了一个委员会来调查监狱骚乱事件 。"
+        },
+        {
+          "english": "the British representative on the commission",
+          "chinese": "委员会中的英国代表"
+        },
+        {
+          "english": "She was also a member of the commission on religious education .",
+          "chinese": "她还是宗教教育委员会的成员 。"
+        }
+      ]
+    },
+    {
+      "sense_number": "",
+      "definition_en": " [ ]  an  amount  of  money  that  is  paid  to  sb  for  selling  goods  and  that  increases  with  the  amount  of  goods  that  are  sold commission  on  sth  You  get  a  10  per  cent  commission  on  everything  you  sell .  10%   He  earned  £2  000  in  commission  last  month .  2  000  on  commission  In  this  job  you  work  on  commission   ( =  are  paid  according  to  the  amount  you  sell )  .",
+      "definition_cn": "佣金 ； 回扣 你可从你售出的每件商品中获得 的佣金 。 他上个月挣了 英镑的佣金 。 你做这份工作按销售额提成 。",
+      "examples": [
+        {
+          "english": "You get a 10 per cent commission on everything you sell .",
+          "chinese": "你可从你售出的每件商品中获得 10% 的佣金 。"
+        },
+        {
+          "english": "He earned £2 000 in commission last month .",
+          "chinese": "他上个月挣了 2 000 英镑的佣金 。"
+        },
+        {
+          "english": "In this job you work on commission ( = are paid according to the amount you sell ) .",
+          "chinese": "你做这份工作按销售额提成 。"
+        }
+      ]
+    },
+    {
+      "sense_number": "",
+      "definition_en": " [ ]  an  amount  of  money  that  is  charged  by  a  bank ,  etc .  for  providing  a  particular  service （ ）  1  per  cent  commission  is  charged  for  exchanging  foreign  currency .  1%  commission  on  sth  The  bank  charges  a  high  commission  on  these  transactions .",
+      "definition_cn": "银行等的 手续费 换外币收取 的手续费 。 银行对这些交易收取高额手续费 。",
+      "examples": [
+        {
+          "english": "1 per cent commission is charged for exchanging foreign currency .",
+          "chinese": "换外币收取 1% 的手续费 。"
+        },
+        {
+          "english": "The bank charges a high commission on these transactions .",
+          "chinese": "银行对这些交易收取高额手续费 。"
+        }
+      ]
+    },
+    {
+      "sense_number": "",
+      "definition_en": " [ ]  a  formal  request  to  sb  to  design  or  make  a  piece  of  work  such  as  a  building  or  a  painting ;  the  fact  of  making  such  a  request （ ）  Eventually  she  agreed  to  accept  the  commission . commission  to  do  sth  He  received  a  commission  to  design  the  new  parliament  building .",
+      "definition_cn": "请某人作建筑设计或作画等的 正式委托 最后她同意接受委托 。 他收到设计新议会大厦的委托 。",
+      "examples": [
+        {
+          "english": "Eventually she agreed to accept the commission .",
+          "chinese": "最后她同意接受委托 。"
+        },
+        {
+          "english": "He received a commission to design the new parliament building .",
+          "chinese": "他收到设计新议会大厦的委托 。"
+        }
+      ]
+    },
+    {
+      "sense_number": "",
+      "definition_en": "5 .  [ ]  the  position  of  an  officer  in  the  armed  forces ,  typically  with  the  rank  of   LIEUTENANT  or  higher （ ）",
+      "definition_cn": "通常指陆军中尉 、 海军上尉 、 空军上尉及以上的 军衔",
+      "examples": []
+    },
+    {
+      "sense_number": "",
+      "definition_en": "6 .  [ ]  ( )   the  act  of  doing  sth  wrong  or  illegal  the  commission  of  a  crime",
+      "definition_cn": "做错事 ； 犯罪 犯罪",
+      "examples": [
+        {
+          "english": "the commission of a crime",
+          "chinese": "犯罪"
+        }
+      ]
+    },
+    {
+      "sense_number": "",
+      "definition_en": " available / not  available  to  be  used  Several  of  the  airline ' s  planes  are  temporarily  out  of  commission  and  undergoing  safety  checks .",
+      "definition_cn": "可 ／ 不可使用 这家航空公司有几架飞机暂时不能使用 ， 正在接受安全检查 。",
+      "examples": [
+        {
+          "english": "Several of the airline ' s planes are temporarily out of commission and undergoing safety checks .",
+          "chinese": "这家航空公司有几架飞机暂时不能使用 ， 正在接受安全检查 。"
+        }
+      ]
+    },
+    {
+      "sense_number": "",
+      "definition_en": " to  officially  ask  sb  to  write ,  make  or  create  sth  or  to  do  a  task  for  you （ ） commission  sb  to  do  sth  She  has  been  commissioned  to  write  a  new  national  anthem . commission  sth  to  commission  a  study / report  a  specially  commissioned  piece  of  music commission  sth  from  sb  The  king  commissioned  portraits  from  foreign  artists .",
+      "definition_cn": "正式委托 谱写 、 制作 、 创作或完成 她已受委托谱写新国歌 。 委托做一项研究 ／ 写一份报告 特别委托谱写的乐曲 国王委托外国艺术家创作肖像画 。",
+      "examples": [
+        {
+          "english": "She has been commissioned to write a new national anthem .",
+          "chinese": "她已受委托谱写新国歌 。"
+        },
+        {
+          "english": "to commission a study / report",
+          "chinese": "委托做一项研究 ／ 写一份报告"
+        },
+        {
+          "english": "a specially commissioned piece of music",
+          "chinese": "特别委托谱写的乐曲"
+        },
+        {
+          "english": "The king commissioned portraits from foreign artists .",
+          "chinese": "国王委托外国艺术家创作肖像画 。"
+        }
+      ]
+    },
+    {
+      "sense_number": "",
+      "definition_en": "2 .  [ ]  to  choose  sb  as  an  officer  in  one  of  the  armed  forces … be  commissioned  She  was  commissioned  in  2014 .  2014  be  commissioned  ( as )  sth  He  has  just  been  commissioned  ( as  a )  pilot  officer .",
+      "definition_cn": "任命 为军官 她于 年被任命为军官 。 他刚被任命为空军少尉 。",
+      "examples": [
+        {
+          "english": "She was commissioned in 2014 .",
+          "chinese": "她于 2014 年被任命为军官 。"
+        },
+        {
+          "english": "He has just been commissioned ( as a ) pilot officer .",
+          "chinese": "他刚被任命为空军少尉 。"
+        }
+      ]
+    }
+  ],
+  "search_history": [
+    "commission",
+    "imminent",
+    "grand",
+    "cuisine",
+    "cause"
+  ],
+  "user_info": {
+    "phone": "150****0253"
+  }
+}
